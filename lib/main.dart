@@ -7,6 +7,7 @@ import 'package:trig_tok/screens/home_screen.dart';
 import 'package:trig_tok/screens/new_study_sesh_screen.dart';
 import 'package:trig_tok/screens/profile_screen.dart';
 import 'package:trig_tok/screens/search_screen.dart';
+import 'package:trig_tok/screens/study_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -48,6 +49,14 @@ final GoRouter _router = GoRouter(
           path: 'profile',
           builder: (BuildContext context, GoRouterState state) {
             return const ProfileScreen();
+          },
+        ),
+        GoRoute(
+          path: 'study/:classId',
+          builder: (BuildContext context, GoRouterState state) {
+            final classId = state.pathParameters['classId']!;
+            print('Class ID: $classId');
+            return StudyScreen(classId: classId);
           },
         ),
       ],

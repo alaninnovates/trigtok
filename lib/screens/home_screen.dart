@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/components/global_navigation_bar.dart';
 import 'package:trig_tok/components/page_body.dart';
@@ -11,7 +12,9 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final _future = Supabase.instance.client.from('classes').select();
+  final _future = Supabase.instance.client
+      .from('profiles_classes')
+      .select('classes(id, name)');
 
   @override
   Widget build(BuildContext context) {
@@ -40,10 +43,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       final classItem = classes[index];
                       return Card(
                         child: ListTile(
-                          title: Text(classItem['name'] ?? 'Unknown Class'),
+                          title: Text(classItem['classes']['name']),
                           subtitle: Text('Left off on: unknown'),
                           onTap: () {
-                            // Handle tap
+                            GoRouter.of(
+                              context,
+                            ).go('/study/${classItem['classes']['id']}');
                           },
                         ),
                       );

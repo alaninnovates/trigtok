@@ -18,9 +18,14 @@ class _GlobalNavigationBarState extends State<GlobalNavigationBar> {
       onDestinationSelected: (int index) {
         GoRouter.of(context).replace(pages[index]);
       },
-      selectedIndex: pages.indexOf(
-        GoRouter.of(context).routeInformationProvider.value.uri.path,
-      ),
+      selectedIndex:
+          !pages.contains(
+                GoRouter.of(context).routeInformationProvider.value.uri.path,
+              )
+              ? 0
+              : pages.indexOf(
+                GoRouter.of(context).routeInformationProvider.value.uri.path,
+              ),
       destinations: const <Widget>[
         NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
         NavigationDestination(icon: Icon(Icons.search), label: 'Search'),
