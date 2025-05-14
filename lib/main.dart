@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:go_router/go_router.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:trig_tok/screens/auth_screen.dart';
 import 'package:trig_tok/screens/home_screen.dart';
 import 'package:trig_tok/screens/new_study_sesh_screen.dart';
 import 'package:trig_tok/screens/profile_screen.dart';
@@ -22,9 +23,15 @@ final GoRouter _router = GoRouter(
     GoRoute(
       path: '/',
       builder: (BuildContext context, GoRouterState state) {
-        return const HomeScreen();
+        return const AuthScreen();
       },
       routes: <RouteBase>[
+        GoRoute(
+          path: 'home',
+          builder: (BuildContext context, GoRouterState state) {
+            return const HomeScreen();
+          },
+        ),
         GoRoute(
           path: 'new_study_sesh',
           builder: (BuildContext context, GoRouterState state) {

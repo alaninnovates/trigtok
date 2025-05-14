@@ -9,7 +9,7 @@ class GlobalNavigationBar extends StatefulWidget {
 }
 
 class _GlobalNavigationBarState extends State<GlobalNavigationBar> {
-  final List<String> pages = ['/', '/search', '/profile'];
+  final List<String> pages = ['/home', '/search', '/profile'];
 
   @override
   Widget build(BuildContext context) {
