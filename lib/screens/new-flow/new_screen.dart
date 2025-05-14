@@ -39,14 +39,8 @@ class _NewScreenState extends State<NewScreen> {
                     topics = selectedTopics;
                   });
                   GoRouter.of(context).replace(
-                    '/study',
-                    extra: {
-                      'classId': classId,
-                      'className': className,
-                      'unitId': unitId,
-                      'unitName': unitName,
-                      'topics': topics,
-                    },
+                    '/study/$classId',
+                    extra: {'unitId': unitId, 'topics': topics},
                   );
                 },
               );

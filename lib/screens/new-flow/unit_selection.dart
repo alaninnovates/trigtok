@@ -57,6 +57,7 @@ class _UnitSelectionState extends State<UnitSelection> {
                     onTap: () {
                       widget.onUnitSelected(unit['id'], unit['name']);
                     },
+                    trailing: const Icon(Icons.arrow_forward),
                   );
                 },
               );

@@ -74,6 +74,7 @@ class _ClassSelectionState extends State<ClassSelection> {
                         classItem['name'],
                       );
                     },
+                    trailing: const Icon(Icons.arrow_forward),
                   );
                 },
               );
