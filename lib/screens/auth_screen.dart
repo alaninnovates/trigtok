@@ -34,6 +34,11 @@ class _AuthScreenState extends State<AuthScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final isLoggedIn = Supabase.instance.client.auth.currentSession != null;
+    if (isLoggedIn) {
+      Future.microtask(() => GoRouter.of(context).replace('/home'));
+      return const SizedBox.shrink();
+    }
     return Scaffold(
       body: Center(
         child: Column(
