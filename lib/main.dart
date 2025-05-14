@@ -1,0 +1,66 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:go_router/go_router.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:trig_tok/screens/home_screen.dart';
+import 'package:trig_tok/screens/new_study_sesh_screen.dart';
+import 'package:trig_tok/screens/profile_screen.dart';
+import 'package:trig_tok/screens/search_screen.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
+  await Supabase.initialize(
+    url: dotenv.env['SUPABASE_URL'] ?? '',
+    anonKey: dotenv.env['SUPABASE_ANON_KEY'] ?? '',
+  );
+  runApp(MyApp());
+}
+
+final GoRouter _router = GoRouter(
+  routes: <RouteBase>[
+    GoRoute(
+      path: '/',
+      builder: (BuildContext context, GoRouterState state) {
+        return const HomeScreen();
+      },
+      routes: <RouteBase>[
+        GoRoute(
+          path: 'new_study_sesh',
+          builder: (BuildContext context, GoRouterState state) {
+            return const NewStudySeshScreen();
+          },
+        ),
+        GoRoute(
+          path: 'search',
+          builder: (BuildContext context, GoRouterState state) {
+            return const SearchScreen();
+          },
+        ),
+        GoRoute(
+          path: 'profile',
+          builder: (BuildContext context, GoRouterState state) {
+            return const ProfileScreen();
+          },
+        ),
+      ],
+    ),
+  ],
+);
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp.router(
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.blue,
+          brightness: Brightness.dark,
+        ),
+      ),
+      routerConfig: _router,
+    );
+  }
+}
