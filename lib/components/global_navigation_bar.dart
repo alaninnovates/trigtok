@@ -9,7 +9,7 @@ class GlobalNavigationBar extends StatefulWidget {
 }
 
 class _GlobalNavigationBarState extends State<GlobalNavigationBar> {
-  final List<String> pages = ['/home', '/search', '/profile'];
+  final List<String> pages = ['/home', '/new', '/search', '/profile'];
 
   @override
   Widget build(BuildContext context) {
@@ -28,6 +28,7 @@ class _GlobalNavigationBarState extends State<GlobalNavigationBar> {
               ),
       destinations: const <Widget>[
         NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
+        NavigationDestination(icon: Icon(Icons.add), label: 'New'),
         NavigationDestination(icon: Icon(Icons.search), label: 'Search'),
         NavigationDestination(icon: Icon(Icons.person), label: 'Profile'),
       ],

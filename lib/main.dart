@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/screens/auth_screen.dart';
 import 'package:trig_tok/screens/home_screen.dart';
-import 'package:trig_tok/screens/new_study_sesh_screen.dart';
+import 'package:trig_tok/screens/new_screen.dart';
 import 'package:trig_tok/screens/profile_screen.dart';
 import 'package:trig_tok/screens/search_screen.dart';
 import 'package:trig_tok/screens/study_screen.dart';
@@ -34,9 +34,9 @@ final GoRouter _router = GoRouter(
           },
         ),
         GoRoute(
-          path: 'new_study_sesh',
+          path: 'new',
           builder: (BuildContext context, GoRouterState state) {
-            return const NewStudySeshScreen();
+            return const NewScreen();
           },
         ),
         GoRoute(

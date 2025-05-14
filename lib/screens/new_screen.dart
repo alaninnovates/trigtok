@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:trig_tok/components/global_navigation_bar.dart';
 
-class NewStudySeshScreen extends StatelessWidget {
-  const NewStudySeshScreen({super.key});
+class NewScreen extends StatelessWidget {
+  const NewScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

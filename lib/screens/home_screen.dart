@@ -37,6 +37,23 @@ class _HomeScreenState extends State<HomeScreen> {
                     return const Center(child: CircularProgressIndicator());
                   }
                   final classes = snapshot.data!;
+                  if (classes.isEmpty) {
+                    return Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Text('No classes found!'),
+                          const SizedBox(height: 16),
+                          ElevatedButton(
+                            onPressed: () {
+                              GoRouter.of(context).go('/new');
+                            },
+                            child: const Text('Start a new session'),
+                          ),
+                        ],
+                      ),
+                    );
+                  }
                   return ListView.builder(
                     itemCount: classes.length,
                     itemBuilder: (context, index) {
