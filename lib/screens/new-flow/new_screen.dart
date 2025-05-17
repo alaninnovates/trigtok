@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:trig_tok/components/global_navigation_bar.dart';
 import 'package:trig_tok/components/page_body.dart';
 import 'package:trig_tok/screens/new-flow/class_selection.dart';
 import 'package:trig_tok/screens/new-flow/topic_selection.dart';
@@ -53,9 +52,6 @@ class _NewScreenState extends State<NewScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      bottomNavigationBar: GlobalNavigationBar(),
-      body: PageBody(child: activeScreen),
-    );
+    return Scaffold(body: PageBody(child: activeScreen));
   }
 }

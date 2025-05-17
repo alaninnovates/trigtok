@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:trig_tok/components/global_navigation_bar.dart';
 import 'package:trig_tok/components/page_body.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -10,7 +9,6 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: GlobalNavigationBar(),
       body: PageBody(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

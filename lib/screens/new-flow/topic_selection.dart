@@ -88,6 +88,7 @@ class _TopicSelectionState extends State<TopicSelection> {
             },
           ),
         ),
+        const SizedBox(height: 16),
         ElevatedButton(onPressed: _onContinue, child: const Text('Continue')),
       ],
     );
