@@ -78,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           onTap: () {
                             GoRouter.of(
                               context,
-                            ).go('/study/${classItem['classes']['id']}');
+                            ).push('/study/${classItem['classes']['id']}');
                           },
                         ),
                       );

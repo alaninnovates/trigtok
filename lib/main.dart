@@ -5,7 +5,9 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/components/global_navigation_bar.dart';
 import 'package:trig_tok/screens/auth_screen.dart';
 import 'package:trig_tok/screens/home_screen.dart';
-import 'package:trig_tok/screens/new-flow/new_screen.dart';
+import 'package:trig_tok/screens/new-flow/class_selection_screen.dart';
+import 'package:trig_tok/screens/new-flow/topic_selection_screen.dart';
+import 'package:trig_tok/screens/new-flow/unit_selection_screen.dart';
 import 'package:trig_tok/screens/profile_screen.dart';
 import 'package:trig_tok/screens/search_screen.dart';
 import 'package:trig_tok/screens/study_screen.dart';
@@ -45,12 +47,34 @@ final GoRouter _router = GoRouter(
           ],
         ),
         StatefulShellBranch(
+          initialLocation: '/new',
           routes: [
             GoRoute(
               path: '/new',
               pageBuilder:
                   (context, state) =>
-                      const NoTransitionPage(child: NewScreen()),
+                      const NoTransitionPage(child: ClassSelection()),
+              routes: [
+                GoRoute(
+                  path: 'class/:classId',
+                  builder: (context, state) {
+                    final classId = state.pathParameters['classId']!;
+                    return UnitSelection(classId: int.parse(classId));
+                  },
+                  routes: [
+                    GoRoute(
+                      path: 'unit/:unitId',
+                      builder: (context, state) {
+                        final unitId = state.pathParameters['unitId']!;
+                        return TopicSelection(
+                          classId: int.parse(state.pathParameters['classId']!),
+                          unitId: int.parse(unitId),
+                        );
+                      },
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
@@ -77,7 +101,7 @@ final GoRouter _router = GoRouter(
       ],
     ),
     GoRoute(
-      path: 'study/:classId',
+      path: '/study/:classId',
       builder: (BuildContext context, GoRouterState state) {
         final classId = state.pathParameters['classId']!;
         print('Class ID: $classId');
