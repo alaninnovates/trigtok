@@ -38,6 +38,7 @@ dependencies:
   supabase_flutter: ^2.9.0
   flutter_dotenv: ^5.2.1
   google_sign_in: ^6.3.0
+  tiktoklikescroller: ^0.2.8
 
 dev_dependencies:
   flutter_test:

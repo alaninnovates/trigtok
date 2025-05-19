@@ -105,14 +105,16 @@ final GoRouter _router = GoRouter(
       builder: (BuildContext context, GoRouterState state) {
         final classId = state.pathParameters['classId']!;
         print('Class ID: $classId');
+        var unitId = -1;
+        var topics = <String>[];
         if (state.extra != null) {
           final extra = state.extra as Map<String, dynamic>;
-          final unitId = extra['unitId'] as int;
-          final topics = extra['topics'] as List<String>;
+          unitId = extra['unitId'] as int;
+          topics = extra['topics'] as List<String>;
           print('Unit ID: $unitId');
           print('Topics: $topics');
         }
-        return StudyScreen(classId: classId);
+        return StudyScreen(classId: classId, unitId: unitId, topics: topics);
       },
     ),
   ],

@@ -91,7 +91,7 @@ class _TopicSelectionState extends State<TopicSelection> {
             ),
             const SizedBox(height: 16),
             ElevatedButton(
-              onPressed: () {
+              onPressed: () async {
                 if (selectedTopics.isEmpty) {
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(
@@ -99,6 +99,19 @@ class _TopicSelectionState extends State<TopicSelection> {
                     ),
                   );
                 } else {
+                  await Supabase.instance.client.from('user_sessions').insert({
+                    'profile_id': Supabase.instance.client.auth.currentUser!.id,
+                    'class_id': widget.classId,
+                    'desired_unit_id': widget.unitId,
+                    'desired_topics': selectedTopics,
+                  });
+                  await Supabase.instance.client
+                      .from('profiles_classes')
+                      .upsert({
+                        'profile_id':
+                            Supabase.instance.client.auth.currentUser!.id,
+                        'class_id': widget.classId,
+                      });
                   GoRouter.of(context).push(
                     '/study/${widget.classId}',
                     extra: {'unitId': widget.unitId, 'topics': selectedTopics},
