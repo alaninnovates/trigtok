@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:go_router/go_router.dart';
+import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/components/global_navigation_bar.dart';
+import 'package:trig_tok/components/study/study_state_model.dart';
 import 'package:trig_tok/screens/auth_screen.dart';
 import 'package:trig_tok/screens/home_screen.dart';
 import 'package:trig_tok/screens/new-flow/class_selection_screen.dart';
@@ -114,7 +116,10 @@ final GoRouter _router = GoRouter(
           print('Unit ID: $unitId');
           print('Topics: $topics');
         }
-        return StudyScreen(classId: classId, unitId: unitId, topics: topics);
+        return ChangeNotifierProvider(
+          create: (context) => StudyStateModel(),
+          child: StudyScreen(classId: classId, unitId: unitId, topics: topics),
+        );
       },
     ),
   ],

@@ -87,6 +87,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
               ),
             ),
+            const SizedBox(height: 16),
+            ElevatedButton(
+              onPressed: () {
+                GoRouter.of(context).push('/study/1');
+              },
+              child: const Text('Study Screen'),
+            ),
           ],
         ),
       ),
