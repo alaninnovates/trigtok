@@ -35,6 +35,13 @@ final GoRouter _router = GoRouter(
     ),
     StatefulShellRoute.indexedStack(
       builder: (context, state, navigationShell) {
+        final isLoggedIn = Supabase.instance.client.auth.currentSession != null;
+        if (!isLoggedIn) {
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            GoRouter.of(context).replace('/');
+          });
+          return const SizedBox.shrink();
+        }
         return GlobalNavigationBar(navigationShell: navigationShell);
       },
       branches: [

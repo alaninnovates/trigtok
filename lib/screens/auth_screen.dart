@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -33,6 +31,11 @@ class _AuthScreenState extends State<AuthScreen> {
       idToken: idToken,
       accessToken: accessToken,
     );
+    Supabase.instance.client.auth.onAuthStateChange.listen((event) {
+      if (event.event == AuthChangeEvent.signedIn) {
+        GoRouter.of(context).replace('/home');
+      }
+    });
   }
 
   Future<void> _webGoogleSignIn() async {
@@ -40,6 +43,11 @@ class _AuthScreenState extends State<AuthScreen> {
       OAuthProvider.google,
       authScreenLaunchMode: LaunchMode.platformDefault,
     );
+    Supabase.instance.client.auth.onAuthStateChange.listen((event) {
+      if (event.event == AuthChangeEvent.signedIn) {
+        GoRouter.of(context).replace('/home');
+      }
+    });
   }
 
   @override
@@ -59,9 +67,6 @@ class _AuthScreenState extends State<AuthScreen> {
             ElevatedButton(
               onPressed: () {
                 (!kIsWeb ? _nativeGoogleSignIn() : _webGoogleSignIn())
-                    .then((_) {
-                      GoRouter.of(context).replace('/home');
-                    })
                     .catchError((error) {
                       print('Sign-in error: $error');
                       ScaffoldMessenger.of(context).showSnackBar(
