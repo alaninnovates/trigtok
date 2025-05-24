@@ -26,10 +26,8 @@ class TranscriptParser {
   TranscriptParser(this.assetPath);
 
   Future<List<TranscriptItem>> parse() async {
-    print('parsing');
     final srtContent = await rootBundle.loadString(assetPath);
     final lines = LineSplitter.split(srtContent).toList();
-    print('lines: $lines');
 
     final List<TranscriptItem> transcriptItems = [];
     int index = 0;
@@ -40,7 +38,6 @@ class TranscriptParser {
     for (final line in lines) {
       if (line.isEmpty) {
         if (startTime != null && endTime != null && text.isNotEmpty) {
-          print('item from $startTime to $endTime');
           transcriptItems.add(
             TranscriptItem(
               index: index,

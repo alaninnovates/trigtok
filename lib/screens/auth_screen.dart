@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:go_router/go_router.dart';
@@ -32,6 +35,13 @@ class _AuthScreenState extends State<AuthScreen> {
     );
   }
 
+  Future<void> _webGoogleSignIn() async {
+    await Supabase.instance.client.auth.signInWithOAuth(
+      OAuthProvider.google,
+      authScreenLaunchMode: LaunchMode.platformDefault,
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final isLoggedIn = Supabase.instance.client.auth.currentSession != null;
@@ -48,7 +58,7 @@ class _AuthScreenState extends State<AuthScreen> {
             const SizedBox(height: 16),
             ElevatedButton(
               onPressed: () {
-                _nativeGoogleSignIn()
+                (!kIsWeb ? _nativeGoogleSignIn() : _webGoogleSignIn())
                     .then((_) {
                       GoRouter.of(context).replace('/home');
                     })

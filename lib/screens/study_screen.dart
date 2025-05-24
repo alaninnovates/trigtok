@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tiktoklikescroller/tiktoklikescroller.dart';
 import 'package:trig_tok/components/study/audio_video_player.dart';
 import 'package:trig_tok/components/study/study_state_model.dart';
 
@@ -21,40 +20,27 @@ class StudyScreen extends StatefulWidget {
 }
 
 class _StudyScreenState extends State<StudyScreen> {
-  late final Controller _controller;
+  final PageController pageController = PageController();
 
-  @override
-  void initState() {
-    super.initState();
-    _controller = Controller();
-
-    _controller.addListener((event) async {
-      print(
-        "Scroll callback received with data: {direction: ${event.direction}, success: ${event.success} and index: ${event.pageNo ?? 'not given'}}",
-      );
-      if (event.success != ScrollSuccess.SUCCESS) {
-        return;
-      }
-      context.read<StudyStateModel>().setIndex(event.pageNo ?? 0);
-    });
+  void onPageChanged(int index) {
+    print("Scroll callback received with index $index");
+    context.read<StudyStateModel>().setIndex(index);
   }
 
   @override
   Widget build(BuildContext context) {
-    return TikTokStyleFullPageScroller(
-      contentSize: 100,
-      swipePositionThreshold: 0.2,
-      swipeVelocityThreshold: 2000,
-      animationDuration: const Duration(milliseconds: 100),
-      controller: _controller,
-      builder: (BuildContext context, int index) {
+    return PageView.builder(
+      scrollDirection: Axis.vertical,
+      controller: pageController,
+      onPageChanged: onPageChanged,
+      itemBuilder: (BuildContext context, int index) {
         return Container(
           color: Colors.black,
-          width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.sizeOf(context).width,
+          height: MediaQuery.sizeOf(context).height,
           child: Center(
             child: AudioVideoPlayer(
-              key: Key('audio_video_player'),
+              // key: Key('audio_video_player'),
               index: index,
             ),
           ),

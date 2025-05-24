@@ -14,8 +14,7 @@ class AudioVideoPlayer extends StatefulWidget {
   State<AudioVideoPlayer> createState() => _AudioVideoPlayerState();
 }
 
-class _AudioVideoPlayerState extends State<AudioVideoPlayer>
-    with AutomaticKeepAliveClientMixin {
+class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
   late VideoPlayerController _videoController;
   final _audioPlayer = AudioPlayer();
   final _transcript = TranscriptParser(
@@ -24,10 +23,14 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer>
   late List<TranscriptItem> _transcriptItems;
   String currentCaptionText = '';
 
+  late StudyStateModel _studyStateModel;
+
   @override
   void initState() {
     super.initState();
-    print('Initializing AudioVideoPlayer');
+    print('init state for index ${widget.index}');
+    _studyStateModel = Provider.of<StudyStateModel>(context, listen: false);
+    _studyStateModel.addListener(_studyStateListener);
     // _videoController = VideoPlayerController.networkUrl(
     //     Uri.parse(
     //       '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}.mp4',
@@ -39,30 +42,31 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer>
       ..initialize().then((_) {
         setState(() {});
         if (widget.index == 0) {
+          print('starting due to widget index 0');
           _startPlayback();
         }
       });
 
-    Provider.of<StudyStateModel>(context, listen: false).addListener(() {
-      final idx = context.read<StudyStateModel>().index;
-      print('StudyStateModel index changed to $idx');
-      if (idx != widget.index) {
-        return;
-      }
-      print('Building AudioVideoPlayer $idx');
-      _startPlayback();
-    });
+    final studyStateModel = Provider.of<StudyStateModel>(
+      context,
+      listen: false,
+    );
+    studyStateModel.addListener(_studyStateListener);
   }
 
   Future<void> _startPlayback() async {
-    print('Starting playback');
+    print('Starting playback ${_videoController.dataSource}');
     _videoController.setLooping(true);
     _videoController.setVolume(0.0);
     _videoController.play();
     _transcriptItems = await _transcript.parse();
+    print('listening');
     _audioPlayer.onPositionChanged.listen((Duration p) {
       for (TranscriptItem item in _transcriptItems) {
         if (item.startTime <= p && item.endTime >= p) {
+          if (currentCaptionText == item.text) {
+            return;
+          }
           setState(() {
             currentCaptionText = item.text;
           });
@@ -70,16 +74,19 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer>
         }
       }
     });
+    _audioPlayer.onPlayerComplete.listen((event) {});
+    print('playing audio');
+    _audioPlayer.audioCache = AudioCache(prefix: '');
     AssetSource source = AssetSource(
       'brainrot_generator/output/unit1_protestant_reformation.mp3',
     );
-    _audioPlayer.audioCache = AudioCache(prefix: '');
+    // UrlSource source = UrlSource('https://doggo.ninja/xF5veu.mp3');
     await _audioPlayer.play(source);
+    print('done playing');
   }
 
   @override
   Widget build(BuildContext context) {
-    super.build(context);
     return Stack(
       alignment: Alignment.center,
       children: [
@@ -95,9 +102,14 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer>
           right: 50,
           child: StrokeText(
             text: currentCaptionText,
-            textStyle: TextStyle(fontSize: 30, color: Colors.white),
+            textStyle: TextStyle(
+              fontSize: 32,
+              color: Colors.white,
+              fontFamily: "Montserrat",
+              fontWeight: FontWeight.w600,
+            ),
             strokeColor: Colors.green,
-            strokeWidth: 2,
+            strokeWidth: 4,
             textAlign: TextAlign.center,
           ),
         ),
@@ -105,13 +117,22 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer>
     );
   }
 
-  @override
   void dispose() {
+    print('disposing ${widget.index}');
+    _studyStateModel.removeListener(_studyStateListener);
     _videoController.dispose();
     _audioPlayer.dispose();
     super.dispose();
   }
 
-  @override
-  bool get wantKeepAlive => true;
+  void _studyStateListener() {
+    if (!mounted) return;
+    final idx = context.read<StudyStateModel>().index;
+    print('StudyStateModel index changed to $idx');
+    if (idx != widget.index) {
+      return;
+    }
+    print('Building AudioVideoPlayer $idx');
+    _startPlayback();
+  }
 }

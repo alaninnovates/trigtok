@@ -38,7 +38,6 @@ dependencies:
     supabase_flutter: ^2.9.0
     flutter_dotenv: ^5.2.1
     google_sign_in: ^6.3.0
-    tiktoklikescroller: ^0.2.8
     video_player: ^2.9.5
     provider: ^6.1.5
     audioplayers: ^6.4.0
