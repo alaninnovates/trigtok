@@ -18,7 +18,7 @@ export class Database {
     }> {
         const { data, error } = await this.client
             .from('explanations')
-            .select('id')
+            .select('id, transcript, audio_url')
             .eq('unit', unitId)
             .eq('topic', topic)
             .limit(1);

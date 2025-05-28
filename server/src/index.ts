@@ -44,6 +44,14 @@ fastify.get(
         },
     },
     async (req, res) => {
+        const authHeader = req.headers.authorization;
+        if (
+            !authHeader ||
+            !authHeader.startsWith('Bearer ') ||
+            authHeader !== `Bearer ${process.env.API_KEY}`
+        ) {
+            return res.status(401).send({ error: 'Unauthorized' });
+        }
         const { unitId, topic } = req.query as {
             unitId: number;
             topic: string;
@@ -106,7 +114,7 @@ fastify.get(
 );
 
 try {
-    await fastify.listen({ port: 3000 });
+    await fastify.listen({ port: parseInt(process.env.PORT!) });
 } catch (err) {
     fastify.log.error(err);
     process.exit(1);
