@@ -1,26 +1,40 @@
 import 'jsr:@supabase/functions-js/edge-runtime.d.ts';
-import { getSupabaseClient } from './supabase.ts';
-import { getRedisClient } from './redis.ts';
 import { getNextQuestionType, QuestionType } from './timeline.ts';
 import { getExplanationFor } from './backend.ts';
+import { getSupabaseClient } from '../_shared/supabase.ts';
+import { getRedisClient } from '../_shared/redis.ts';
+import { corsHeaders } from '../_shared/cors.ts';
 
 Deno.serve(async (req) => {
+    if (req.method == 'OPTIONS') {
+        return new Response('ok', { headers: corsHeaders });
+    }
     if (req.method !== 'GET') {
-        return new Response('Method Not Allowed', { status: 405 });
+        return new Response('Method Not Allowed', {
+            headers: corsHeaders,
+            status: 405,
+        });
     }
 
     const { client, user } = await getSupabaseClient(req);
     const redis = getRedisClient();
     if (!user) {
-        return new Response('Unauthorized', { status: 401 });
+        return new Response('Unauthorized', {
+            headers: corsHeaders,
+            status: 401,
+        });
     }
 
     const url = new URL(req.url);
     const scrollSessionId = url.searchParams.get('scroll_session_id');
-    const index = url.searchParams.get('index');
-    if (!scrollSessionId || !index) {
-        return new Response('Bad Request: Missing parameters', { status: 400 });
+    const indexStr = url.searchParams.get('index');
+    if (!scrollSessionId || !indexStr) {
+        return new Response('Bad Request: Missing parameters', {
+            headers: corsHeaders,
+            status: 400,
+        });
     }
+    const index = parseInt(indexStr, 10);
     console.log('scrollSessionId', scrollSessionId);
     console.log('index', index);
 
@@ -30,6 +44,7 @@ Deno.serve(async (req) => {
     if (!userSessionId) {
         return new Response('Bad Request: Invalid scroll_session_id', {
             status: 400,
+            headers: corsHeaders,
         });
     }
     console.log('userSessionId', userSessionId);
@@ -53,7 +68,10 @@ Deno.serve(async (req) => {
                 'timelineId:',
                 timelineId,
             );
-            return new Response('Internal Server Error', { status: 500 });
+            return new Response('Internal Server Error', {
+                headers: corsHeaders,
+                status: 500,
+            });
         }
         let retData;
         switch (data.type) {
@@ -61,14 +79,14 @@ Deno.serve(async (req) => {
                 retData = {
                     type: data.type,
                     timelineId: timelineId,
-                    unitName: data.units[0].name,
-                    className: data.units[0].classes[0].name,
+                    unitName: data.units.name,
+                    className: data.units.classes.name,
                     topic: data.topic,
                     heart: data.heart,
                     bookmark: data.bookmark,
                     data: {
-                        transcript: data.explanations[0].transcript,
-                        audioUrl: data.explanations[0].audio_url,
+                        transcript: data.explanations.transcript,
+                        audioUrl: data.explanations.audio_url,
                     },
                 };
                 break;
@@ -82,7 +100,7 @@ Deno.serve(async (req) => {
         }
         return new Response(JSON.stringify(retData), {
             status: 200,
-            headers: { 'Content-Type': 'application/json' },
+            headers: { ...corsHeaders, 'Content-Type': 'application/json' },
         });
     }
 
@@ -96,7 +114,10 @@ Deno.serve(async (req) => {
         .single();
 
     if (!sessionMetadata) {
-        return new Response('No session found', { status: 404 });
+        return new Response('No session found', {
+            headers: corsHeaders,
+            status: 404,
+        });
     }
 
     const { data: timeline } = await client
@@ -111,7 +132,10 @@ Deno.serve(async (req) => {
     console.log('timeline', timeline);
 
     if (!timeline) {
-        return new Response('No timeline entries found', { status: 404 });
+        return new Response('No timeline entries found', {
+            headers: corsHeaders,
+            status: 404,
+        });
     }
 
     const nextQuestionType = getNextQuestionType(
@@ -119,8 +143,8 @@ Deno.serve(async (req) => {
             topic: entry.topic,
             type: entry.type,
             data: entry.data,
-            unitName: entry.units[0].name,
-            className: entry.units[0].classes[0].name,
+            unitName: entry.units.name,
+            className: entry.units.classes.name,
         })) ?? [],
     );
 
@@ -141,15 +165,15 @@ Deno.serve(async (req) => {
                     sessionMetadata.desired_topics.length - 1
                 ) {
                     // last topic in the list, go to next unit
-                    unitId = latestEntry.units[0].next_unit;
+                    unitId = latestEntry.units.next_unit;
                     topic = sessionMetadata.desired_topics[0];
                 } else {
-                    unitId = latestEntry.units[0].id;
+                    unitId = latestEntry.units.id;
                     topic = latestEntry.topic;
                 }
             }
             const explanation = await getExplanationFor(unitId, topic);
-            const { data: inserted } = await client
+            const { data: inserted, error } = await client
                 .from('study_timelines')
                 .insert({
                     profile_id: user.id,
@@ -161,12 +185,35 @@ Deno.serve(async (req) => {
                 })
                 .select('id')
                 .single();
+            if (!inserted || error) {
+                console.error(
+                    'Failed to insert explanation into timeline',
+                    error,
+                );
+                return new Response('Internal Server Error', {
+                    headers: corsHeaders,
+                    status: 500,
+                });
+            }
+            console.log(
+                'Inserted explanation into timeline:',
+                inserted,
+                'for topic:',
+                topic,
+            );
+            await redis.set(
+                `scroll_session:${scrollSessionId}:${index}`,
+                inserted.id,
+                {
+                    ex: 60 * 60, // 1 hour
+                },
+            );
             return new Response(
                 JSON.stringify({
                     type: QuestionType.Explanation,
                     timelineId: inserted?.id,
-                    unitName: sessionMetadata.units[0].name,
-                    className: sessionMetadata.units[0].classes[0].name,
+                    unitName: sessionMetadata.units.name,
+                    className: sessionMetadata.units.classes.name,
                     topic,
                     heart: false,
                     bookmark: false,
@@ -177,7 +224,10 @@ Deno.serve(async (req) => {
                 }),
                 {
                     status: 200,
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: {
+                        ...corsHeaders,
+                        'Content-Type': 'application/json',
+                    },
                 },
             );
         }
@@ -189,7 +239,7 @@ Deno.serve(async (req) => {
                 topic = sessionMetadata.desired_topics[0];
             } else {
                 const latestEntry = timeline[0];
-                unitId = latestEntry.units[0].id;
+                unitId = latestEntry.units.id;
                 topic = latestEntry.topic;
                 questionsAnswered = timeline
                     .filter(
@@ -219,7 +269,7 @@ Deno.serve(async (req) => {
                 );
                 return new Response(
                     'No more questions available for this topic',
-                    { status: 404 },
+                    { headers: corsHeaders, status: 404 },
                 );
             }
             const { data: inserted } = await client
@@ -234,12 +284,35 @@ Deno.serve(async (req) => {
                 })
                 .select('id')
                 .single();
+            if (!inserted) {
+                console.error(
+                    'Failed to insert multiple choice question into timeline',
+                    question,
+                );
+                return new Response('Internal Server Error', {
+                    headers: corsHeaders,
+                    status: 500,
+                });
+            }
+            console.log(
+                'Inserted multiple choice question into timeline:',
+                inserted,
+                'for topic:',
+                topic,
+            );
+            await redis.set(
+                `scroll_session:${scrollSessionId}:${index}`,
+                inserted.id,
+                {
+                    ex: 60 * 60, // 1 hour
+                },
+            );
             return new Response(
                 JSON.stringify({
                     type: QuestionType.MultipleChoice,
                     timelineId: inserted?.id,
-                    unitName: sessionMetadata.units[0].name,
-                    className: sessionMetadata.units[0].classes[0].name,
+                    unitName: sessionMetadata.units.name,
+                    className: sessionMetadata.units.classes.name,
                     topic,
                     heart: false,
                     bookmark: false,
@@ -253,7 +326,10 @@ Deno.serve(async (req) => {
                 }),
                 {
                     status: 200,
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: {
+                        ...corsHeaders,
+                        'Content-Type': 'application/json',
+                    },
                 },
             );
         }
@@ -265,7 +341,7 @@ Deno.serve(async (req) => {
                 topic = sessionMetadata.desired_topics[0];
             } else {
                 const latestEntry = timeline[0];
-                unitId = latestEntry.units[0].id;
+                unitId = latestEntry.units.id;
                 topic = latestEntry.topic;
                 questionsAnswered = timeline
                     .filter((entry) => entry.type === QuestionType.FreeResponse)
@@ -291,7 +367,7 @@ Deno.serve(async (req) => {
                 );
                 return new Response(
                     'No more questions available for this topic',
-                    { status: 404 },
+                    { headers: corsHeaders, status: 404 },
                 );
             }
             const { data: inserted } = await client
@@ -306,12 +382,35 @@ Deno.serve(async (req) => {
                 })
                 .select('id')
                 .single();
+            if (!inserted) {
+                console.error(
+                    'Failed to insert free response question into timeline',
+                    question,
+                );
+                return new Response('Internal Server Error', {
+                    headers: corsHeaders,
+                    status: 500,
+                });
+            }
+            console.log(
+                'Inserted free response question into timeline:',
+                inserted,
+                'for topic:',
+                topic,
+            );
+            await redis.set(
+                `scroll_session:${scrollSessionId}:${index}`,
+                inserted.id,
+                {
+                    ex: 60 * 60, // 1 hour
+                },
+            );
             return new Response(
                 JSON.stringify({
                     type: QuestionType.FreeResponse,
                     timelineId: inserted?.id,
-                    unitName: sessionMetadata.units[0].name,
-                    className: sessionMetadata.units[0].classes[0].name,
+                    unitName: sessionMetadata.units.name,
+                    className: sessionMetadata.units.classes.name,
                     topic,
                     heart: false,
                     bookmark: false,
@@ -324,7 +423,10 @@ Deno.serve(async (req) => {
                 }),
                 {
                     status: 200,
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: {
+                        ...corsHeaders,
+                        'Content-Type': 'application/json',
+                    },
                 },
             );
         }

@@ -1,8 +1,13 @@
 import 'jsr:@supabase/functions-js/edge-runtime.d.ts';
-import { getSupabaseClient } from './supabase.ts';
-import { getRedisClient } from './redis.ts';
+import { getSupabaseClient } from '../_shared/supabase.ts';
+import { getRedisClient } from '../_shared/redis.ts';
+import { corsHeaders } from '../_shared/cors.ts';
 
 Deno.serve(async (req) => {
+    if (req.method == 'OPTIONS') {
+        return new Response('ok', { headers: corsHeaders });
+    }
+
     if (req.method !== 'GET') {
         return new Response('Method Not Allowed', { status: 405 });
     }
@@ -29,11 +34,16 @@ Deno.serve(async (req) => {
         },
     );
 
+    console.log(
+        `New scroll session created: ${scrollSessionId} for user session: ${userSessionId}`,
+    );
+
     return new Response(
         JSON.stringify({ scroll_session_id: scrollSessionId }),
         {
             status: 200,
             headers: {
+                ...corsHeaders,
                 'Content-Type': 'application/json',
             },
         },
