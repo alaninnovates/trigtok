@@ -99,12 +99,16 @@ class _TopicSelectionState extends State<TopicSelection> {
                     ),
                   );
                 } else {
-                  await Supabase.instance.client.from('user_sessions').insert({
-                    'profile_id': Supabase.instance.client.auth.currentUser!.id,
-                    'class_id': widget.classId,
-                    'desired_unit_id': widget.unitId,
-                    'desired_topics': selectedTopics,
-                  });
+                  var userSession = await Supabase.instance.client
+                      .from('user_sessions')
+                      .insert({
+                        'profile_id':
+                            Supabase.instance.client.auth.currentUser!.id,
+                        'class_id': widget.classId,
+                        'desired_unit_id': widget.unitId,
+                        'desired_topics': selectedTopics,
+                      })
+                      .select('id');
                   await Supabase.instance.client
                       .from('profiles_classes')
                       .upsert({
@@ -112,10 +116,7 @@ class _TopicSelectionState extends State<TopicSelection> {
                             Supabase.instance.client.auth.currentUser!.id,
                         'class_id': widget.classId,
                       });
-                  GoRouter.of(context).push(
-                    '/study/${widget.classId}',
-                    extra: {'unitId': widget.unitId, 'topics': selectedTopics},
-                  );
+                  GoRouter.of(context).push('/study/${userSession[0]['id']}');
                 }
               },
               child: const Text('Continue'),
