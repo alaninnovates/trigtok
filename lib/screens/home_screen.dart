@@ -12,9 +12,9 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final _future = Supabase.instance.client
-      .from('profiles_classes')
+      .from('user_sessions')
       .select(
-        'classes(id, name), profiles(study_timelines(units(class_id, name), created_at))',
+        'id, classes(id, name), profiles(study_timelines(units(class_id, name), created_at))',
       );
 
   @override
@@ -35,18 +35,18 @@ class _HomeScreenState extends State<HomeScreen> {
                 builder: (context, snapshot) {
                   if (snapshot.hasError) {
                     print(snapshot.error);
-                    return Center(child: const Text('Error loading classes'));
+                    return Center(child: const Text('Error loading sessions'));
                   }
                   if (!snapshot.hasData) {
                     return const Center(child: CircularProgressIndicator());
                   }
-                  final classes = snapshot.data!;
-                  if (classes.isEmpty) {
+                  final sessions = snapshot.data!;
+                  if (sessions.isEmpty) {
                     return Center(
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          const Text('No classes found!'),
+                          const Text('No sessions found!'),
                           const SizedBox(height: 16),
                           ElevatedButton(
                             onPressed: () {
@@ -59,26 +59,18 @@ class _HomeScreenState extends State<HomeScreen> {
                     );
                   }
                   return ListView.builder(
-                    itemCount: classes.length,
+                    itemCount: sessions.length,
                     itemBuilder: (context, index) {
-                      final classItem = classes[index];
-                      final leftOffUnit =
-                          classItem['profiles']['study_timelines'][0]['units'];
-                      var leftOffUnitName = '';
-                      if (leftOffUnit['class_id'] ==
-                          classItem['classes']['id']) {
-                        leftOffUnitName = leftOffUnit['name'];
-                      } else {
-                        leftOffUnitName = 'Unknown';
-                      }
+                      final sessionsItem = sessions[index];
+                      // todo: Add logic to determine the last unit studied
                       return Card(
                         child: ListTile(
-                          title: Text(classItem['classes']['name']),
-                          subtitle: Text('Left off on: $leftOffUnitName'),
+                          title: Text(sessionsItem['classes']['name']),
+                          subtitle: Text('Left off on: Unknown'),
                           onTap: () {
                             GoRouter.of(
                               context,
-                            ).push('/study/${classItem['classes']['id']}');
+                            ).push('/study/${sessionsItem['id']}');
                           },
                         ),
                       );
@@ -86,13 +78,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 },
               ),
-            ),
-            const SizedBox(height: 16),
-            ElevatedButton(
-              onPressed: () {
-                GoRouter.of(context).push('/study/1');
-              },
-              child: const Text('Study Screen'),
             ),
           ],
         ),
