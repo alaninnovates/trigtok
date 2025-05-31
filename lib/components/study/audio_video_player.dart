@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:stroke_text/stroke_text.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:trig_tok/components/study/frq_container.dart';
 import 'package:trig_tok/components/study/mcq_container.dart';
 import 'package:trig_tok/components/study/study_state_model.dart';
 import 'package:trig_tok/components/study/transcript_parser.dart';
@@ -135,13 +136,18 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                                   .toList(),
                           onOptionSelected: (String selectedOption) {
                             print('Selected option: $selectedOption');
-                            // Handle option selection logic here
                           },
                         );
                       } else if (sessionElement['type'] == 'frq') {
-                        return Text(
-                          'Free Response Question',
-                          style: Theme.of(context).textTheme.headlineSmall,
+                        return FrqContainer(
+                          stimulus: sessionElement['data']['stimulus'],
+                          questions:
+                              sessionElement['data']['questions']
+                                  .map<String>((e) => e.toString())
+                                  .toList(),
+                          onAnswersSubmitted: (List<String> answers) {
+                            print('Submitted answers: $answers');
+                          },
                         );
                       } else if (sessionElement['type'] == 'explanation') {
                         return Padding(

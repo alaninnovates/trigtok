@@ -70,6 +70,18 @@ class _McqContainerState extends State<McqContainer> {
                                 },
                               );
                             }),
+                            const SizedBox(height: 16),
+                            ElevatedButton(
+                              onPressed:
+                                  selectedOption != null
+                                      ? () {
+                                        widget.onOptionSelected(
+                                          selectedOption!,
+                                        );
+                                      }
+                                      : null,
+                              child: const Text('Submit'),
+                            ),
                           ],
                         ),
                       ),

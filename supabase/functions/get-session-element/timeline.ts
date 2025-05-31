@@ -1,3 +1,5 @@
+import { getSystemErrorMap } from 'node:util';
+
 export enum QuestionType {
     MultipleChoice = 'mcq',
     FreeResponse = 'frq',
@@ -33,7 +35,9 @@ export const getNextQuestionType = (
         return QuestionType.Explanation;
     }
 
-    const lastEntry = timeline[timeline.length - 1];
+    const lastEntry = timeline[0];
+
+    console.log('last entry', lastEntry);
 
     if (lastEntry.type === QuestionType.Explanation) {
         return QuestionType.MultipleChoice;
@@ -47,7 +51,8 @@ export const getNextQuestionType = (
     const frqCount = timeline.filter(
         (entry) => entry.type === QuestionType.FreeResponse,
     ).length;
-    const lastQuestion = timeline[timeline.length - 1];
+    const lastQuestion = timeline[0];
+    console.log('last question', lastQuestion);
     const lastQuestionCorrect = lastQuestion.data.correct;
 
     if (!lastQuestionCorrect) {
