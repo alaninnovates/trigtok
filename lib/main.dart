@@ -110,22 +110,13 @@ final GoRouter _router = GoRouter(
       ],
     ),
     GoRoute(
-      path: '/study/:classId',
+      path: '/study/:userSessionId',
       builder: (BuildContext context, GoRouterState state) {
-        final classId = state.pathParameters['classId']!;
-        print('Class ID: $classId');
-        var unitId = -1;
-        var topics = <String>[];
-        if (state.extra != null) {
-          final extra = state.extra as Map<String, dynamic>;
-          unitId = extra['unitId'] as int;
-          topics = extra['topics'] as List<String>;
-          print('Unit ID: $unitId');
-          print('Topics: $topics');
-        }
         return ChangeNotifierProvider(
           create: (context) => StudyStateModel(),
-          child: StudyScreen(classId: classId, unitId: unitId, topics: topics),
+          child: StudyScreen(
+            userSessionId: int.parse(state.pathParameters['userSessionId']!),
+          ),
         );
       },
     ),
