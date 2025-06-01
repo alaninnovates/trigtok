@@ -6,22 +6,24 @@ export enum QuestionType {
     Explanation = 'explanation',
 }
 
+interface McqData {
+    selectedAnswer: string;
+    correct: boolean;
+}
+
+interface FrqData {
+    answer: string;
+    ai_grade: number;
+    total_points_possible: number;
+    ai_feedback: string;
+}
+
+interface ExplanationData {}
+
 export interface TimelineEntry {
     topic: string;
     type: QuestionType;
-    data:
-        | {
-              // when type is mcq
-              selectedAnswer: string;
-              correct: boolean;
-          }
-        | {
-              // when type is frq
-              answer: string;
-              correct: boolean;
-              ai_feedback: number;
-          }
-        | Record<PropertyKey, never>; // when type is explanation
+    data: McqData | FrqData | ExplanationData;
     unitName: string;
     className: string;
 }
@@ -53,13 +55,22 @@ export const getNextQuestionType = (
     ).length;
     const lastQuestion = timeline[0];
     console.log('last question', lastQuestion);
-    const lastQuestionCorrect = lastQuestion.data.correct;
+    const lastQuestionCorrect =
+        lastQuestion.data && lastQuestion.type === QuestionType.MultipleChoice
+            ? (lastQuestion.data as McqData).correct
+            : lastQuestion.type === QuestionType.FreeResponse
+            ? (lastQuestion.data as FrqData).ai_grade >=
+              Math.floor(
+                  ((lastQuestion.data as FrqData).total_points_possible / 3) *
+                      2,
+              )
+            : false;
 
     if (!lastQuestionCorrect) {
         return lastQuestion.type;
     }
 
-    const mcqToFrqRatio = 3 / 1;
+    const mcqToFrqRatio = 4 / 1;
     const totalQuestions = mcqCount + frqCount;
     const totalRatio = mcqCount / (frqCount || 1);
 

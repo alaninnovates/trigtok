@@ -10,7 +10,7 @@ export class Database {
 
     public async explanationExists(
         unitId: number,
-        topic: string,
+        topicId: number,
     ): Promise<{
         exists: boolean;
         error: boolean;
@@ -20,7 +20,7 @@ export class Database {
             .from('explanations')
             .select('id, transcript, audio_url')
             .eq('unit', unitId)
-            .eq('topic', topic)
+            .eq('topic', topicId)
             .limit(1);
 
         if (error) {
@@ -41,11 +41,10 @@ export class Database {
     public async getUnitInfo(unitId: number): Promise<{
         className: string;
         unitName: string;
-        topics: string[];
     } | null> {
         const { data, error } = await this.client
             .from('units')
-            .select('name, topics, classes(name)')
+            .select('name, classes(name)')
             .eq('id', unitId)
             .single();
 
@@ -59,14 +58,13 @@ export class Database {
                   // @ts-ignore
                   className: data.classes.name,
                   unitName: data.name,
-                  topics: data.topics,
               }
             : null;
     }
 
     public async storeExplanation(
         unitId: number,
-        topic: string,
+        topicId: number,
         transcript: Transcript,
         audioUrl: string,
     ): Promise<{
@@ -77,7 +75,7 @@ export class Database {
             .from('explanations')
             .insert({
                 unit: unitId,
-                topic: topic,
+                topic: topicId,
                 transcript: transcript,
                 audio_url: audioUrl,
             })

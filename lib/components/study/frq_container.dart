@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:markdown_widget/markdown_widget.dart';
+import 'package:trig_tok/components/markdown/latex.dart';
 
 class FrqContainer extends StatefulWidget {
   const FrqContainer({
@@ -59,9 +61,13 @@ class _FrqContainerState extends State<FrqContainer> {
                         children: [
                           Expanded(
                             child: SingleChildScrollView(
-                              child: Text(
-                                widget.stimulus,
-                                style: Theme.of(context).textTheme.bodyLarge,
+                              child: MarkdownBlock(
+                                data: widget.stimulus,
+                                generator: MarkdownGenerator(
+                                  generators: [latexGenerator],
+                                  inlineSyntaxList: [LatexSyntax()],
+                                  richTextBuilder: (span) => Text.rich(span),
+                                ),
                               ),
                             ),
                           ),
@@ -81,9 +87,13 @@ class _FrqContainerState extends State<FrqContainer> {
                         padding: const EdgeInsets.all(16),
                         child: Column(
                           children: [
-                            Text(
-                              question,
-                              style: Theme.of(context).textTheme.bodyLarge,
+                            MarkdownBlock(
+                              data: question,
+                              generator: MarkdownGenerator(
+                                generators: [latexGenerator],
+                                inlineSyntaxList: [LatexSyntax()],
+                                richTextBuilder: (span) => Text.rich(span),
+                              ),
                             ),
                             const SizedBox(height: 8),
                             Expanded(

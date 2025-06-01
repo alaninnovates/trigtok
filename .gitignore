@@ -48,3 +48,6 @@ app.*.map.json
 *.env.*
 
 prompts.md
+
+flutter_math
+gpt_markdown

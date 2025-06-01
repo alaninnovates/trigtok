@@ -56,7 +56,7 @@ Deno.serve(async (req) => {
         const { data, error } = await client
             .from('study_timelines')
             .select(
-                'units(name, classes(name)), topic, type, data, heart, bookmark, explanations(transcript, audio_url), multiple_choice_questions(stimulus, question, answers, correct_answer, explanations)',
+                'units(name, classes(name)), topic, type, data, bookmark, explanations(transcript, audio_url), multiple_choice_questions(stimulus, question, answers, correct_answer, explanations)',
             )
             .eq('id', timelineId)
             .limit(1)
@@ -82,7 +82,6 @@ Deno.serve(async (req) => {
                     unitName: data.units.name,
                     className: data.units.classes.name,
                     topic: data.topic,
-                    heart: data.heart,
                     bookmark: data.bookmark,
                     data: {
                         transcript: data.explanations.transcript,
@@ -104,14 +103,9 @@ Deno.serve(async (req) => {
         });
     }
 
-    const { data: sessionMetadata } = await client
-        .from('user_sessions')
-        .select(
-            'id, desired_unit_id, units(name, classes(name)), desired_topics',
-        )
-        .eq('id', userSessionId)
-        .limit(1)
-        .single();
+    const sessionMetadata = await redis.get(
+        `scroll_session:${scrollSessionId}:metadata`,
+    );
 
     if (!sessionMetadata) {
         return new Response('No session found', {
@@ -120,19 +114,22 @@ Deno.serve(async (req) => {
         });
     }
 
-    const { data: timeline } = await client
+    console.log('sessionMetadata', sessionMetadata);
+
+    const { data: timeline, error: timelineError } = await client
         .from('study_timelines')
         .select(
-            'id, units(id, name, topics, next_unit, classes(name)), topic, type, data, question_id',
+            'id, units(id, name, classes(name)), topics (id, unit_id, topic, successor(id, unit_id, topic)), type, data, question_id',
         )
-        .eq('session_id', sessionMetadata.id)
+        .eq('session_id', userSessionId)
         .order('created_at', { ascending: false });
 
     console.log('sessionMetadata', sessionMetadata);
     console.log('timeline', timeline);
 
     if (!timeline) {
-        return new Response('No timeline entries found', {
+        console.error('Error fetching timeline:', timelineError);
+        return new Response('No timeline found', {
             headers: corsHeaders,
             status: 404,
         });
@@ -140,7 +137,7 @@ Deno.serve(async (req) => {
 
     const nextQuestionType = getNextQuestionType(
         timeline?.map((entry) => ({
-            topic: entry.topic,
+            topic: entry.topics.topic,
             type: entry.type,
             data: entry.data,
             unitName: entry.units.name,
@@ -150,37 +147,38 @@ Deno.serve(async (req) => {
 
     console.log('nextQuestionType', nextQuestionType);
 
+    const getNextTopic = () => {
+        let unitId, topic;
+        if (timeline.length == 0) {
+            unitId = sessionMetadata.desired_unit_id;
+            topic = {
+                id: sessionMetadata.desired_topics[0].id,
+                topic: sessionMetadata.desired_topics[0].topic,
+            };
+        } else {
+            const latestEntry = timeline[0];
+            console.log('latestEntry', latestEntry);
+            unitId = latestEntry.topics.successor.unit_id;
+            topic = {
+                id: latestEntry.topics.successor.id,
+                topic: latestEntry.topics.successor.topic,
+            };
+        }
+        return { unitId, topic };
+    };
+
     switch (nextQuestionType) {
         case QuestionType.Explanation: {
-            let unitId, topic;
-            if (timeline.length == 0) {
-                unitId = sessionMetadata.desired_unit_id;
-                topic = sessionMetadata.desired_topics[0];
-            } else {
-                const latestEntry = timeline[0];
-                if (
-                    sessionMetadata.desired_topics.indexOf(
-                        latestEntry.topic,
-                    ) ===
-                    sessionMetadata.desired_topics.length - 1
-                ) {
-                    // last topic in the list, go to next unit
-                    unitId = latestEntry.units.next_unit;
-                    topic = sessionMetadata.desired_topics[0];
-                } else {
-                    unitId = latestEntry.units.id;
-                    topic = latestEntry.topic;
-                }
-            }
+            const { unitId, topic } = getNextTopic();
             const explanation = await getExplanationFor(unitId, topic);
             const { data: inserted, error } = await client
                 .from('study_timelines')
                 .insert({
                     profile_id: user.id,
                     unit_id: unitId,
-                    topic,
+                    topic_id: topic.id,
                     type: QuestionType.Explanation,
-                    session_id: sessionMetadata.id,
+                    session_id: userSessionId,
                     explanation_id: explanation.id,
                 })
                 .select('id')
@@ -205,17 +203,16 @@ Deno.serve(async (req) => {
                 `scroll_session:${scrollSessionId}:${index}`,
                 inserted.id,
                 {
-                    ex: 60 * 60, // 1 hour
+                    ex: 2 * 60 * 60,
                 },
             );
             return new Response(
                 JSON.stringify({
                     type: QuestionType.Explanation,
                     timelineId: inserted?.id,
-                    unitName: sessionMetadata.units.name,
-                    className: sessionMetadata.units.classes.name,
+                    unitName: sessionMetadata.unit_name,
+                    className: sessionMetadata.class_name,
                     topic,
-                    heart: false,
                     bookmark: false,
                     data: {
                         transcript: explanation.transcript,
@@ -232,29 +229,18 @@ Deno.serve(async (req) => {
             );
         }
         case QuestionType.MultipleChoice: {
-            let unitId: number, topic: string;
-            let questionsAnswered = [];
-            if (timeline.length == 0) {
-                unitId = sessionMetadata.desired_unit_id;
-                topic = sessionMetadata.desired_topics[0];
-            } else {
-                const latestEntry = timeline[0];
-                unitId = latestEntry.units.id;
-                topic = latestEntry.topic;
-                questionsAnswered = timeline
-                    .filter(
-                        (entry) => entry.type === QuestionType.MultipleChoice,
-                    )
-                    .filter((entry) => entry.topic === topic)
-                    .map((entry) => entry.question_id);
-            }
-            const { data: question } = await client
+            const { unitId, topic } = getNextTopic();
+            const questionsAnswered = timeline
+                .filter((entry) => entry.type === QuestionType.MultipleChoice)
+                .filter((entry) => entry.topics.id === topic.id)
+                .map((entry) => entry.question_id);
+            const { data: question, error: mcqError } = await client
                 .from('multiple_choice_questions')
                 .select(
                     'id, stimulus, question, answers, correct_answer, explanations',
                 )
                 .eq('unit_id', unitId)
-                .eq('topic', topic)
+                .eq('topic', topic.id)
                 .not('id', 'in', `(${questionsAnswered.join(',')})`)
                 .limit(1)
                 .single();
@@ -267,6 +253,12 @@ Deno.serve(async (req) => {
                     'Unit ID:',
                     unitId,
                 );
+                if (mcqError) {
+                    console.error(
+                        'Error fetching multiple choice question:',
+                        mcqError,
+                    );
+                }
                 return new Response(
                     'No more questions available for this topic',
                     { headers: corsHeaders, status: 404 },
@@ -277,9 +269,9 @@ Deno.serve(async (req) => {
                 .insert({
                     profile_id: user.id,
                     unit_id: unitId,
-                    topic,
+                    topic_id: topic.id,
                     type: QuestionType.MultipleChoice,
-                    session_id: sessionMetadata.id,
+                    session_id: userSessionId,
                     question_id: question.id,
                 })
                 .select('id')
@@ -311,10 +303,9 @@ Deno.serve(async (req) => {
                 JSON.stringify({
                     type: QuestionType.MultipleChoice,
                     timelineId: inserted?.id,
-                    unitName: sessionMetadata.units.name,
-                    className: sessionMetadata.units.classes.name,
+                    unitName: sessionMetadata.unit_name,
+                    className: sessionMetadata.class_name,
                     topic,
-                    heart: false,
                     bookmark: false,
                     data: {
                         stimulus: question.stimulus,
@@ -334,25 +325,16 @@ Deno.serve(async (req) => {
             );
         }
         case QuestionType.FreeResponse: {
-            let unitId: number, topic: string;
-            let questionsAnswered = [];
-            if (timeline.length == 0) {
-                unitId = sessionMetadata.desired_unit_id;
-                topic = sessionMetadata.desired_topics[0];
-            } else {
-                const latestEntry = timeline[0];
-                unitId = latestEntry.units.id;
-                topic = latestEntry.topic;
-                questionsAnswered = timeline
-                    .filter((entry) => entry.type === QuestionType.FreeResponse)
-                    .filter((entry) => entry.topic === topic)
-                    .map((entry) => entry.question_id);
-            }
-            const { data: question } = await client
+            const { unitId, topic } = getNextTopic();
+            const questionsAnswered = timeline
+                .filter((entry) => entry.type === QuestionType.FreeResponse)
+                .filter((entry) => entry.topics.id === topic.id)
+                .map((entry) => entry.question_id);
+            const { data: question, error: frqError } = await client
                 .from('free_response_questions')
                 .select('id, stimulus, questions, rubric, samples')
                 .eq('unit_id', unitId)
-                .eq('topic', topic)
+                .eq('topic', topic.id)
                 .not('id', 'in', `(${questionsAnswered.join(',')})`)
                 .limit(1)
                 .single();
@@ -365,6 +347,12 @@ Deno.serve(async (req) => {
                     'Unit ID:',
                     unitId,
                 );
+                if (frqError) {
+                    console.error(
+                        'Error fetching free response question:',
+                        frqError,
+                    );
+                }
                 return new Response(
                     'No more questions available for this topic',
                     { headers: corsHeaders, status: 404 },
@@ -375,9 +363,9 @@ Deno.serve(async (req) => {
                 .insert({
                     profile_id: user.id,
                     unit_id: unitId,
-                    topic,
+                    topic_id: topic.id,
                     type: QuestionType.FreeResponse,
-                    session_id: sessionMetadata.id,
+                    session_id: userSessionId,
                     question_id: question.id,
                 })
                 .select('id')
@@ -409,10 +397,9 @@ Deno.serve(async (req) => {
                 JSON.stringify({
                     type: QuestionType.FreeResponse,
                     timelineId: inserted?.id,
-                    unitName: sessionMetadata.units.name,
-                    className: sessionMetadata.units.classes.name,
+                    unitName: sessionMetadata.unit_name,
+                    className: sessionMetadata.class_name,
                     topic,
-                    heart: false,
                     bookmark: false,
                     data: {
                         stimulus: question.stimulus,

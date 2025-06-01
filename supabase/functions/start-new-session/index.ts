@@ -12,7 +12,7 @@ Deno.serve(async (req) => {
         return new Response('Method Not Allowed', { status: 405 });
     }
 
-    const { user } = await getSupabaseClient(req);
+    const { client, user } = await getSupabaseClient(req);
     const redis = getRedisClient();
     if (!user) {
         return new Response('Unauthorized', { status: 401 });
@@ -30,7 +30,47 @@ Deno.serve(async (req) => {
         `scroll_session:${scrollSessionId}:session-id`,
         userSessionId,
         {
-            ex: 60 * 60, // 1 hour
+            ex: 2 * 60 * 60,
+        },
+    );
+
+    const { data: sessionMetadata, error: userSessionError } = await client
+        .from('user_sessions')
+        .select('desired_unit_id, units(name, classes(name))')
+        .eq('id', userSessionId)
+        .limit(1)
+        .single();
+
+    const { data: desiredTopics, error: topicsError } = await client
+        .from('user_sessions_topics')
+        .select('id, topics(id, topic)')
+        .eq('user_session_id', userSessionId)
+        .order('id', { ascending: true });
+
+    if (!sessionMetadata || !desiredTopics) {
+        console.error(
+            'Error fetching session metadata or desired topics:',
+            userSessionError,
+            topicsError,
+        );
+        return new Response('Bad Request: Invalid session data', {
+            status: 400,
+        });
+    }
+
+    await redis.set(
+        `scroll_session:${scrollSessionId}:metadata`,
+        JSON.stringify({
+            unit_name: sessionMetadata.units.name,
+            class_name: sessionMetadata.units.classes.name,
+            desired_unit_id: sessionMetadata.desired_unit_id,
+            desired_topics: desiredTopics.map((t) => ({
+                id: t.topics.id,
+                topic: t.topics.topic,
+            })),
+        }),
+        {
+            ex: 2 * 60 * 60,
         },
     );
 

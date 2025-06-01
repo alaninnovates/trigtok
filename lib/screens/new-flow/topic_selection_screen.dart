@@ -31,7 +31,8 @@ class _TopicSelectionState extends State<TopicSelection> {
     _future = Supabase.instance.client
         .from('topics')
         .select('id, topic')
-        .eq('unit_id', widget.unitId);
+        .eq('unit_id', widget.unitId)
+        .order('id', ascending: true);
   }
 
   void _onTopicSelected(int topic) {
@@ -102,7 +103,6 @@ class _TopicSelectionState extends State<TopicSelection> {
                             Supabase.instance.client.auth.currentUser!.id,
                         'class_id': widget.classId,
                         'desired_unit_id': widget.unitId,
-                        'desired_topics': selectedTopics,
                       })
                       .select('id');
                   await Supabase.instance.client
@@ -112,6 +112,18 @@ class _TopicSelectionState extends State<TopicSelection> {
                             Supabase.instance.client.auth.currentUser!.id,
                         'class_id': widget.classId,
                       });
+                  await Supabase.instance.client
+                      .from('user_sessions_topics')
+                      .insert(
+                        selectedTopics
+                            .map(
+                              (topicId) => {
+                                'user_session_id': userSession[0]['id'],
+                                'topic_id': topicId,
+                              },
+                            )
+                            .toList(),
+                      );
                   GoRouter.of(context).push('/study/${userSession[0]['id']}');
                 }
               },

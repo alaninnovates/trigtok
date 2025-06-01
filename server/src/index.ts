@@ -52,19 +52,17 @@ fastify.get(
         ) {
             return res.status(401).send({ error: 'Unauthorized' });
         }
-        const { unitId, topic } = req.query as {
+        const { unitId, topicId, topic } = req.query as {
             unitId: number;
+            topicId: number;
             topic: string;
         };
         const unitInfo = await db.getUnitInfo(unitId);
         if (!unitInfo) {
             return res.status(404).send({ error: 'Unit not found' });
         }
-        const { className, unitName, topics } = unitInfo;
-        if (!topics.includes(topic)) {
-            return res.status(404).send({ error: 'Topic not found' });
-        }
-        const explanationExists = await db.explanationExists(unitId, topic);
+        const { className, unitName } = unitInfo;
+        const explanationExists = await db.explanationExists(unitId, topicId);
         if (explanationExists.error) {
             req.log.error(
                 'Failed to check explanation existence because: ' +
@@ -78,7 +76,7 @@ fastify.get(
             return explanationExists.data[0];
         }
         req.log.info(
-            `Generating explanation for unit ${unitId}, topic ${topic}`,
+            `Generating explanation for unit ${unitId}, topic id ${topicId}, topic ${topic}`,
         );
         const explanation = await getExplanation(className, unitName, topic);
         req.log.info(`Generated explanation: ${explanation}`);
@@ -99,7 +97,7 @@ fastify.get(
         );
         const { success, data } = await db.storeExplanation(
             unitId,
-            topic,
+            topicId,
             transcript,
             `https://audio.trigtok.com/${uploaded.objectKey}`,
         );

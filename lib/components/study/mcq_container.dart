@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:markdown_widget/config/markdown_generator.dart';
+import 'package:markdown_widget/widget/markdown_block.dart';
+import 'package:trig_tok/components/markdown/latex.dart';
 
 class McqContainer extends StatefulWidget {
   const McqContainer({
@@ -39,9 +42,13 @@ class _McqContainerState extends State<McqContainer> {
                     Padding(
                       padding: const EdgeInsets.all(16),
                       child: SingleChildScrollView(
-                        child: Text(
-                          widget.stimulus,
-                          style: Theme.of(context).textTheme.bodyLarge,
+                        child: MarkdownBlock(
+                          data: widget.stimulus,
+                          generator: MarkdownGenerator(
+                            generators: [latexGenerator],
+                            inlineSyntaxList: [LatexSyntax()],
+                            richTextBuilder: (span) => Text.rich(span),
+                          ),
                         ),
                       ),
                     ),
@@ -52,14 +59,26 @@ class _McqContainerState extends State<McqContainer> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
-                              widget.question,
-                              style: Theme.of(context).textTheme.headlineSmall,
+                            MarkdownBlock(
+                              data: widget.question,
+                              generator: MarkdownGenerator(
+                                generators: [latexGenerator],
+                                inlineSyntaxList: [LatexSyntax()],
+                                richTextBuilder: (span) => Text.rich(span),
+                              ),
+                              // style: Theme.of(context).textTheme.headlineSmall,
                             ),
                             const SizedBox(height: 16),
                             ...widget.options.map((option) {
                               return RadioListTile<String>(
-                                title: Text(option),
+                                title: MarkdownBlock(
+                                  data: option,
+                                  generator: MarkdownGenerator(
+                                    generators: [latexGenerator],
+                                    inlineSyntaxList: [LatexSyntax()],
+                                    richTextBuilder: (span) => Text.rich(span),
+                                  ),
+                                ),
                                 value: option,
                                 groupValue: selectedOption,
                                 onChanged: (value) {
