@@ -1,5 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:provider/provider.dart';
 import 'package:stroke_text/stroke_text.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
@@ -32,14 +33,14 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
     print('init state for index ${widget.index}');
     _studyStateModel = Provider.of<StudyStateModel>(context, listen: false);
     _studyStateModel.addListener(_studyStateListener);
-    // _videoController = VideoPlayerController.networkUrl(
-    //     Uri.parse(
-    //       '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}.mp4',
-    //     ),
-    //   )
-    _videoController = VideoPlayerController.asset(
-        'brainrot_generator/videos/minecraft_${widget.index % 10 + 1}.mp4',
+    _videoController = VideoPlayerController.networkUrl(
+        Uri.parse(
+          '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}.mp4',
+        ),
       )
+      // _videoController = VideoPlayerController.asset(
+      //     'brainrot_generator/videos/minecraft_${widget.index % 10 + 1}.mp4',
+      //   )
       ..initialize().then((_) {
         setState(() {});
         if (widget.index == 0) {

@@ -23,8 +23,9 @@ class _UnitSelectionState extends State<UnitSelection> {
   void _initializeFuture() {
     _future = Supabase.instance.client
         .from('units')
-        .select('id, name')
-        .eq('class_id', widget.classId);
+        .select('id, name, number')
+        .eq('class_id', widget.classId)
+        .order('number', ascending: true);
   }
 
   @override
@@ -55,7 +56,7 @@ class _UnitSelectionState extends State<UnitSelection> {
                     itemBuilder: (context, index) {
                       final unit = units[index];
                       return ListTile(
-                        title: Text(unit['name']),
+                        title: Text('Unit ${unit['number']}: ${unit['name']}'),
                         onTap: () {
                           GoRouter.of(context).push(
                             '/new/class/${widget.classId}/unit/${unit['id']}',

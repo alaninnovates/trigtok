@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
@@ -34,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 future: _future,
                 builder: (context, snapshot) {
                   if (snapshot.hasError) {
-                    print(snapshot.error);
+                    log(snapshot.error.toString());
                     return Center(child: const Text('Error loading sessions'));
                   }
                   if (!snapshot.hasData) {

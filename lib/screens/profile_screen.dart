@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
@@ -48,7 +50,7 @@ class ProfileScreen extends StatelessWidget {
                       GoRouter.of(context).replace('/');
                     })
                     .catchError((error) {
-                      print('Sign-out error: $error');
+                      log('Sign-out error: $error');
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(content: Text('Sign-out failed: $error')),
                       );

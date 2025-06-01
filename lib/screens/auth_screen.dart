@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -68,7 +70,7 @@ class _AuthScreenState extends State<AuthScreen> {
               onPressed: () {
                 (!kIsWeb ? _nativeGoogleSignIn() : _webGoogleSignIn())
                     .catchError((error) {
-                      print('Sign-in error: $error');
+                      log('Sign-in error: $error');
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(content: Text('Sign-in failed: $error')),
                       );

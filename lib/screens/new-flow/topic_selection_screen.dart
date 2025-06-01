@@ -19,7 +19,7 @@ class TopicSelection extends StatefulWidget {
 class _TopicSelectionState extends State<TopicSelection> {
   late Future<List<Map<String, dynamic>>> _future;
 
-  List<String> selectedTopics = [];
+  List<int> selectedTopics = [];
 
   @override
   void initState() {
@@ -29,12 +29,12 @@ class _TopicSelectionState extends State<TopicSelection> {
 
   void _initializeFuture() {
     _future = Supabase.instance.client
-        .from('units')
-        .select('topics')
-        .eq('id', widget.unitId);
+        .from('topics')
+        .select('id, topic')
+        .eq('unit_id', widget.unitId);
   }
 
-  void _onTopicSelected(String topic) {
+  void _onTopicSelected(int topic) {
     setState(() {
       if (selectedTopics.contains(topic)) {
         selectedTopics.remove(topic);
@@ -68,20 +68,16 @@ class _TopicSelectionState extends State<TopicSelection> {
                     return const Center(child: Text('No topics available'));
                   }
 
-                  final topics = snapshot.data![0]['topics'] as List<dynamic>;
-                  if (topics.isEmpty) {
-                    return const Center(child: Text('No topics found.'));
-                  }
-
+                  final topics = snapshot.data!;
                   return ListView.builder(
                     itemCount: topics.length,
                     itemBuilder: (context, index) {
                       final topic = topics[index];
                       return CheckboxListTile(
-                        title: Text(topic),
-                        value: selectedTopics.contains(topic),
+                        title: Text(topic['topic']),
+                        value: selectedTopics.contains(topic['id']),
                         onChanged: (bool? value) {
-                          _onTopicSelected(topic);
+                          _onTopicSelected(topic['id']);
                         },
                       );
                     },

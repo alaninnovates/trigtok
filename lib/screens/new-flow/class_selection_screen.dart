@@ -11,7 +11,10 @@ class ClassSelection extends StatefulWidget {
 }
 
 class _ClassSelectionState extends State<ClassSelection> {
-  final _future = Supabase.instance.client.from('classes').select('id, name');
+  final _future = Supabase.instance.client
+      .from('classes')
+      .select('id, name')
+      .eq('enabled', true);
   String _searchQuery = '';
 
   @override
