@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:markdown_widget/config/markdown_generator.dart';
 import 'package:markdown_widget/widget/markdown_block.dart';
 import 'package:trig_tok/components/markdown/latex.dart';
+import 'package:collection/collection.dart';
 
 class McqContainer extends StatefulWidget {
   const McqContainer({
@@ -9,13 +10,17 @@ class McqContainer extends StatefulWidget {
     required this.stimulus,
     required this.question,
     required this.options,
-    required this.onOptionSelected,
+    required this.correctAnswer,
+    required this.explanations,
+    required this.onAnswerSubmitted,
   });
 
   final String stimulus;
   final String question;
   final List<String> options;
-  final ValueChanged<String> onOptionSelected;
+  final int correctAnswer;
+  final List<String> explanations;
+  final ValueChanged<int> onAnswerSubmitted;
 
   @override
   State<McqContainer> createState() => _McqContainerState();
@@ -23,6 +28,8 @@ class McqContainer extends StatefulWidget {
 
 class _McqContainerState extends State<McqContainer> {
   String? selectedOption;
+  int? selectedIndex;
+  bool? isSubmitted;
 
   @override
   Widget build(BuildContext context) {
@@ -66,10 +73,11 @@ class _McqContainerState extends State<McqContainer> {
                                 inlineSyntaxList: [LatexSyntax()],
                                 richTextBuilder: (span) => Text.rich(span),
                               ),
-                              // style: Theme.of(context).textTheme.headlineSmall,
                             ),
                             const SizedBox(height: 16),
-                            ...widget.options.map((option) {
+                            ...widget.options.asMap().entries.map((entry) {
+                              int index = entry.key;
+                              String option = entry.value;
                               return RadioListTile<String>(
                                 title: MarkdownBlock(
                                   data: option,
@@ -81,12 +89,15 @@ class _McqContainerState extends State<McqContainer> {
                                 ),
                                 value: option,
                                 groupValue: selectedOption,
-                                onChanged: (value) {
-                                  setState(() {
-                                    selectedOption = value;
-                                    widget.onOptionSelected(value!);
-                                  });
-                                },
+                                onChanged:
+                                    isSubmitted == null
+                                        ? (value) {
+                                          setState(() {
+                                            selectedOption = value;
+                                            selectedIndex = index;
+                                          });
+                                        }
+                                        : null,
                               );
                             }),
                             const SizedBox(height: 16),
@@ -94,13 +105,53 @@ class _McqContainerState extends State<McqContainer> {
                               onPressed:
                                   selectedOption != null
                                       ? () {
-                                        widget.onOptionSelected(
-                                          selectedOption!,
+                                        setState(() {
+                                          isSubmitted = true;
+                                        });
+                                        widget.onAnswerSubmitted(
+                                          selectedIndex!,
                                         );
                                       }
                                       : null,
                               child: const Text('Submit'),
                             ),
+                            if (isSubmitted != null) ...[
+                              const SizedBox(height: 16),
+                              Text(
+                                isSubmitted! &&
+                                        selectedIndex == widget.correctAnswer
+                                    ? 'Correct!'
+                                    : 'Incorrect. The correct answer is option ${widget.correctAnswer + 1}.',
+                                style: TextStyle(
+                                  color:
+                                      isSubmitted! &&
+                                              selectedIndex ==
+                                                  widget.correctAnswer
+                                          ? Colors.green
+                                          : Colors.red,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              const SizedBox(height: 8),
+                              Text(
+                                'Explanations:',
+                                style:
+                                    Theme.of(context).textTheme.headlineSmall,
+                              ),
+                              ...widget.explanations.mapIndexed((
+                                i,
+                                explanation,
+                              ) {
+                                return MarkdownBlock(
+                                  data: '${i + 1}. $explanation',
+                                  generator: MarkdownGenerator(
+                                    generators: [latexGenerator],
+                                    inlineSyntaxList: [LatexSyntax()],
+                                    richTextBuilder: (span) => Text.rich(span),
+                                  ),
+                                );
+                              }),
+                            ],
                           ],
                         ),
                       ),

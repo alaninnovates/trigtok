@@ -135,8 +135,33 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                               sessionElement['data']['answers']
                                   .map<String>((e) => e.toString())
                                   .toList(),
-                          onOptionSelected: (String selectedOption) {
-                            print('Selected option: $selectedOption');
+                          correctAnswer: int.parse(
+                            sessionElement['data']['correctAnswer'],
+                          ),
+                          explanations:
+                              sessionElement['data']['explanations']
+                                  .map<String>((e) => e.toString())
+                                  .toList(),
+                          onAnswerSubmitted: (int selectedOptionIndex) async {
+                            print(
+                              'Selected option index: $selectedOptionIndex',
+                            );
+                            print(
+                              'timeline id: ${sessionElement['timelineId']}',
+                            );
+                            await Supabase.instance.client
+                                .from('study_timelines')
+                                .update({
+                                  'data': {
+                                    'selectedAnswer': selectedOptionIndex,
+                                    'correct':
+                                        selectedOptionIndex ==
+                                        int.parse(
+                                          sessionElement['data']['correctAnswer'],
+                                        ),
+                                  },
+                                })
+                                .eq('id', sessionElement['timelineId']);
                           },
                         );
                       } else if (sessionElement['type'] == 'frq') {

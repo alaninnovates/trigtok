@@ -7,7 +7,7 @@ export enum QuestionType {
 }
 
 interface McqData {
-    selectedAnswer: string;
+    selectedAnswer: number;
     correct: boolean;
 }
 
