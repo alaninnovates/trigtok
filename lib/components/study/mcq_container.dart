@@ -12,6 +12,7 @@ class McqContainer extends StatefulWidget {
     required this.options,
     required this.correctAnswer,
     required this.explanations,
+    required this.selectedAnswer,
     required this.onAnswerSubmitted,
   });
 
@@ -20,6 +21,7 @@ class McqContainer extends StatefulWidget {
   final List<String> options;
   final int correctAnswer;
   final List<String> explanations;
+  final int? selectedAnswer;
   final ValueChanged<int> onAnswerSubmitted;
 
   @override
@@ -30,6 +32,17 @@ class _McqContainerState extends State<McqContainer> {
   String? selectedOption;
   int? selectedIndex;
   bool? isSubmitted;
+
+  @override
+  void initState() {
+    super.initState();
+    if (widget.selectedAnswer != null) {
+      print('Selected answer: ${widget.selectedAnswer}');
+      selectedOption = widget.options[widget.selectedAnswer!];
+      selectedIndex = widget.selectedAnswer;
+      isSubmitted = true;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {

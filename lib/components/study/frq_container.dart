@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:markdown_widget/markdown_widget.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/components/markdown/latex.dart';
 
 class FrqContainer extends StatefulWidget {
@@ -7,12 +8,14 @@ class FrqContainer extends StatefulWidget {
     super.key,
     required this.stimulus,
     required this.questions,
+    required this.rubric,
     required this.onAnswersSubmitted,
   });
 
   final String stimulus;
-  final List<String> questions;
-  final ValueChanged<List<String>> onAnswersSubmitted;
+  final List<Map<String, dynamic>> questions;
+  final List<String> rubric;
+  final ValueChanged<List<Map<String, dynamic>>> onAnswersSubmitted;
 
   @override
   State<FrqContainer> createState() => _FrqContainerState();
@@ -20,6 +23,8 @@ class FrqContainer extends StatefulWidget {
 
 class _FrqContainerState extends State<FrqContainer> {
   final List<TextEditingController> _controllers = [];
+  bool isGrading = false;
+  List<Map<String, dynamic>> aiResponses = [];
 
   @override
   void initState() {
@@ -45,10 +50,15 @@ class _FrqContainerState extends State<FrqContainer> {
           length: widget.questions.length + 1,
           child: Column(
             children: [
+              if (isGrading)
+                const LinearProgressIndicator(
+                  valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
+                ),
+              if (isGrading) const SizedBox(height: 8),
               TabBar(
                 tabs: [
                   Tab(text: 'Stimulus'),
-                  ...widget.questions.map((q) => Tab(text: q)),
+                  ...widget.questions.map((q) => Tab(text: q['text'])),
                 ],
               ),
               Expanded(
@@ -87,8 +97,25 @@ class _FrqContainerState extends State<FrqContainer> {
                         padding: const EdgeInsets.all(16),
                         child: Column(
                           children: [
+                            Container(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 8,
+                                vertical: 4,
+                              ),
+                              decoration: BoxDecoration(
+                                color: Colors.blueAccent,
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              child: Text(
+                                '${question['point_value']} points',
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
                             MarkdownBlock(
-                              data: question,
+                              data: question['text'],
                               generator: MarkdownGenerator(
                                 generators: [latexGenerator],
                                 inlineSyntaxList: [LatexSyntax()],
@@ -105,8 +132,27 @@ class _FrqContainerState extends State<FrqContainer> {
                                 ),
                               ),
                             ),
+                            if (aiResponses.isNotEmpty)
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  const SizedBox(height: 8),
+                                  Text(
+                                    'Grade: ${aiResponses[index]['points']} / ${question['point_value']}',
+                                    style: const TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.green,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 4),
+                                  Text(
+                                    'Feedback: ${aiResponses[index]['feedback']}',
+                                    style: const TextStyle(color: Colors.white),
+                                  ),
+                                ],
+                              ),
                             ElevatedButton(
-                              onPressed: () {
+                              onPressed: () async {
                                 if (index < widget.questions.length - 1) {
                                   DefaultTabController.of(
                                     context,
@@ -114,7 +160,48 @@ class _FrqContainerState extends State<FrqContainer> {
                                 } else {
                                   final answers =
                                       _controllers.map((c) => c.text).toList();
-                                  widget.onAnswersSubmitted(answers);
+                                  final combinedAnswers =
+                                      answers.asMap().entries.map((entry) {
+                                        final i = entry.key;
+                                        final answer = entry.value;
+                                        return {
+                                          'question':
+                                              widget.questions[i]['text'],
+                                          'answer': answer,
+                                          'point_value':
+                                              widget
+                                                  .questions[i]['point_value'],
+                                          'rubric': widget.rubric[i],
+                                        };
+                                      }).toList();
+                                  print('Submitting answers: $combinedAnswers');
+                                  setState(() {
+                                    isGrading = true;
+                                  });
+                                  var res = await Supabase
+                                      .instance
+                                      .client
+                                      .functions
+                                      .invoke(
+                                        'grade-frq',
+                                        body: {'answers': combinedAnswers},
+                                      );
+                                  if (res.status != 200) {
+                                    print(
+                                      'Error fetching session element: ${res.data}',
+                                    );
+                                    return;
+                                  }
+                                  final data =
+                                      (res.data as List<dynamic>)
+                                          .map((e) => e as Map<String, dynamic>)
+                                          .toList();
+                                  print('Grading response: $data');
+                                  setState(() {
+                                    isGrading = false;
+                                    aiResponses = data;
+                                  });
+                                  widget.onAnswersSubmitted(data);
                                 }
                               },
                               child: Text(

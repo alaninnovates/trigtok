@@ -12,10 +12,13 @@ interface McqData {
 }
 
 interface FrqData {
-    answer: string;
+    answers: {
+        text: string;
+        ai_feedback: string;
+        points: number;
+    }[];
     ai_grade: number;
     total_points_possible: number;
-    ai_feedback: string;
 }
 
 interface ExplanationData {}
@@ -56,18 +59,25 @@ export const getNextQuestionType = (
     const lastQuestion = timeline[0];
     console.log('last question', lastQuestion);
     const lastQuestionCorrect =
-        lastQuestion.data && lastQuestion.type === QuestionType.MultipleChoice
+        lastQuestion.data == null
+            ? false
+            : lastQuestion.type === QuestionType.MultipleChoice
             ? (lastQuestion.data as McqData).correct
             : lastQuestion.type === QuestionType.FreeResponse
-            ? (lastQuestion.data as FrqData).ai_grade >=
-              Math.floor(
-                  ((lastQuestion.data as FrqData).total_points_possible / 3) *
-                      2,
-              )
+            ? (lastQuestion.data as FrqData).ai_grade /
+                  (lastQuestion.data as FrqData).total_points_possible >=
+              0.5
             : false;
 
     if (!lastQuestionCorrect) {
         return lastQuestion.type;
+    }
+
+    if (
+        lastQuestion.type === QuestionType.FreeResponse &&
+        lastQuestionCorrect
+    ) {
+        return QuestionType.Explanation;
     }
 
     const mcqToFrqRatio = 4 / 1;

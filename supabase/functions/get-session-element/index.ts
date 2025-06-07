@@ -49,54 +49,10 @@ Deno.serve(async (req) => {
     }
     console.log('userSessionId', userSessionId);
 
-    const timelineId = await redis.get(
+    const retData = await redis.get(
         `scroll_session:${scrollSessionId}:${index}`,
     );
-    if (timelineId) {
-        const { data, error } = await client
-            .from('study_timelines')
-            .select(
-                'units(name, classes(name)), topic, type, data, bookmark, explanations(transcript, audio_url), multiple_choice_questions(stimulus, question, answers, correct_answer, explanations)',
-            )
-            .eq('id', timelineId)
-            .limit(1)
-            .single();
-        if (error) {
-            console.error(
-                'Error fetching timeline entry:',
-                error,
-                'timelineId:',
-                timelineId,
-            );
-            return new Response('Internal Server Error', {
-                headers: corsHeaders,
-                status: 500,
-            });
-        }
-        let retData;
-        switch (data.type) {
-            case QuestionType.Explanation: {
-                retData = {
-                    type: data.type,
-                    timelineId: timelineId,
-                    unitName: data.units.name,
-                    className: data.units.classes.name,
-                    topic: data.topic,
-                    bookmark: data.bookmark,
-                    data: {
-                        transcript: data.explanations.transcript,
-                        audioUrl: data.explanations.audio_url,
-                    },
-                };
-                break;
-            }
-            case QuestionType.MultipleChoice: {
-                break;
-            }
-            case QuestionType.FreeResponse: {
-                break;
-            }
-        }
+    if (retData) {
         return new Response(JSON.stringify(retData), {
             status: 200,
             headers: { ...corsHeaders, 'Content-Type': 'application/json' },
@@ -135,7 +91,7 @@ Deno.serve(async (req) => {
         });
     }
 
-    const nextQuestionType = getNextQuestionType(
+    let nextQuestionType = getNextQuestionType(
         timeline?.map((entry) => ({
             topic: entry.topics.topic,
             type: entry.type,
@@ -166,48 +122,41 @@ Deno.serve(async (req) => {
         }
         return { unitId, topic };
     };
-
-    switch (nextQuestionType) {
-        case QuestionType.Explanation: {
-            const { unitId, topic } = getNextTopic();
-            const explanation = await getExplanationFor(unitId, topic);
-            const { data: inserted, error } = await client
-                .from('study_timelines')
-                .insert({
-                    profile_id: user.id,
-                    unit_id: unitId,
-                    topic_id: topic.id,
-                    type: QuestionType.Explanation,
-                    session_id: userSessionId,
-                    explanation_id: explanation.id,
-                })
-                .select('id')
-                .single();
-            if (!inserted || error) {
-                console.error(
-                    'Failed to insert explanation into timeline',
-                    error,
+    const getResponse = async () => {
+        switch (nextQuestionType) {
+            case QuestionType.Explanation: {
+                const { unitId, topic } = getNextTopic();
+                const explanation = await getExplanationFor(unitId, topic);
+                console.log('got explanation', explanation);
+                const { data: inserted, error } = await client
+                    .from('study_timelines')
+                    .insert({
+                        profile_id: user.id,
+                        unit_id: unitId,
+                        topic_id: topic.id,
+                        type: QuestionType.Explanation,
+                        session_id: userSessionId,
+                        explanation_id: explanation.id,
+                    })
+                    .select('id')
+                    .single();
+                if (!inserted || error) {
+                    console.error(
+                        'Failed to insert explanation into timeline',
+                        error,
+                    );
+                    return new Response('Internal Server Error', {
+                        headers: corsHeaders,
+                        status: 500,
+                    });
+                }
+                console.log(
+                    'Inserted explanation into timeline:',
+                    inserted,
+                    'for topic:',
+                    topic,
                 );
-                return new Response('Internal Server Error', {
-                    headers: corsHeaders,
-                    status: 500,
-                });
-            }
-            console.log(
-                'Inserted explanation into timeline:',
-                inserted,
-                'for topic:',
-                topic,
-            );
-            await redis.set(
-                `scroll_session:${scrollSessionId}:${index}`,
-                inserted.id,
-                {
-                    ex: 2 * 60 * 60,
-                },
-            );
-            return new Response(
-                JSON.stringify({
+                const resp = {
                     type: QuestionType.Explanation,
                     timelineId: inserted?.id,
                     unitName: sessionMetadata.unit_name,
@@ -218,89 +167,88 @@ Deno.serve(async (req) => {
                         transcript: explanation.transcript,
                         audioUrl: explanation.audioUrl,
                     },
-                }),
-                {
+                };
+                await redis.set(
+                    `scroll_session:${scrollSessionId}:${index}`,
+                    resp,
+                    {
+                        ex: 2 * 60 * 60,
+                    },
+                );
+                return new Response(JSON.stringify(resp), {
                     status: 200,
                     headers: {
                         ...corsHeaders,
                         'Content-Type': 'application/json',
                     },
-                },
-            );
-        }
-        case QuestionType.MultipleChoice: {
-            const { unitId, topic } = getNextTopic();
-            const questionsAnswered = timeline
-                .filter((entry) => entry.type === QuestionType.MultipleChoice)
-                .filter((entry) => entry.topics.id === topic.id)
-                .map((entry) => entry.question_id);
-            const { data: question, error: mcqError } = await client
-                .from('multiple_choice_questions')
-                .select(
-                    'id, stimulus, question, answers, correct_answer, explanations',
-                )
-                .eq('unit_id', unitId)
-                .eq('topic', topic.id)
-                .not('id', 'in', `(${questionsAnswered.join(',')})`)
-                .limit(1)
-                .single();
-            if (!question) {
-                console.error(
-                    'No more questions available for this topic',
-                    topic,
-                    'Seen questions:',
-                    questionsAnswered,
-                    'Unit ID:',
-                    unitId,
-                );
-                if (mcqError) {
-                    console.error(
-                        'Error fetching multiple choice question:',
-                        mcqError,
-                    );
-                }
-                return new Response(
-                    'No more questions available for this topic',
-                    { headers: corsHeaders, status: 404 },
-                );
-            }
-            const { data: inserted } = await client
-                .from('study_timelines')
-                .insert({
-                    profile_id: user.id,
-                    unit_id: unitId,
-                    topic_id: topic.id,
-                    type: QuestionType.MultipleChoice,
-                    session_id: userSessionId,
-                    question_id: question.id,
-                })
-                .select('id')
-                .single();
-            if (!inserted) {
-                console.error(
-                    'Failed to insert multiple choice question into timeline',
-                    question,
-                );
-                return new Response('Internal Server Error', {
-                    headers: corsHeaders,
-                    status: 500,
                 });
             }
-            console.log(
-                'Inserted multiple choice question into timeline:',
-                inserted,
-                'for topic:',
-                topic,
-            );
-            await redis.set(
-                `scroll_session:${scrollSessionId}:${index}`,
-                inserted.id,
-                {
-                    ex: 60 * 60, // 1 hour
-                },
-            );
-            return new Response(
-                JSON.stringify({
+            case QuestionType.MultipleChoice: {
+                const { unitId, topic } = getNextTopic();
+                const questionsAnswered = timeline
+                    .filter(
+                        (entry) => entry.type === QuestionType.MultipleChoice,
+                    )
+                    .filter((entry) => entry.topics.id === topic.id)
+                    .map((entry) => entry.question_id);
+                const { data: question, error: mcqError } = await client
+                    .from('multiple_choice_questions')
+                    .select(
+                        'id, stimulus, question, answers, correct_answer, explanations',
+                    )
+                    .eq('unit_id', unitId)
+                    .eq('topic', topic.id)
+                    .not('id', 'in', `(${questionsAnswered.join(',')})`)
+                    .limit(1)
+                    .single();
+                if (!question) {
+                    console.error(
+                        'No more questions available for this topic',
+                        topic,
+                        'Seen questions:',
+                        questionsAnswered,
+                        'Unit ID:',
+                        unitId,
+                    );
+                    if (mcqError) {
+                        console.error(
+                            'Error fetching multiple choice question:',
+                            mcqError,
+                        );
+                    }
+                    // continue on to FRQ
+                    nextQuestionType = QuestionType.FreeResponse;
+                    return getResponse();
+                }
+                const { data: inserted } = await client
+                    .from('study_timelines')
+                    .insert({
+                        profile_id: user.id,
+                        unit_id: unitId,
+                        topic_id: topic.id,
+                        type: QuestionType.MultipleChoice,
+                        session_id: userSessionId,
+                        question_id: question.id,
+                    })
+                    .select('id')
+                    .single();
+                if (!inserted) {
+                    console.error(
+                        'Failed to insert multiple choice question into timeline',
+                        question,
+                    );
+                    return new Response('Internal Server Error', {
+                        headers: corsHeaders,
+                        status: 500,
+                    });
+                }
+                console.log(
+                    'Inserted multiple choice question into timeline:',
+                    inserted,
+                    'for topic:',
+                    topic,
+                );
+                const resp = {
                     type: QuestionType.MultipleChoice,
                     timelineId: inserted?.id,
                     unitName: sessionMetadata.unit_name,
@@ -314,87 +262,85 @@ Deno.serve(async (req) => {
                         correctAnswer: question.correct_answer,
                         explanations: question.explanations,
                     },
-                }),
-                {
+                };
+                await redis.set(
+                    `scroll_session:${scrollSessionId}:${index}`,
+                    resp,
+                    {
+                        ex: 60 * 60, // 1 hour
+                    },
+                );
+                return new Response(JSON.stringify(resp), {
                     status: 200,
                     headers: {
                         ...corsHeaders,
                         'Content-Type': 'application/json',
                     },
-                },
-            );
-        }
-        case QuestionType.FreeResponse: {
-            const { unitId, topic } = getNextTopic();
-            const questionsAnswered = timeline
-                .filter((entry) => entry.type === QuestionType.FreeResponse)
-                .filter((entry) => entry.topics.id === topic.id)
-                .map((entry) => entry.question_id);
-            const { data: question, error: frqError } = await client
-                .from('free_response_questions')
-                .select('id, stimulus, questions, rubric, samples')
-                .eq('unit_id', unitId)
-                .eq('topic', topic.id)
-                .not('id', 'in', `(${questionsAnswered.join(',')})`)
-                .limit(1)
-                .single();
-            if (!question) {
-                console.error(
-                    'No more questions available for this topic',
-                    topic,
-                    'Seen questions:',
-                    questionsAnswered,
-                    'Unit ID:',
-                    unitId,
-                );
-                if (frqError) {
-                    console.error(
-                        'Error fetching free response question:',
-                        frqError,
-                    );
-                }
-                return new Response(
-                    'No more questions available for this topic',
-                    { headers: corsHeaders, status: 404 },
-                );
-            }
-            const { data: inserted } = await client
-                .from('study_timelines')
-                .insert({
-                    profile_id: user.id,
-                    unit_id: unitId,
-                    topic_id: topic.id,
-                    type: QuestionType.FreeResponse,
-                    session_id: userSessionId,
-                    question_id: question.id,
-                })
-                .select('id')
-                .single();
-            if (!inserted) {
-                console.error(
-                    'Failed to insert free response question into timeline',
-                    question,
-                );
-                return new Response('Internal Server Error', {
-                    headers: corsHeaders,
-                    status: 500,
                 });
             }
-            console.log(
-                'Inserted free response question into timeline:',
-                inserted,
-                'for topic:',
-                topic,
-            );
-            await redis.set(
-                `scroll_session:${scrollSessionId}:${index}`,
-                inserted.id,
-                {
-                    ex: 60 * 60, // 1 hour
-                },
-            );
-            return new Response(
-                JSON.stringify({
+            case QuestionType.FreeResponse: {
+                const { unitId, topic } = getNextTopic();
+                const questionsAnswered = timeline
+                    .filter((entry) => entry.type === QuestionType.FreeResponse)
+                    .filter((entry) => entry.topics.id === topic.id)
+                    .map((entry) => entry.question_id);
+                const { data: question, error: frqError } = await client
+                    .from('free_response_questions')
+                    .select('id, stimulus, questions, rubric')
+                    .eq('unit_id', unitId)
+                    .eq('topic', topic.id)
+                    .not('id', 'in', `(${questionsAnswered.join(',')})`)
+                    .limit(1)
+                    .single();
+                if (!question) {
+                    console.error(
+                        'No more questions available for this topic',
+                        topic,
+                        'Seen questions:',
+                        questionsAnswered,
+                        'Unit ID:',
+                        unitId,
+                    );
+                    if (frqError) {
+                        console.error(
+                            'Error fetching free response question:',
+                            frqError,
+                        );
+                    }
+                    return new Response(
+                        'No more questions available for this topic',
+                        { headers: corsHeaders, status: 404 },
+                    );
+                }
+                const { data: inserted } = await client
+                    .from('study_timelines')
+                    .insert({
+                        profile_id: user.id,
+                        unit_id: unitId,
+                        topic_id: topic.id,
+                        type: QuestionType.FreeResponse,
+                        session_id: userSessionId,
+                        question_id: question.id,
+                    })
+                    .select('id')
+                    .single();
+                if (!inserted) {
+                    console.error(
+                        'Failed to insert free response question into timeline',
+                        question,
+                    );
+                    return new Response('Internal Server Error', {
+                        headers: corsHeaders,
+                        status: 500,
+                    });
+                }
+                console.log(
+                    'Inserted free response question into timeline:',
+                    inserted,
+                    'for topic:',
+                    topic,
+                );
+                const resp = {
                     type: QuestionType.FreeResponse,
                     timelineId: inserted?.id,
                     unitName: sessionMetadata.unit_name,
@@ -405,17 +351,34 @@ Deno.serve(async (req) => {
                         stimulus: question.stimulus,
                         questions: question.questions,
                         rubric: question.rubric,
-                        samples: question.samples,
                     },
-                }),
-                {
+                };
+                await redis.set(
+                    `scroll_session:${scrollSessionId}:${index}`,
+                    resp,
+                    {
+                        ex: 60 * 60, // 1 hour
+                    },
+                );
+                return new Response(JSON.stringify(resp), {
                     status: 200,
                     headers: {
                         ...corsHeaders,
                         'Content-Type': 'application/json',
                     },
-                },
-            );
+                });
+            }
         }
+    };
+
+    try {
+        const response = await getResponse();
+        return response;
+    } catch (error) {
+        console.error('Error processing request:', error);
+        return new Response('Internal Server Error', {
+            headers: corsHeaders,
+            status: 500,
+        });
     }
 });

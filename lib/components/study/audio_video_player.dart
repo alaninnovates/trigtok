@@ -33,14 +33,14 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
     print('init state for index ${widget.index}');
     _studyStateModel = Provider.of<StudyStateModel>(context, listen: false);
     _studyStateModel.addListener(_studyStateListener);
-    // _videoController = VideoPlayerController.networkUrl(
-    //     Uri.parse(
-    //       '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}.mp4',
-    //     ),
-    //   )
-    _videoController = VideoPlayerController.asset(
-        'brainrot_generator/videos/minecraft_${widget.index % 10 + 1}.mp4',
+    _videoController = VideoPlayerController.networkUrl(
+        Uri.parse(
+          '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}.mp4',
+        ),
       )
+      // _videoController = VideoPlayerController.asset(
+      //     'brainrot_generator/videos/minecraft_${widget.index % 10 + 1}.mp4',
+      //   )
       ..initialize().then((_) {
         setState(() {});
         if (widget.index == 0) {
@@ -119,7 +119,9 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
             : Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
+                Spacer(),
                 Flexible(
+                  flex: 8,
                   child: Builder(
                     builder: (context) {
                       print('builder!');
@@ -142,6 +144,12 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                               sessionElement['data']['explanations']
                                   .map<String>((e) => e.toString())
                                   .toList(),
+                          selectedAnswer:
+                              sessionElement['data']['data'] != null
+                                  ? int.parse(
+                                    sessionElement['data']['data']['selectedAnswer'],
+                                  )
+                                  : null,
                           onAnswerSubmitted: (int selectedOptionIndex) async {
                             print(
                               'Selected option index: $selectedOptionIndex',
@@ -168,11 +176,43 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                         return FrqContainer(
                           stimulus: sessionElement['data']['stimulus'],
                           questions:
-                              sessionElement['data']['questions']
+                              (sessionElement['data']['questions'] as List)
+                                  .cast<Map<String, dynamic>>(),
+                          rubric:
+                              sessionElement['data']['rubric']
                                   .map<String>((e) => e.toString())
                                   .toList(),
-                          onAnswersSubmitted: (List<String> answers) {
-                            print('Submitted answers: $answers');
+                          onAnswersSubmitted: (
+                            List<Map<String, dynamic>> answers,
+                          ) async {
+                            print('Answers submitted: $answers');
+                            print(
+                              'timeline id: ${sessionElement['timelineId']}',
+                            );
+                            int aiGrade = answers.fold<int>(
+                              0,
+                              (int sum, answer) =>
+                                  sum + ((answer['points'] ?? 0) as int),
+                            );
+                            print('AI grade: $aiGrade');
+                            int totalPoints =
+                                sessionElement['data']['questions'].fold<int>(
+                                  0,
+                                  (int sum, question) =>
+                                      sum +
+                                      ((question['point_value'] ?? 0) as int),
+                                );
+                            print('total points: $totalPoints');
+                            await Supabase.instance.client
+                                .from('study_timelines')
+                                .update({
+                                  'data': {
+                                    'answers': answers,
+                                    'ai_grade': aiGrade,
+                                    'total_points_possible': totalPoints,
+                                  },
+                                })
+                                .eq('id', sessionElement['timelineId']);
                           },
                         );
                       } else if (sessionElement['type'] == 'explanation') {
@@ -198,6 +238,7 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                     },
                   ),
                 ),
+                Spacer(),
               ],
             ),
       ],

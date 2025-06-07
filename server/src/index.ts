@@ -8,7 +8,7 @@ config();
 import { parseTranscript } from './transcript.js';
 import { generateAudioAndSubtitles } from './tts.js';
 import { Database } from './db.js';
-import { getExplanation } from './gemini.js';
+import { getExplanation, gradeResponses } from './gemini.js';
 
 const fastify = Fastify({
     logger: {
@@ -107,6 +107,51 @@ fastify.get(
                 .status(500)
                 .send({ error: 'Failed to store explanation' });
         }
+        return data;
+    },
+);
+
+const gradeSchema = S.object().prop(
+    'answers',
+    S.array().items(
+        S.object()
+            .prop('question', S.string())
+            .prop('answer', S.string())
+            .prop('point_value', S.number())
+            .prop('rubric', S.string()),
+    ),
+);
+
+fastify.post(
+    '/grade',
+    {
+        schema: {
+            body: gradeSchema,
+        },
+    },
+    async (req, res) => {
+        const authHeader = req.headers.authorization;
+        if (
+            !authHeader ||
+            !authHeader.startsWith('Bearer ') ||
+            authHeader !== `Bearer ${process.env.API_KEY}`
+        ) {
+            return res.status(401).send({ error: 'Unauthorized' });
+        }
+        const { answers } = req.body as {
+            answers: {
+                question: string;
+                answer: string;
+                point_value: number;
+                rubric: string;
+            }[];
+        };
+        if (!answers || !Array.isArray(answers)) {
+            return res
+                .status(400)
+                .send({ error: 'Bad Request: Invalid answers' });
+        }
+        const data = await gradeResponses(answers);
         return data;
     },
 );
