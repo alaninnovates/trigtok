@@ -19,21 +19,21 @@ Some screenshots!
 <table>
     <tr>
         <td>
-            <img src="github-assets/home.png" alt="Home Page">
+            <img src="github-assets/home.png" alt="Home Page" width="300">
             <p>Home page</p>
         </td>
         <td>
-            <img src="github-assets/create.jpeg" alt="Create Page">
+            <img src="github-assets/create.png" alt="Create Page" width="300">
             <p>New Session Page</p>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="github-assets/free_response.jpeg" alt="Free Response Prompt">
+            <img src="github-assets/free_response.png" alt="Free Response Prompt" width="300">
             <p>Free Response Prompt</p>
         </td>
         <td>
-            <img src="github-assets/multiple_choice.jpeg" alt="Multiple Choice Question">
+            <img src="github-assets/multiple_choice.png" alt="Multiple Choice Question" width="300">
             <p>Multiple Choice Question</p>
         </td>
     </tr>
