@@ -36,6 +36,10 @@ Some screenshots!
             <img src="github-assets/multiple_choice.png" alt="Multiple Choice Question" width="300">
             <p>Multiple Choice Question</p>
         </td>
+        <td>
+            <img src="github-assets/explanation.png" alt="Explanation" width="300">
+            <p>Explanation</p>
+        </td>
     </tr>
 </table>
 
