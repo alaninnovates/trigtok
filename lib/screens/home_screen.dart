@@ -16,7 +16,12 @@ class _HomeScreenState extends State<HomeScreen> {
   final _future = Supabase.instance.client
       .from('user_sessions')
       .select(
-        'id, classes(id, name), profiles(study_timelines(units(class_id, name), created_at))',
+        'id, classes(id, name), profiles(study_timelines(topics(topic), created_at))',
+      )
+      .order(
+        'created_at',
+        ascending: false,
+        referencedTable: 'profiles.study_timelines',
       );
 
   @override
@@ -36,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 future: _future,
                 builder: (context, snapshot) {
                   if (snapshot.hasError) {
-                    log(snapshot.error.toString());
+                    print(snapshot.error.toString());
                     return Center(child: const Text('Error loading sessions'));
                   }
                   if (!snapshot.hasData) {
@@ -64,11 +69,15 @@ class _HomeScreenState extends State<HomeScreen> {
                     itemCount: sessions.length,
                     itemBuilder: (context, index) {
                       final sessionsItem = sessions[index];
-                      // todo: Add logic to determine the last unit studied
+                      String lastTopic =
+                          sessionsItem['profiles']['study_timelines'].isNotEmpty
+                              ? sessionsItem['profiles']['study_timelines'][0]['topics']['topic']
+                              : 'Unknown';
+
                       return Card(
                         child: ListTile(
                           title: Text(sessionsItem['classes']['name']),
-                          subtitle: Text('Left off on: Unknown'),
+                          subtitle: Text('Left off on: $lastTopic'),
                           onTap: () {
                             GoRouter.of(
                               context,
