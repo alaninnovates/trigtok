@@ -107,6 +107,11 @@ fastify.get(
                 .status(500)
                 .send({ error: 'Failed to store explanation' });
         }
+        req.log.info(
+            `Stored explanation for unit ${unitId}, topic id ${topicId}, data: ${JSON.stringify(
+                data,
+            )}`,
+        );
         return data;
     },
 );

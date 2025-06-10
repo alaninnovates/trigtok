@@ -79,7 +79,8 @@ export class Database {
                 transcript: transcript,
                 audio_url: audioUrl,
             })
-            .select();
+            .select('*')
+            .single();
 
         if (error) {
             return {
