@@ -1,2 +1,6 @@
 .venv
 .env
+generated
+generated_new
+generated_uploaded
+ap_euro_mcqs
