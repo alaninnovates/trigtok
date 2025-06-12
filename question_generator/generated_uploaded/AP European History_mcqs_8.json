@@ -1,0 +1,610 @@
+[
+  {
+    "stimulus": "\u201cThe war to end all wars.\u201d",
+    "question": "This quote, popularized during World War I, reflects which prevailing sentiment?",
+    "answers": [
+      "A widespread belief that technological advancements in warfare would prevent future conflicts.",
+      "A desire among imperial powers to expand their colonial empires through military conquest.",
+      "A hope that the scale of devastation would deter nations from engaging in large-scale wars again.",
+      "A growing disillusionment with nationalism and militarism as causes of international tensions."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While technology played a role, the quote reflects a hope for peace, not a reliance on technology.",
+      "Incorrect. The quote is about ending war, not promoting imperialism.",
+      "Correct. The quote captures the widespread hope that the unprecedented destruction of WWI would prevent future wars.",
+      "Incorrect. While some disillusionment existed, the primary sentiment was hope for lasting peace."
+    ],
+    "topic": "World War I",
+    "unit": 8
+  },
+  {
+    "stimulus": "\u201cPeace without victory.\u201d",
+    "question": "This phrase, used by Woodrow Wilson, encapsulates which of his goals for the Versailles Conference?",
+    "answers": [
+      "To ensure Germany was severely punished for its role in World War I.",
+      "To establish a system of collective security that would prevent future wars.",
+      "To promote national self-determination and the creation of new independent states.",
+      "To achieve a just and lasting peace that did not humiliate or cripple Germany."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Wilson opposed harsh punishments for Germany.",
+      "Incorrect. While Wilson advocated for the League of Nations, the quote relates to the treatment of Germany.",
+      "Incorrect. While Wilson supported self-determination, the quote specifically addresses avoiding a punitive peace.",
+      "Correct. Wilson believed that a lenient peace was necessary to prevent future resentment and conflict."
+    ],
+    "topic": "Versailles Conference and Peace Settlement",
+    "unit": 8
+  },
+  {
+    "stimulus": "\u201cFrom Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent.\u201d",
+    "question": "This quote from Winston Churchill in 1946 is referring to:",
+    "answers": [
+      "The economic recovery and integration of Western Europe after World War II.",
+      "The growing influence of the Soviet Union and the division of Europe into Eastern and Western blocs.",
+      "The rise of nationalist movements in Eastern Europe seeking independence from Soviet control.",
+      "The formation of the European Union and the establishment of a common market."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The quote describes a division, not integration.",
+      "Correct. Churchill's phrase symbolized the ideological and physical division of Europe by the Soviet Union.",
+      "Incorrect. The quote refers to the imposition of Soviet control, not resistance to it.",
+      "Incorrect. The EU formed later and the quote describes division, not unity."
+    ],
+    "topic": "Continuity and Changes in an Age of Global Conflict",
+    "unit": 8
+  },
+  {
+    "stimulus": "\u201cThe proletarians have nothing to lose but their chains. They have a world to win. Workers of all countries, unite!\u201d",
+    "question": "This quote, from The Communist Manifesto, reflects which core belief of Marxism?",
+    "answers": [
+      "The necessity of violent revolution to overthrow capitalism and establish a communist society.",
+      "The importance of private property and free markets in promoting economic growth and individual liberty.",
+      "The need for gradual reform and compromise to address social inequalities within a capitalist system.",
+      "The belief in the inherent equality of all individuals and the rejection of social hierarchies."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. This quote is a call to action for workers to revolt against capitalist oppression.",
+      "Incorrect. This is the opposite of Marxist beliefs, which advocate for the abolition of private property.",
+      "Incorrect. Marxism rejects gradual reform in favor of revolutionary change.",
+      "Incorrect. While Marxists advocate for equality, the quote specifically focuses on class struggle."
+    ],
+    "topic": "The Russian Revolution and Its Effects",
+    "unit": 8
+  },
+  {
+    "stimulus": "\u201cA riddle wrapped in a mystery inside an enigma.\u201d",
+    "question": "This phrase, used by Winston Churchill to describe Russia, reflects which Western perception of the country?",
+    "answers": [
+      "Russia's vast natural resources and economic potential.",
+      "Russia's complex and often unpredictable political system.",
+      "Russia's strong military power and expansionist ambitions.",
+      "Russia's rich cultural heritage and artistic achievements."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The quote focuses on the inscrutability of Russia, not its resources.",
+      "Correct. Churchill's quote suggests that Russia is difficult to understand and predict.",
+      "Incorrect. While Russia was powerful, the quote refers to its mysterious nature.",
+      "Incorrect. The quote doesn't address Russia's cultural achievements."
+    ],
+    "topic": "The Russian Revolution and Its Effects",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Kellogg-Briand Pact (1928)",
+    "question": "Which of the following describes the purpose of this agreement?",
+    "answers": [
+      "To establish a military alliance between the United States and Great Britain.",
+      "To outlaw war as an instrument of national policy.",
+      "To promote free trade and reduce tariffs among European nations.",
+      "To create a system of international arbitration to resolve disputes between countries."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The pact was not a military alliance.",
+      "Correct. The Kellogg-Briand Pact renounced war as a tool of foreign policy.",
+      "Incorrect. It did not focus on economic policy.",
+      "Incorrect. It outlawed war altogether, not creating a system to make it better."
+    ],
+    "topic": "Europe During the Interwar Period",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Dawes Plan (1924)",
+    "question": "What was the primary goal of the Dawes Plan?",
+    "answers": [
+      "To provide financial assistance to Great Britain to help it rebuild its navy.",
+      "To stabilize the German economy and enable it to pay reparations.",
+      "To promote international cooperation in the development of renewable energy sources.",
+      "To establish a common currency for all European countries."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Dawes Plan focused on Germany, not Britain.",
+      "Correct. The plan aimed to restructure German reparations payments and stabilize its economy.",
+      "Incorrect. The plan did not focus on renewable energy.",
+      "Incorrect. The Euro came much later."
+    ],
+    "topic": "Global Economic Crisis",
+    "unit": 8
+  },
+  {
+    "stimulus": "\u201cThe state is absolute before individuals and groups. Everything within the state, nothing outside the state, nothing against the state.\u201d",
+    "question": "This quote reflects the core principle of:",
+    "answers": [
+      "Liberalism",
+      "Communism",
+      "Fascism",
+      "Socialism"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Liberalism emphasizes individual rights and limited government.",
+      "Incorrect. Communism prioritizes the collective (class) over the individual, but not necessarily the state.",
+      "Correct. Fascism exalts the state above all else.",
+      "Incorrect. Socialism emphasizes social ownership and economic equality, but not necessarily state power."
+    ],
+    "topic": "Fascism and Totalitarianism",
+    "unit": 8
+  },
+  {
+    "stimulus": "Kristallnacht (Night of Broken Glass)",
+    "question": "What was the significance of Kristallnacht?",
+    "answers": [
+      "It marked the beginning of the systematic extermination of Jews in Nazi concentration camps.",
+      "It was a government program to help Jewish people.",
+      "It was a wave of coordinated attacks against Jewish people, businesses, and synagogues.",
+      "It was a public apology by the Nazi regime for its past treatment of Jewish people."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While it foreshadowed the Holocaust, it was not the start of systematic extermination.",
+      "Incorrect. Kristallnacht was a violent attack, not an act of assistance.",
+      "Correct. Kristallnacht was a state-sponsored pogrom against Jewish people.",
+      "Incorrect. It was a violent attack, not an apology."
+    ],
+    "topic": "The Holocaust",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Nuremberg Laws (1935)",
+    "question": "What was the purpose of the Nuremberg Laws?",
+    "answers": [
+      "To restore full citizenship rights to Jewish people in Germany.",
+      "To promote religious tolerance and protect the rights of minority groups.",
+      "To strip Jewish people of their German citizenship and civil rights.",
+      "To encourage Jewish emigration from Germany to Palestine."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Nuremberg Laws were discriminatory, not restorative.",
+      "Incorrect. The laws promoted discrimination, not tolerance.",
+      "Correct. The Nuremberg Laws were a key step in the persecution of Jewish people.",
+      "Incorrect. While some Jewish people did emigrate, the laws primarily focused on stripping rights."
+    ],
+    "topic": "The Holocaust",
+    "unit": 8
+  },
+  {
+    "stimulus": "Existentialism",
+    "question": "Which of the following is a core tenet of existentialism?",
+    "answers": [
+      "God created the world and predetermined the fate of humanity.",
+      "Human beings are born with innate moral values and a sense of purpose.",
+      "Individuals are free to define their own meaning and purpose in life.",
+      "Society should be organized according to rational principles and scientific laws."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Existentialism rejects the idea of a pre-determined fate.",
+      "Incorrect. Existentialism believes that humans have to create their own moral code.",
+      "Correct. Existentialism emphasizes individual freedom and responsibility in creating meaning.",
+      "Incorrect. Existentialism questions the ability of science to give meaning to life."
+    ],
+    "topic": "20th-Century Cultural, Intellectual, and Artistic Developments",
+    "unit": 8
+  },
+  {
+    "stimulus": "Abstract Expressionism",
+    "question": "Which of the following best describes abstract expressionism?",
+    "answers": [
+      "A movement that sought to depict the world in a realistic and objective manner.",
+      "A style of art that emphasized geometric shapes and clean lines.",
+      "A movement characterized by non-representational art that expressed emotions and ideas.",
+      "A type of art that mocked high society."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Abstract Expressionism rejected realism.",
+      "Incorrect. Geometric shapes are more representative of movements like Cubism.",
+      "Correct. Abstract Expressionism focused on expressing inner feelings through non-representational forms.",
+      "Incorrect. Abstract Expressionism did not mock high society."
+    ],
+    "topic": "20th-Century Cultural, Intellectual, and Artistic Developments",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Great Depression",
+    "question": "What was a major cause of the global economic crisis of the 1930s?",
+    "answers": [
+      "Increased government regulation of financial markets.",
+      "The overproduction of goods and a decline in consumer demand.",
+      "A surge in international trade and investment.",
+      "The expansion of social welfare programs and increased government spending."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Lack of regulation was more of a cause than government regulation.",
+      "Correct. Overproduction and declining demand led to widespread economic hardship.",
+      "Incorrect. International trade decreased.",
+      "Incorrect. Increased government spending was a response to the depression, not a cause."
+    ],
+    "topic": "Global Economic Crisis",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Treaty of Versailles",
+    "question": "Which of the following was a consequence of the Treaty of Versailles?",
+    "answers": [
+      "The creation of a unified European government.",
+      "The establishment of a lasting peace and stability in Europe.",
+      "The rise of nationalist resentment in Germany due to harsh reparations and territorial losses.",
+      "The strengthening of democratic institutions throughout Europe."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The treaty did not lead to a unified government.",
+      "Incorrect. The treaty's harsh terms contributed to instability.",
+      "Correct. The treaty's punitive measures fueled resentment and nationalism in Germany.",
+      "Incorrect. The treaty weakened some democratic institutions through instability."
+    ],
+    "topic": "Versailles Conference and Peace Settlement",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Spanish Civil War",
+    "question": "Which of the following was a major cause of the Spanish Civil War (1936-1939)?",
+    "answers": [
+      "Religious differences between Catholics and Protestants.",
+      "The assassination of Archduke Franz Ferdinand.",
+      "Political and social divisions between Republicans and Nationalists.",
+      "Economic competition between Spain and its European neighbors."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While religion played a role, it was not the primary division.",
+      "Incorrect. This event triggered World War I, not the Spanish Civil War.",
+      "Correct. The war was fought between the left-leaning Republicans and the right-wing Nationalists.",
+      "Incorrect. Economic factors were secondary to political and social divisions."
+    ],
+    "topic": "Europe During the Interwar Period",
+    "unit": 8
+  },
+  {
+    "stimulus": "Benito Mussolini",
+    "question": "What was a key characteristic of Mussolini's fascist regime in Italy?",
+    "answers": [
+      "The protection of individual rights and freedoms.",
+      "The promotion of democratic elections and representative government.",
+      "The suppression of dissent and the glorification of the state.",
+      "The implementation of socialist policies and the redistribution of wealth."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Fascism suppressed individual rights.",
+      "Incorrect. Fascism rejected democracy.",
+      "Correct. Mussolini's regime was characterized by authoritarianism and state control.",
+      "Incorrect. Fascism opposed socialism."
+    ],
+    "topic": "Fascism and Totalitarianism",
+    "unit": 8
+  },
+  {
+    "stimulus": "Appeasement",
+    "question": "Which of the following best describes the policy of appeasement adopted by Britain and France towards Nazi Germany in the 1930s?",
+    "answers": [
+      "A policy of aggressive military intervention to contain German expansion.",
+      "A policy of economic sanctions to weaken the German economy.",
+      "A policy of making concessions to Hitler in the hope of avoiding war.",
+      "A policy of forming a military alliance with the Soviet Union to deter German aggression."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Appeasement involved avoiding military intervention.",
+      "Incorrect. Economic sanctions were not the primary focus.",
+      "Correct. Appeasement involved giving in to Hitler's demands to prevent war.",
+      "Incorrect. An alliance with the Soviet Union was considered later, after appeasement failed."
+    ],
+    "topic": "World War II",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Battle of Stalingrad",
+    "question": "What was the significance of the Battle of Stalingrad (1942-1943)?",
+    "answers": [
+      "It was the first major Allied victory against Nazi Germany.",
+      "It marked a turning point on the Eastern Front and the beginning of the Soviet offensive.",
+      "It led to the immediate surrender of Germany and the end of World War II.",
+      "It resulted in the successful invasion of Great Britain by German forces."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While important, it was on the Eastern Front, and Soviets were fighting, not the Allies.",
+      "Correct. Stalingrad was a crucial turning point that shifted the momentum to the Soviets.",
+      "Incorrect. The war continued for over two years after Stalingrad.",
+      "Incorrect. The invasion of Britain never happened."
+    ],
+    "topic": "World War II",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Wannsee Conference (1942)",
+    "question": "What was the purpose of the Wannsee Conference?",
+    "answers": [
+      "To plan the Allied invasion of Normandy.",
+      "To discuss the economic recovery of Europe after World War II.",
+      "To coordinate the implementation of the \"Final Solution\" to the Jewish question.",
+      "To negotiate a peace settlement between Germany and the Soviet Union."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The conference focused on the Holocaust.",
+      "Incorrect. The conference happened during the war.",
+      "Correct. The Wannsee Conference formalized the plan for the systematic extermination of Jewish people.",
+      "Incorrect. The conference focused on the Holocaust."
+    ],
+    "topic": "The Holocaust",
+    "unit": 8
+  },
+  {
+    "stimulus": "Pablo Picasso's Guernica",
+    "question": "What event inspired Pablo Picasso to paint \"Guernica\"?",
+    "answers": [
+      "The Russian Revolution",
+      "The bombing of a Basque town by Nazi German warplanes during the Spanish Civil War",
+      "The dropping of the atomic bomb on Hiroshima",
+      "The Holocaust"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The painting is directly related to the Spanish Civil War.",
+      "Correct. Guernica depicts the horrors of the bombing of the town of Guernica.",
+      "Incorrect. While a horrific event, it did not inspire this painting.",
+      "Incorrect. While a horrific event, it did not inspire this painting."
+    ],
+    "topic": "20th-Century Cultural, Intellectual, and Artistic Developments",
+    "unit": 8
+  },
+  {
+    "stimulus": "The League of Nations",
+    "question": "Which of the following was a major weakness of the League of Nations?",
+    "answers": [
+      "It lacked the support of major powers like the United States.",
+      "It was dominated by communist ideology.",
+      "It was too effective in preventing international conflicts.",
+      "It lacked a clear mandate to promote human rights."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The absence of the US significantly weakened the League's authority.",
+      "Incorrect. The League was not dominated by communism.",
+      "Incorrect. The League was ineffective in preventing conflict.",
+      "Incorrect. While human rights were not a primary focus, the lack of major power support was more critical."
+    ],
+    "topic": "Versailles Conference and Peace Settlement",
+    "unit": 8
+  },
+  {
+    "stimulus": "New Economic Policy (NEP)",
+    "question": "What was the New Economic Policy (NEP) introduced by Lenin in Soviet Russia?",
+    "answers": [
+      "A policy of complete state control over all industries and agriculture.",
+      "A policy of limited capitalism that allowed some private enterprise.",
+      "A policy of rapid industrialization and collectivization of agriculture.",
+      "A policy of promoting free trade and foreign investment."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The NEP allowed some private enterprise.",
+      "Correct. The NEP was a temporary retreat from complete communism.",
+      "Incorrect. This describes Stalin's policies, not Lenin's NEP.",
+      "Incorrect. The NEP was not focused on free trade."
+    ],
+    "topic": "The Russian Revolution and Its Effects",
+    "unit": 8
+  },
+  {
+    "stimulus": "The term \"total war\"",
+    "question": "What does the term \"total war\" refer to?",
+    "answers": [
+      "A war fought exclusively between professional soldiers.",
+      "A war that involves the mobilization of all resources and aspects of society.",
+      "A war that is limited in scope and duration.",
+      "A war that is fought primarily in colonial territories."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Total war involves all of society, not just soldiers.",
+      "Correct. Total war involves the complete mobilization of a nation's resources and population.",
+      "Incorrect. Total war is characterized by its scale and intensity.",
+      "Incorrect. Total war can be fought anywhere, not just in colonies."
+    ],
+    "topic": "World War I",
+    "unit": 8
+  },
+  {
+    "stimulus": "The concept of \"self-determination\"",
+    "question": "What does the concept of \"self-determination\" refer to?",
+    "answers": [
+      "The right of individuals to own private property.",
+      "The right of nations to choose their own government and destiny.",
+      "The right of governments to suppress dissent and maintain order.",
+      "The right of businesses to operate without government regulation."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This refers to property rights, not self-determination.",
+      "Correct. Self-determination is the principle that nations should be able to govern themselves.",
+      "Incorrect. This is contradictory to self-determination.",
+      "Incorrect. This refers to free-market capitalism."
+    ],
+    "topic": "Versailles Conference and Peace Settlement",
+    "unit": 8
+  },
+  {
+    "stimulus": "The artistic movement of Surrealism",
+    "question": "Which of the following is a key characteristic of Surrealism?",
+    "answers": [
+      "A focus on depicting the world in a realistic and objective manner.",
+      "An exploration of the unconscious mind and dreamlike imagery.",
+      "An emphasis on geometric shapes and clean lines.",
+      "A rejection of traditional artistic techniques and forms."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Surrealism rejected realism.",
+      "Correct. Surrealism sought to tap into the unconscious mind.",
+      "Incorrect. Geometric shapes are more representative of Cubism and other movements.",
+      "Incorrect. Surrealism used a wide variety of artistic techniques."
+    ],
+    "topic": "20th-Century Cultural, Intellectual, and Artistic Developments",
+    "unit": 8
+  },
+  {
+    "stimulus": "European countries after WWII",
+    "question": "Which of the following describes a major continuity in European history from the early 20th century to the period after World War II?",
+    "answers": [
+      "The continued dominance of absolute monarchies in Eastern Europe.",
+      "The persistence of nationalist tensions and conflicts in various regions.",
+      "The widespread adoption of communist ideologies throughout Western Europe.",
+      "The decline of industrial production and economic stagnation in Western Europe."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Absolute monarchies largely disappeared after World War I.",
+      "Correct. Nationalist tensions remained a significant factor in European politics.",
+      "Incorrect. Communism was largely confined to Eastern Europe.",
+      "Incorrect. Western Europe experienced a period of economic recovery and growth after the war."
+    ],
+    "topic": "Continuity and Changes in an Age of Global Conflict",
+    "unit": 8
+  },
+  {
+    "stimulus": "The interwar period",
+    "question": "Which of the following was a major change in European society during the interwar period (1919-1939)?",
+    "answers": [
+      "The expansion of voting rights to women in many countries.",
+      "The decline of mass media and popular culture.",
+      "The strengthening of traditional social hierarchies.",
+      "The widespread adoption of laissez-faire economic policies."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Women gained the right to vote in many European countries after World War I.",
+      "Incorrect. Mass media and popular culture grew in influence.",
+      "Incorrect. Traditional social hierarchies were challenged by new ideologies and social movements.",
+      "Incorrect. Governments increasingly intervened in the economy to address the challenges of the Great Depression."
+    ],
+    "topic": "Europe During the Interwar Period",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Russian Revolution",
+    "question": "Which of the following was a long-term consequence of the Russian Revolution?",
+    "answers": [
+      "The establishment of a democratic government in Russia.",
+      "The spread of communist ideology and the creation of communist states in other parts of the world.",
+      "The restoration of the monarchy and the traditional social order.",
+      "The integration of Russia into the European Union."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The revolution led to a communist dictatorship.",
+      "Correct. The Russian Revolution inspired communist movements and states around the world.",
+      "Incorrect. The monarchy was overthrown and not restored.",
+      "Incorrect. Russia was not integrated into the EU."
+    ],
+    "topic": "The Russian Revolution and Its Effects",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Holocaust",
+    "question": "Which of the following best describes the historical context of the Holocaust?",
+    "answers": [
+      "The long-standing tradition of religious tolerance and acceptance in Europe.",
+      "The rise of Nazism and its racist ideology that targeted Jewish people and other minority groups.",
+      "The widespread support for democratic values and human rights throughout Europe.",
+      "The absence of economic hardship and social unrest in Europe during the 1930s and 1940s."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Holocaust was a result of intolerance.",
+      "Correct. The Holocaust was rooted in Nazi ideology and its persecution of Jewish people.",
+      "Incorrect. Democratic values were undermined by the rise of fascism.",
+      "Incorrect. Economic hardship and social unrest contributed to the rise of extremism."
+    ],
+    "topic": "The Holocaust",
+    "unit": 8
+  },
+  {
+    "stimulus": "World War I",
+    "question": "Which of the following was a major cause of World War I?",
+    "answers": [
+      "The rise of pacifism and the decline of militarism.",
+      "The formation of a strong international organization to prevent conflict.",
+      "The complex web of alliances and rivalries between European powers.",
+      "The absence of colonial competition and imperial ambitions."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Militarism was on the rise.",
+      "Incorrect. International organizations were weak at the time.",
+      "Correct. The alliance system and imperial rivalries contributed to the outbreak of war.",
+      "Incorrect. Colonial competition was a source of tension."
+    ],
+    "topic": "World War I",
+    "unit": 8
+  },
+  {
+    "stimulus": "Totalitarianism",
+    "question": "Which of the following is a key characteristic of a totalitarian regime?",
+    "answers": [
+      "The protection of individual rights and freedoms.",
+      "The promotion of democratic elections and representative government.",
+      "The suppression of dissent and the control of all aspects of life.",
+      "The implementation of socialist policies and the redistribution of wealth."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Totalitarianism suppresses individual rights.",
+      "Incorrect. Totalitarianism rejects democracy.",
+      "Correct. Totalitarian regimes exert total control over society.",
+      "Incorrect. Totalitarian regimes may or may not implement socialist policies, but control is the key characteristic."
+    ],
+    "topic": "Fascism and Totalitarianism",
+    "unit": 8
+  },
+  {
+    "stimulus": "The Marshall Plan",
+    "question": "What was the primary goal of the Marshall Plan?",
+    "answers": [
+      "To provide military assistance to countries threatened by communism.",
+      "To promote free trade and reduce tariffs among European nations.",
+      "To rebuild the economies of Western European countries after World War II.",
+      "To establish a common currency for all European countries."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Military aid was provided separately through NATO.",
+      "Incorrect. While it encouraged trade, that wasn't the primary goal.",
+      "Correct. The Marshall Plan aimed to revitalize Western European economies.",
+      "Incorrect. The Euro came much later."
+    ],
+    "topic": "Continuity and Changes in an Age of Global Conflict",
+    "unit": 8
+  }
+]

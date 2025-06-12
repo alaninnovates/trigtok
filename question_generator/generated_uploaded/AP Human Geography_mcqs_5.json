@@ -1,0 +1,686 @@
+[
+  {
+    "stimulus": "Which of the following is the most likely result of the development of new agricultural technologies?",
+    "question": "Which of the following is the most likely result of the development of new agricultural technologies?",
+    "answers": [
+      "Increased demand for agricultural labor.",
+      "Decreased agricultural yields.",
+      "Increased carrying capacity.",
+      "Decreased food security."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: New technologies often reduce the need for manual labor in agriculture.",
+      "Incorrect: New technologies usually aim to improve agricultural yields.",
+      "Correct: New technologies often allow more food to be produced on the same amount of land, increasing the carrying capacity.",
+      "Incorrect: New technologies generally increase food security by making food production more efficient."
+    ],
+    "topic": "Introduction to Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "A farmer in a rural area decides to diversify their crops and integrate livestock into their operations.",
+    "question": "What type of agriculture is described?",
+    "answers": [
+      "Monoculture.",
+      "Subsistence agriculture.",
+      "Mixed crop and livestock farming.",
+      "Extensive agriculture."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Monoculture involves growing a single crop.",
+      "Incorrect: Subsistence agriculture focuses on growing enough for one's own needs, not necessarily diversifying crops.",
+      "Correct: Mixed crop and livestock farming involves the integration of both crops and livestock, which is what is being described.",
+      "Incorrect: Extensive agriculture involves using more land with lower inputs and may or may not include livestock."
+    ],
+    "topic": "Introduction to Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "A dispersed settlement pattern is often associated with which type of agricultural system?",
+    "question": "A dispersed settlement pattern is often associated with which type of agricultural system?",
+    "answers": [
+      "Intensive agriculture",
+      "Plantation agriculture",
+      "Extensive agriculture",
+      "Nucleated agriculture"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Intensive agriculture often requires clustered settlements for labor efficiency.",
+      "Incorrect: Plantation agriculture typically has nucleated settlements around the plantation house and processing facilities.",
+      "Correct: Extensive agriculture, where land is used less intensively, often leads to dispersed settlements as farmers spread out to manage larger areas.",
+      "Incorrect: Nucleated agriculture is associated with clustered settlements."
+    ],
+    "topic": "Settlement Patterns and Survey Methods",
+    "unit": 5
+  },
+  {
+    "stimulus": "The township and range system is a survey method used extensively in the United States.",
+    "question": "Which statement best describes the key characteristic of the township and range system?",
+    "answers": [
+      "Irregular parcels of land based on physical features",
+      "Long, narrow land divisions stretching back from rivers or roads",
+      "Rectangular land divisions based on cardinal directions",
+      "Circular land divisions radiating from a central point"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Irregular parcels are associated with metes and bounds.",
+      "Incorrect: Long, narrow lots are associated with the long lot system.",
+      "Correct: The township and range system creates rectangular parcels of land based on north-south (range) and east-west (township) lines.",
+      "Incorrect: Circular divisions are not a feature of the township and range system."
+    ],
+    "topic": "Settlement Patterns and Survey Methods",
+    "unit": 5
+  },
+  {
+    "stimulus": "Carl Sauer's work on agricultural origins emphasized which of the following?",
+    "question": "Which of the following best describes Carl Sauer's contribution to the study of agricultural origins?",
+    "answers": [
+      "The importance of seed agriculture in hearth regions",
+      "The role of women in the domestication of plants",
+      "The significance of vegetative planting in Southeast Asia",
+      "The impact of climate change on early agriculture"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Sauer focused more broadly on both seed and vegetative planting.",
+      "Incorrect: While women's roles are important, Sauer's primary focus was on the location and methods of early domestication.",
+      "Correct: Sauer emphasized vegetative planting in Southeast Asia as one of the earliest forms of plant domestication.",
+      "Incorrect: While climate is a factor, Sauer's work primarily focused on cultural and geographic origins."
+    ],
+    "topic": "Agricultural Origins and Diffusions",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Columbian Exchange had a significant impact on agricultural practices worldwide.",
+    "question": "Which of the following agricultural products was transferred from the Americas to Europe as part of the Columbian Exchange?",
+    "answers": [
+      "Wheat",
+      "Rice",
+      "Potatoes",
+      "Coffee"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Wheat originated in the Middle East and was brought to the Americas by Europeans.",
+      "Incorrect: Rice originated in Asia and was not part of the Columbian Exchange from the Americas.",
+      "Correct: Potatoes originated in the Andes and were brought to Europe as part of the Columbian Exchange.",
+      "Incorrect: Coffee originated in Africa and was not part of the Columbian Exchange from the Americas."
+    ],
+    "topic": "Agricultural Origins and Diffusions",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Enclosure Movement in 18th century England.",
+    "question": "What impact did the Enclosure Movement have on agriculture in England?",
+    "answers": [
+      "Increased crop diversity",
+      "Decreased farm sizes",
+      "Consolidation of land ownership",
+      "Reduced agricultural efficiency"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: The Enclosure Movement often led to less crop diversity as larger farms focused on specific crops.",
+      "Incorrect: The Enclosure Movement resulted in larger farms as land was consolidated.",
+      "Correct: The Enclosure Movement consolidated land ownership into fewer hands, leading to larger, more efficient farms.",
+      "Incorrect: The Enclosure Movement generally increased agricultural efficiency through larger-scale farming."
+    ],
+    "topic": "The Second Agricultural Revolution",
+    "unit": 5
+  },
+  {
+    "stimulus": "Crop rotation is an essential element of the Second Agricultural Revolution.",
+    "question": "What is the primary benefit of crop rotation?",
+    "answers": [
+      "Increased soil erosion",
+      "Depletion of soil nutrients",
+      "Improved soil fertility",
+      "Higher labor costs"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Crop rotation can actually reduce soil erosion by maintaining soil cover.",
+      "Incorrect: Crop rotation is used to replenish soil nutrients.",
+      "Correct: Crop rotation helps to improve soil fertility by alternating crops that use different nutrients, reducing depletion, and adding organic matter.",
+      "Incorrect: Crop rotation may slightly increase labor, but the benefits to soil health outweigh the costs."
+    ],
+    "topic": "The Second Agricultural Revolution",
+    "unit": 5
+  },
+  {
+    "stimulus": "Norman Borlaug's work in the mid-20th century greatly impacted agricultural production.",
+    "question": "Norman Borlaug is most closely associated with which of the following?",
+    "answers": [
+      "Organic farming movement",
+      "The Green Revolution",
+      "Slash-and-burn agriculture",
+      "The rise of fair trade agriculture"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Borlaug focused on increasing yields through conventional breeding and inputs, not organic methods.",
+      "Correct: Norman Borlaug is considered the 'father of the Green Revolution' for his work in developing high-yielding wheat varieties.",
+      "Incorrect: Borlaug's work aimed to replace traditional methods like slash-and-burn agriculture with more productive techniques.",
+      "Incorrect: While fair trade is important, it is not Borlaug's primary area of focus."
+    ],
+    "topic": "The Green Revolution",
+    "unit": 5
+  },
+  {
+    "stimulus": "The use of fertilizers and pesticides increased during the Green Revolution.",
+    "question": "What is a significant environmental consequence of the Green Revolution?",
+    "answers": [
+      "Decreased water pollution",
+      "Reduced soil erosion",
+      "Increased biodiversity",
+      "Water pollution from fertilizer runoff"
+    ],
+    "correct_answer": 4,
+    "explanations": [
+      "Incorrect: Fertilizers and pesticides can contribute to water pollution.",
+      "Incorrect: Intensive farming practices can lead to increased soil erosion.",
+      "Incorrect: The Green Revolution often reduces biodiversity by promoting monoculture.",
+      "Correct: Fertilizer runoff from agricultural fields can pollute water sources."
+    ],
+    "topic": "The Green Revolution",
+    "unit": 5
+  },
+  {
+    "stimulus": "Commercial farming regions vary greatly in their production.",
+    "question": "Which of the following is a characteristic of Mediterranean agriculture?",
+    "answers": [
+      "Intensive rice cultivation",
+      "Extensive cattle ranching",
+      "Specialized farming of fruits, vegetables, and olives",
+      "Large-scale grain farming"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Intensive rice cultivation is more common in Southeast Asia.",
+      "Incorrect: Extensive cattle ranching is typical of regions like the Pampas in South America.",
+      "Correct: Mediterranean agriculture specializes in fruits, vegetables, and olives due to the warm, dry summers and mild, wet winters.",
+      "Incorrect: Large-scale grain farming is common in regions like the Great Plains of North America."
+    ],
+    "topic": "Agricultural Production Regions",
+    "unit": 5
+  },
+  {
+    "stimulus": "A farmer decides to raise cattle for beef production.",
+    "question": "In which agricultural region would cattle ranching be most common?",
+    "answers": [
+      "Southeast Asia",
+      "The Pampas of Argentina",
+      "The Rhine Valley",
+      "The Nile Delta"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: This region is known for intensive rice cultivation.",
+      "Correct: The Pampas is known for its extensive grasslands, making it ideal for cattle ranching.",
+      "Incorrect: This region is known for mixed crop and livestock farming.",
+      "Incorrect: This region is known for its intensive irrigated agriculture."
+    ],
+    "topic": "Agricultural Production Regions",
+    "unit": 5
+  },
+  {
+    "stimulus": "Farmers make decisions on what to plant, how much to plant, and where to sell their products.",
+    "question": "Which of the following best describes the concept of 'spatial organization of agriculture'?",
+    "answers": [
+      "The physical arrangement of crops in a field",
+      "The impact of climate on agricultural yields",
+      "The spatial distribution of agricultural activities and their interrelationships",
+      "The role of technology in agricultural production"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: This refers to crop arrangement, but not the overall spatial organization.",
+      "Incorrect: This is a factor that influences spatial organization, but not the definition.",
+      "Correct: Spatial organization of agriculture involves the distribution of agricultural activities and how they relate to each other spatially.",
+      "Incorrect: This is a factor that influences spatial organization, but not the definition."
+    ],
+    "topic": "Spatial Organization of Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "Market gardening, dairy farming, and commercial grain agriculture.",
+    "question": "What term describes the area where a farmer grows feed for their livestock?",
+    "answers": [
+      "Feed lot",
+      "Feed shed",
+      "Feed yard",
+      "Feed zone"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Feed lots are where the animals are fed, but the crops are not grown there.",
+      "Correct: A feed shed is not an agricultural term.",
+      "Incorrect: A feed yard is where the animals are fed, but the crops are not grown there.",
+      "Incorrect: A feed zone is not an agricultural term."
+    ],
+    "topic": "Spatial Organization of Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "Von Th\u00fcnen developed a model to explain agricultural land use around a central market.",
+    "question": "Which of the following is the primary factor considered in Von Th\u00fcnen's model?",
+    "answers": [
+      "Climate",
+      "Soil fertility",
+      "Transportation costs",
+      "Government regulations"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: While climate influences agriculture, it is not the central factor in Von Th\u00fcnen's model.",
+      "Incorrect: Soil fertility affects agriculture, but it is not the central factor in Von Th\u00fcnen's model.",
+      "Correct: Von Th\u00fcnen's model focuses on how transportation costs influence the location of different agricultural activities around a market center.",
+      "Incorrect: Government regulations can influence agriculture, but they are not the primary focus of Von Th\u00fcnen's model."
+    ],
+    "topic": "Von Th\u00fcnen Model",
+    "unit": 5
+  },
+  {
+    "stimulus": "Market gardening and dairy farming are located closest to the city in Von Th\u00fcnen's model.",
+    "question": "According to Von Th\u00fcnen's model, which agricultural activity is most likely to be located closest to the market center?",
+    "answers": [
+      "Wheat farming",
+      "Livestock ranching",
+      "Forestry",
+      "Dairying"
+    ],
+    "correct_answer": 4,
+    "explanations": [
+      "Incorrect: Wheat farming is located further from the market due to lower transportation costs per unit.",
+      "Incorrect: Livestock ranching requires extensive land and is located far from the market.",
+      "Incorrect: Forestry is located further from the market as it is less perishable.",
+      "Correct: Dairying requires quick transportation due to perishability and is located closest to the market."
+    ],
+    "topic": "Von Th\u00fcnen Model",
+    "unit": 5
+  },
+  {
+    "stimulus": "The global system of agriculture connects producers and consumers worldwide.",
+    "question": "Which of the following best describes the term 'global system of agriculture'?",
+    "answers": [
+      "Subsistence farming practices in developing countries",
+      "The interconnected network of food production, distribution, and consumption worldwide",
+      "Traditional farming methods used in rural areas",
+      "Local farmers markets in urban centers"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: This focuses on a specific type of agriculture, not the overall global system.",
+      "Correct: The global system of agriculture encompasses the worldwide network of food production, distribution, and consumption.",
+      "Incorrect: This is a specific type of agriculture, not the global system.",
+      "Incorrect: This is a component of the global system, but not the entire system itself."
+    ],
+    "topic": "The Global System of Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "Fair trade is an important aspect of the global agricultural system.",
+    "question": "Which of the following is a goal of fair trade?",
+    "answers": [
+      "To increase profits for multinational corporations",
+      "To ensure farmers receive a fair price for their products",
+      "To promote free market competition",
+      "To reduce environmental regulations in agriculture"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Fair trade aims to benefit farmers, not primarily corporations.",
+      "Correct: Fair trade seeks to ensure that farmers, especially in developing countries, receive a fair price for their products.",
+      "Incorrect: Fair trade aims to create equitable trade relationships, not necessarily free market competition.",
+      "Incorrect: Fair trade often promotes environmentally sustainable practices."
+    ],
+    "topic": "The Global System of Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "Deforestation, soil erosion, and water pollution are consequences of certain agricultural practices.",
+    "question": "Which of the following is a negative environmental consequence of intensive agriculture?",
+    "answers": [
+      "Increased biodiversity",
+      "Reduced greenhouse gas emissions",
+      "Soil degradation",
+      "Improved water quality"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Intensive agriculture often leads to reduced biodiversity due to monoculture.",
+      "Incorrect: Agriculture contributes to greenhouse gas emissions through fertilizer use, machinery, and deforestation.",
+      "Correct: Intensive agriculture can lead to soil degradation through erosion, nutrient depletion, and compaction.",
+      "Incorrect: Intensive agriculture can contribute to water pollution through fertilizer and pesticide runoff."
+    ],
+    "topic": "Consequences of Agricultural Practices",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Aral Sea's shrinking size illustrates the dangers of irrigation projects.",
+    "question": "What is an example of a negative consequence of irrigation?",
+    "answers": [
+      "Increased crop yields",
+      "Decreased soil salinity",
+      "Groundwater depletion",
+      "Reduced waterborne diseases"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: This is a positive consequence of irrigation.",
+      "Incorrect: Irrigation can often increase soil salinity due to evaporation.",
+      "Correct: Irrigation can lead to groundwater depletion if water is used faster than it can be replenished.",
+      "Incorrect: Irrigation can sometimes increase waterborne diseases due to standing water."
+    ],
+    "topic": "Consequences of Agricultural Practices",
+    "unit": 5
+  },
+  {
+    "stimulus": "Climate change poses a growing threat to agriculture.",
+    "question": "Which of the following is a significant challenge faced by contemporary agriculture due to climate change?",
+    "answers": [
+      "Decreased frequency of extreme weather events",
+      "Increased predictability of growing seasons",
+      "Changes in precipitation patterns",
+      "Reduced incidence of crop pests"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Climate change is leading to more frequent extreme weather events.",
+      "Incorrect: Climate change is making growing seasons less predictable.",
+      "Correct: Climate change is altering precipitation patterns, leading to droughts in some areas and floods in others, posing a challenge for agriculture.",
+      "Incorrect: Climate change can lead to increased incidence of crop pests due to changing environmental conditions."
+    ],
+    "topic": "Challenges of Contemporary Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "The rise of urban agriculture presents new opportunities.",
+    "question": "What is a benefit of urban agriculture?",
+    "answers": [
+      "Increased transportation costs",
+      "Decreased access to fresh produce in cities",
+      "Reduced food miles",
+      "Increased reliance on synthetic fertilizers"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Urban agriculture reduces transportation costs by growing food closer to consumers.",
+      "Incorrect: Urban agriculture increases access to fresh produce in cities.",
+      "Correct: Urban agriculture reduces food miles by growing food closer to consumers.",
+      "Incorrect: Urban agriculture often emphasizes organic and sustainable practices, reducing reliance on synthetic fertilizers."
+    ],
+    "topic": "Challenges of Contemporary Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "In many parts of the world, women play a crucial role in agriculture.",
+    "question": "In many developing countries, what is a primary role of women in agriculture?",
+    "answers": [
+      "Operating large commercial farms",
+      "Managing agricultural policy",
+      "Providing labor for planting and harvesting",
+      "Developing new agricultural technologies"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Women are less likely to operate large commercial farms due to land ownership and access to resources.",
+      "Incorrect: Women are less likely to manage agricultural policy.",
+      "Correct: In many developing countries, women provide a significant amount of labor for planting, harvesting, and other agricultural tasks.",
+      "Incorrect: Women are less likely to be involved in the development of new technologies due to barriers in access to education."
+    ],
+    "topic": "Women in Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "Access to resources is often unequal for women in agriculture.",
+    "question": "What is a major challenge faced by women in agriculture in many parts of the world?",
+    "answers": [
+      "Equal access to land ownership",
+      "Limited access to credit and resources",
+      "Greater representation in agricultural policy-making",
+      "Higher wages compared to male farmers"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Women often face barriers to land ownership.",
+      "Correct: Women often have limited access to credit, resources, and training, hindering their ability to improve their agricultural practices.",
+      "Incorrect: Women are often underrepresented in agricultural policy-making.",
+      "Incorrect: Women often earn lower wages than male farmers for the same work."
+    ],
+    "topic": "Women in Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "Precision agriculture utilizes technology to optimize farming practices.",
+    "question": "Which of the following technologies is commonly used in precision agriculture?",
+    "answers": [
+      "Hand tools",
+      "Draft animals",
+      "GPS and remote sensing",
+      "Manual irrigation systems"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Hand tools are not typically associated with precision agriculture.",
+      "Incorrect: Draft animals are not typically associated with precision agriculture.",
+      "Correct: GPS and remote sensing technologies are used to monitor field conditions and optimize inputs in precision agriculture.",
+      "Incorrect: Manual irrigation systems are not typically associated with precision agriculture."
+    ],
+    "topic": "Introduction to Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "Long-lot survey systems are present in regions with French influence.",
+    "question": "Which of the following regions is most likely to have a long-lot survey system?",
+    "answers": [
+      "Midwest United States",
+      "Quebec, Canada",
+      "Texas, United States",
+      "Southern China"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: The Midwest United States uses the township and range system.",
+      "Correct: Quebec, Canada, shows French influence and often has long-lot survey systems along the St. Lawrence River.",
+      "Incorrect: Texas, United States, generally uses the metes and bounds system.",
+      "Incorrect: Southern China typically has clustered settlements and intensive agriculture."
+    ],
+    "topic": "Settlement Patterns and Survey Methods",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Fertile Crescent is considered one of the agricultural hearths.",
+    "question": "Which of the following crops was first domesticated in the Fertile Crescent?",
+    "answers": [
+      "Potatoes",
+      "Corn",
+      "Wheat",
+      "Rice"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Potatoes were first domesticated in the Andes.",
+      "Incorrect: Corn was first domesticated in Mesoamerica.",
+      "Correct: Wheat was one of the first crops domesticated in the Fertile Crescent.",
+      "Incorrect: Rice was first domesticated in Asia."
+    ],
+    "topic": "Agricultural Origins and Diffusions",
+    "unit": 5
+  },
+  {
+    "stimulus": "Mechanization was key in the Second Agricultural Revolution.",
+    "question": "What innovation was most important during the Second Agricultural Revolution?",
+    "answers": [
+      "Development of GMO's",
+      "Introduction of Combine Harvesters",
+      "Introduction of chemical fertilizers",
+      "Introduction of crop rotation."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: GMO's were developed during the Green Revolution",
+      "Correct: Combine Harvesters allowed farmers to harvest much larger quantities of crops than previously possible.",
+      "Incorrect: Chemical fertilizers are more closely associated with the Green Revolution.",
+      "Incorrect: Crop rotation was an important element of the British Agricultural Revolution and was still in effect during the Second Agricultural Revolution."
+    ],
+    "topic": "The Second Agricultural Revolution",
+    "unit": 5
+  },
+  {
+    "stimulus": "The IR36 Variety of rice was widely adopted across the world.",
+    "question": "What benefits did the IR36 Variety of Rice have?",
+    "answers": [
+      "It was resistant to many pests and diseases",
+      "It needed little water to grow",
+      "It tasted better than the old varieties.",
+      "It was drought resistant"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Correct: IR36 was resistant to many common pests and diseases",
+      "Incorrect: It needed plenty of water to grow",
+      "Incorrect: The Taste of rice has little impact on the agricultural production.",
+      "Incorrect: It needed plenty of water to grow"
+    ],
+    "topic": "The Green Revolution",
+    "unit": 5
+  },
+  {
+    "stimulus": "Transhumance is a form of pastoral nomadism.",
+    "question": "Which of the following regions would be likely to participate in Transhumance?",
+    "answers": [
+      "The Andes Mountains",
+      "The Great Plains",
+      "The Amazon Rain Forest",
+      "The Gobi Desert"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Correct: People in the Andes Mountains often have different seasonal pastures at different altitudes",
+      "Incorrect: The Great Plains are relatively flat and would not require seasonal migration.",
+      "Incorrect: The Amazon Rainforest does not lend itself to transhumance.",
+      "Incorrect: The Gobi Desert does not lend itself to transhumance."
+    ],
+    "topic": "Agricultural Production Regions",
+    "unit": 5
+  },
+  {
+    "stimulus": "Farmers must consider many factors when deciding which crops to plant.",
+    "question": "Which of the following is least likely to be a consideration for a farmer deciding which crop to plant?",
+    "answers": [
+      "The climate of the region",
+      "The types of soil present",
+      "How many Children the farmer has",
+      "The topography of the land"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: The Climate has a large impact on which crops can be successfully cultivated.",
+      "Incorrect: The types of soil present determine which crops will do well.",
+      "Correct: How many children a farmer has is not directly relevant to the spatial distribution of crops.",
+      "Incorrect: The topography of the land has a large impact on what can be planted."
+    ],
+    "topic": "Spatial Organization of Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Von Thunen model assumes there is only one market",
+    "question": "If a farmer wishes to maximize their profits, which of the following should they be most concerned about?",
+    "answers": [
+      "The distance from the market",
+      "The quality of the soil",
+      "The type of seed used",
+      "The amount of rain they get"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Correct: According to the Von Thunen Model, the further a farmer is from the market, the less profit they will make, as transport costs increase.",
+      "Incorrect: Soil quality is held constant in the model.",
+      "Incorrect: The model assumes the same farming techniques are used throughout the area.",
+      "Incorrect: Climate is held constant in the model."
+    ],
+    "topic": "Von Th\u00fcnen Model",
+    "unit": 5
+  },
+  {
+    "stimulus": "Agriculture practices are not the same in every nation.",
+    "question": "Which of the following is most likely to be a feature of agriculture in a developed nation?",
+    "answers": [
+      "Smaller Farm Sizes",
+      "Lower Crop Yields",
+      "Fewer Governmental Subsidies",
+      "Greater Mechanization"
+    ],
+    "correct_answer": 4,
+    "explanations": [
+      "Incorrect: Developed nations usually have larger farms.",
+      "Incorrect: Developed nations usually have higher crop yields.",
+      "Incorrect: Developed nations usually have more government subsidies.",
+      "Correct: Developed nations are usually more heavily mechanized than developing nations."
+    ],
+    "topic": "The Global System of Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "Some communities are facing food deserts.",
+    "question": "Which of the following is a likely solution to the problem of food deserts?",
+    "answers": [
+      "Building more highways.",
+      "Opening Supermarkets in the affected community.",
+      "Building warehouses.",
+      "Planting new forests."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Highways do not directly provide food.",
+      "Correct: Opening grocery stores within the community will make food more accessible.",
+      "Incorrect: Warehouses do not directly provide food to the public.",
+      "Incorrect: Planting new forests does not solve the immediate issue of food access."
+    ],
+    "topic": "Consequences of Agricultural Practices",
+    "unit": 5
+  },
+  {
+    "stimulus": "There is an ongoing effort to improve agriculture",
+    "question": "Which of the following is an example of sustainable agriculture?",
+    "answers": [
+      "Monoculture",
+      "Slash and Burn Agriculture",
+      "Aquaculture",
+      "Factory Farming"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Monoculture can deplete the nutrients in the soil.",
+      "Incorrect: Slash and burn agriculture is not sustainable",
+      "Correct: Aquaculture can provide a reliable source of protein with less environmental impact than traditional fishing.",
+      "Incorrect: Factory farming often has negative environmental impacts."
+    ],
+    "topic": "Challenges of Contemporary Agriculture",
+    "unit": 5
+  },
+  {
+    "stimulus": "Globally, women play an important role in agriculture",
+    "question": "In Sub-Saharan Africa, what percentage of agricultural workers are women?",
+    "answers": [
+      "20%",
+      "30%",
+      "50%",
+      "60%"
+    ],
+    "correct_answer": 4,
+    "explanations": [
+      "Incorrect: This is an underestimate.",
+      "Incorrect: This is an underestimate.",
+      "Incorrect: This is an underestimate.",
+      "Correct: Women account for about 60% of agricultural workers in Sub-Saharan Africa."
+    ],
+    "topic": "Women in Agriculture",
+    "unit": 5
+  }
+]

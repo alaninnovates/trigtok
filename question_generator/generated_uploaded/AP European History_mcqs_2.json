@@ -1,0 +1,458 @@
+[
+  {
+    "stimulus": "The invention of the printing press in the 15th century significantly impacted Europe.",
+    "question": "Which of the following was the MOST significant long-term consequence of the printing press?",
+    "answers": [
+      "Increased power of the Catholic Church to disseminate religious texts.",
+      "The standardization of vernacular languages and increased literacy rates.",
+      "A decline in artistic innovation due to mass production of images.",
+      "Decreased intellectual discourse due to information overload."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The printing press actually weakened the Church's control over information.",
+      "Correct. The printing press allowed for faster spread of information, enabling vernacular language standardization and thus increasing literacy.",
+      "Incorrect. The printing press encouraged the development and spread of new artistic styles and ideas.",
+      "Incorrect. The printing press enabled greater access to information and spurred intellectual discourse."
+    ],
+    "topic": "Contextualizing 16th- and 17th-Century Challenges and Developments",
+    "unit": 2
+  },
+  {
+    "stimulus": "Martin Luther's 'Ninety-Five Theses' directly challenged the sale of indulgences.",
+    "question": "What was the primary theological argument made by Martin Luther in his challenge to the sale of indulgences?",
+    "answers": [
+      "The Pope does not have the authority to forgive sins; salvation is achieved through faith alone.",
+      "Indulgences are a necessary tool for the Church to raise funds for charitable works.",
+      "The Bible should only be interpreted by the clergy to avoid heresy.",
+      "Good works are essential for earning salvation and demonstrating faith."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Luther argued that salvation is achieved through faith alone (sola fide) and that the Pope could not grant forgiveness.",
+      "Incorrect. Luther vehemently opposed indulgences, regardless of their intended purpose.",
+      "Incorrect. Luther advocated for individual interpretation of the Bible.",
+      "Incorrect. Luther rejected the idea that good works could earn salvation."
+    ],
+    "topic": "Luther and the Protestant Reformation",
+    "unit": 2
+  },
+  {
+    "stimulus": "John Calvin established a theocratic government in Geneva.",
+    "question": "Which of the following BEST describes a central tenet of Calvinism?",
+    "answers": [
+      "The belief in the inherent goodness of humanity and their capacity for salvation.",
+      "The concept of predestination, where God has already determined who will be saved.",
+      "The importance of elaborate rituals and sacraments in achieving salvation.",
+      "The authority of the Pope as the ultimate interpreter of scripture."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Calvinism emphasizes the depravity of humanity.",
+      "Correct. Predestination is a core doctrine of Calvinism.",
+      "Incorrect. Calvinism simplified religious rituals and rejected many sacraments.",
+      "Incorrect. Calvinism rejected papal authority."
+    ],
+    "topic": "Protestant Reform Continues",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Peace of Augsburg (1555) attempted to resolve religious conflicts in the Holy Roman Empire.",
+    "question": "What principle was established by the Peace of Augsburg?",
+    "answers": [
+      "Religious toleration for all Christian denominations within the Holy Roman Empire.",
+      "The ruler of each territory had the right to determine the religion of their state (cuius regio, eius religio).",
+      "The Holy Roman Emperor had supreme authority over religious matters in all territories.",
+      "The Catholic Church was restored to its former power and influence throughout the Empire."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. It only recognized Catholicism and Lutheranism.",
+      "Correct. Cuius regio, eius religio, meaning 'whose realm, his religion,' was the principle established.",
+      "Incorrect. The Peace of Augsburg limited the Emperor's religious authority.",
+      "Incorrect. The Peace of Augsburg recognized Lutheranism as a legitimate religion."
+    ],
+    "topic": "Wars of Religion",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Council of Trent (1545-1563) was a key event in the Catholic Reformation.",
+    "question": "Which of the following was a major outcome of the Council of Trent?",
+    "answers": [
+      "The adoption of Protestant theology and practices to appeal to reformers.",
+      "The reaffirmation of traditional Catholic doctrines and practices.",
+      "The abolition of the Inquisition and other measures to suppress heresy.",
+      "The recognition of the Pope as a purely symbolic figurehead with no real authority."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Council of Trent aimed to counter Protestantism.",
+      "Correct. The Council reaffirmed Catholic doctrines and practices.",
+      "Incorrect. The Inquisition was strengthened during the Catholic Reformation.",
+      "Incorrect. The Council reaffirmed papal authority."
+    ],
+    "topic": "The Catholic Reformation",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Price Revolution of the 16th century led to significant economic and social changes.",
+    "question": "Which of the following factors contributed MOST to the Price Revolution?",
+    "answers": [
+      "Increased agricultural productivity leading to lower food prices.",
+      "The influx of precious metals from the Americas, causing inflation.",
+      "A decline in population due to disease and warfare.",
+      "Decreased demand for goods due to economic stagnation."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Agricultural productivity did not increase to a point that would cause this.",
+      "Correct. The influx of silver and gold from the Americas led to inflation.",
+      "Incorrect. Despite disease and warfare, the population was generally increasing.",
+      "Incorrect. Demand generally increased during this period."
+    ],
+    "topic": "16th-Century Society and Politics",
+    "unit": 2
+  },
+  {
+    "stimulus": "Mannerism and Baroque art styles emerged in the 16th and 17th centuries.",
+    "question": "Which of the following characteristics is MOST associated with Baroque art?",
+    "answers": [
+      "Subtle and muted colors, emphasizing harmony and balance.",
+      "Exaggerated motion, clear detail, and grandeur to evoke emotion.",
+      "Simplified forms and a focus on geometric shapes and abstract concepts.",
+      "Realistic portrayals of everyday life, emphasizing simplicity and naturalism."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This describes Renaissance art.",
+      "Correct. Baroque art is characterized by drama, motion, and grandeur.",
+      "Incorrect. This describes aspects of modern art.",
+      "Incorrect. This describes aspects of Realism."
+    ],
+    "topic": "Art of the 16th Century: Mannerism and Baroque Art",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Reformation and the ensuing wars of religion had profound effects on Europe.",
+    "question": "Which of the following BEST describes the long-term consequences of the Reformation?",
+    "answers": [
+      "A unified and strengthened Catholic Church with undisputed authority.",
+      "The fragmentation of religious unity and the rise of secular states.",
+      "A decline in religious belief and the rise of atheism throughout Europe.",
+      "The complete eradication of religious conflict and the establishment of lasting peace."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Reformation fragmented the Catholic Church.",
+      "Correct. The Reformation led to religious diversity and the rise of secular power.",
+      "Incorrect. Religious belief remained strong, though diversified.",
+      "Incorrect. Religious conflicts persisted for centuries."
+    ],
+    "topic": "Causation in the Age of Reformation and the Wars of Religion",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Renaissance emphasis on humanism played a role in setting the stage for the Reformation.",
+    "question": "How did Renaissance humanism contribute to the Reformation?",
+    "answers": [
+      "By encouraging people to blindly accept religious dogma without question.",
+      "By promoting critical thinking and questioning traditional authority, including the Church.",
+      "By solely focusing on secular matters and ignoring religious issues.",
+      "By advocating for the complete separation of church and state."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Humanism promoted questioning.",
+      "Correct. Humanism's focus on critical thinking challenged Church authority.",
+      "Incorrect. Humanism influenced religious thought.",
+      "Incorrect. Humanism did not explicitly call for separation of church and state."
+    ],
+    "topic": "Contextualizing 16th- and 17th-Century Challenges and Developments",
+    "unit": 2
+  },
+  {
+    "stimulus": "Martin Luther's translation of the Bible into German had a profound impact.",
+    "question": "What was the significance of Luther's translation of the Bible into German?",
+    "answers": [
+      "It limited access to the Bible to only those who could read Latin.",
+      "It allowed individuals to interpret the Bible for themselves, diminishing the Church's authority.",
+      "It reinforced the Church's traditional interpretation of scripture.",
+      "It had no significant impact as most people were illiterate."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Luther translated the Bible into German, not Latin.",
+      "Correct. It empowered individuals to interpret the Bible, challenging Church authority.",
+      "Incorrect. Luther's translation offered a different interpretation of scripture.",
+      "Incorrect. While literacy was limited, the translation spurred literacy and spread ideas."
+    ],
+    "topic": "Luther and the Protestant Reformation",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Anabaptists were a radical Protestant group during the Reformation.",
+    "question": "Which of the following was a key belief of the Anabaptists?",
+    "answers": [
+      "Infant baptism is essential for salvation.",
+      "Only adults who consciously choose to be baptized should be.",
+      "The Church should be subordinate to the state.",
+      "The Pope is the ultimate authority on matters of faith."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Anabaptists rejected infant baptism.",
+      "Correct. Adult baptism was a central tenet of Anabaptism.",
+      "Incorrect. Anabaptists believed in separation of church and state.",
+      "Incorrect. Anabaptists rejected papal authority."
+    ],
+    "topic": "Protestant Reform Continues",
+    "unit": 2
+  },
+  {
+    "stimulus": "The St. Bartholomew's Day Massacre was a tragic event in the French Wars of Religion.",
+    "question": "What was the St. Bartholomew's Day Massacre?",
+    "answers": [
+      "A peaceful resolution to religious tensions between Catholics and Protestants in France.",
+      "A targeted assassination of Huguenot leaders in Paris, leading to widespread violence.",
+      "A major victory for the Huguenots, securing their religious freedom.",
+      "A failed attempt by the Catholic monarchy to convert all Protestants to Catholicism through diplomacy."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. It was a violent event.",
+      "Correct. It was a massacre of Huguenots.",
+      "Incorrect. It was a defeat for the Huguenots.",
+      "Incorrect. It was a violent act, not diplomacy."
+    ],
+    "topic": "Wars of Religion",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Jesuits played a crucial role in the Catholic Reformation.",
+    "question": "What was the main goal of the Jesuit order?",
+    "answers": [
+      "To promote religious toleration and reconciliation with Protestants.",
+      "To spread Catholic education and counter the spread of Protestantism.",
+      "To abolish the papacy and establish a more democratic church structure.",
+      "To focus solely on monastic life and withdraw from the outside world."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Jesuits were against the protestants and did not promote religious toleration.",
+      "Correct. The Jesuits aimed to strengthen Catholicism through education and missionary work.",
+      "Incorrect. The Jesuits supported the papacy.",
+      "Incorrect. The Jesuits were active in the world."
+    ],
+    "topic": "The Catholic Reformation",
+    "unit": 2
+  },
+  {
+    "stimulus": "The rise of powerful monarchs impacted European society in the 16th century.",
+    "question": "Which of the following BEST describes the relationship between monarchs and the nobility in the 16th century?",
+    "answers": [
+      "Monarchs and nobles were always in agreement, sharing power equally.",
+      "Monarchs sought to consolidate power, often at the expense of the nobility's traditional privileges.",
+      "The nobility held absolute power, effectively controlling the monarchs.",
+      "Monarchs completely eliminated the nobility, establishing absolute rule."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Monarchs and nobles frequently clashed.",
+      "Correct. Monarchs centralized power, limiting noble privileges.",
+      "Incorrect. Monarchs were increasingly powerful.",
+      "Incorrect. The nobility continued to exist, though with diminished power."
+    ],
+    "topic": "16th-Century Society and Politics",
+    "unit": 2
+  },
+  {
+    "stimulus": "Mannerist art reflected the anxieties of the 16th century.",
+    "question": "Which of the following is a defining characteristic of Mannerist art?",
+    "answers": [
+      "A strict adherence to classical proportions and idealized beauty.",
+      "Distorted figures, exaggerated poses, and unusual compositions.",
+      "Realistic depictions of everyday life and common people.",
+      "A focus on geometric shapes and abstract forms."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This describes Renaissance art.",
+      "Correct. Mannerism rejected classical ideals in favor of distortion and exaggeration.",
+      "Incorrect. This describes Realism.",
+      "Incorrect. This describes abstract art."
+    ],
+    "topic": "Art of the 16th Century: Mannerism and Baroque Art",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Reformation led to long-lasting changes in European society and politics.",
+    "question": "Which of the following was a major political consequence of the Reformation?",
+    "answers": [
+      "The establishment of a unified European empire under the Pope's control.",
+      "The weakening of the Holy Roman Empire and the rise of independent nation-states.",
+      "The complete separation of church and state in all European countries.",
+      "A decline in warfare and the establishment of lasting peace throughout Europe."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Reformation led to a decline in papal power.",
+      "Correct. The Reformation weakened the Empire and strengthened nation-states.",
+      "Incorrect. Separation of church and state was not fully achieved.",
+      "Incorrect. Religious wars continued for centuries."
+    ],
+    "topic": "Causation in the Age of Reformation and the Wars of Religion",
+    "unit": 2
+  },
+  {
+    "stimulus": "Some viewed the Church's practices as corrupt in the 16th century.",
+    "question": "Which of the following practices of the Catholic Church was MOST criticized during the early 16th century?",
+    "answers": [
+      "The Church's emphasis on charitable works and helping the poor.",
+      "The sale of indulgences, seen as a way to buy forgiveness for sins.",
+      "The Church's role in providing education and preserving classical knowledge.",
+      "The Church's efforts to combat heresy and maintain religious orthodoxy."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Charitable works were generally seen as positive.",
+      "Correct. Indulgences were widely criticized as corrupt.",
+      "Incorrect. The Church's educational role was valued.",
+      "Incorrect. While controversial, combating heresy was not as widely criticized as indulgences."
+    ],
+    "topic": "Contextualizing 16th- and 17th-Century Challenges and Developments",
+    "unit": 2
+  },
+  {
+    "stimulus": "Lutheranism spread rapidly throughout the Holy Roman Empire.",
+    "question": "Which of the following factors facilitated the spread of Lutheranism?",
+    "answers": [
+      "Support from the Pope and other high-ranking Catholic officials.",
+      "The use of Latin as the primary language for disseminating Lutheran ideas.",
+      "The printing press, which allowed for the mass production of pamphlets and books.",
+      "Widespread opposition from German princes and nobles."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Pope opposed Lutheranism.",
+      "Incorrect. Luther used the vernacular.",
+      "Correct. The printing press was essential for spreading Lutheran ideas.",
+      "Incorrect. Many German princes supported Luther."
+    ],
+    "topic": "Luther and the Protestant Reformation",
+    "unit": 2
+  },
+  {
+    "stimulus": "The English Reformation differed from other Protestant movements.",
+    "question": "What was the primary motivation behind Henry VIII's break with the Catholic Church?",
+    "answers": [
+      "A deep theological disagreement with Catholic doctrines.",
+      "A desire to confiscate Church lands and wealth.",
+      "A political desire to divorce Catherine of Aragon and remarry to produce a male heir.",
+      "A commitment to establishing religious toleration for all Protestant denominations."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Henry's initial motivation was not primarily theological.",
+      "Incorrect. While he did seize Church lands, it was a secondary motivation.",
+      "Correct. Henry wanted a divorce to secure a male heir.",
+      "Incorrect. Henry was not religiously tolerant."
+    ],
+    "topic": "Protestant Reform Continues",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Edict of Nantes (1598) aimed to resolve the French Wars of Religion.",
+    "question": "What did the Edict of Nantes grant to the Huguenots?",
+    "answers": [
+      "Complete religious freedom throughout France.",
+      "Limited religious toleration and the right to worship in certain designated areas.",
+      "Forced conversion to Catholicism or expulsion from France.",
+      "The right to control the French monarchy."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Religious freedom was limited.",
+      "Correct. It granted limited toleration.",
+      "Incorrect. The Edict aimed to avoid forced conversion.",
+      "Incorrect. The Edict dealt with religious freedom, not political control."
+    ],
+    "topic": "Wars of Religion",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Inquisition played a significant role in the Catholic Reformation.",
+    "question": "What was the primary purpose of the Inquisition?",
+    "answers": [
+      "To promote religious toleration and understanding between Catholics and Protestants.",
+      "To suppress heresy and maintain Catholic orthodoxy.",
+      "To translate the Bible into vernacular languages.",
+      "To reform the Catholic Church's administrative practices."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Inquisition aimed to suppress dissent.",
+      "Correct. The Inquisition's purpose was to combat heresy.",
+      "Incorrect. The Inquisition opposed vernacular Bibles.",
+      "Incorrect. The Council of Trent focused on administrative reforms."
+    ],
+    "topic": "The Catholic Reformation",
+    "unit": 2
+  },
+  {
+    "stimulus": "Peasant life was significantly impacted by social and economic changes in the 16th century.",
+    "question": "Which of the following BEST describes the social and economic conditions of peasants in 16th-century Europe?",
+    "answers": [
+      "Increased prosperity and social mobility due to economic growth.",
+      "Continued hardship and limited opportunities due to feudal obligations and economic pressures.",
+      "Complete freedom from feudal obligations and the right to own land.",
+      "Greater political influence and representation in government."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Peasants faced hardship.",
+      "Correct. Feudal obligations and economic pressures limited peasant opportunities.",
+      "Incorrect. Feudal obligations remained in place.",
+      "Incorrect. Peasants had little political influence."
+    ],
+    "topic": "16th-Century Society and Politics",
+    "unit": 2
+  },
+  {
+    "stimulus": "Baroque art was often used to glorify the Catholic Church and the monarchy.",
+    "question": "Which of the following is a common theme in Baroque art?",
+    "answers": [
+      "Simplicity and restraint, reflecting a rejection of extravagance.",
+      "Religious and political power, often expressed through dramatic and ornate displays.",
+      "Everyday life and the struggles of the common people.",
+      "Abstract concepts and non-representational forms."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Baroque art is extravagant.",
+      "Correct. Baroque art often glorified power.",
+      "Incorrect. This is more characteristic of Realism.",
+      "Incorrect. Baroque art is representational."
+    ],
+    "topic": "Art of the 16th Century: Mannerism and Baroque Art",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Reformation had a lasting impact on the development of Europe.",
+    "question": "Which of the following is a significant long-term consequence of the Reformation and the Wars of Religion?",
+    "answers": [
+      "The re-establishment of a unified Christian Europe under papal authority.",
+      "The development of more centralized and powerful monarchies.",
+      "A decline in religious belief and the rise of secularism throughout Europe.",
+      "The complete eradication of religious conflict and the establishment of lasting peace."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Reformation fractured religious unity.",
+      "Correct. Monarchies gained power as religious authority declined.",
+      "Incorrect. Religious belief remained strong, though diversified.",
+      "Incorrect. Religious conflicts continued."
+    ],
+    "topic": "Causation in the Age of Reformation and the Wars of Religion",
+    "unit": 2
+  }
+]

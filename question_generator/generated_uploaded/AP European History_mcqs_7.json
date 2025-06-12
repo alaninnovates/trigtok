@@ -1,0 +1,496 @@
+[
+  {
+    "stimulus": "The Congress of Vienna aimed to restore the balance of power in Europe after the Napoleonic Wars. Which of the following best describes the long-term impact of the Congress system on European politics?",
+    "question": "Which of the following best describes the long-term impact of the Congress system on European politics?",
+    "answers": [
+      "It created a lasting peace and prevented major wars for the next century.",
+      "It suppressed nationalist and liberal movements, leading to widespread discontent and revolutions.",
+      "It fostered a sense of European unity and cooperation that persists to this day.",
+      "It promoted democratic reforms and the expansion of voting rights across the continent."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While the Congress of Vienna aimed for peace, it did not prevent all wars. Conflicts such as the Crimean War and the Franco-Prussian War occurred.",
+      "Correct. The Congress system's conservative policies suppressed emerging nationalist and liberal movements, which contributed to widespread discontent and ultimately the Revolutions of 1848.",
+      "Incorrect. The Congress system focused more on maintaining a balance of power among states than on fostering a strong sense of European unity.",
+      "Incorrect. The Congress system generally opposed democratic reforms and sought to maintain the power of traditional monarchies and aristocracies."
+    ],
+    "topic": "Contextualizing 19th-Century Perspectives and Political Developments",
+    "unit": 7
+  },
+  {
+    "stimulus": "Giuseppe Mazzini, a key figure in the Italian Risorgimento, stated, 'Nationality is the role assigned by God to each people in the work of humanity. It is the mission, the special task, which that people is bound to perform so that the general aim may be attained.'",
+    "question": "Based on the quote, what was Mazzini's view of nationalism?",
+    "answers": [
+      "Nationalism is a dangerous ideology that leads to war and conflict.",
+      "Nationalism is a divinely ordained mission for each nation to fulfill.",
+      "Nationalism is primarily an economic movement aimed at creating free trade zones.",
+      "Nationalism is a tool used by governments to control their populations."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Mazzini was a strong advocate for nationalism and believed it was a positive force.",
+      "Correct. Mazzini saw nationalism as a divinely inspired mission for each nation to contribute to humanity.",
+      "Incorrect. While economic factors played a role in some nationalist movements, Mazzini's focus was on cultural and spiritual unity.",
+      "Incorrect. Mazzini was more focused on the intrinsic value and mission of the nation rather than governmental control."
+    ],
+    "topic": "Nationalism",
+    "unit": 7
+  },
+  {
+    "stimulus": "Otto von Bismarck famously said, 'The great questions of the day will not be settled by means of speeches and majority decisions but by iron and blood.'",
+    "question": "What does Bismarck's quote imply about his approach to national unification?",
+    "answers": [
+      "He believed in achieving unification through peaceful negotiation and diplomacy.",
+      "He advocated for democratic reforms and popular referendums to unite the nation.",
+      "He favored using military force and realpolitik to achieve German unification.",
+      "He supported international cooperation and alliances to achieve his goals."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The quote emphasizes force over negotiation.",
+      "Incorrect. Bismarck was not known for supporting democratic reforms.",
+      "Correct. Bismarck\u2019s phrase \u201ciron and blood\u201d refers to the use of military strength and ruthless pragmatism (realpolitik) as the means to achieve German unification.",
+      "Incorrect. While Bismarck did utilize alliances, the quote suggests a more forceful approach."
+    ],
+    "topic": "National Unification and Diplomatic Tensions",
+    "unit": 7
+  },
+  {
+    "stimulus": "Darwin's theory of evolution challenged traditional beliefs.",
+    "question": "How did Darwin's theory of evolution influence social and political thought in the late 19th century?",
+    "answers": [
+      "It led to increased religious tolerance and a decline in scientific racism.",
+      "It provided a scientific basis for socialist and communist ideologies.",
+      "It contributed to the development of Social Darwinism, which justified social inequality and imperialism.",
+      "It promoted pacifism and a rejection of militarism and nationalism."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Darwin's theory indirectly contributed to scientific racism through Social Darwinism.",
+      "Incorrect. While some socialists used Darwinian concepts, Social Darwinism was more influential in justifying inequality.",
+      "Correct. Social Darwinism, drawing from Darwin's ideas, was used to justify social hierarchies, racism, and imperial expansion by arguing that certain groups were inherently superior.",
+      "Incorrect. Social Darwinism often fueled militarism and nationalism."
+    ],
+    "topic": "Darwinism, Social Darwinism",
+    "unit": 7
+  },
+  {
+    "stimulus": "The late 19th century saw significant advancements in technology and industry.",
+    "question": "Which of the following best describes the impact of the Second Industrial Revolution on European society?",
+    "answers": [
+      "It led to a decline in urbanization and a return to agrarian lifestyles.",
+      "It resulted in increased social equality and a reduction in class divisions.",
+      "It transformed urban life, created new social classes, and increased consumerism.",
+      "It caused widespread economic depression and a decline in living standards."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Second Industrial Revolution led to increased urbanization as people moved to cities for work.",
+      "Incorrect. While some reforms improved conditions, the Second Industrial Revolution also exacerbated class divisions.",
+      "Correct. The Second Industrial Revolution spurred technological advancements, urbanization, the rise of a middle class, and increased access to consumer goods, fundamentally transforming European society.",
+      "Incorrect. While there were economic downturns, overall living standards improved for many during this period."
+    ],
+    "topic": "The Age of Progress and Modernity",
+    "unit": 7
+  },
+  {
+    "stimulus": "European powers sought to control territories in Africa and Asia during the late 19th century.",
+    "question": "Which of the following was a primary economic motivation for European imperialism in the late 19th century?",
+    "answers": [
+      "To establish free trade zones and promote global economic equality.",
+      "To acquire raw materials, new markets, and investment opportunities.",
+      "To provide economic aid and promote development in colonized regions.",
+      "To reduce domestic unemployment by relocating workers to colonies."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Imperialism was driven by self-interest, not global equality.",
+      "Correct. European powers sought access to raw materials, new markets for their manufactured goods, and opportunities for investment in colonies.",
+      "Incorrect. While some infrastructure was developed, the primary goal was economic exploitation.",
+      "Incorrect. While some people did migrate, this was not the primary motivation."
+    ],
+    "topic": "New Imperialism: Motivations and Methods",
+    "unit": 7
+  },
+  {
+    "stimulus": "Colonial powers implemented various policies in their colonies.",
+    "question": "What was the 'White Man's Burden,' as described by Rudyard Kipling, and how did it relate to imperialism?",
+    "answers": [
+      "It was a critique of imperialism, highlighting the economic exploitation of colonized peoples.",
+      "It was a justification for imperialism, arguing that Europeans had a duty to civilize and uplift 'inferior' races.",
+      "It was a call for greater cooperation between European powers and their colonies.",
+      "It was a plea for the protection of indigenous cultures and traditions."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Kipling's poem was a justification, not a critique, of imperialism.",
+      "Correct. The 'White Man's Burden' was the idea that Europeans had a moral obligation to civilize and 'uplift' non-European peoples, justifying imperial expansion.",
+      "Incorrect. The poem focused on the supposed duty of Europeans rather than cooperation.",
+      "Incorrect. The 'White Man's Burden' promoted the imposition of European culture."
+    ],
+    "topic": "Imperialism's Global Effects",
+    "unit": 7
+  },
+  {
+    "stimulus": "The late 19th century saw the emergence of new artistic and cultural movements.",
+    "question": "Which of the following best describes the characteristics of Impressionism in painting?",
+    "answers": [
+      "A focus on depicting realistic scenes and historical events with great detail.",
+      "An emphasis on capturing fleeting moments and the effects of light and color.",
+      "A rejection of traditional artistic conventions in favor of abstract forms.",
+      "A celebration of industrial progress and the beauty of modern technology."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Impressionism moved away from detailed realism.",
+      "Correct. Impressionism focused on capturing the transient effects of light and color, often depicting everyday scenes.",
+      "Incorrect. Abstraction is more characteristic of later movements like Cubism.",
+      "Incorrect. While some artists depicted modern life, Impressionism's focus was on light and color."
+    ],
+    "topic": "19th-Century Culture and Arts",
+    "unit": 7
+  },
+  {
+    "stimulus": "The Crimean War (1853-1856) involved multiple European powers.",
+    "question": "Which of the following was a significant long-term consequence of the Crimean War?",
+    "answers": [
+      "It strengthened the Concert of Europe and promoted international cooperation.",
+      "It led to the immediate unification of Germany and Italy.",
+      "It exposed the weaknesses of the Ottoman Empire and created opportunities for nationalist movements.",
+      "It resulted in a lasting peace and stability in the Balkan region."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Crimean War weakened the Concert of Europe.",
+      "Incorrect. Unification came later.",
+      "Correct. The war revealed the Ottoman Empire's vulnerability and spurred nationalist movements in the Balkans, ultimately contributing to instability in the region.",
+      "Incorrect. The war contributed to further instability."
+    ],
+    "topic": "Causation in 19th-Century Perspectives and Political Developments",
+    "unit": 7
+  },
+  {
+    "stimulus": "Consider the various factors contributing to the rise of nationalism in 19th-century Europe.",
+    "question": "Which of the following was a significant cultural factor that contributed to the rise of nationalism in 19th-century Europe?",
+    "answers": [
+      "The spread of Marxist ideology and socialist movements.",
+      "The development of a common language and shared cultural traditions.",
+      "The decline of religious institutions and the rise of secularism.",
+      "The expansion of international trade and economic interdependence."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Socialism gained prominence but was distinct from nationalism.",
+      "Correct. A shared language, folklore, and traditions created a sense of common identity and fostered national unity.",
+      "Incorrect. While secularism did rise, culture was more directly influential.",
+      "Incorrect. Economic factors were relevant but not the primary cultural driver."
+    ],
+    "topic": "Nationalism",
+    "unit": 7
+  },
+  {
+    "stimulus": "Examine the methods used by European powers to establish and maintain their colonial empires.",
+    "question": "Which of the following best describes the concept of 'indirect rule' as practiced by some European colonial powers?",
+    "answers": [
+      "Direct control of all aspects of colonial administration by European officials.",
+      "Collaboration with local elites and traditional rulers to govern the colony.",
+      "The establishment of democratic institutions and representative governments in the colony.",
+      "The complete suppression of indigenous cultures and languages in favor of European norms."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This describes direct rule.",
+      "Correct. Indirect rule involved governing through existing local leaders and institutions, often preserving traditional hierarchies while still maintaining European control.",
+      "Incorrect. Democratic institutions were rarely established under colonial rule.",
+      "Incorrect. While cultural suppression occurred, indirect rule often preserved some aspects of indigenous culture."
+    ],
+    "topic": "New Imperialism: Motivations and Methods",
+    "unit": 7
+  },
+  {
+    "stimulus": "Consider the impact of industrialization on European society during the 19th century.",
+    "question": "Which of the following was a major social consequence of industrialization in 19th-century Europe?",
+    "answers": [
+      "A decline in the overall population due to pollution and disease.",
+      "The creation of a large and impoverished working class.",
+      "A reduction in income inequality and greater social mobility.",
+      "The strengthening of traditional aristocratic elites."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Population generally increased due to industrialization.",
+      "Correct. Industrialization led to the growth of a working class often living in poverty and facing harsh working conditions.",
+      "Incorrect. Income inequality generally increased.",
+      "Incorrect. While aristocrats remained influential, their power was challenged by the rising middle class."
+    ],
+    "topic": "The Age of Progress and Modernity",
+    "unit": 7
+  },
+  {
+    "stimulus": "Analyze the role of key individuals in the unification of Italy.",
+    "question": "Which of the following figures is most associated with the political leadership in the unification of Italy?",
+    "answers": [
+      "Giuseppe Garibaldi",
+      "Camillo Benso, Count of Cavour",
+      "Giuseppe Mazzini",
+      "Victor Emmanuel II"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Garibaldi was a military leader.",
+      "Correct. Cavour was the Prime Minister of Piedmont-Sardinia and played a key role in the political maneuvering that led to Italian unification.",
+      "Incorrect. Mazzini was a nationalist intellectual and activist.",
+      "Incorrect. Victor Emmanuel II was the King of Piedmont-Sardinia (later Italy)."
+    ],
+    "topic": "National Unification and Diplomatic Tensions",
+    "unit": 7
+  },
+  {
+    "stimulus": "Assess the influence of Charles Darwin's theories on European thought.",
+    "question": "Which of the following is a correct statement regarding the impact of Darwin's 'On the Origin of Species'?",
+    "answers": [
+      "It was immediately embraced by the Catholic Church.",
+      "It led to a decline in scientific inquiry.",
+      "It challenged traditional religious beliefs about the creation of life.",
+      "It had little impact outside of the scientific community."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Catholic Church initially opposed Darwin's theories.",
+      "Incorrect. Darwin's work spurred further scientific investigation.",
+      "Correct. Darwin's theory of evolution by natural selection directly contradicted literal interpretations of the biblical account of creation.",
+      "Incorrect. Darwin's ideas had a profound impact on philosophy, sociology, and other fields."
+    ],
+    "topic": "Darwinism, Social Darwinism",
+    "unit": 7
+  },
+  {
+    "stimulus": "Consider the various artistic movements of the 19th century.",
+    "question": "Which artistic movement of the 19th century sought to depict the world in a realistic and objective manner, often focusing on the lives of ordinary people?",
+    "answers": [
+      "Romanticism",
+      "Realism",
+      "Impressionism",
+      "Surrealism"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Romanticism emphasized emotion and imagination.",
+      "Correct. Realism aimed to depict life as it was, often focusing on the working class and social issues.",
+      "Incorrect. Impressionism focused on capturing fleeting moments and the effects of light.",
+      "Incorrect. Surrealism emerged later and focused on the subconscious."
+    ],
+    "topic": "19th-Century Culture and Arts",
+    "unit": 7
+  },
+  {
+    "stimulus": "Analyze the causes and consequences of imperialism.",
+    "question": "Which of the following was a major political consequence of European imperialism in Africa?",
+    "answers": [
+      "The establishment of stable democratic governments throughout the continent.",
+      "The creation of artificial boundaries that often disregarded ethnic and cultural divisions.",
+      "A decline in inter-tribal conflict and increased cooperation among African states.",
+      "The rapid industrialization and economic development of African economies."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Colonial rule rarely led to stable democracies.",
+      "Correct. European powers drew arbitrary borders that often divided ethnic groups and created long-lasting conflicts.",
+      "Incorrect. Imperialism often exacerbated existing conflicts.",
+      "Incorrect. Colonial economies were primarily designed to benefit the colonizers."
+    ],
+    "topic": "Imperialism's Global Effects",
+    "unit": 7
+  },
+  {
+    "stimulus": "The following is an excerpt from Friedrich Nietzsche's 'Thus Spoke Zarathustra': 'God is dead. God remains dead. And we have killed him.'",
+    "question": "What is Nietzsche suggesting in this quote?",
+    "answers": [
+      "A call for the restoration of traditional religious values.",
+      "An observation on the decline of religious belief in modern society.",
+      "A prediction of an imminent apocalypse.",
+      "A theological argument about the nature of God."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Nietzsche was critical of traditional morality.",
+      "Correct. Nietzsche is pointing to the decline of religious belief and the values associated with it in the face of modern rationalism and scientific advancements.",
+      "Incorrect. The quote focuses on changing beliefs.",
+      "Incorrect. It's more of a philosophical statement."
+    ],
+    "topic": "19th-Century Culture and Arts",
+    "unit": 7
+  },
+  {
+    "stimulus": "Consider the various long-term factors that led to World War I.",
+    "question": "Which of the following best describes the system of alliances that developed in Europe prior to World War I?",
+    "answers": [
+      "A system designed to promote free trade and economic cooperation among nations.",
+      "A system that created a balance of power and reduced the likelihood of war.",
+      "A system of competing alliances that heightened tensions and increased the risk of war.",
+      "A system of collective security designed to prevent aggression by any single nation."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Alliances were primarily military and political.",
+      "Incorrect. The alliance system ultimately increased the risk of war.",
+      "Correct. The formation of alliances such as the Triple Alliance and the Triple Entente created a situation where a conflict between two nations could quickly escalate into a larger war.",
+      "Incorrect. The alliance system was not designed for collective security."
+    ],
+    "topic": "Causation in 19th-Century Perspectives and Political Developments",
+    "unit": 7
+  },
+  {
+    "stimulus": "Analyze the policies and goals of Otto von Bismarck as Chancellor of Germany.",
+    "question": "What was Bismarck's primary foreign policy goal as Chancellor of Germany?",
+    "answers": [
+      "To conquer and annex territory in Eastern Europe.",
+      "To establish a colonial empire in Africa and Asia.",
+      "To maintain peace in Europe through a system of alliances.",
+      "To promote democratic reforms and international cooperation."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While Bismarck did expand Prussian/German power, his main goal was not territorial expansion in Eastern Europe.",
+      "Incorrect. Bismarck was initially hesitant about colonialism.",
+      "Correct. Bismarck aimed to maintain peace and stability in Europe by creating a complex web of alliances that would prevent any single power from dominating the continent.",
+      "Incorrect. Bismarck was an autocrat who didn't want democratic reforms."
+    ],
+    "topic": "National Unification and Diplomatic Tensions",
+    "unit": 7
+  },
+  {
+    "stimulus": "Consider the social and political consequences of Social Darwinism.",
+    "question": "How was Social Darwinism used to justify imperialism?",
+    "answers": [
+      "By arguing that all races were equal and deserved self-determination.",
+      "By promoting the idea that stronger nations had a right to dominate weaker ones.",
+      "By advocating for international cooperation and peaceful resolution of conflicts.",
+      "By emphasizing the importance of cultural exchange and mutual understanding."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Social Darwinism promoted inequality.",
+      "Correct. Social Darwinism provided a pseudo-scientific justification for imperialism by arguing that certain nations were inherently superior and had a right to conquer and control others.",
+      "Incorrect. Social Darwinism promoted competition, not cooperation.",
+      "Incorrect. Cultural exchange wasn't relevant to Social Darwinism."
+    ],
+    "topic": "Darwinism, Social Darwinism",
+    "unit": 7
+  },
+  {
+    "stimulus": "Examine the various motivations behind European imperialism.",
+    "question": "What role did technological advancements play in facilitating European imperialism in the 19th century?",
+    "answers": [
+      "They had little impact on the ability of Europeans to colonize other regions.",
+      "They allowed Europeans to conquer and control vast territories more easily.",
+      "They primarily benefited colonized regions by promoting industrial development.",
+      "They led to a decline in European military power and influence."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Technology was a crucial factor.",
+      "Correct. Advancements like steamships, railroads, and improved weaponry allowed Europeans to penetrate and control distant lands more effectively.",
+      "Incorrect. The primary benefits accrued to the colonizers.",
+      "Incorrect. Technology enhanced European power."
+    ],
+    "topic": "New Imperialism: Motivations and Methods",
+    "unit": 7
+  },
+  {
+    "stimulus": "Consider the relationship between nationalism and liberalism in 19th-century Europe.",
+    "question": "How did liberalism and nationalism often interact in 19th-century Europe?",
+    "answers": [
+      "They were always in direct conflict with each other.",
+      "They often reinforced each other, with liberals supporting national self-determination.",
+      "Liberals generally opposed nationalist movements.",
+      "Nationalism always led to the suppression of liberal values."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. They often complemented each other.",
+      "Correct. Many liberals saw nationalism as a way to achieve self-government and individual rights for their nation.",
+      "Incorrect. Liberals often supported nationalism.",
+      "Incorrect. While nationalism could become authoritarian, it initially aligned with liberal ideals."
+    ],
+    "topic": "Nationalism",
+    "unit": 7
+  },
+  {
+    "stimulus": "Analyze the impact of the Second Industrial Revolution on European economies.",
+    "question": "Which of the following innovations is associated with the Second Industrial Revolution?",
+    "answers": [
+      "The steam engine",
+      "The cotton gin",
+      "The assembly line",
+      "The printing press"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Associated with the First Industrial Revolution.",
+      "Incorrect. Associated with the First Industrial Revolution.",
+      "Correct. The assembly line, pioneered by Henry Ford, is a key innovation of the Second Industrial Revolution, enabling mass production.",
+      "Incorrect. The printing press predates the Industrial Revolutions."
+    ],
+    "topic": "The Age of Progress and Modernity",
+    "unit": 7
+  },
+  {
+    "stimulus": "Consider the various factors that contributed to the decline of the Ottoman Empire in the 19th century.",
+    "question": "Which of the following was a major factor contributing to the decline of the Ottoman Empire in the 19th century?",
+    "answers": [
+      "Increased centralization of power and efficient administration.",
+      "Successful industrialization and economic modernization.",
+      "Growing nationalist movements within its diverse territories.",
+      "Strong alliances with other European powers."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Ottoman Empire struggled with decentralization and inefficiency.",
+      "Incorrect. The Ottoman Empire lagged behind in industrialization.",
+      "Correct. Nationalist movements among groups like the Serbs, Greeks, and Egyptians weakened the empire's control over its territories.",
+      "Incorrect. The Ottoman Empire faced increasing pressure from European powers."
+    ],
+    "topic": "Causation in 19th-Century Perspectives and Political Developments",
+    "unit": 7
+  },
+  {
+    "stimulus": "Examine the cultural and intellectual movements of the late 19th century.",
+    "question": "Which of the following best describes the philosophy of positivism, as advocated by Auguste Comte?",
+    "answers": [
+      "A rejection of scientific inquiry in favor of religious faith.",
+      "The belief that knowledge should be based on empirical evidence and scientific observation.",
+      "An emphasis on subjective experience and emotional expression.",
+      "The idea that progress is an illusion and that society is destined to decline."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Positivism was pro-science.",
+      "Correct. Positivism emphasized the importance of scientific knowledge and the belief that society could be improved through the application of scientific principles.",
+      "Incorrect. Positivism focused on objective reality, not subjective experience.",
+      "Incorrect. Positivism was optimistic about progress."
+    ],
+    "topic": "19th-Century Culture and Arts",
+    "unit": 7
+  },
+  {
+    "stimulus": "Consider the global effects of European imperialism in the 19th century.",
+    "question": "Which of the following was a long-term economic consequence of European imperialism in many colonized regions?",
+    "answers": [
+      "Diversification of local economies and increased self-sufficiency.",
+      "Integration into the global capitalist system as suppliers of raw materials.",
+      "Rapid industrialization and the development of manufacturing industries.",
+      "Equitable distribution of wealth and resources."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Colonial economies were often geared towards a single product.",
+      "Correct. Imperialism led to the integration of colonized regions into the global economy as sources of raw materials, often hindering their own industrial development.",
+      "Incorrect. Industrialization was limited in many colonies.",
+      "Incorrect. Imperialism exacerbated economic inequality."
+    ],
+    "topic": "Imperialism's Global Effects",
+    "unit": 7
+  }
+]

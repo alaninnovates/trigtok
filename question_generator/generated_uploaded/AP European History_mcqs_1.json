@@ -1,0 +1,629 @@
+[
+  {
+    "stimulus": "\u201cO highest and most marvelous felicity of man! To him it is granted to have whatever he chooses, to be whatever he wills.\u201d - Pico della Mirandola, Oration on the Dignity of Man, 1486",
+    "question": "The ideas expressed in the passage are best understood in the context of which of the following?",
+    "answers": [
+      "The rise of feudalism and the manorial system, emphasizing social hierarchy and obligations.",
+      "The intellectual and cultural movement of the Renaissance, which emphasized human potential and achievement.",
+      "The Protestant Reformation, which focused on individual faith and a direct relationship with God.",
+      "The Scientific Revolution, which promoted empirical observation and mathematical reasoning."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Feudalism predates the Renaissance and emphasizes hierarchy, contrasting with the passage's focus on individual potential.",
+      "Correct: The passage reflects Renaissance humanism, emphasizing human potential and the ability to shape one's destiny.",
+      "Incorrect: The Protestant Reformation, while significant, is not the primary context for understanding Renaissance humanism.",
+      "Incorrect: The Scientific Revolution occurred later and focused on scientific inquiry, not the celebration of human potential."
+    ],
+    "topic": "Italian Renaissance",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Courtier by Baldassare Castiglione",
+    "question": "Castiglione's book of etiquette, The Courtier, was influential because it",
+    "answers": [
+      "Declared war to be an activity unbefitting of courtiers.",
+      "Defined the proper social behaviors for gentlemen and ladies during the Renaissance.",
+      "Argued that the nobility should be subordinate to the papacy.",
+      "Suggested that all people should be allowed to participate in government."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The Courtier includes skill in arms as an important trait.",
+      "Correct: Castiglione's work defined the ideal courtier, shaping social norms during the Renaissance.",
+      "Incorrect: Castiglione wrote about courtly behavior and did not focus on the papacy.",
+      "Incorrect: Castiglione focused on the nobility, not the general population."
+    ],
+    "topic": "Italian Renaissance",
+    "unit": 1
+  },
+  {
+    "stimulus": "Michelangelo's David",
+    "question": "Michelangelo's David, exemplified the values of the Renaissance because it",
+    "answers": [
+      "Portrayed a biblical figure with classical Greek artistic ideals of humanism.",
+      "Emphasized the power of the Church over the state.",
+      "Advocated for monasticism and the rejection of worldly pursuits.",
+      "Promoted a return to Gothic architectural styles."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: David reflects humanism through its realistic and idealized depiction of the human form, drawing on classical Greek ideals.",
+      "Incorrect: David's focus is on human form and potential, not the power of the Church.",
+      "Incorrect: The sculpture celebrates human achievement, not monasticism.",
+      "Incorrect: The sculpture is an example of Renaissance art, not Gothic architecture."
+    ],
+    "topic": "Italian Renaissance",
+    "unit": 1
+  },
+  {
+    "stimulus": "Machiavelli, The Prince",
+    "question": "In *The Prince*, Machiavelli argued that",
+    "answers": [
+      "A ruler should always act virtuously, even if it means losing power.",
+      "A ruler should be feared rather than loved, if it is impossible to be both.",
+      "Democracy is the most stable form of government.",
+      "The ends never justify the means."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Machiavelli suggests that a ruler must sometimes act immorally to maintain power.",
+      "Correct: Machiavelli believed that it is safer for a ruler to be feared, as love is fickle.",
+      "Incorrect: Machiavelli did not advocate for democracy.",
+      "Incorrect: Machiavelli's work is famous for the idea that the ends can justify the means."
+    ],
+    "topic": "Italian Renaissance",
+    "unit": 1
+  },
+  {
+    "stimulus": "The invention of the printing press by Johannes Gutenberg",
+    "question": "Which of the following was a direct consequence of the printing revolution in Europe?",
+    "answers": [
+      "The decline of vernacular languages in favor of Latin.",
+      "The standardization and increased dissemination of knowledge.",
+      "A decrease in literacy rates among the general population.",
+      "The strengthening of the Catholic Church's control over intellectual life."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The printing press led to an increase in vernacular works.",
+      "Correct: The printing press enabled the mass production of books, leading to the standardization of knowledge and its wider spread.",
+      "Incorrect: Literacy rates increased as books became more accessible.",
+      "Incorrect: The printing press challenged the Church's control by allowing for the spread of dissenting ideas."
+    ],
+    "topic": "Printing",
+    "unit": 1
+  },
+  {
+    "stimulus": "Erasmus's *In Praise of Folly*",
+    "question": "Erasmus's *In Praise of Folly* is best understood as",
+    "answers": [
+      "A call for violent revolution against established authorities.",
+      "A defense of religious dogma and traditional Church practices.",
+      "A satirical critique of the Catholic Church and European society.",
+      "A scientific treatise on the laws of physics."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Erasmus advocated for reform through satire, not revolution.",
+      "Incorrect: Erasmus criticized the Church's corruption and superstitions.",
+      "Correct: Erasmus used satire to expose the follies and corruption within the Church and society.",
+      "Incorrect: Erasmus was a humanist scholar, not a scientist."
+    ],
+    "topic": "Northern Renaissance",
+    "unit": 1
+  },
+  {
+    "stimulus": "Thomas More's *Utopia*",
+    "question": "Thomas More's *Utopia* described",
+    "answers": [
+      "An ideal society based on reason and communal living.",
+      "A realistic portrayal of 16th-century English society.",
+      "A manual for rulers on how to maintain power through deception.",
+      "A theological treatise on the nature of salvation."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: *Utopia* presents an idealized society based on humanist principles.",
+      "Incorrect: *Utopia* is a fictional and idealized society, not a realistic portrayal.",
+      "Incorrect: Machiavelli's *The Prince* focused on political strategy, not More's *Utopia*.",
+      "Incorrect: *Utopia* focuses on social and political structures, not theology."
+    ],
+    "topic": "Northern Renaissance",
+    "unit": 1
+  },
+  {
+    "stimulus": "Jan van Eyck's *Arnolfini Portrait*",
+    "question": "The artistic style of Jan van Eyck is characterized by",
+    "answers": [
+      "The use of linear perspective to create depth.",
+      "The emphasis on idealized human forms.",
+      "The use of oil paints to achieve realistic detail and vibrant colors.",
+      "The incorporation of classical mythology into religious scenes."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: While linear perspective was used in the Renaissance, Van Eyck is more known for his use of oil paints.",
+      "Incorrect: Van Eyck's style is realistic rather than idealized.",
+      "Correct: Van Eyck pioneered the use of oil paints to create highly detailed and realistic images.",
+      "Incorrect: Van Eyck primarily painted religious and secular scenes from his own time, not classical mythology."
+    ],
+    "topic": "Northern Renaissance",
+    "unit": 1
+  },
+  {
+    "stimulus": "Charles VII of France establishing a royal army.",
+    "question": "The establishment of a royal army by Charles VII of France was primarily intended to",
+    "answers": [
+      "Reduce the power of the monarchy and empower local lords.",
+      "Centralize royal authority and consolidate power.",
+      "Promote religious tolerance and end the Wars of Religion.",
+      "Encourage economic growth through free trade."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Royal armies served to increase royal power, not reduce it.",
+      "Correct: The creation of a royal army was a key step in centralizing power under the monarchy.",
+      "Incorrect: Charles VII lived before the Wars of Religion.",
+      "Incorrect: The army served to consolidate the king's power, not specifically to encourage economic growth."
+    ],
+    "topic": "New Monarchies",
+    "unit": 1
+  },
+  {
+    "stimulus": "The marriage of Ferdinand of Aragon and Isabella of Castile.",
+    "question": "The marriage of Ferdinand of Aragon and Isabella of Castile in 1469 is significant because it",
+    "answers": [
+      "United Spain and began the process of creating a centralized Spanish monarchy.",
+      "Led to the immediate expulsion of all Jews and Muslims from Spain.",
+      "Established a constitutional monarchy with limitations on royal power.",
+      "Initiated a period of religious tolerance and cultural exchange in Spain."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: Their marriage united the two largest Spanish kingdoms and laid the foundation for a unified Spain.",
+      "Incorrect: The expulsion of Jews and Muslims occurred later, in 1492.",
+      "Incorrect: Spain developed an absolute monarchy, not a constitutional one.",
+      "Incorrect: While there was cultural exchange, their reign was marked by religious intolerance."
+    ],
+    "topic": "New Monarchies",
+    "unit": 1
+  },
+  {
+    "stimulus": "Henry VII of England utilizing the Court of Star Chamber.",
+    "question": "Henry VII of England used the Court of Star Chamber to",
+    "answers": [
+      "Ensure fair trials and protect the rights of commoners.",
+      "Suppress dissent and exert royal control over the nobility.",
+      "Promote religious reform and challenge the authority of the Pope.",
+      "Encourage parliamentary debate and limit the power of the monarchy."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The Star Chamber was known for its lack of due process.",
+      "Correct: The Court of Star Chamber was used to try nobles outside of common law.",
+      "Incorrect: Henry VII was a Catholic and did not challenge the Pope.",
+      "Incorrect: The Star Chamber circumvented Parliament."
+    ],
+    "topic": "New Monarchies",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Edict of Nantes, issued by Henry IV of France.",
+    "question": "The Edict of Nantes, issued by Henry IV of France in 1598",
+    "answers": [
+      "Established Catholicism as the sole religion of France.",
+      "Granted religious toleration to Huguenots (French Protestants).",
+      "Forbade any form of Protestant worship in France.",
+      "Initiated a period of religious warfare between Catholics and Protestants."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The Edict granted toleration, not exclusive status, to Catholicism.",
+      "Correct: The Edict granted Huguenots religious freedom in specified areas.",
+      "Incorrect: The Edict allowed for some Protestant worship.",
+      "Incorrect: The Edict aimed to end religious warfare, not start it."
+    ],
+    "topic": "New Monarchies",
+    "unit": 1
+  },
+  {
+    "stimulus": "The astrolabe and the magnetic compass",
+    "question": "The astrolabe and the magnetic compass are examples of",
+    "answers": [
+      "New artistic techniques developed during the Renaissance.",
+      "Inventions that facilitated European exploration and navigation.",
+      "Philosophical concepts that challenged traditional religious beliefs.",
+      "Economic policies that promoted free trade and mercantilism."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: These were technological advancements, not artistic techniques.",
+      "Correct: These instruments were crucial for navigation and exploration.",
+      "Incorrect: They were navigational tools, not philosophical concepts.",
+      "Incorrect: They are tools, not economic policies."
+    ],
+    "topic": "Technological Advances and the Age of Exploration",
+    "unit": 1
+  },
+  {
+    "stimulus": "The caravel ship",
+    "question": "The caravel ship was significant because it",
+    "answers": [
+      "Was powered by steam, allowing for faster transatlantic voyages.",
+      "Was highly maneuverable and capable of sailing against the wind.",
+      "Was primarily used for river transportation and inland trade.",
+      "Was designed for warfare and carried heavy artillery."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Steam power was not used until much later.",
+      "Correct: The caravel's design allowed for greater maneuverability, crucial for exploration.",
+      "Incorrect: Caravels were used for ocean voyages.",
+      "Incorrect: While caravels could be armed, their primary purpose was exploration and trade."
+    ],
+    "topic": "Technological Advances and the Age of Exploration",
+    "unit": 1
+  },
+  {
+    "stimulus": "Prince Henry the Navigator of Portugal",
+    "question": "Prince Henry the Navigator of Portugal is best known for",
+    "answers": [
+      "Leading the first circumnavigation of the globe.",
+      "Sponsoring voyages of exploration along the coast of Africa.",
+      "Discovering the Americas before Christopher Columbus.",
+      "Inventing the printing press and promoting literacy."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Magellan's expedition was the first to circumnavigate the globe.",
+      "Correct: Prince Henry sponsored voyages to explore the African coast, seeking new trade routes.",
+      "Incorrect: Columbus is credited with the discovery of the Americas.",
+      "Incorrect: Gutenberg invented the printing press."
+    ],
+    "topic": "Technological Advances and the Age of Exploration",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Treaty of Tordesillas (1494)",
+    "question": "The Treaty of Tordesillas (1494) aimed to",
+    "answers": [
+      "Establish a military alliance between Spain and Portugal against England.",
+      "Divide newly discovered lands outside of Europe between Spain and Portugal.",
+      "Promote free trade and economic cooperation between European powers.",
+      "End religious conflict and establish a lasting peace in Europe."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The treaty was about land division, not military alliances.",
+      "Correct: The treaty divided the newly discovered lands between Spain and Portugal.",
+      "Incorrect: The treaty focused on territorial claims, not free trade.",
+      "Incorrect: The treaty addressed colonial claims, not European peace."
+    ],
+    "topic": "Rivals on the World Stage",
+    "unit": 1
+  },
+  {
+    "stimulus": "The rivalry between England and Spain in the late 16th century.",
+    "question": "The rivalry between England and Spain in the late 16th century was primarily driven by",
+    "answers": [
+      "Religious differences, economic competition, and political ambitions.",
+      "A shared desire to colonize North America and establish joint settlements.",
+      "A common fear of the growing power of the Ottoman Empire.",
+      "A dispute over the succession to the French throne."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: Religious tensions (Protestant England vs. Catholic Spain), economic rivalry, and political ambitions fueled the conflict.",
+      "Incorrect: They were rivals in North America, not collaborators.",
+      "Incorrect: While the Ottoman Empire was a concern, it was not the primary driver of the Anglo-Spanish rivalry.",
+      "Incorrect: The rivalry predates conflicts over the French throne."
+    ],
+    "topic": "Rivals on the World Stage",
+    "unit": 1
+  },
+  {
+    "stimulus": "The defeat of the Spanish Armada in 1588.",
+    "question": "The defeat of the Spanish Armada in 1588",
+    "answers": [
+      "Marked the end of English naval power and the beginning of Spanish dominance at sea.",
+      "Signaled the decline of Spanish power and the rise of England as a major naval power.",
+      "Resolved the religious conflict between Catholics and Protestants in Europe.",
+      "Led to the immediate colonization of North America by Spain."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The Armada's defeat marked the decline of Spanish power.",
+      "Correct: The defeat of the Armada was a major victory for England and signaled the rise of its naval power.",
+      "Incorrect: The religious conflict continued for many years.",
+      "Incorrect: England, not Spain, began to colonize North America after the defeat of the Armada."
+    ],
+    "topic": "Rivals on the World Stage",
+    "unit": 1
+  },
+  {
+    "stimulus": "Columbus's arrival in the Americas",
+    "question": "Which of the following best describes the Columbian Exchange?",
+    "answers": [
+      "The exchange of ambassadors between European and Asian countries.",
+      "The transfer of plants, animals, diseases, and culture between the Americas, Europe, and Africa.",
+      "The trade of enslaved Africans to the Americas.",
+      "The spread of Renaissance art and literature from Italy to Northern Europe."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The Columbian Exchange refers to the exchange of goods and diseases between continents.",
+      "Correct: The Columbian Exchange refers to the exchange of plants, animals, diseases, and culture between the Americas, Europe, and Africa.",
+      "Incorrect: The slave trade was a component of the Columbian Exchange, but the Columbian Exchange refers to many factors.",
+      "Incorrect: The Renaissance was a separate movement."
+    ],
+    "topic": "Colonial Expansion and Columbian Exchange",
+    "unit": 1
+  },
+  {
+    "stimulus": "Smallpox in the Americas",
+    "question": "Which of the following diseases, brought by Europeans, devastated the native population of the Americas?",
+    "answers": [
+      "Malaria",
+      "Smallpox",
+      "Syphilis",
+      "Tuberculosis"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Malaria was present, but not as devastating as smallpox.",
+      "Correct: Smallpox caused widespread death and societal disruption among Native American populations.",
+      "Incorrect: Syphilis's origin is debated, but it did not have the same impact as smallpox.",
+      "Incorrect: Tuberculosis was not as devastating as smallpox."
+    ],
+    "topic": "Colonial Expansion and Columbian Exchange",
+    "unit": 1
+  },
+  {
+    "stimulus": "The introduction of the potato to Europe",
+    "question": "Which of the following was a long-term effect of the Columbian Exchange?",
+    "answers": [
+      "A decline in European population due to new diseases.",
+      "Increased agricultural productivity and population growth in Europe.",
+      "The end of slavery in the Americas.",
+      "Decreased warfare among European powers."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: European populations increased overall due to new food sources.",
+      "Correct: The introduction of new crops led to increased food production and population growth.",
+      "Incorrect: Slavery continued for centuries after the Columbian Exchange.",
+      "Incorrect: Warfare remained common among European powers."
+    ],
+    "topic": "Colonial Expansion and Columbian Exchange",
+    "unit": 1
+  },
+  {
+    "stimulus": "Sugar Plantations in the Caribbean",
+    "question": "The transatlantic slave trade was primarily driven by the need for labor in",
+    "answers": [
+      "European factories during the Industrial Revolution.",
+      "American cotton plantations.",
+      "Caribbean sugar plantations.",
+      "Brazilian coffee plantations."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: The Industrial Revolution occurred later.",
+      "Incorrect: Cotton plantations became prominent later.",
+      "Correct: Sugar plantations in the Caribbean created a high demand for slave labor.",
+      "Incorrect: Coffee plantations in Brazil became prominent later."
+    ],
+    "topic": "The Slave Trade",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Middle Passage",
+    "question": "The 'Middle Passage' refers to",
+    "answers": [
+      "The trade route between Europe, Africa, and Asia.",
+      "The journey of enslaved Africans across the Atlantic Ocean.",
+      "The exchange of goods between European merchants and Native Americans.",
+      "The religious conversion of Africans to Christianity."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: While the trade route was important, the 'Middle Passage' has a specific meaning.",
+      "Correct: The Middle Passage refers to the forced voyage of enslaved Africans across the Atlantic.",
+      "Incorrect: This refers to trade with Native Americans, not the Middle Passage.",
+      "Incorrect: While conversion occurred, the term has a different meaning."
+    ],
+    "topic": "The Slave Trade",
+    "unit": 1
+  },
+  {
+    "stimulus": "Olaudah Equiano",
+    "question": "Olaudah Equiano is best known for",
+    "answers": [
+      "Leading a slave revolt in Haiti.",
+      "Writing an autobiography detailing his experiences as a slave.",
+      "Discovering the Americas before Christopher Columbus.",
+      "Inventing the cotton gin, which increased the demand for slave labor."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Toussaint Louverture led the Haitian Revolution.",
+      "Correct: Equiano's autobiography provided a powerful account of the horrors of slavery.",
+      "Incorrect: Columbus is credited with discovering the Americas.",
+      "Incorrect: Eli Whitney invented the cotton gin."
+    ],
+    "topic": "The Slave Trade",
+    "unit": 1
+  },
+  {
+    "stimulus": "The price revolution of the 16th century",
+    "question": "The price revolution of the 16th century was primarily caused by",
+    "answers": [
+      "A decrease in the supply of precious metals from the Americas.",
+      "An increase in population and the supply of money, leading to inflation.",
+      "Government regulations that fixed prices and wages.",
+      "A decline in agricultural production due to climate change."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The supply of precious metals increased.",
+      "Correct: Increased population and the influx of silver from the Americas led to inflation.",
+      "Incorrect: Mercantilist policies existed, but were not the main driver of the price revolution.",
+      "Incorrect: While climate change can affect prices, it was not the primary cause in the 16th century."
+    ],
+    "topic": "The Commercial Revolution",
+    "unit": 1
+  },
+  {
+    "stimulus": "Mercantilism",
+    "question": "Mercantilism, as practiced by European powers during the Commercial Revolution, involved",
+    "answers": [
+      "Promoting free trade and open markets between nations.",
+      "Accumulating wealth through a favorable balance of trade and colonial possessions.",
+      "Encouraging domestic consumption and limiting exports.",
+      "Establishing a common currency and eliminating tariffs within Europe."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Mercantilism was based on protectionism, not free trade.",
+      "Correct: Mercantilism aimed to accumulate wealth through colonies and a positive balance of trade.",
+      "Incorrect: Mercantilism encouraged exports and limited imports.",
+      "Incorrect: These policies are more associated with modern free trade agreements."
+    ],
+    "topic": "The Commercial Revolution",
+    "unit": 1
+  },
+  {
+    "stimulus": "Joint-stock companies",
+    "question": "The rise of joint-stock companies during the Commercial Revolution was significant because they",
+    "answers": [
+      "Promoted government regulation of business and industry.",
+      "Enabled large-scale investment in overseas ventures and trade.",
+      "Replaced traditional family-owned businesses.",
+      "Focused primarily on agricultural production rather than trade."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Joint-stock companies operated with less government regulation.",
+      "Correct: Joint-stock companies allowed for the pooling of resources for large investments.",
+      "Incorrect: Both existed, but joint-stock companies were better funded for overseas ventures.",
+      "Incorrect: They focused on trade, not agricultural production."
+    ],
+    "topic": "The Commercial Revolution",
+    "unit": 1
+  },
+  {
+    "stimulus": "The transition from feudalism to more centralized states in Europe.",
+    "question": "Which of the following best explains a CAUSE of the Renaissance?",
+    "answers": [
+      "The rise in power of the feudal lords following the bubonic plague",
+      "The rediscovery of classical knowledge and a renewed interest in humanism",
+      "The increased power of the Catholic Church in everyday life",
+      "A cooling period that drastically reduced agricultural production and access to food"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The bubonic plague actually reduced the power of the feudal lords, and ultimately paved the way for new economic systems.",
+      "Correct: The rediscovery of classical knowledge from the Greeks and Romans caused individuals to study ancient philosophies, which inspired the humanism movement.",
+      "Incorrect: The Catholic Church saw a reduction in their power following the bubonic plague and the great schism.",
+      "Incorrect: The weather actually was warming during this period, which facilitated a population boom and increased access to food."
+    ],
+    "topic": "Causation in the Renaissance and Age of Discovery",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Commercial Revolution",
+    "question": "Which of the following was a CONSEQUENCE of the Commercial Revolution?",
+    "answers": [
+      "A decrease in global trade and cultural exchange.",
+      "The decline of European cities as centers of commerce.",
+      "The rise of a new merchant class and increased social mobility.",
+      "A return to a barter economy and the abandonment of coinage."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Global trade increased.",
+      "Incorrect: European cities became increasingly important as centers of commerce.",
+      "Correct: The commercial revolution led to the rise of a new merchant class and the decline of the aristocracy, creating social mobility.",
+      "Incorrect: Coinage became more important, and the barter economy slowly went out of style."
+    ],
+    "topic": "Causation in the Renaissance and Age of Discovery",
+    "unit": 1
+  },
+  {
+    "stimulus": "The creation of New Monarchies in the late 1400s",
+    "question": "Which of the following contributed MOST to the development of New Monarchies in Europe during the Renaissance?",
+    "answers": [
+      "The decline of centralized authority and the rise of feudalism.",
+      "The emergence of strong central governments and national identities.",
+      "The rejection of classical learning and the revival of medieval scholasticism.",
+      "The decentralization of power and the growing influence of local lords."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The decline of centralized authority actually CAUSES feudalism, the opposite of New Monarchies.",
+      "Correct: The New Monarchies were characterized by strong central governments and national identities.",
+      "Incorrect: The Renaissance was marked by the revival of classical learning.",
+      "Incorrect: New Monarchies were about increased power and influence of a central authority."
+    ],
+    "topic": "Causation in the Renaissance and Age of Discovery",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Age of Exploration",
+    "question": "Which of the following best describes a CAUSE of the Age of Exploration?",
+    "answers": [
+      "Europeans wanted to isolate themselves from the rest of the world.",
+      "Europeans were searching for new trade routes to Asia and sources of wealth.",
+      "Europeans feared the spread of new ideas and knowledge.",
+      "Europeans focused solely on domestic affairs and ignored foreign lands."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Europeans desired to expand their influence.",
+      "Correct: Europeans were searching for new trade routes to Asia and sources of wealth, ultimately leading to the exploration of the Americas.",
+      "Incorrect: They were interested in new ideas and knowledge, although there was some concern.",
+      "Incorrect: They desired to explore foreign lands."
+    ],
+    "topic": "Causation in the Renaissance and Age of Discovery",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Renaissance",
+    "question": "The Renaissance helped set the stage for the Scientific Revolution by:",
+    "answers": [
+      "discouraging experimentation and observation in favor of ancient wisdom",
+      "emphasizing human reason and observation, leading to new scientific inquiry",
+      "focusing solely on religious explanations for natural phenomena",
+      "stifling artistic expression and intellectual curiosity"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The Renaissance actually encouraged experimentation and observation.",
+      "Correct: The Renaissance emphasized human reason and observation, ultimately leading to new scientific inquiry.",
+      "Incorrect: It led to less of a focus on solely religious explanations.",
+      "Incorrect: The Renaissance was about expression and curiosity!"
+    ],
+    "topic": "Causation in the Renaissance and Age of Discovery",
+    "unit": 1
+  },
+  {
+    "stimulus": "The End of the Renaissance",
+    "question": "Which of the following caused the end of the Renaissance?",
+    "answers": [
+      "The Black Death",
+      "The Protestant Reformation",
+      "The Congress of Vienna",
+      "World War I"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The Black Death helped usher in the Renaissance.",
+      "Correct: The Protestant Reformation reduced the power of the Catholic Church, and religious themes became less of a focus in society.",
+      "Incorrect: The Congress of Vienna was in the 1800s, long after the Renaissance.",
+      "Incorrect: World War I was in the 1900s, long after the Renaissance."
+    ],
+    "topic": "Causation in the Renaissance and Age of Discovery",
+    "unit": 1
+  }
+]

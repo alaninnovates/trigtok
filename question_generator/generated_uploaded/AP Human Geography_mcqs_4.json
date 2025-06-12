@@ -1,0 +1,553 @@
+[
+  {
+    "stimulus": "The Peace of Westphalia, signed in 1648, is often cited as the beginning of the modern state system. What key principle was established by this treaty?",
+    "question": "Which of the following principles was MOST strengthened and recognized by the Peace of Westphalia?",
+    "answers": [
+      "The divine right of kings to rule their territories.",
+      "The concept of universal empires with shared governance.",
+      "The sovereignty of states and their right to self-determination.",
+      "The dominance of religious authorities in political affairs."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Peace of Westphalia actually diminished the power of monarchs, not strengthened it.",
+      "Incorrect. The Peace of Westphalia sought to dismantle the concept of universal empires in favor of individual states.",
+      "Correct. The Peace of Westphalia is credited with establishing state sovereignty, which is the right of a state to govern itself without external interference.",
+      "Incorrect. The Peace of Westphalia reduced the influence of religious authorities in political affairs."
+    ],
+    "topic": "Introduction to Political Geography",
+    "unit": 4
+  },
+  {
+    "stimulus": "A country holds elections every four years. All adult citizens are eligible to vote, and the government is formed by the party that wins a majority of seats in the legislature.",
+    "question": "Which form of government is BEST described in the scenario?",
+    "answers": [
+      "Autocracy",
+      "Direct Democracy",
+      "Representative Democracy",
+      "Theocracy"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. An autocracy is ruled by a single person with unlimited power.",
+      "Incorrect. Direct democracy involves all citizens voting on every issue.",
+      "Correct. A representative democracy is where citizens elect representatives to make decisions on their behalf.",
+      "Incorrect. A theocracy is ruled by religious leaders."
+    ],
+    "topic": "Forms of Governance",
+    "unit": 4
+  },
+  {
+    "stimulus": "The European Union requires member states to adhere to certain economic and political standards. Some argue this undermines the sovereignty of individual nations.",
+    "question": "Which of the following best illustrates the challenge to state sovereignty described above?",
+    "answers": [
+      "Supranationalism",
+      "Devolution",
+      "Centripetal Forces",
+      "Federalism"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Supranationalism involves multiple states pooling sovereignty to achieve common goals, potentially limiting individual state power.",
+      "Incorrect. Devolution is the transfer of power from a central government to regional governments within a state.",
+      "Incorrect. Centripetal forces unite a state.",
+      "Incorrect. Federalism involves the division of power between a central government and regional governments within a single state."
+    ],
+    "topic": "Challenges to Sovereignty",
+    "unit": 4
+  },
+  {
+    "stimulus": "A country experiences significant cultural differences between its northern and southern regions. The northern region feels marginalized and demands greater autonomy, threatening to secede.",
+    "question": "Which of the following is the primary devolutionary factor in the situation described above?",
+    "answers": [
+      "Strong national identity",
+      "Economic inequality",
+      "Cultural differences",
+      "Effective central governance"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Strong national identity is a centripetal force, not devolutionary.",
+      "Incorrect. Economic inequality can be devolutionary but cultural differences are more relevant in the scenario.",
+      "Correct. Cultural differences can lead to demands for autonomy and even secession.",
+      "Incorrect. Effective central governance is a centripetal force."
+    ],
+    "topic": "Defining Devolutionary Factors",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Heartland Theory, proposed by Halford Mackinder, suggests that control of Eastern Europe leads to control of the 'World Island' (Eurasia and Africa), and ultimately the world.",
+    "question": "The Heartland Theory is MOST relevant to understanding which of the following concepts?",
+    "answers": [
+      "Gerrymandering",
+      "Geopolitics",
+      "Federalism",
+      "Supranationalism"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Gerrymandering is the redrawing of electoral district boundaries to favor a particular party.",
+      "Correct. Geopolitics is the study of the influence of geography on politics and international relations, which Mackinder's theory directly addresses.",
+      "Incorrect. Federalism is a system of government with divided powers.",
+      "Incorrect. Supranationalism is a venture involving three or more states."
+    ],
+    "topic": "Political Power and Territoriality",
+    "unit": 4
+  },
+  {
+    "stimulus": "A region is experiencing increased immigration, leading to a more diverse population. While some welcome the new cultures, others express concerns about the loss of their traditional values.",
+    "question": "In the context of political geography, the increased immigration and the responses it evokes BEST exemplify the interplay between which of the following forces?",
+    "answers": [
+      "Centrifugal and Centripetal",
+      "Federal and Unitary",
+      "Democratization and Authoritarianism",
+      "Globalization and Isolationism"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Immigration can act as both a centrifugal force (creating division) and a centripetal force (adding diversity and new perspectives).",
+      "Incorrect. Federal and Unitary refer to the distribution of power within a state.",
+      "Incorrect. Democratization and Authoritarianism refer to forms of governance.",
+      "Incorrect. Globalization and Isolationism are related, but centrifugal and centripetal forces are a better fit for the prompt."
+    ],
+    "topic": "Consequences of Centrifugal and Centripetal Forces",
+    "unit": 4
+  },
+  {
+    "stimulus": "The United Nations has intervened in several countries to prevent genocide and human rights abuses. Some states view this as a violation of their sovereign rights.",
+    "question": "Which of the following concepts is MOST directly challenged by the United Nations' interventions described above?",
+    "answers": [
+      "Supranationalism",
+      "Territorial integrity",
+      "State sovereignty",
+      "Self-determination"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Supranationalism is when states work together.",
+      "Incorrect. Territorial integrity is the idea that a country should maintain its borders.",
+      "Correct. State sovereignty is the principle that each state has the right to govern itself without external interference.",
+      "Incorrect. Self-determination is the right of a group to form its own state."
+    ],
+    "topic": "Challenges to Sovereignty",
+    "unit": 4
+  },
+  {
+    "stimulus": "A country is divided into multiple provinces, each with its own legislature and control over education and healthcare. The national government retains power over defense and foreign policy.",
+    "question": "The form of governance described above is BEST classified as which of the following?",
+    "answers": [
+      "Unitary state",
+      "Confederation",
+      "Federal state",
+      "Autocracy"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. A unitary state has a strong central government.",
+      "Incorrect. A confederation is an association of sovereign states.",
+      "Correct. A federal state has a division of powers between a central government and regional governments.",
+      "Incorrect. An autocracy is a system of government ruled by one person."
+    ],
+    "topic": "Forms of Governance",
+    "unit": 4
+  },
+  {
+    "stimulus": "The border between the United States and Canada is often cited as an example of a well-managed border. It allows for significant trade and cooperation, while still controlling immigration and preventing illegal activities.",
+    "question": "The function of the boundary described above is BEST characterized as which of the following?",
+    "answers": [
+      "Barrier",
+      "Filter",
+      "Zone of conflict",
+      "Completely open border"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. A barrier is a complete block.",
+      "Correct. A filter allows some things to pass through while blocking others.",
+      "Incorrect. A zone of conflict implies tension, which is not the case.",
+      "Incorrect. The border has controls, thus it is not an 'open border'."
+    ],
+    "topic": "The Function of Political Boundaries",
+    "unit": 4
+  },
+  {
+    "stimulus": "After the collapse of the Soviet Union, many former Soviet republics declared independence. This was a result of multiple factors, including a desire for self-determination and resentment of Russian dominance.",
+    "question": "The events described above are BEST examples of which of the following?",
+    "answers": [
+      "Centripetal forces",
+      "Devolution",
+      "Supranationalism",
+      "Imperialism"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Centripetal forces unite a state.",
+      "Correct. Devolution is the transfer of power from a central government to regional governments or the breakup of a state.",
+      "Incorrect. Supranationalism is a venture involving three or more states.",
+      "Incorrect. Imperialism is the policy of extending a country's power and influence through colonization."
+    ],
+    "topic": "Defining Devolutionary Factors",
+    "unit": 4
+  },
+  {
+    "stimulus": "A multinational corporation operates in numerous countries, and some argue that its economic power rivals that of some nation-states.",
+    "question": "This example BEST illustrates which of the following challenges to state sovereignty?",
+    "answers": [
+      "Economic globalization",
+      "Environmental degradation",
+      "Regionalism",
+      "Cultural diffusion"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Economic globalization and the power of multinational corporations can challenge state sovereignty.",
+      "Incorrect. Environmental degradation is a global issue but doesn't directly challenge sovereignty.",
+      "Incorrect. Regionalism involves groups of countries working together.",
+      "Incorrect. Cultural diffusion is the spread of culture."
+    ],
+    "topic": "Challenges to Sovereignty",
+    "unit": 4
+  },
+  {
+    "stimulus": "A government uses propaganda and censorship to promote a unified national identity and suppress dissent.",
+    "question": "The government's actions are BEST described as an attempt to strengthen which of the following?",
+    "answers": [
+      "Centrifugal forces",
+      "Centripetal forces",
+      "Devolutionary pressures",
+      "Balkanization"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Centrifugal forces divide a state.",
+      "Correct. Centripetal forces unite a state.",
+      "Incorrect. Devolutionary pressures break a state apart.",
+      "Incorrect. Balkanization is the fragmentation of a region into smaller, hostile units."
+    ],
+    "topic": "Consequences of Centrifugal and Centripetal Forces",
+    "unit": 4
+  },
+  {
+    "stimulus": "A boundary is established based on physical features such as rivers and mountain ranges.",
+    "question": "This type of boundary is BEST described as which of the following?",
+    "answers": [
+      "Antecedent boundary",
+      "Subsequent boundary",
+      "Superimposed boundary",
+      "Physical boundary"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Antecedent boundaries are established before an area is populated.",
+      "Incorrect. Subsequent boundaries are established after an area is populated.",
+      "Incorrect. Superimposed boundaries are forced upon an existing cultural landscape.",
+      "Correct. A physical boundary is based on natural features."
+    ],
+    "topic": "Defining Political Boundaries",
+    "unit": 4
+  },
+  {
+    "stimulus": "The United Kingdom held a referendum on whether to leave the European Union (Brexit).",
+    "question": "This vote is an example of which of the following political processes?",
+    "answers": [
+      "Gerrymandering",
+      "Devolution",
+      "Supranationalism",
+      "Democratization"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Gerrymandering is the redrawing of legislative boundaries to benefit a political party.",
+      "Correct. Devolution is the transfer of power from a central government to regional governments. Brexit represents a transfer of power away from a supranational organization (EU) back to the UK.",
+      "Incorrect. Supranationalism is the cooperation between multiple countries.",
+      "Incorrect. Democratization is the transition to a more democratic political regime."
+    ],
+    "topic": "Political Processes",
+    "unit": 4
+  },
+  {
+    "stimulus": "A country redraws its electoral districts to favor one political party over another.",
+    "question": "This practice is BEST known as which of the following?",
+    "answers": [
+      "Federalism",
+      "Gerrymandering",
+      "Redistricting",
+      "Apportionment"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Federalism is the division of powers between a central and regional government.",
+      "Correct. Gerrymandering is the practice of drawing electoral district boundaries to favor one party.",
+      "Incorrect. Redistricting is the process of redrawing electoral district boundaries.",
+      "Incorrect. Apportionment is the process of dividing the number of representatives based on population."
+    ],
+    "topic": "Political Processes",
+    "unit": 4
+  },
+  {
+    "stimulus": "A region within a country seeks greater autonomy and control over its natural resources.",
+    "question": "This desire for increased regional control is BEST described as which of the following?",
+    "answers": [
+      "Supranationalism",
+      "Devolution",
+      "Integration",
+      "Nationalism"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Supranationalism is the cooperation between multiple countries.",
+      "Correct. Devolution is the transfer of power from a central government to regional governments.",
+      "Incorrect. Integration is the process of unification.",
+      "Incorrect. Nationalism is the belief in the importance of one's nation."
+    ],
+    "topic": "Defining Devolutionary Factors",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Law of the Sea establishes states' rights and responsibilities concerning the ownership and use of the Earth's seas and oceans and their resources.",
+    "question": "This international agreement BEST demonstrates which of the following concepts?",
+    "answers": [
+      "Centripetal forces",
+      "Territoriality",
+      "Sovereignty",
+      "Geopolitics"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Centripetal forces unite a state.",
+      "Correct. Territoriality is the attempt by an individual or group to affect, influence, or control people, phenomena, and relationships, by asserting control over a geographic area.",
+      "Incorrect. Sovereignty is the right of a state to govern itself.",
+      "Incorrect. Geopolitics is the study of the effects of geography on politics."
+    ],
+    "topic": "Political Power and Territoriality",
+    "unit": 4
+  },
+  {
+    "stimulus": "A country has a strong sense of national pride, a common language, and a shared history.",
+    "question": "These characteristics are BEST described as which of the following?",
+    "answers": [
+      "Centrifugal forces",
+      "Centripetal forces",
+      "Devolutionary factors",
+      "Balkanization"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Centrifugal forces divide a state.",
+      "Correct. Centripetal forces unite a state.",
+      "Incorrect. Devolutionary factors break a state apart.",
+      "Incorrect. Balkanization is the fragmentation of a region into smaller, hostile units."
+    ],
+    "topic": "Consequences of Centrifugal and Centripetal Forces",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Berlin Wall once divided the city of Berlin, separating East and West Germany.",
+    "question": "The Berlin Wall is an example of what type of boundary?",
+    "answers": [
+      "Natural boundary",
+      "Artificial boundary",
+      "Antecedent boundary",
+      "Subsequent boundary"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. A natural boundary follows a physical feature.",
+      "Correct. An artificial boundary is man-made.",
+      "Incorrect. An antecedent boundary was created before the present day cultural landscape developed.",
+      "Incorrect. A subsequent boundary is established after an area has been settled."
+    ],
+    "topic": "Defining Political Boundaries",
+    "unit": 4
+  },
+  {
+    "stimulus": "The United Nations is an organization where many countries work together to achieve common goals.",
+    "question": "The United Nations is an example of what type of organization?",
+    "answers": [
+      "State",
+      "Nation",
+      "Nation-state",
+      "Supranational Organization"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. A state is a political entity.",
+      "Incorrect. A nation is a group of people with a shared culture.",
+      "Incorrect. A nation-state is a state whose territory corresponds to that occupied by a particular ethnicity that has been transformed into a nationality.",
+      "Correct. A supranational organization is a multinational grouping of independent states where power is delegated to an authority by member governments."
+    ],
+    "topic": "Introduction to Political Geography",
+    "unit": 4
+  },
+  {
+    "stimulus": "A country is ruled by a single person who has absolute power.",
+    "question": "This type of government is known as what?",
+    "answers": [
+      "Democracy",
+      "Monarchy",
+      "Autocracy",
+      "Republic"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. A democracy is ruled by the people.",
+      "Incorrect. A monarchy is ruled by a monarch.",
+      "Correct. An autocracy is ruled by a single person with unlimited power.",
+      "Incorrect. A republic is a state in which supreme power is held by the people and their elected representatives."
+    ],
+    "topic": "Forms of Governance",
+    "unit": 4
+  },
+  {
+    "stimulus": "A boundary was drawn in Africa by European colonizers without regard for existing ethnic or cultural groups.",
+    "question": "This is an example of what type of boundary?",
+    "answers": [
+      "Natural boundary",
+      "Antecedent boundary",
+      "Subsequent boundary",
+      "Superimposed boundary"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. A natural boundary follows a physical feature.",
+      "Incorrect. An antecedent boundary was created before the present day cultural landscape developed.",
+      "Incorrect. A subsequent boundary is established after an area has been settled.",
+      "Correct. A Superimposed boundary is a boundary that has been imposed on an area by an outside or conquering power."
+    ],
+    "topic": "Defining Political Boundaries",
+    "unit": 4
+  },
+  {
+    "stimulus": "A nation-state has a population that is largely unified by a common culture and language.",
+    "question": "This contributes to which of the following?",
+    "answers": [
+      "Centrifugal forces",
+      "Centripetal forces",
+      "Devolutionary factors",
+      "Balkanization"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Centrifugal forces divide a state.",
+      "Correct. Centripetal forces unite a state.",
+      "Incorrect. Devolutionary factors break a state apart.",
+      "Incorrect. Balkanization is the fragmentation of a region into smaller, hostile units."
+    ],
+    "topic": "Consequences of Centrifugal and Centripetal Forces",
+    "unit": 4
+  },
+  {
+    "stimulus": "Kurdistan is a region inhabited predominantly by Kurds, an ethnic group with a distinct culture and language, but it does not constitute a sovereign state.",
+    "question": "Kurdistan is an example of a ________.",
+    "answers": [
+      "State",
+      "Nation",
+      "Nation-state",
+      "City-state"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. A state is a politically organized territory with a permanent population, a defined territory, a government, and the capacity to enter into relations with other states.",
+      "Correct. A nation is a group of people with a shared culture, language, ethnicity, and history.",
+      "Incorrect. A nation-state is a state whose territory corresponds to that occupied by a particular ethnicity that has been transformed into a nationality.",
+      "Incorrect. A city-state is a sovereign state that comprises a town and the surrounding countryside."
+    ],
+    "topic": "Introduction to Political Geography",
+    "unit": 4
+  },
+  {
+    "stimulus": "A country grants more autonomy to its regional governments, allowing them to make decisions on local issues.",
+    "question": "This process is known as ________.",
+    "answers": [
+      "Integration",
+      "Devolution",
+      "Supranationalism",
+      "Centralization"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Integration is the process of different groups or countries becoming more closely linked.",
+      "Correct. Devolution is the transfer of power from a central government to regional governments.",
+      "Incorrect. Supranationalism is the method of decision-making in political communities, where power is held by independent appointed officials or by representatives elected by the legislatures or people of the member states.",
+      "Incorrect. Centralization is the concentration of control of an activity or organization under a single authority."
+    ],
+    "topic": "Political Processes",
+    "unit": 4
+  },
+  {
+    "stimulus": "A country is experiencing internal conflicts between different ethnic groups.",
+    "question": "Which of the following is MOST likely to be a result of this?",
+    "answers": [
+      "Increased centripetal forces",
+      "Increased supranationalism",
+      "Increased devolutionary pressures",
+      "Strengthened national identity"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Centripetal forces unite a state, which would counteract internal conflict.",
+      "Incorrect. Supranationalism involves countries working together, and internal conflict would likely hinder this.",
+      "Correct. Internal conflicts can lead to devolutionary pressures, as regions seek greater autonomy or independence.",
+      "Incorrect. Internal conflicts typically weaken national identity rather than strengthen it."
+    ],
+    "topic": "Consequences of Centrifugal and Centripetal Forces",
+    "unit": 4
+  },
+  {
+    "stimulus": "A state seeks to control a strategic waterway in order to exert influence over trade and navigation.",
+    "question": "This action BEST exemplifies which of the following concepts?",
+    "answers": [
+      "Economic liberalism",
+      "Geopolitics",
+      "Supranationalism",
+      "Isolationism"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Economic liberalism is an economic system organized on individual lines.",
+      "Correct. Geopolitics is the study of the effects of geography on politics and international relations.",
+      "Incorrect. Supranationalism is the cooperation between multiple countries.",
+      "Incorrect. Isolationism is a policy of remaining apart from the affairs or interests of other groups, especially the political affairs of foreign countries."
+    ],
+    "topic": "Political Power and Territoriality",
+    "unit": 4
+  },
+  {
+    "stimulus": "After a civil war, a country is divided into several smaller, independent states.",
+    "question": "This is an example of ________.",
+    "answers": [
+      "Integration",
+      "Devolution",
+      "Supranationalism",
+      "Centripetalism"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Integration is the process of different groups or countries becoming more closely linked.",
+      "Correct. Devolution is the transfer of power from a central government to regional governments or the breakup of a state.",
+      "Incorrect. Supranationalism is the method of decision-making in political communities, where power is held by independent appointed officials or by representatives elected by the legislatures or people of the member states.",
+      "Incorrect. Centripetalism is the forces that unite a state."
+    ],
+    "topic": "Defining Devolutionary Factors",
+    "unit": 4
+  },
+  {
+    "stimulus": "The European Union allows for the free movement of people and goods between member states.",
+    "question": "This arrangement challenges which concept?",
+    "answers": [
+      "Sovereignty",
+      "Federalism",
+      "Nationalism",
+      "Capitalism"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Sovereignty is the principle that each state has the right to govern itself without external interference.  The EU challenges this.",
+      "Incorrect. Federalism is a political organization.",
+      "Incorrect. Nationalism is a political belief.",
+      "Incorrect. Capitalism is an economic system."
+    ],
+    "topic": "Challenges to Sovereignty",
+    "unit": 4
+  }
+]

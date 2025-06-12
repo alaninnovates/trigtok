@@ -1,0 +1,458 @@
+[
+  {
+    "stimulus": "\u201cThere is no better way of establishing the reign of law, so much desired by all and never before properly established, than if the prince is so powerful that he has everything necessary to force all into obedience.\u201d",
+    "question": "The above quotation most closely reflects the political philosophy of:",
+    "answers": [
+      "John Locke, who advocated for natural rights and limited government.",
+      "Jean Bodin, who argued for the necessity of a sovereign power above the law.",
+      "Montesquieu, who championed the separation of powers.",
+      "Adam Smith, who believed in laissez-faire economics and individual liberty."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. John Locke advocated for natural rights and limited government, which is the opposite of what the quotation suggests.",
+      "Correct. Jean Bodin argued that a sovereign power above the law was essential for maintaining order and enforcing obedience.",
+      "Incorrect. Montesquieu promoted the separation of powers to prevent tyranny, a concept not aligned with the quotation.",
+      "Incorrect. Adam Smith focused on economic liberty and limited government intervention in the economy, which is unrelated to the quotation's emphasis on absolute power."
+    ],
+    "topic": "Absolutist Approaches to Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "\u201cThe king is from God, and law is from the king.\u201d",
+    "question": "This statement best describes the theory of:",
+    "answers": [
+      "Parliamentary sovereignty.",
+      "Divine right monarchy.",
+      "Constitutional monarchy.",
+      "Republicanism."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Parliamentary sovereignty asserts the supremacy of the legislature, not the monarch.",
+      "Correct. Divine right monarchy claims that a monarch's authority comes directly from God, making them accountable only to God.",
+      "Incorrect. Constitutional monarchy limits the monarch's power through a constitution.",
+      "Incorrect. Republicanism emphasizes civic virtue and governance by the people, not by a divinely appointed monarch."
+    ],
+    "topic": "Absolutist Approaches to Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "Document: Edict of Nantes (1598)",
+    "question": "The Edict of Nantes, issued by Henry IV, primarily aimed to:",
+    "answers": [
+      "Establish Catholicism as the sole religion of France.",
+      "Grant religious toleration to Huguenots (French Protestants).",
+      "Initiate a series of religious wars across Europe.",
+      "Secularize the French state."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Edict of Nantes was issued to provide religious freedom to the protestants, not to establish Catholicism as the sole religion of France.",
+      "Correct. The Edict of Nantes granted Huguenots religious freedoms and civil rights, aiming to end religious conflict in France.",
+      "Incorrect. While religious tensions remained, the edict aimed to reduce conflict, not initiate wars.",
+      "Incorrect. The Edict of Nantes addressed religious, not secular, issues, and did not aim to separate church and state."
+    ],
+    "topic": "Absolutist Approaches to Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "Source: Bishop Jacques-B\u00e9nigne Bossuet",
+    "question": "Which of the following is most closely associated with the ideas expressed by Bishop Jacques-B\u00e9nigne Bossuet?",
+    "answers": [
+      "The concept of the 'general will' as articulated by Jean-Jacques Rousseau.",
+      "The theory of separation of powers advocated by Montesquieu.",
+      "The doctrine of divine right monarchy.",
+      "The principles of mercantilism promoted by Jean-Baptiste Colbert."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Rousseau's concept of the 'general will' is related to popular sovereignty.",
+      "Incorrect. Montesquieu's theory of separation of powers is related to limiting government authority.",
+      "Correct. Bishop Jacques-B\u00e9nigne Bossuet was a major proponent of divine right monarchy, arguing that kings received their authority from God.",
+      "Incorrect. Jean-Baptiste Colbert promoted mercantilism, which is a economic policy."
+    ],
+    "topic": "Absolutist Approaches to Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "Map of Europe in 1700",
+    "question": "Based on your knowledge of European history, which of the following countries experienced the greatest degree of political centralization and absolutist rule during the 17th century?",
+    "answers": [
+      "The Dutch Republic",
+      "England",
+      "France",
+      "The Holy Roman Empire"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Dutch Republic was characterized by its decentralized government and commercial power.",
+      "Incorrect. England developed a constitutional monarchy that limited the power of the monarch.",
+      "Correct. France, under Louis XIV, exemplified absolutist rule with centralized power and a strong monarchy.",
+      "Incorrect. The Holy Roman Empire was decentralized and fragmented, with limited central authority."
+    ],
+    "topic": "Absolutist Approaches to Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "Image: Palace of Versailles",
+    "question": "The Palace of Versailles served what primary purpose for Louis XIV?",
+    "answers": [
+      "As a military fortification against foreign invasions.",
+      "As a center for scientific research and experimentation.",
+      "As a means to control and impress the nobility.",
+      "As a hub for international trade and commerce."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Versailles was not primarily a military structure.",
+      "Incorrect. While some scientific activities occurred, it was not the primary purpose.",
+      "Correct. Versailles was used to house, control, and impress the nobility, thereby consolidating Louis XIV's power.",
+      "Incorrect. While commerce was important to France, it was not the primary purpose of Versailles."
+    ],
+    "topic": "Absolutist Approaches to Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "Source: Jean-Baptiste Colbert on Mercantilism",
+    "question": "Jean-Baptiste Colbert's economic policies primarily aimed to:",
+    "answers": [
+      "Promote free trade and reduce government intervention.",
+      "Increase France's wealth and power through mercantilism.",
+      "Encourage agricultural innovation and land redistribution.",
+      "Establish a central banking system and manage national debt."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Colbert was a proponent of mercantilism, which involves government intervention.",
+      "Correct. Colbert implemented mercantilist policies to increase France's wealth through protectionism, state-sponsored industries, and colonial expansion.",
+      "Incorrect. Although agriculture was important, Colbert's focus was on industry and trade.",
+      "Incorrect. Colbert's policies were primarily focused on promoting mercantilism."
+    ],
+    "topic": "Economic Development and Mercantilism",
+    "unit": 3
+  },
+  {
+    "stimulus": "Map of Colonial Possessions in the 17th Century",
+    "question": "Which of the following best describes a key feature of mercantilism as practiced by European powers in the 17th and 18th centuries?",
+    "answers": [
+      "Encouraging free trade between nations.",
+      "Establishing colonies to provide raw materials and markets.",
+      "Promoting international cooperation in economic development.",
+      "Reducing tariffs and trade barriers."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Mercantilism was characterized by protectionist policies and restricted trade.",
+      "Correct. Establishing colonies for raw materials and markets was a central tenet of mercantilism.",
+      "Incorrect. Mercantilism was competitive and focused on national self-interest.",
+      "Incorrect. Mercantilism involved tariffs and trade barriers to protect domestic industries."
+    ],
+    "topic": "Economic Development and Mercantilism",
+    "unit": 3
+  },
+  {
+    "stimulus": "Graph: Trade between England and its Colonies",
+    "question": "The Navigation Acts passed by the English Parliament in the 17th century were designed to:",
+    "answers": [
+      "Promote free trade with all European nations.",
+      "Restrict colonial trade to benefit England.",
+      "Encourage colonial manufacturing and industry.",
+      "Establish a common currency throughout the British Empire."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Navigation Acts were designed to create a favorable balance of trade for England.",
+      "Correct. The Navigation Acts required that colonial goods be shipped on English ships and pass through English ports, benefiting English merchants and the Crown.",
+      "Incorrect. The Navigation Acts discouraged colonial manufacturing to ensure a market for English goods.",
+      "Incorrect. The Navigation Acts did not establish a common currency."
+    ],
+    "topic": "Economic Development and Mercantilism",
+    "unit": 3
+  },
+  {
+    "stimulus": "Quote: Adam Smith on Mercantilism",
+    "question": "Adam Smith's critique of mercantilism centered on the belief that:",
+    "answers": [
+      "Government intervention in the economy hinders efficiency and innovation.",
+      "Colonies were essential for national power and prosperity.",
+      "Tariffs and trade barriers protected domestic industries.",
+      "A favorable balance of trade was the key to national wealth."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Adam Smith argued that government intervention distorted markets and stifled economic growth.",
+      "Incorrect. Adam Smith questioned the benefits of colonies and empires.",
+      "Incorrect. Adam Smith criticized tariffs and trade barriers, favoring free trade.",
+      "Incorrect. Adam Smith believed that wealth creation was more important than a favorable balance of trade."
+    ],
+    "topic": "Economic Development and Mercantilism",
+    "unit": 3
+  },
+  {
+    "stimulus": "Timeline: Key Events in the Dutch Golden Age",
+    "question": "Which of the following factors contributed most to the Dutch Golden Age in the 17th century?",
+    "answers": [
+      "A strong centralized monarchy.",
+      "Extensive natural resources and agricultural production.",
+      "Religious uniformity and suppression of dissent.",
+      "Overseas trade and financial innovation."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. The Dutch Republic was decentralized and lacked a strong monarch.",
+      "Incorrect. The Dutch relied heavily on trade due to limited natural resources.",
+      "Incorrect. The Dutch Republic was relatively tolerant, attracting diverse populations.",
+      "Correct. Overseas trade, financial innovation, and a tolerant environment fostered economic and cultural prosperity."
+    ],
+    "topic": "The Dutch Golden Age",
+    "unit": 3
+  },
+  {
+    "stimulus": "Map: Dutch Trade Routes in the 17th Century",
+    "question": "The Dutch East India Company was significant because it:",
+    "answers": [
+      "Promoted religious conversion in Asia.",
+      "Established a global trade network and became a powerful economic force.",
+      "Focused solely on trade within Europe.",
+      "Advocated for free trade and opposed mercantilism."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While some missionaries were involved, its primary goal was trade.",
+      "Correct. The Dutch East India Company established a vast trade network, exercised quasi-governmental powers, and amassed immense wealth.",
+      "Incorrect. The company focused on trade with Asia.",
+      "Incorrect. The Dutch East India Company operated within a mercantilist framework."
+    ],
+    "topic": "The Dutch Golden Age",
+    "unit": 3
+  },
+  {
+    "stimulus": "Painting: A Dutch Genre Scene",
+    "question": "Dutch paintings from the Golden Age, such as those by Rembrandt and Vermeer, often depicted:",
+    "answers": [
+      "Grand mythological and historical events.",
+      "Everyday life and domestic scenes.",
+      "Portraits of monarchs and aristocrats.",
+      "Religious scenes with intense emotion and drama."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Dutch paintings focus on realistic portrayals of everyday life.",
+      "Correct. Dutch genre paintings often depicted scenes of daily life, reflecting the values of a prosperous merchant society.",
+      "Incorrect. Dutch paintings typically do not portray monarchs and aristocrats.",
+      "Incorrect. Dutch paintings typically do not depict religious scenes."
+    ],
+    "topic": "The Dutch Golden Age",
+    "unit": 3
+  },
+  {
+    "stimulus": "Document: Act of Toleration (England, 1689)",
+    "question": "The Act of Toleration of 1689 granted religious freedom to:",
+    "answers": [
+      "Catholics.",
+      "All religious groups in England.",
+      "Nonconformist Protestants.",
+      "Atheists and agnostics."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Act of Toleration did not grant religious freedom to Catholics.",
+      "Incorrect. The Act of Toleration did not grant religious freedom to all religious groups in England.",
+      "Correct. The Act of Toleration granted religious freedom to Nonconformist Protestants, but not Catholics.",
+      "Incorrect. The Act of Toleration did not grant religious freedom to atheists and agnostics."
+    ],
+    "topic": "The English Civil War and the Glorious Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "Image: William and Mary",
+    "question": "The Glorious Revolution in England resulted in:",
+    "answers": [
+      "The restoration of absolute monarchy.",
+      "The establishment of a republic.",
+      "The establishment of a constitutional monarchy.",
+      "A period of religious warfare."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Glorious Revolution limited the power of the monarchy.",
+      "Incorrect. The Glorious Revolution established a consitutional monarchy.",
+      "Correct. The Glorious Revolution established a constitutional monarchy with William and Mary accepting the English Bill of Rights.",
+      "Incorrect. The Glorious Revolution was quick and had little violence."
+    ],
+    "topic": "The English Civil War and the Glorious Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "Quote: Thomas Hobbes on the Social Contract",
+    "question": "Thomas Hobbes's Leviathan argued that the purpose of government is to:",
+    "answers": [
+      "Protect individual liberties and rights.",
+      "Promote economic equality and social justice.",
+      "Maintain order and prevent society from collapsing into anarchy.",
+      "Ensure religious uniformity and suppress heresy."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Hobbes believed that individual rights must be subordinate to the authority of the state.",
+      "Incorrect. Hobbes was primarily concerned with order and security, not social justice.",
+      "Correct. Hobbes argued that government was necessary to prevent society from descending into a state of nature, which he described as a 'war of all against all.'",
+      "Incorrect. Hobbes's primary concern was political stability, not religious uniformity."
+    ],
+    "topic": "The English Civil War and the Glorious Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "Map: Europe After the Treaty of Utrecht (1713)",
+    "question": "The primary goal of the balance of power in Europe during the 18th century was to:",
+    "answers": [
+      "Establish a unified European empire.",
+      "Prevent any one state from becoming too dominant.",
+      "Promote religious uniformity across the continent.",
+      "Encourage free trade and economic integration."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The concept of balance of power was to prevent one nation from having too much control.",
+      "Correct. The balance of power aimed to maintain stability by preventing any single state from dominating Europe.",
+      "Incorrect. The concept of balance of power was to prevent one nation from having too much control.",
+      "Incorrect. The concept of balance of power was to prevent one nation from having too much control."
+    ],
+    "topic": "Balance of Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "Quote: Frederick the Great on Statecraft",
+    "question": "Frederick the Great of Prussia believed that the role of the monarch was to:",
+    "answers": [
+      "Serve the interests of the nobility and aristocracy.",
+      "Rule according to divine law and religious principles.",
+      "Act as the 'first servant of the state' and promote the welfare of the people.",
+      "Expand the empire through aggressive military conquest."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Frederick the Great wanted to promote the welfare of the people.",
+      "Incorrect. Frederick the Great wanted to promote the welfare of the people.",
+      "Correct. Frederick the Great believed the monarch's responsibility was to serve the state and promote the welfare of the people.",
+      "Incorrect. Frederick the Great wanted to promote the welfare of the people."
+    ],
+    "topic": "Absolutist Approaches to Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "Table: Military Spending in Europe (1650-1750)",
+    "question": "Which of the following best explains the increase in military spending by European powers during the period 1650-1750?",
+    "answers": [
+      "The desire to spread democracy and republicanism.",
+      "The rise of religious pacifism and disarmament movements.",
+      "The intensification of interstate rivalries and the pursuit of territorial expansion.",
+      "The decline of absolutist monarchies and the rise of parliamentary governments."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The 1650 - 1750 time period was not caused by the spread of democracy.",
+      "Incorrect. There was no rise in religious pacifism during this time period.",
+      "Correct. Military spending increased due to rivalries and the pursuit of territorial expansion.",
+      "Incorrect. Absolutist monarchies did not decline during this time period."
+    ],
+    "topic": "Balance of Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Fronde in France (1648-1653) was primarily a reaction to:",
+    "question": "The Fronde in France (1648-1653) was primarily a reaction to:",
+    "answers": [
+      "Royal policies that increased the power of the monarchy.",
+      "Religious persecution of Protestants.",
+      "Economic policies that favored the peasantry.",
+      "The influence of foreign powers in French affairs."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The Fronde was a series of revolts against the increasing power of the monarchy under Cardinal Mazarin.",
+      "Incorrect. Religious persecution of Protestants was not the main driver of the Fronde.",
+      "Incorrect. Economic policies during the Fronde period did not favor the peasantry.",
+      "Incorrect. Foreign influence was not the main driver of the Fronde."
+    ],
+    "topic": "Absolutist Approaches to Power",
+    "unit": 3
+  },
+  {
+    "stimulus": "Source: English Bill of Rights (1689)",
+    "question": "Which of the following principles is enshrined in the English Bill of Rights (1689)?",
+    "answers": [
+      "The monarch has absolute power.",
+      "The monarch cannot suspend laws passed by Parliament.",
+      "The monarch controls the judiciary.",
+      "The monarch can impose taxes without parliamentary consent."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The English Bill of Rights limited the power of the monarch.",
+      "Correct. The English Bill of Rights established that the monarch cannot suspend laws passed by Parliament.",
+      "Incorrect. The English Bill of Rights took power away from the monarch.",
+      "Incorrect. The English Bill of Rights took power away from the monarch."
+    ],
+    "topic": "The English Civil War and the Glorious Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "What was a significant difference between the political systems of France and England in the 17th century?",
+    "question": "What was a significant difference between the political systems of France and England in the 17th century?",
+    "answers": [
+      "France developed a constitutional monarchy, while England remained an absolute monarchy.",
+      "England developed a constitutional monarchy, while France moved towards absolute monarchy.",
+      "Both countries maintained strong, centralized absolute monarchies.",
+      "Both countries developed republican systems of government."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. It was England that developed a constitutional monarchy, while France moved towards absolute monarchy.",
+      "Correct. England developed a constitutional monarchy, while France moved towards absolute monarchy.",
+      "Incorrect. England and France did not maintain strong, centralized absolute monarchies.",
+      "Incorrect. England and France did not develop republican systems of government."
+    ],
+    "topic": "Comparison in the Age of Absolutism and Constitutionalism",
+    "unit": 3
+  },
+  {
+    "stimulus": "Chart: Comparison of Economic Policies in Europe (17th Century)",
+    "question": "Which of the following best describes a common characteristic of absolutist states in Europe during the 17th and 18th centuries?",
+    "answers": [
+      "Emphasis on free trade and deregulation.",
+      "Promotion of religious toleration and diversity.",
+      "Centralization of power and control over the economy.",
+      "Decentralization of government and local autonomy."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Emphasis on free trade and deregulation was not a characteristic of absolutist states in Europe during the 17th and 18th centuries.",
+      "Incorrect. Promotion of religious toleration and diversity was not a characteristic of absolutist states in Europe during the 17th and 18th centuries.",
+      "Correct. Centralization of power and control over the economy was a characteristic of absolutist states in Europe during the 17th and 18th centuries.",
+      "Incorrect. Decentralization of government and local autonomy was not a characteristic of absolutist states in Europe during the 17th and 18th centuries."
+    ],
+    "topic": "Comparison in the Age of Absolutism and Constitutionalism",
+    "unit": 3
+  },
+  {
+    "stimulus": "Image: Map of Europe showing population density",
+    "question": "Which of the following best describes a difference in the social structures of Western and Eastern Europe by the 17th century?",
+    "answers": [
+      "Western Europe saw the decline of the middle class, while Eastern Europe experienced its growth.",
+      "Eastern Europe had a stronger tradition of serfdom than Western Europe.",
+      "Western Europe had a more powerful aristocracy than Eastern Europe.",
+      "Eastern Europe was more urbanized than Western Europe."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The opposite is true. Western Europe saw the growth of the middle class, while Eastern Europe lagged behind.",
+      "Correct. Eastern Europe maintained a stronger tradition of serfdom than Western Europe, where it had largely declined.",
+      "Incorrect. While aristocracies existed in both regions, their relative power varied more due to economic and political structures.",
+      "Incorrect. Western Europe was generally more urbanized than Eastern Europe during this period."
+    ],
+    "topic": "Continuities and Changes to Economic Practice and Development",
+    "unit": 3
+  }
+]

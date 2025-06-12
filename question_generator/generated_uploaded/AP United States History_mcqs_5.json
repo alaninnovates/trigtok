@@ -1,0 +1,667 @@
+[
+  {
+    "stimulus": "In his 1845 essay, \"Annexation,\" John L. O'Sullivan wrote of America's \"manifest destiny to overspread and to possess the whole of the continent which Providence has given us for the development of the great experiment of liberty....\"",
+    "question": "O'Sullivan's concept of Manifest Destiny most directly promoted which of the following?",
+    "answers": [
+      "The preservation of the balance between free and slave states.",
+      "The acquisition of new territories, particularly in the West.",
+      "The restriction of immigration to ensure social stability.",
+      "The expansion of industrial production and infrastructure."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While the balance between free and slave states was a concern, Manifest Destiny focused on territorial expansion, not necessarily on maintaining that balance.",
+      "Correct. Manifest Destiny was the belief that the United States was destined to expand westward across the continent.",
+      "Incorrect. Manifest Destiny focused on territorial expansion, not immigration restriction.",
+      "Incorrect. While industrial expansion occurred during this period, Manifest Destiny was primarily a territorial and ideological concept, not an industrial one."
+    ],
+    "topic": "Manifest Destiny",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Wilmot Proviso, introduced in 1846, proposed that slavery be prohibited in any territory acquired from Mexico.",
+    "question": "The Wilmot Proviso intensified sectional tensions because it directly challenged which existing understanding?",
+    "answers": [
+      "The Missouri Compromise's demarcation of slavery's expansion.",
+      "The concept of popular sovereignty in determining slavery's status.",
+      "The Fugitive Slave Act's enforcement in Northern states.",
+      "The balance of power in the Senate between free and slave states."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Missouri Compromise was already in place, and the Wilmot Proviso sought to address slavery in new territories, rather than undo the Missouri Compromise.",
+      "Correct. The Wilmot Proviso directly contradicted the idea of popular sovereignty, which allowed residents of each territory to decide on the issue of slavery themselves.",
+      "Incorrect. The Fugitive Slave Act was a separate issue concerning the return of escaped slaves, not the expansion of slavery into new territories.",
+      "Incorrect. While the Wilmot Proviso had implications for the balance of power, its direct challenge was to the concept of popular sovereignty."
+    ],
+    "topic": "The Mexican-American War",
+    "unit": 5
+  },
+  {
+    "stimulus": "Henry Clay's proposed compromise aimed to resolve disputes arising from the acquisition of new territories after the Mexican-American War.",
+    "question": "Which of the following was a key component of the Compromise of 1850?",
+    "answers": [
+      "The immediate abolition of slavery in Washington D.C.",
+      "The admission of California as a free state.",
+      "The establishment of a strict quota system for immigration.",
+      "The repeal of the Fugitive Slave Act."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Compromise of 1850 did not abolish slavery in Washington D.C., though it did prohibit the slave trade there.",
+      "Correct. The admission of California as a free state was a major provision of the Compromise of 1850.",
+      "Incorrect. Immigration was not a central issue addressed in the Compromise of 1850.",
+      "Incorrect. The Fugitive Slave Act was strengthened as part of the Compromise of 1850 to appease Southern states."
+    ],
+    "topic": "The Compromise of 1850",
+    "unit": 5
+  },
+  {
+    "stimulus": "The economic systems of the North and South differed significantly in the mid-19th century.",
+    "question": "Which of the following best describes a key difference between the economies of the North and South in the period 1844-1877?",
+    "answers": [
+      "The North relied primarily on agricultural exports, while the South focused on industrial manufacturing.",
+      "The North had a more diversified economy based on industry and agriculture, while the South's economy depended heavily on slave labor and cash crops.",
+      "The North advocated for free trade policies, while the South favored high tariffs to protect its industries.",
+      "The North had a larger immigrant labor force, while the South relied solely on enslaved labor."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This statement reverses the economic characteristics of the North and South.",
+      "Correct. This accurately describes the key economic differences between the two regions.",
+      "Incorrect. The South generally favored free trade to export its agricultural products, while the North often supported tariffs to protect its growing industries.",
+      "Incorrect. While the North had a larger immigrant labor force, the South also utilized free labor in some sectors, though enslaved labor was its dominant form."
+    ],
+    "topic": "Sectional Conflict: Regional Differences",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Kansas-Nebraska Act of 1854 allowed residents of these territories to decide on the issue of slavery through popular sovereignty.",
+    "question": "The Kansas-Nebraska Act directly led to which of the following?",
+    "answers": [
+      "The immediate secession of Southern states from the Union.",
+      "The outbreak of violence between pro-slavery and anti-slavery factions in Kansas.",
+      "The peaceful resolution of the slavery question in the territories.",
+      "The decline of the Republican Party."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Secession occurred later, after the election of 1860.",
+      "Correct. The Kansas-Nebraska Act led to \"Bleeding Kansas,\" a period of intense violence over the slavery issue.",
+      "Incorrect. The Act exacerbated tensions and led to violence rather than resolving the issue peacefully.",
+      "Incorrect. The Republican Party actually gained prominence due to the controversy surrounding the Kansas-Nebraska Act."
+    ],
+    "topic": "Failure of Compromise",
+    "unit": 5
+  },
+  {
+    "stimulus": "Abraham Lincoln's victory in the Election of 1860 triggered the secession of several Southern states.",
+    "question": "Which of the following was the primary reason Southern states seceded from the Union after the election of 1860?",
+    "answers": [
+      "They feared Lincoln would immediately abolish slavery nationwide.",
+      "They believed Lincoln's election demonstrated the North's commitment to destroying their way of life and the institution of slavery.",
+      "They sought to expand their territory into Latin America.",
+      "They were economically disadvantaged compared to the North."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Lincoln stated he would not interfere with slavery where it already existed, though he opposed its expansion.",
+      "Correct. Southern states feared that Lincoln's election signaled the beginning of the end for slavery and their agrarian society.",
+      "Incorrect. While some Southerners had expansionist ambitions, this was not the primary cause of secession.",
+      "Incorrect. While economic differences existed, the primary driver of secession was the slavery issue."
+    ],
+    "topic": "Election of 1860 and Secession",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Civil War involved significant military campaigns and turning points.",
+    "question": "Which of the following was a major turning point in the Civil War?",
+    "answers": [
+      "The Battle of Bull Run",
+      "The Battle of Gettysburg",
+      "The Battle of Antietam",
+      "The Battle of Vicksburg"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While a Confederate victory, it did not decisively shift the course of the war.",
+      "Correct. Gettysburg, along with Vicksburg, marked a major turning point in favor of the Union.",
+      "Incorrect. Antietam led to the Emancipation Proclamation, but the Union victory was not decisive.",
+      "Incorrect. Vicksburg was a turning point, but Gettysburg is widely recognized as *the* major turning point alongside it."
+    ],
+    "topic": "Military Conflict in the Civil War",
+    "unit": 5
+  },
+  {
+    "stimulus": "During the Civil War, the Union government implemented various policies to mobilize resources and strengthen its war effort.",
+    "question": "Which of the following was a significant policy enacted by the Union government during the Civil War?",
+    "answers": [
+      "The Homestead Act",
+      "The Alien and Sedition Acts",
+      "The Social Security Act",
+      "The National Recovery Act"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The Homestead Act, passed in 1862, encouraged westward expansion by providing settlers with land.",
+      "Incorrect. The Alien and Sedition Acts were passed in 1798, not during the Civil War.",
+      "Incorrect. The Social Security Act was passed during the Great Depression in the 1930s.",
+      "Incorrect. The National Recovery Act was also a product of the Great Depression."
+    ],
+    "topic": "Government Policies During the Civil War",
+    "unit": 5
+  },
+  {
+    "stimulus": "Following the Civil War, the United States entered a period of Reconstruction.",
+    "question": "Which of the following was a primary goal of Reconstruction?",
+    "answers": [
+      "To rapidly industrialize the Southern economy.",
+      "To reintegrate the Confederate states into the Union and establish civil rights for African Americans.",
+      "To provide reparations to former slaveholders.",
+      "To maintain the pre-war social and political order in the South."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While industrialization occurred, it was not the primary focus of Reconstruction.",
+      "Correct. Reconstruction aimed to rebuild the Union and secure rights for African Americans.",
+      "Incorrect. No reparations were paid to former slaveholders.",
+      "Incorrect. Reconstruction sought to transform the South, not maintain the old order."
+    ],
+    "topic": "Reconstruction",
+    "unit": 5
+  },
+  {
+    "stimulus": "Reconstruction policies faced significant challenges and ultimately fell short of their goals.",
+    "question": "Which of the following contributed to the failure of Reconstruction?",
+    "answers": [
+      "Widespread support for Reconstruction policies in the South.",
+      "The lack of political will in the North to enforce Reconstruction.",
+      "The success of the Ku Klux Klan in suppressing African American voting rights.",
+      "The economic prosperity of the South during Reconstruction."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. There was significant resistance to Reconstruction in the South.",
+      "Correct. A waning commitment in the North was a key factor in Reconstruction's failure.",
+      "Incorrect. The KKK's activities contributed to the failure, but were not the sole cause. The lack of enforcement from the federal government was a larger issue.",
+      "Incorrect. The South experienced economic hardship during Reconstruction."
+    ],
+    "topic": "Failure of Reconstruction",
+    "unit": 5
+  },
+  {
+    "stimulus": "The period 1844-1877 witnessed significant changes in American society, politics, and economics.",
+    "question": "Which of the following is a valid comparison between the antebellum period and the Reconstruction era?",
+    "answers": [
+      "Both periods saw a decline in federal power and an increase in states' rights.",
+      "Both periods were characterized by intense sectionalism and debates over slavery and civil rights.",
+      "Both periods experienced rapid industrial growth and urbanization.",
+      "Both periods enjoyed widespread political consensus and stability."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Civil War and Reconstruction actually led to an increase in federal power.",
+      "Correct. Sectionalism and debates over slavery/civil rights were prominent in both periods.",
+      "Incorrect. While industrial growth occurred, it was more pronounced in the North during the antebellum period and accelerated after Reconstruction.",
+      "Incorrect. Both periods were marked by conflict and instability."
+    ],
+    "topic": "Comparison in Period 5",
+    "unit": 5
+  },
+  {
+    "stimulus": "The concept of Manifest Destiny shaped American foreign policy in the mid-19th century.",
+    "question": "Which of the following actions was most directly influenced by the concept of Manifest Destiny?",
+    "answers": [
+      "The Louisiana Purchase",
+      "The annexation of Texas",
+      "The Monroe Doctrine",
+      "The War of 1812"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Louisiana Purchase (1803) predates the widespread embrace of Manifest Destiny.",
+      "Correct. The annexation of Texas (1845) was driven by the belief that the U.S. was destined to expand its territory.",
+      "Incorrect. The Monroe Doctrine (1823) aimed to prevent European interference in the Americas, not expand U.S. territory.",
+      "Incorrect. The War of 1812 was fought over maritime rights and impressment, not territorial expansion."
+    ],
+    "topic": "Manifest Destiny",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Treaty of Guadalupe Hidalgo ended the Mexican-American War.",
+    "question": "Which of the following territories was acquired by the United States as a result of the Treaty of Guadalupe Hidalgo?",
+    "answers": [
+      "Florida",
+      "The Oregon Territory",
+      "California",
+      "The Louisiana Territory"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Florida was acquired from Spain in 1819.",
+      "Incorrect. The Oregon Territory was acquired through a treaty with Great Britain in 1846.",
+      "Correct. California, along with other territories, was ceded to the U.S. by Mexico.",
+      "Incorrect. The Louisiana Territory was purchased from France in 1803."
+    ],
+    "topic": "The Mexican-American War",
+    "unit": 5
+  },
+  {
+    "stimulus": "Popular sovereignty was proposed as a solution to the slavery question in the territories.",
+    "question": "The concept of popular sovereignty, as applied to the slavery question, argued that:",
+    "answers": [
+      "Congress should decide whether slavery would be allowed in each new territory.",
+      "The residents of a territory should decide whether or not to allow slavery.",
+      "Slavery should be immediately abolished in all U.S. territories.",
+      "The Supreme Court should determine the legality of slavery in each territory."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This was the position of some politicians, but popular sovereignty advocated for local control.",
+      "Correct. Popular sovereignty meant that the people living in a territory would vote on whether to allow slavery.",
+      "Incorrect. This was the abolitionist position, not the popular sovereignty position.",
+      "Incorrect. While the Supreme Court did address the issue, popular sovereignty was about local decision-making."
+    ],
+    "topic": "The Compromise of 1850",
+    "unit": 5
+  },
+  {
+    "stimulus": "Different regions of the United States had distinct economic and social systems in the mid-19th century.",
+    "question": "Which of the following best describes the Southern economy in the mid-19th century?",
+    "answers": [
+      "A diversified economy with both industrial and agricultural sectors.",
+      "An economy heavily reliant on manufacturing and trade.",
+      "An economy primarily based on agriculture, particularly cotton production, and slave labor.",
+      "An economy focused on small-scale farming and subsistence agriculture."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The South was not diversified; it was heavily agricultural.",
+      "Incorrect. The South lagged behind the North in manufacturing.",
+      "Correct. The Southern economy was heavily dependent on cotton and slave labor.",
+      "Incorrect. While some small-scale farming existed, the dominant economic model was large plantations using slave labor."
+    ],
+    "topic": "Sectional Conflict: Regional Differences",
+    "unit": 5
+  },
+  {
+    "stimulus": "Events such as the Dred Scott decision and John Brown's raid heightened sectional tensions.",
+    "question": "What was the significance of the Dred Scott Supreme Court decision?",
+    "answers": [
+      "It upheld the principle of popular sovereignty.",
+      "It declared that enslaved people were property and had no right to sue in federal court.",
+      "It outlawed slavery in the District of Columbia.",
+      "It affirmed the constitutionality of the Missouri Compromise."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Dred Scott decision undermined popular sovereignty.",
+      "Correct. The decision stated that slaves were property and had no legal standing.",
+      "Incorrect. This decision had nothing to do with slavery in Washington D.C.",
+      "Incorrect. It declared the Missouri Compromise unconstitutional."
+    ],
+    "topic": "Failure of Compromise",
+    "unit": 5
+  },
+  {
+    "stimulus": "Abraham Lincoln's views on slavery evolved over time.",
+    "question": "Which of the following best describes Abraham Lincoln's stance on slavery at the beginning of the Civil War?",
+    "answers": [
+      "He was a staunch abolitionist who sought the immediate end of slavery.",
+      "He believed that slavery should be allowed to expand into new territories.",
+      "He aimed to preserve the Union, even if it meant allowing slavery to continue where it already existed.",
+      "He advocated for the forced removal of all African Americans from the United States."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While Lincoln opposed slavery, his initial priority was preserving the Union.",
+      "Incorrect. Lincoln opposed the expansion of slavery.",
+      "Correct. Lincoln's primary goal at the start of the war was to save the Union, and he was willing to tolerate slavery where it existed to achieve that goal.",
+      "Incorrect. While some Republicans supported colonization, Lincoln did not initially advocate for it."
+    ],
+    "topic": "Election of 1860 and Secession",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Emancipation Proclamation had a significant impact on the course of the Civil War.",
+    "question": "What was the primary impact of the Emancipation Proclamation?",
+    "answers": [
+      "It immediately freed all slaves in the United States.",
+      "It strengthened the moral cause of the Union by framing the war as a fight against slavery.",
+      "It ended the Civil War.",
+      "It ensured that all African Americans were granted full citizenship rights."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. It only freed slaves in Confederate-held territory.",
+      "Correct. The Proclamation changed the focus of the war to include ending slavery.",
+      "Incorrect. The war continued for almost two more years.",
+      "Incorrect. Citizenship rights were not guaranteed until later with the passage of constitutional amendments."
+    ],
+    "topic": "Military Conflict in the Civil War",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Union government took actions to finance the war effort.",
+    "question": "During the Civil War, the Union government took which of the following actions to finance the war?",
+    "answers": [
+      "Implementing a national income tax.",
+      "Selling bonds to citizens.",
+      "Printing paper money (greenbacks).",
+      "All of the above."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. While the Union government did implement a national income tax, this is not the only action.",
+      "Incorrect. While the Union government did sell bonds, this is not the only action.",
+      "Incorrect. While the Union government did print paper money, this is not the only action.",
+      "Correct. The Union government used all these methods to finance the war."
+    ],
+    "topic": "Government Policies During the Civil War",
+    "unit": 5
+  },
+  {
+    "stimulus": "The 13th, 14th, and 15th Amendments were crucial during Reconstruction.",
+    "question": "What was the main purpose of the 14th Amendment?",
+    "answers": [
+      "To abolish slavery.",
+      "To guarantee citizenship and equal protection under the law to all persons born or naturalized in the United States.",
+      "To grant African American men the right to vote.",
+      "To establish a national bank."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The 13th Amendment abolished slavery.",
+      "Correct. The 14th Amendment granted citizenship and equal protection.",
+      "Incorrect. The 15th Amendment granted voting rights.",
+      "Incorrect. This amendment is not related to the establishment of a national bank."
+    ],
+    "topic": "Reconstruction",
+    "unit": 5
+  },
+  {
+    "stimulus": "White Southerners resisted Reconstruction in various ways.",
+    "question": "Which of the following tactics was used by white Southerners to disenfranchise African American voters during Reconstruction?",
+    "answers": [
+      "Passing Jim Crow laws.",
+      "Establishing poll taxes and literacy tests.",
+      "Using violence and intimidation through groups like the Ku Klux Klan.",
+      "All of the above."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Jim Crow laws were one way but not the only way.",
+      "Incorrect. Poll taxes and literacy tests were one way but not the only way.",
+      "Incorrect. Violence and intimidation were one way but not the only way.",
+      "Correct. All these tactics were used."
+    ],
+    "topic": "Failure of Reconstruction",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Civil War and Reconstruction had lasting consequences for American society.",
+    "question": "Which of the following is a long-term consequence of Reconstruction?",
+    "answers": [
+      "The immediate achievement of full racial equality in the South.",
+      "The establishment of a strong industrial economy throughout the South.",
+      "The persistence of racial discrimination and inequality in the South.",
+      "The end of sectionalism in American politics."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Reconstruction failed to achieve full racial equality.",
+      "Incorrect. The South remained largely agricultural for many years.",
+      "Correct. Despite Reconstruction, racial discrimination continued to plague the South.",
+      "Incorrect. Sectionalism persisted in various forms even after Reconstruction."
+    ],
+    "topic": "Comparison in Period 5",
+    "unit": 5
+  },
+  {
+    "stimulus": "John O\u2019Sullivan wrote about Manifest Destiny in 1845.",
+    "question": "Which of the following groups would most likely support the idea of Manifest Destiny?",
+    "answers": [
+      "Abolitionists",
+      "Southern planters",
+      "Native Americans",
+      "Transcendentalists"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Abolitionists were against expansion of slavery which was related to the territory gained from Manifest Destiny.",
+      "Correct. Southern planters would benefit from the expansion of slavery into new territories.",
+      "Incorrect. Native Americans would lose land because of Manifest Destiny.",
+      "Incorrect. Transcendentalists were more concerned with individual spiritual growth."
+    ],
+    "topic": "Manifest Destiny",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Mexican-American War led to debates about the expansion of slavery.",
+    "question": "Which of the following best describes the position of the Free Soil Party on the issue of slavery in the territories acquired from Mexico?",
+    "answers": [
+      "They supported the expansion of slavery into all territories.",
+      "They advocated for popular sovereignty.",
+      "They opposed the expansion of slavery into the territories.",
+      "They called for the immediate abolition of slavery throughout the United States."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Free Soil Party was against the expansion of slavery.",
+      "Incorrect. The Free Soil Party was against popular sovereignty.",
+      "Correct. The Free Soil Party opposed expansion of slavery into the territories.",
+      "Incorrect. The Free Soil Party did not advocate for the immediate abolition of slavery throughout the United States."
+    ],
+    "topic": "The Mexican-American War",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Compromise of 1850 attempted to resolve sectional tensions.",
+    "question": "Which part of the Compromise of 1850 was most appealing to the South?",
+    "answers": [
+      "The admission of California as a free state.",
+      "The abolition of the slave trade in Washington D.C.",
+      "The implementation of popular sovereignty in Utah and New Mexico.",
+      "The passage of a stronger Fugitive Slave Act."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. This part was more favorable to the North.",
+      "Incorrect. This part was more favorable to the North.",
+      "Incorrect. The outcome of popular sovereignty was uncertain.",
+      "Correct. The Fugitive Slave Act was included to appease the south."
+    ],
+    "topic": "The Compromise of 1850",
+    "unit": 5
+  },
+  {
+    "stimulus": "The North and South had different economic systems.",
+    "question": "How did the plantation system shape the economic development of the South?",
+    "answers": [
+      "It fostered a diversified economy with both agriculture and industry.",
+      "It created a demand for enslaved labor, hindering industrial growth and economic diversification.",
+      "It promoted urbanization and the growth of a large middle class.",
+      "It encouraged the development of a strong merchant marine and international trade."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The South relied on agriculture, not industry.",
+      "Correct. Slavery created wealth for planters but made the South more dependent on agriculture.",
+      "Incorrect. The opposite happened.",
+      "Incorrect. The South was not focused on a strong merchant marine."
+    ],
+    "topic": "Sectional Conflict: Regional Differences",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Dred Scott decision worsened sectional tensions.",
+    "question": "Which of the following arguments did the Supreme Court make in the Dred Scott decision?",
+    "answers": [
+      "Congress had the power to prohibit slavery in the territories.",
+      "African Americans were citizens of the United States.",
+      "Enslaved people were property and had no right to sue in federal court.",
+      "The Missouri Compromise was constitutional."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The court said the opposite of this.",
+      "Incorrect. The court ruled that enslaved people were not citizens.",
+      "Correct. This was the ruling of the court.",
+      "Incorrect. The court ruled it was unconstitutional."
+    ],
+    "topic": "Failure of Compromise",
+    "unit": 5
+  },
+  {
+    "stimulus": "Abraham Lincoln was elected president in 1860.",
+    "question": "Which of the following was the main platform of the Republican Party in the election of 1860 regarding slavery?",
+    "answers": [
+      "The immediate abolition of slavery throughout the United States.",
+      "The expansion of slavery into all territories.",
+      "Preventing the expansion of slavery into new territories.",
+      "Guaranteeing the protection of slavery in the existing slave states."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Republican Party was against immediate abolition.",
+      "Incorrect. The Republican Party opposed the expansion of slavery.",
+      "Correct. The Republican Party was formed to prevent the expansion of slavery.",
+      "Incorrect. The Republican Party did not actively guarantee the protection of slavery in the existing slave states."
+    ],
+    "topic": "Election of 1860 and Secession",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Civil War lasted from 1861-1865.",
+    "question": "Which of the following advantages did the Union have over the Confederacy during the Civil War?",
+    "answers": [
+      "Superior military leadership.",
+      "Greater industrial capacity and resources.",
+      "Stronger support from European powers.",
+      "More experience with guerilla warfare tactics."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Confederate generals were initially more successful.",
+      "Correct. The Union had a larger industrial base.",
+      "Incorrect. The Confederacy hoped for, but never achieved, significant European support.",
+      "Incorrect. Confederate forces used some guerilla tactics, but that wasn't a significant advantage."
+    ],
+    "topic": "Military Conflict in the Civil War",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Union government passed many acts during the war.",
+    "question": "Which of the following was a key provision of the Homestead Act of 1862?",
+    "answers": [
+      "It provided free land to settlers in the West.",
+      "It established a national banking system.",
+      "It authorized the construction of the transcontinental railroad.",
+      "It granted citizenship to Native Americans who agreed to assimilate."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The Homestead Act offered 160 acres of free land to settlers.",
+      "Incorrect. This was part of the National Banking Act.",
+      "Incorrect. This was addressed in the Pacific Railway Act.",
+      "Incorrect. Native Americans were not granted citizenship at this time."
+    ],
+    "topic": "Government Policies During the Civil War",
+    "unit": 5
+  },
+  {
+    "stimulus": "Reconstruction attempted to rebuild the country.",
+    "question": "What were the Black Codes enacted in the Southern states during Reconstruction?",
+    "answers": [
+      "Laws designed to grant African Americans full civil rights and equality.",
+      "Laws designed to restrict the rights and freedoms of African Americans.",
+      "Laws promoting racial integration in schools and public facilities.",
+      "Laws providing land and economic assistance to formerly enslaved people."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Black Codes were not meant to grant civil rights.",
+      "Correct. Black Codes were meant to oppress the black citizens.",
+      "Incorrect. Black codes were the opposite of integration.",
+      "Incorrect. Black codes were not intended to help freedmen."
+    ],
+    "topic": "Reconstruction",
+    "unit": 5
+  },
+  {
+    "stimulus": "The KKK was a group in the south during Reconstruction.",
+    "question": "Which of the following best describes the goals of the Ku Klux Klan during Reconstruction?",
+    "answers": [
+      "Protecting the civil rights of African Americans.",
+      "Promoting racial integration and equality.",
+      "Restoring white supremacy and preventing African Americans from exercising their rights.",
+      "Supporting the policies of the Radical Republicans in the South."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The KKK did the opposite of this.",
+      "Incorrect. The KKK did the opposite of this.",
+      "Correct. The KKK terrorized black citizens.",
+      "Incorrect. The KKK opposed the Radical Republicans in the South."
+    ],
+    "topic": "Failure of Reconstruction",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Civil War and Reconstruction Era had a lasting impact.",
+    "question": "How did the Supreme Court decisions in the late 19th century, such as Plessy v. Ferguson, affect African Americans?",
+    "answers": [
+      "They affirmed the principle of \"separate but equal,\" leading to the segregation of public facilities.",
+      "They upheld the constitutionality of the Civil Rights Act of 1875.",
+      "They guaranteed African Americans the right to vote in all states.",
+      "They led to the immediate desegregation of schools and public accommodations."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Plessy v. Ferguson allowed segregation.",
+      "Incorrect. The Civil Rights Act of 1875 was deemed unconstitutional.",
+      "Incorrect. Voting rights were restricted despite the 15th amendment.",
+      "Incorrect. Desegregation did not happen immediately."
+    ],
+    "topic": "Comparison in Period 5",
+    "unit": 5
+  },
+  {
+    "stimulus": "Manifest Destiny fueled expansion.",
+    "question": "Which of the following arguments was used to support the concept of Manifest Destiny?",
+    "answers": [
+      "The United States had a divine mission to spread democracy and civilization across the continent.",
+      "The expansion of slavery was necessary for the economic prosperity of the nation.",
+      "Native Americans should be granted full citizenship rights.",
+      "The United States should avoid foreign entanglements and focus on domestic issues."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. This was the argument used to support Manifest Destiny.",
+      "Incorrect. This was part of it, but not the whole concept.",
+      "Incorrect. They did not believe Native Americans should have citizenship.",
+      "Incorrect. This describes isolationism which doesn't quite fit the answer."
+    ],
+    "topic": "Manifest Destiny",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Mexican-American War increased tensions.",
+    "question": "Which of the following best describes the impact of the Mexican-American War on sectional tensions in the United States?",
+    "answers": [
+      "It led to a decrease in tensions as the acquisition of new territories satisfied both North and South.",
+      "It had no significant impact on sectional tensions.",
+      "It increased tensions as debates over the expansion of slavery into newly acquired territories intensified.",
+      "It resulted in the immediate abolition of slavery in the United States."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The war increased tensions.",
+      "Incorrect. The war had a huge impact on sectional tensions.",
+      "Correct. The war increased tensions as it reopened slavery debates.",
+      "Incorrect. The war did not result in the immediate abolition of slavery."
+    ],
+    "topic": "The Mexican-American War",
+    "unit": 5
+  }
+]

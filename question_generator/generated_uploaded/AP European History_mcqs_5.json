@@ -1,0 +1,515 @@
+[
+  {
+    "stimulus": "\u201cThe state of monarchy is supremely excellent. For everything in the world desires unity, and is better preserved under it. God is one, and the universe is one, and the king is one.\u201d - Jean Bodin, *The Six Books of the Commonwealth*, 1576",
+    "question": "The excerpt above best exemplifies which concept that dominated 18th-century states?",
+    "answers": [
+      "Constitutionalism: This is incorrect. Constitutionalism limits the power of the monarch, while Bodin advocates for a strong, unified monarchy.",
+      "Absolutism: This is correct. Bodin's argument for a single, supreme ruler reflects the core idea of absolutism, where the monarch holds unlimited power.",
+      "Republicanism: This is incorrect. Republicanism emphasizes citizen participation and elected representation, which is contrary to Bodin's monarchical view.",
+      "Feudalism: This is incorrect. Feudalism was a decentralized system of power, whereas Bodin advocates for centralized authority in the monarch."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Constitutionalism limits the power of the monarch, while Bodin advocates for a strong, unified monarchy.",
+      "Bodin's argument for a single, supreme ruler reflects the core idea of absolutism, where the monarch holds unlimited power.",
+      "Republicanism emphasizes citizen participation and elected representation, which is contrary to Bodin's monarchical view.",
+      "Feudalism was a decentralized system of power, whereas Bodin advocates for centralized authority in the monarch."
+    ],
+    "topic": "Contextualizing 18th-Century States",
+    "unit": 5
+  },
+  {
+    "stimulus": "The enclosure movement, which privatized common lands in England, had which of the following effects?",
+    "question": "Which of the following most directly resulted from the enclosure movement described above?",
+    "answers": [
+      "Increased agricultural productivity and a labor force available for industrial work: This is the correct answer. Enclosure increased efficiency and displaced rural laborers.",
+      "A decline in agricultural output due to the disruption of traditional farming practices: This is incorrect. Enclosure generally led to increased output.",
+      "Greater economic equality among rural farmers: This is incorrect. Enclosure concentrated land ownership.",
+      "Strengthening of feudal obligations between landowners and peasants: This is incorrect. Enclosure was part of the shift away from feudalism."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Enclosure increased efficiency and displaced rural laborers.",
+      "Enclosure generally led to increased output.",
+      "Enclosure concentrated land ownership.",
+      "Enclosure was part of the shift away from feudalism."
+    ],
+    "topic": "The Rise of Global Markets",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Dutch East India Company and the British East India Company are most known for what practice?",
+    "question": "These companies primarily engaged in what practice?",
+    "answers": [
+      "Establishing colonies and exploiting resources through chartered monopolies: This is correct. They were chartered monopolies that established colonies and exploited resources.",
+      "Promoting free trade and open markets across the globe: This is incorrect. They were monopolies with exclusive trading rights.",
+      "Focusing solely on religious conversion of indigenous populations: This is incorrect. While they did engage in missionary work, their primary goal was economic.",
+      "Providing humanitarian aid and support to developing nations: This is incorrect. They were primarily focused on profit and exploitation."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "They were chartered monopolies that established colonies and exploited resources.",
+      "They were monopolies with exclusive trading rights.",
+      "While they did engage in missionary work, their primary goal was economic.",
+      "They were primarily focused on profit and exploitation."
+    ],
+    "topic": "The Rise of Global Markets",
+    "unit": 5
+  },
+  {
+    "stimulus": "\u201cWe are a nation of shopkeepers.\u201d - Napoleon Bonaparte",
+    "question": "Napoleon's quote above was most likely meant to deride what aspect of British society?",
+    "answers": [
+      "Britain's growing commercial power and focus on trade: This is correct. Napoleon saw Britain's commercial focus as a weakness compared to his military strength.",
+      "Britain's strong military and naval capabilities: This is incorrect. Napoleon respected Britain's military, even while fighting against it.",
+      "Britain's aristocratic social structure and rigid class system: This is incorrect. Napoleon implemented his own version of a rigid social hierarchy.",
+      "Britain's lack of cultural and artistic achievements: This is incorrect. Napoleon was not particularly concerned with Britain's artistic scene."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Napoleon saw Britain's commercial focus as a weakness compared to his military strength.",
+      "Napoleon respected Britain's military, even while fighting against it.",
+      "Napoleon implemented his own version of a rigid social hierarchy.",
+      "Napoleon was not particularly concerned with Britain's artistic scene."
+    ],
+    "topic": "Britain's Ascendency",
+    "unit": 5
+  },
+  {
+    "stimulus": "Which of the following factors contributed most to Great Britain's rise to prominence in the 18th century?",
+    "question": "Which of the following most contributed to Great Britain's 18th century prominence?",
+    "answers": [
+      "Its superior agricultural productivity and advanced financial system: This is correct. These factors supported its industrial and imperial expansion.",
+      "Its large and well-trained standing army: This is incorrect. Britain relied more on its navy and alliances than a large army.",
+      "Its democratic political system and egalitarian social structure: This is incorrect. Britain was not particularly democratic or egalitarian.",
+      "Its isolationist foreign policy and lack of involvement in European conflicts: This is incorrect. Britain was actively involved in European politics and wars."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "These factors supported its industrial and imperial expansion.",
+      "Britain relied more on its navy and alliances than a large army.",
+      "Britain was not particularly democratic or egalitarian.",
+      "Britain was actively involved in European politics and wars."
+    ],
+    "topic": "Britain's Ascendency",
+    "unit": 5
+  },
+  {
+    "stimulus": "\u201cLiberty, Equality, Fraternity\u201d",
+    "question": "The slogan above was central to the ideals of which revolution?",
+    "answers": [
+      "The French Revolution: This is correct. It was the rallying cry of the French Revolution.",
+      "The American Revolution: This is incorrect. The American Revolution had different slogans and goals.",
+      "The Russian Revolution: This is incorrect. The Russian Revolution had its own distinct slogans.",
+      "The Glorious Revolution: This is incorrect. The Glorious Revolution had different aims and principles."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "It was the rallying cry of the French Revolution.",
+      "The American Revolution had different slogans and goals.",
+      "The Russian Revolution had its own distinct slogans.",
+      "The Glorious Revolution had different aims and principles."
+    ],
+    "topic": "The French Revolution",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Tennis Court Oath",
+    "question": "What was the significance of the Tennis Court Oath during the French Revolution?",
+    "answers": [
+      "It demonstrated the determination of the Third Estate to establish a new constitution: This is correct. They vowed to create a new constitution.",
+      "It signaled the king's willingness to compromise with the revolutionaries: This is incorrect. It was a direct challenge to the king's authority.",
+      "It marked the beginning of the Reign of Terror: This is incorrect. The Reign of Terror came later in the revolution.",
+      "It led to the immediate overthrow of the monarchy: This is incorrect. The monarchy was not immediately overthrown."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "They vowed to create a new constitution.",
+      "It was a direct challenge to the king's authority.",
+      "The Reign of Terror came later in the revolution.",
+      "The monarchy was not immediately overthrown."
+    ],
+    "topic": "The French Revolution",
+    "unit": 5
+  },
+  {
+    "stimulus": "\u201cThe National Assembly, considering that it has been summoned to establish the constitution of the kingdom, to effect the regeneration of public order, and to maintain the true principles of monarchy; that nothing can prevent it from continuing its deliberations in whatever place it may be forced to establish itself; and, finally, that wheresoever its members are assembled, there is the National Assembly...\u201d",
+    "question": "The above passage is most likely from which event during the French Revolution?",
+    "answers": [
+      "The Tennis Court Oath: This is correct. The passage describes the assembly's resolve to continue their work until a constitution is established.",
+      "The Declaration of the Rights of Man and of the Citizen: This is incorrect. That document outlines rights, not a commitment to assemble.",
+      "The Storming of the Bastille: This is incorrect. That event was a violent uprising, not a declaration of principles.",
+      "The execution of Louis XVI: This is incorrect. This passage reflects a commitment to establishing a constitution *before* the king's execution."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "The passage describes the assembly's resolve to continue their work until a constitution is established.",
+      "That document outlines rights, not a commitment to assemble.",
+      "That event was a violent uprising, not a declaration of principles.",
+      "This passage reflects a commitment to establishing a constitution *before* the king's execution."
+    ],
+    "topic": "The French Revolution",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Thermidorian Reaction",
+    "question": "What was the Thermidorian Reaction in the context of the French Revolution?",
+    "answers": [
+      "A period of reaction against the radicalism of the Reign of Terror: This is correct. It marked a shift away from the radical policies.",
+      "The establishment of the Directory as the new government: This is incorrect. The Directory was a result of the Thermidorian Reaction, not the reaction itself.",
+      "The execution of Robespierre and the end of the Reign of Terror: This is incorrect. The execution of Robespierre was part of the reaction, not the whole thing.",
+      "A renewed period of radical reforms and revolutionary fervor: This is incorrect. It was a reaction *against* radicalism."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "It marked a shift away from the radical policies.",
+      "The Directory was a result of the Thermidorian Reaction, not the reaction itself.",
+      "The execution of Robespierre was part of the reaction, not the whole thing.",
+      "It was a reaction *against* radicalism."
+    ],
+    "topic": "The French Revolution's Effects",
+    "unit": 5
+  },
+  {
+    "stimulus": "\u201cMen are born and remain free and equal in rights. Social distinctions may be founded only upon the general good.\u201d - Declaration of the Rights of Man and of the Citizen",
+    "question": "Which of the following principles is most clearly reflected in the passage above?",
+    "answers": [
+      "Enlightenment ideals of natural rights and equality: This is correct. The passage emphasizes liberty, equality, and the general good, all key Enlightenment ideas.",
+      "Mercantilist policies promoting state control over the economy: This is incorrect. The passage focuses on individual rights, not state control.",
+      "Divine right of kings and the legitimacy of absolute monarchy: This is incorrect. The passage directly contradicts the idea of divine right.",
+      "Feudal obligations and the importance of social hierarchy: This is incorrect. The passage argues for equality, opposing feudal hierarchies."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "The passage emphasizes liberty, equality, and the general good, all key Enlightenment ideas.",
+      "The passage focuses on individual rights, not state control.",
+      "The passage directly contradicts the idea of divine right.",
+      "The passage argues for equality, opposing feudal hierarchies."
+    ],
+    "topic": "The French Revolution's Effects",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Haitian Revolution",
+    "question": "What was a major impact of the Haitian Revolution on the broader Atlantic world?",
+    "answers": [
+      "It demonstrated that enslaved people could successfully revolt and establish their own nation: This is correct. It was a major blow to the slave system.",
+      "It led to the immediate abolition of slavery in all European colonies: This is incorrect. Slavery persisted in many colonies for decades.",
+      "It strengthened the economic power of France in the Americas: This is incorrect. It weakened French control.",
+      "It promoted greater cooperation and understanding between European powers and African nations: This is incorrect. Relations remained exploitative."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "It was a major blow to the slave system.",
+      "Slavery persisted in many colonies for decades.",
+      "It weakened French control.",
+      "Relations remained exploitative."
+    ],
+    "topic": "The French Revolution's Effects",
+    "unit": 5
+  },
+  {
+    "stimulus": "\u201cFrom this place and from this day forth begins a new era in world history, and you can all say that you were present at its birth.\u201d - Johann Wolfgang von Goethe, after the Battle of Valmy",
+    "question": "Goethe's quote above refers to which event and its significance?",
+    "answers": [
+      "The Battle of Valmy, which halted the Prussian advance on Paris and saved the French Revolution: This is correct. It was a turning point for the Revolution.",
+      "The storming of the Bastille, which symbolized the overthrow of the old regime: This is incorrect. The Bastille was a symbolic event, but Valmy had greater strategic importance.",
+      "The execution of Louis XVI, which marked the end of the monarchy: This is incorrect. The execution was significant, but Valmy was a military turning point.",
+      "The Congress of Vienna, which restored order to Europe after Napoleon: This is incorrect. The Congress of Vienna occurred after Napoleon, while Valmy was during the French Revolution."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "It was a turning point for the Revolution.",
+      "The Bastille was a symbolic event, but Valmy had greater strategic importance.",
+      "The execution was significant, but Valmy was a military turning point.",
+      "The Congress of Vienna occurred after Napoleon, while Valmy was during the French Revolution."
+    ],
+    "topic": "Napoleon's Rise, Dominance, and Defeat",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Continental System",
+    "question": "What was the main goal of Napoleon's Continental System?",
+    "answers": [
+      "To cripple Great Britain's economy by preventing it from trading with continental Europe: This is correct. Napoleon wanted to isolate and weaken Britain.",
+      "To promote free trade and economic cooperation among European nations: This is incorrect. The system was designed to harm Britain, not promote free trade.",
+      "To establish a common currency and banking system across Europe: This is incorrect. The Continental System focused on trade, not currency.",
+      "To encourage industrial development in France at the expense of other European countries: This is incorrect. The main target was Britain."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Napoleon wanted to isolate and weaken Britain.",
+      "The system was designed to harm Britain, not promote free trade.",
+      "The Continental System focused on trade, not currency.",
+      "The main target was Britain."
+    ],
+    "topic": "Napoleon's Rise, Dominance, and Defeat",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Napoleonic Code",
+    "question": "What was the long-term significance of the Napoleonic Code?",
+    "answers": [
+      "It influenced legal systems in many European countries and beyond: This is correct. It spread many principles of the French Revolution.",
+      "It restored feudal privileges and aristocratic power in France: This is incorrect. It enshrined principles of equality before the law.",
+      "It led to the immediate establishment of democratic governments across Europe: This is incorrect. The Napoleonic Code did not necessarily lead to democracy.",
+      "It promoted religious uniformity and suppressed religious freedom: This is incorrect. It allowed for religious tolerance."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "It spread many principles of the French Revolution.",
+      "It enshrined principles of equality before the law.",
+      "The Napoleonic Code did not necessarily lead to democracy.",
+      "It allowed for religious tolerance."
+    ],
+    "topic": "Napoleon's Rise, Dominance, and Defeat",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Invasion of Russia",
+    "question": "Which of the following was a major cause of Napoleon's downfall?",
+    "answers": [
+      "The disastrous invasion of Russia in 1812: This is correct. The invasion decimated his army.",
+      "His successful conquest of Great Britain: This is incorrect. He never successfully invaded Britain.",
+      "His alliance with the Ottoman Empire against Russia: This is incorrect. He fought against the Ottoman Empire at times.",
+      "His support for the Spanish monarchy against revolutionary forces: This is incorrect. He installed his brother on the Spanish throne, which sparked resistance."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "The invasion decimated his army.",
+      "He never successfully invaded Britain.",
+      "He fought against the Ottoman Empire at times.",
+      "He installed his brother on the Spanish throne, which sparked resistance."
+    ],
+    "topic": "Napoleon's Rise, Dominance, and Defeat",
+    "unit": 5
+  },
+  {
+    "stimulus": "\u201cThe great questions of the day will not be settled by means of speeches and majority decisions but by iron and blood.\u201d - Otto von Bismarck",
+    "question": "The quote above most closely reflects the political ideology of which of the following?",
+    "answers": [
+      "Realpolitik: This is correct. Bismarck's emphasis on power and pragmatism exemplifies Realpolitik.",
+      "Liberalism: This is incorrect. Liberalism emphasizes individual rights and constitutional government.",
+      "Socialism: This is incorrect. Socialism focuses on economic equality and social justice.",
+      "Romanticism: This is incorrect. Romanticism emphasizes emotion, imagination, and individualism."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Bismarck's emphasis on power and pragmatism exemplifies Realpolitik.",
+      "Liberalism emphasizes individual rights and constitutional government.",
+      "Socialism focuses on economic equality and social justice.",
+      "Romanticism emphasizes emotion, imagination, and individualism."
+    ],
+    "topic": "The Congress of Vienna",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Congress of Vienna",
+    "question": "What was the primary goal of the Congress of Vienna?",
+    "answers": [
+      "To restore a balance of power in Europe after the Napoleonic Wars: This is correct. The Congress sought to prevent future French aggression and maintain stability.",
+      "To establish a unified European government with a common constitution: This is incorrect. The Congress focused on restoring the old order, not creating a new government.",
+      "To promote democratic reforms and national self-determination across Europe: This is incorrect. The Congress generally opposed democratic and nationalist movements.",
+      "To punish France severely and dismantle its empire completely: This is incorrect. While France lost territory, it was not completely dismantled."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "The Congress sought to prevent future French aggression and maintain stability.",
+      "The Congress focused on restoring the old order, not creating a new government.",
+      "The Congress generally opposed democratic and nationalist movements.",
+      "While France lost territory, it was not completely dismantled."
+    ],
+    "topic": "The Congress of Vienna",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Concert of Europe",
+    "question": "What was the purpose of the Concert of Europe?",
+    "answers": [
+      "To maintain the balance of power established by the Congress of Vienna and suppress revolutionary movements: This is correct. The Concert aimed to preserve the existing order.",
+      "To promote free trade and economic integration among European nations: This is incorrect. While trade was important, the primary focus was political stability.",
+      "To establish a common European military force to defend against external threats: This is incorrect. The Concert was more about internal stability.",
+      "To support nationalist movements and the creation of independent nation-states: This is incorrect. The Concert generally opposed nationalism."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "The Concert aimed to preserve the existing order.",
+      "While trade was important, the primary focus was political stability.",
+      "The Concert was more about internal stability.",
+      "The Concert generally opposed nationalism."
+    ],
+    "topic": "The Congress of Vienna",
+    "unit": 5
+  },
+  {
+    "stimulus": "\u201cThe heart has its reasons which reason knows not of.\u201d - Blaise Pascal",
+    "question": "The quote above best reflects which intellectual movement?",
+    "answers": [
+      "Romanticism: This is correct. Romanticism emphasized emotion, intuition, and the individual experience.",
+      "The Enlightenment: This is incorrect. The Enlightenment emphasized reason and logic.",
+      "The Scientific Revolution: This is incorrect. The Scientific Revolution focused on empirical observation and mathematical reasoning.",
+      "The Renaissance: This is incorrect. The Renaissance emphasized classical learning and humanism."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Romanticism emphasized emotion, intuition, and the individual experience.",
+      "The Enlightenment emphasized reason and logic.",
+      "The Scientific Revolution focused on empirical observation and mathematical reasoning.",
+      "The Renaissance emphasized classical learning and humanism."
+    ],
+    "topic": "Romanticism",
+    "unit": 5
+  },
+  {
+    "stimulus": "Which of the following is a key characteristic of Romanticism?",
+    "question": "Which is a key characteristic of Romanticism?",
+    "answers": [
+      "Emphasis on emotion, imagination, and the beauty of nature: This is correct. These are central themes of Romanticism.",
+      "Focus on reason, logic, and empirical observation: This is incorrect. This aligns more with the Enlightenment and Scientific Revolution.",
+      "Adherence to classical forms and traditional artistic conventions: This is incorrect. Romanticism often rejected classical forms.",
+      "Celebration of industrial progress and technological innovation: This is incorrect. Romantics often critiqued industrialization."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "These are central themes of Romanticism.",
+      "This aligns more with the Enlightenment and Scientific Revolution.",
+      "Romanticism often rejected classical forms.",
+      "Romantics often critiqued industrialization."
+    ],
+    "topic": "Romanticism",
+    "unit": 5
+  },
+  {
+    "stimulus": "Eug\u00e8ne Delacroix's *Liberty Leading the People*",
+    "question": "The painting above is an example of what artistic movement?",
+    "answers": [
+      "Romanticism: This is correct. The painting's emotional intensity, dramatic composition, and focus on revolutionary themes are characteristic of Romanticism.",
+      "Neoclassicism: This is incorrect. Neoclassicism emphasized order, reason, and classical themes.",
+      "Realism: This is incorrect. Realism focused on depicting everyday life accurately.",
+      "Impressionism: This is incorrect. Impressionism focused on capturing fleeting moments and the effects of light."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "The painting's emotional intensity, dramatic composition, and focus on revolutionary themes are characteristic of Romanticism.",
+      "Neoclassicism emphasized order, reason, and classical themes.",
+      "Realism focused on depicting everyday life accurately.",
+      "Impressionism focused on capturing fleeting moments and the effects of light."
+    ],
+    "topic": "Romanticism",
+    "unit": 5
+  },
+  {
+    "stimulus": "Which of the following describes a major change in European states during the 18th century?",
+    "question": "Which describes a major change in European states during the 18th century?",
+    "answers": [
+      "Increased centralization of power in the hands of monarchs: This is correct. Many monarchs sought to consolidate their authority.",
+      "Decline of standing armies and reliance on mercenary forces: This is incorrect. Standing armies grew in size and importance.",
+      "Weakening of state bureaucracies and a shift towards decentralized governance: This is incorrect. State bureaucracies expanded and became more efficient.",
+      "Decreased involvement in international conflicts and a focus on domestic affairs: This is incorrect. European states were constantly involved in wars and alliances."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Many monarchs sought to consolidate their authority.",
+      "Standing armies grew in size and importance.",
+      "State bureaucracies expanded and became more efficient.",
+      "European states were constantly involved in wars and alliances."
+    ],
+    "topic": "Continuity and Change in 18th-Century States",
+    "unit": 5
+  },
+  {
+    "stimulus": "The Agricultural Revolution",
+    "question": "How did the Agricultural Revolution contribute to changes in 18th-century European states?",
+    "answers": [
+      "It led to increased food production, population growth, and a surplus of labor for industrial development: This is correct. These changes fueled urbanization and economic transformation.",
+      "It resulted in widespread famine, disease, and a decline in population: This is incorrect. The Agricultural Revolution increased food supply.",
+      "It strengthened the feudal system and increased the power of the aristocracy: This is incorrect. It weakened feudalism.",
+      "It had little impact on European states, as most countries remained primarily agrarian: This is incorrect. It had a significant impact."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "These changes fueled urbanization and economic transformation.",
+      "The Agricultural Revolution increased food supply.",
+      "It weakened feudalism.",
+      "It had a significant impact."
+    ],
+    "topic": "Continuity and Change in 18th-Century States",
+    "unit": 5
+  },
+  {
+    "stimulus": "Which of the following represents a continuity in European social structures from the 17th to the 18th centuries?",
+    "question": "Which represents a continuity in European social structures from the 17th to the 18th centuries?",
+    "answers": [
+      "The persistence of social hierarchies and aristocratic privilege: This is correct. While some social mobility occurred, the basic hierarchical structure remained.",
+      "The decline of the aristocracy and the rise of a new middle class: This is incorrect. The aristocracy remained powerful.",
+      "The emancipation of serfs and the end of feudal obligations: This is incorrect. Serfdom persisted in Eastern Europe.",
+      "The achievement of full political equality for all citizens: This is incorrect. Social and political inequalities remained."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "While some social mobility occurred, the basic hierarchical structure remained.",
+      "The aristocracy remained powerful.",
+      "Serfdom persisted in Eastern Europe.",
+      "Social and political inequalities remained."
+    ],
+    "topic": "Continuity and Change in 18th-Century States",
+    "unit": 5
+  },
+  {
+    "stimulus": "How did the Enlightenment influence political developments in the 18th century?",
+    "question": "How did the Enlightenment influence political developments in the 18th century?",
+    "answers": [
+      "It inspired calls for constitutionalism, natural rights, and limited government: This is correct. Enlightenment ideas fueled revolutionary movements.",
+      "It led to the strengthening of absolute monarchy and the divine right of kings: This is incorrect. The Enlightenment challenged these ideas.",
+      "It promoted religious uniformity and the suppression of dissenting opinions: This is incorrect. The Enlightenment advocated for religious tolerance.",
+      "It had little impact on political developments, as most rulers ignored Enlightenment ideas: This is incorrect. It had a profound impact."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Enlightenment ideas fueled revolutionary movements.",
+      "The Enlightenment challenged these ideas.",
+      "The Enlightenment advocated for religious tolerance.",
+      "It had a profound impact."
+    ],
+    "topic": "Continuity and Change in 18th-Century States",
+    "unit": 5
+  },
+  {
+    "stimulus": "The expansion of literacy rates during the 18th century led to what?",
+    "question": "Increased literacy rates led to which of the following?",
+    "answers": [
+      "The growth of public opinion and the spread of new ideas: This is correct. More people could read and engage with political and social commentary.",
+      "A decline in intellectual discourse and a decrease in the production of books: This is incorrect. Literacy fueled intellectual discourse and book production.",
+      "Increased support for absolute monarchy and traditional social hierarchies: This is incorrect. Literacy often led to questioning of authority.",
+      "Greater social equality and the elimination of class distinctions: This is incorrect. While literacy could promote social mobility, it did not eliminate class distinctions."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "More people could read and engage with political and social commentary.",
+      "Literacy fueled intellectual discourse and book production.",
+      "Literacy often led to questioning of authority.",
+      "While literacy could promote social mobility, it did not eliminate class distinctions."
+    ],
+    "topic": "Continuity and Change in 18th-Century States",
+    "unit": 5
+  },
+  {
+    "stimulus": "The quote, \u201cMan is born free, and everywhere he is in chains,\u201d is most likely attributed to which intellectual figure?",
+    "question": "Who wrote, \u201cMan is born free, and everywhere he is in chains\u201d?",
+    "answers": [
+      "Jean-Jacques Rousseau: This is correct. This quote is from *The Social Contract*.",
+      "John Locke: This is incorrect. Locke wrote about natural rights, but not this specific sentiment.",
+      "Voltaire: This is incorrect. Voltaire was a satirist and advocate for free speech.",
+      "Montesquieu: This is incorrect. Montesquieu advocated for the separation of powers."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "This quote is from *The Social Contract*.",
+      "Locke wrote about natural rights, but not this specific sentiment.",
+      "Voltaire was a satirist and advocate for free speech.",
+      "Montesquieu advocated for the separation of powers."
+    ],
+    "topic": "Continuity and Change in 18th-Century States",
+    "unit": 5
+  }
+]

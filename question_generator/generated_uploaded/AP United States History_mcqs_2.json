@@ -1,0 +1,439 @@
+[
+  {
+    "stimulus": "The year is 1619. A Dutch ship arrives in Jamestown carrying '20 and odd' Africans. These individuals were traded for supplies.",
+    "question": "This event is significant because it marks the beginning of what system in the English colonies?",
+    "answers": [
+      "Indentured servitude, which was initially based on race but later became based on class.",
+      "Chattel slavery, where people are considered property and can be bought, sold, and inherited.",
+      "The headright system, which granted land to anyone who paid for the passage of indentured servants, thus increasing the demand for African labor.",
+      "The encomienda system, where the Spanish crown granted colonists the right to extract labor and tribute from the local indigenous population."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Indentured servitude existed, but this event specifically marks the beginning of racial chattel slavery.",
+      "Correct: This event is considered the beginning of chattel slavery in the English colonies, where Africans were treated as property.",
+      "Incorrect: The headright system existed to encourage immigration, but this event signifies the start of slavery.",
+      "Incorrect: The encomienda system was used by the Spanish, not the English, and involved the exploitation of indigenous populations."
+    ],
+    "topic": "Slavery in the British Colonies",
+    "unit": 2
+  },
+  {
+    "stimulus": "Consider the contrasting economies of the New England and Southern colonies in the 17th and 18th centuries.",
+    "question": "Which of the following statements BEST describes a key difference between the New England and Southern colonies?",
+    "answers": [
+      "New England colonies focused on cash crops like tobacco, while the Southern colonies developed a diverse manufacturing economy.",
+      "New England colonies had a more diversified economy based on trade, shipbuilding, and small-scale farming, while the Southern colonies relied heavily on plantation agriculture.",
+      "Both New England and Southern colonies had similar economies based on large-scale industrial production.",
+      "Both New England and Southern colonies primarily relied on trade with France and Spain, neglecting trade with England."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: This statement reverses the economic activities of the two regions.",
+      "Correct: New England's economy was diverse, while the South focused on plantation agriculture.",
+      "Incorrect: Neither region had large-scale industrial production during this period.",
+      "Incorrect: Both regions primarily traded with England, not France or Spain."
+    ],
+    "topic": "The Regions of British Colonies",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Navigation Acts, passed by the English Parliament in the 17th century, aimed to regulate colonial trade.",
+    "question": "What was the primary purpose of the Navigation Acts?",
+    "answers": [
+      "To promote free trade between the colonies and all European nations.",
+      "To ensure that the colonies benefited economically at the expense of England.",
+      "To restrict colonial trade to benefit England.",
+      "To encourage colonial manufacturing and industrial development."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: The Navigation Acts were designed to restrict, not promote, free trade.",
+      "Incorrect: The Navigation Acts were designed to benefit England, not the colonies.",
+      "Correct: The Navigation Acts aimed to control colonial trade and ensure that its benefits accrued to England.",
+      "Incorrect: The Navigation Acts restricted colonial manufacturing to benefit English industries."
+    ],
+    "topic": "Transatlantic Trade",
+    "unit": 2
+  },
+  {
+    "stimulus": "Bacon's Rebellion in 1676 exposed tensions in colonial Virginia.",
+    "question": "Which of the following BEST describes a major cause of Bacon's Rebellion?",
+    "answers": [
+      "The governor's support for increased trade with American Indians.",
+      "The colonists' desire to overthrow the English monarchy and establish an independent republic.",
+      "The growing frustration of former indentured servants over lack of land and economic opportunities, and the government's unwillingness to protect settlers from American Indian attacks.",
+      "The imposition of heavy taxes by the English government without colonial representation."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: The rebellion was partly caused by the perception that the governor was too friendly with American Indians.",
+      "Incorrect: The rebellion was not about overthrowing the English monarchy.",
+      "Correct: Bacon's Rebellion was fueled by economic grievances, land hunger, and a perceived lack of government protection.",
+      "Incorrect: While taxation without representation was a later issue, it wasn't the main cause of Bacon's Rebellion."
+    ],
+    "topic": "Colonial Society and Culture",
+    "unit": 2
+  },
+  {
+    "stimulus": "Consider the diverse religious landscape of the British colonies.",
+    "question": "Which colony was founded as a haven for Quakers, promoting religious tolerance and pacifism?",
+    "answers": [
+      "Massachusetts",
+      "Virginia",
+      "Pennsylvania",
+      "Maryland"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Massachusetts was founded by Puritans, who were not religiously tolerant.",
+      "Incorrect: Virginia was primarily an economic venture focused on tobacco cultivation.",
+      "Correct: Pennsylvania, founded by William Penn, was a haven for Quakers and known for its religious tolerance.",
+      "Incorrect: Maryland was founded as a haven for Catholics, but Pennsylvania was more explicitly Quaker."
+    ],
+    "topic": "Colonial Society and Culture",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Stono Rebellion in 1739 demonstrated the resistance of enslaved Africans.",
+    "question": "What was the primary goal of the Stono Rebellion?",
+    "answers": [
+      "To negotiate better working conditions with plantation owners.",
+      "To escape to Spanish Florida, where freedom was offered to enslaved people.",
+      "To overthrow the colonial government and establish a free republic.",
+      "To destroy plantation infrastructure and disrupt the colonial economy."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The Stono Rebellion was not about negotiation; it was about freedom.",
+      "Correct: The enslaved people aimed to reach Spanish Florida, where they hoped to gain freedom.",
+      "Incorrect: The rebellion was focused on escape, not political revolution.",
+      "Incorrect: While property was destroyed, the primary goal was escape to freedom."
+    ],
+    "topic": "Slavery in the British Colonies",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Great Awakening was a religious revival that swept through the colonies in the 1730s and 1740s.",
+    "question": "What was a significant impact of the Great Awakening?",
+    "answers": [
+      "It led to a decline in religious fervor and church attendance.",
+      "It promoted the authority and structure of established churches.",
+      "It fostered a sense of unity and challenged traditional authority.",
+      "It reinforced social hierarchies and class distinctions."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: The Great Awakening was a revival, so it increased religious fervor.",
+      "Incorrect: It challenged the authority of established churches, leading to the creation of new denominations.",
+      "Correct: The Great Awakening fostered a sense of shared experience and challenged traditional authority.",
+      "Incorrect: It often transcended social classes and challenged established hierarchies."
+    ],
+    "topic": "Colonial Society and Culture",
+    "unit": 2
+  },
+  {
+    "stimulus": "Compare the relationships between Europeans and American Indians in the Spanish and English colonies.",
+    "question": "Which of the following BEST describes a key difference in the relationship between Europeans and American Indians in the Spanish and English colonies?",
+    "answers": [
+      "The Spanish sought to integrate American Indians into their society through conversion and forced labor, while the English generally sought to displace them and acquire their land.",
+      "The English sought to convert and integrate American Indians, while the Spanish focused on trade and diplomacy.",
+      "Both the Spanish and English sought peaceful coexistence and mutual cooperation with American Indians.",
+      "Both the Spanish and English primarily focused on exterminating American Indian populations."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: This statement accurately describes the differing approaches of the Spanish and English.",
+      "Incorrect: The English were more focused on displacing American Indians than converting them.",
+      "Incorrect: Both groups experienced conflicts with American Indians and did not solely pursue peaceful coexistence.",
+      "Incorrect: While violence occurred, the Spanish focused on conversion and labor, and the English focused on displacement."
+    ],
+    "topic": "Interactions Between American Indians and Europeans",
+    "unit": 2
+  },
+  {
+    "stimulus": "Consider the system of mercantilism as it related to the British colonies.",
+    "question": "Which of the following statements BEST describes the role of the British colonies in the mercantilist system?",
+    "answers": [
+      "The colonies were expected to develop their own industries to compete with England.",
+      "The colonies were expected to provide raw materials to England and serve as a market for English goods.",
+      "The colonies were expected to freely trade with all European nations to maximize their profits.",
+      "The colonies were expected to establish a balanced economy with both agriculture and manufacturing."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Mercantilism discouraged colonial industry.",
+      "Correct: The colonies provided raw materials and served as a market for English goods.",
+      "Incorrect: Mercantilism restricted colonial trade to benefit England.",
+      "Incorrect: Mercantilism discouraged colonial manufacturing."
+    ],
+    "topic": "Transatlantic Trade",
+    "unit": 2
+  },
+  {
+    "stimulus": "Analyze the factors contributing to the development of slavery in the British colonies.",
+    "question": "Which of the following was a major factor contributing to the growth of slavery in the British colonies?",
+    "answers": [
+      "The declining profitability of cash crops such as tobacco and rice.",
+      "The availability of a large and easily exploited labor force from Africa.",
+      "The increasing moral opposition to slavery among European colonists.",
+      "The lack of other viable labor sources, such as indentured servants and wage laborers."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The profitability of cash crops actually increased the demand for slave labor.",
+      "Correct: The availability of enslaved Africans and the existing slave trade made it easier to acquire a labor force.",
+      "Incorrect: There was not widespread opposition to slavery at this time, only in small pockets.",
+      "Incorrect: Indentured servants were a viable option, however, enslaved Africans were a permanent labor supply."
+    ],
+    "topic": "Slavery in the British Colonies",
+    "unit": 2
+  },
+  {
+    "stimulus": "Examine the diverse social structures that developed in the British colonies.",
+    "question": "Which of the following BEST describes the social structure of the Southern colonies?",
+    "answers": [
+      "A society with a large middle class of merchants and artisans.",
+      "A society dominated by a small elite of wealthy planters and landowners.",
+      "A society with a relatively egalitarian distribution of wealth and power.",
+      "A society characterized by strong communal bonds and a focus on religious piety."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: The Southern colonies were not known for having a strong middle class.",
+      "Correct: Southern society was dominated by wealthy planters who controlled most of the land and resources.",
+      "Incorrect: The Southern colonies had a hierarchical society with a significant gap between the rich and poor.",
+      "Incorrect: While religion was present, it was not the defining feature of the social structure."
+    ],
+    "topic": "Colonial Society and Culture",
+    "unit": 2
+  },
+  {
+    "stimulus": "Consider the impact of European colonization on American Indian populations.",
+    "question": "Which of the following was a significant consequence of European colonization for American Indians?",
+    "answers": [
+      "Increased political unity and military strength among American Indian tribes.",
+      "Widespread adoption of European agricultural practices and technologies.",
+      "Significant population decline due to disease and warfare.",
+      "Greater access to natural resources and economic opportunities."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Colonization often led to divisions and conflicts among American Indian tribes.",
+      "Incorrect: While some adoption occurred, it was not widespread, and traditional practices remained important.",
+      "Correct: European diseases and warfare led to a significant decline in the American Indian population.",
+      "Incorrect: Colonization often resulted in the loss of access to resources and economic opportunities for American Indians."
+    ],
+    "topic": "Interactions Between American Indians and Europeans",
+    "unit": 2
+  },
+  {
+    "stimulus": "Historical context is essential to understanding Period 2.",
+    "question": "Which of the following is the most accurate description of the political and economic relationship between England and its colonies during the period 1607-1754?",
+    "answers": [
+      "A system of complete autonomy where the colonies governed themselves without English interference.",
+      "A relationship built on mutual respect and free trade agreements that benefited both parties equally.",
+      "A mercantilist system where the colonies provided raw materials to England and served as a market for English goods, with England exercising significant control.",
+      "A socialist structure that emphasized equality and the redistribution of wealth between the colonies and England."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: England exerted considerable influence over the colonies.",
+      "Incorrect: The relationship was more exploitative than mutually beneficial.",
+      "Correct: Mercantilism defined the economic relationship, with England controlling colonial trade and production.",
+      "Incorrect: The economic system was mercantilism, not socialism."
+    ],
+    "topic": "Contextualizing Period 2",
+    "unit": 2
+  },
+  {
+    "stimulus": "Consider the motives for European colonization in North America.",
+    "question": "Which of the following was a primary motivation for European colonization in North America?",
+    "answers": [
+      "To establish democratic governments based on Enlightenment ideals.",
+      "To spread communist ideology and challenge capitalist systems.",
+      "To seek economic opportunities, such as access to resources and new trade routes.",
+      "To promote peaceful coexistence and cultural exchange with American Indian populations."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Democratic ideals were not the primary motivation for colonization initially.",
+      "Incorrect: Communism was not a relevant ideology during this period.",
+      "Correct: Economic gain was a major driving force behind European colonization.",
+      "Incorrect: Colonization often led to conflict and displacement of American Indians."
+    ],
+    "topic": "European Colonization",
+    "unit": 2
+  },
+  {
+    "stimulus": "Imagine you are a colonist in Massachusetts Bay Colony in the 17th century.",
+    "question": "Which of the following best describes the religious beliefs and practices of the Puritans in Massachusetts Bay Colony?",
+    "answers": [
+      "A belief in religious tolerance and acceptance of diverse faiths.",
+      "A strict adherence to Calvinist theology and a desire to purify the Church of England.",
+      "A commitment to separation of church and state and individual freedom of conscience.",
+      "A focus on worldly pleasures and a rejection of religious dogma."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Puritans were not religiously tolerant.",
+      "Correct: Puritans followed Calvinist theology and sought to purify the Church of England.",
+      "Incorrect: Puritans did not believe in the separation of church and state.",
+      "Incorrect: Puritans followed strict religious code."
+    ],
+    "topic": "Colonial Society and Culture",
+    "unit": 2
+  },
+  {
+    "stimulus": "Consider the development of different colonial regions.",
+    "question": "Which of the following BEST describes a major difference between the economies of the New England and Chesapeake colonies?",
+    "answers": [
+      "New England's economy was based on large-scale plantation agriculture, while the Chesapeake's economy was based on manufacturing.",
+      "New England's economy was based on shipbuilding, fishing, and trade, while the Chesapeake's economy was based on tobacco cultivation.",
+      "Both New England and the Chesapeake colonies had similar economies based on diversified agriculture.",
+      "Both New England and the Chesapeake colonies had economies primarily based on fur trading."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: New England was the center of fishing, trade, and shipbuilding.",
+      "Correct: This statement accurately contrasts the economies of the two regions.",
+      "Incorrect: The economies of New England and Chesapeake colonies were different.",
+      "Incorrect: Fur trading was not the primary economic activity for New England and Chesapeake colonies."
+    ],
+    "topic": "The Regions of British Colonies",
+    "unit": 2
+  },
+  {
+    "stimulus": "Analyze the interactions between European colonists and American Indian tribes in the 17th and 18th centuries.",
+    "question": "Which of the following BEST describes the typical pattern of interactions between English colonists and American Indian tribes?",
+    "answers": [
+      "A relationship based on mutual respect, cooperation, and cultural exchange.",
+      "A relationship characterized by frequent conflict, competition for land and resources, and cultural misunderstandings.",
+      "A relationship where English colonists sought to assimilate American Indians into their society through education and religious conversion.",
+      "A relationship where English colonists and American Indians formed a unified alliance against other European powers."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: English Colonists had poor relationship with American Indian tribes.",
+      "Correct: English Colonists were in frequent competition with American Indian tribes.",
+      "Incorrect: English Colonists did not seek to assimilate American Indians into their society through education.",
+      "Incorrect: English Colonists did not form a unified alliance with American Indians."
+    ],
+    "topic": "Interactions Between American Indians and Europeans",
+    "unit": 2
+  },
+  {
+    "stimulus": "Consider the social hierarchy that developed in the British colonies.",
+    "question": "Which of the following groups held the MOST power and influence in the Southern colonies?",
+    "answers": [
+      "Small farmers and artisans.",
+      "Wealthy plantation owners.",
+      "Religious leaders and clergy.",
+      "Indentured servants and enslaved people."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Small farmers held limited power in the colonies.",
+      "Correct: Wealthy plantation owners held most power in the Southern Colonies.",
+      "Incorrect: Clergy held significant influence in New England but less so in the Southern colonies.",
+      "Incorrect: Enslaved people held no power in the Southern colonies."
+    ],
+    "topic": "Colonial Society and Culture",
+    "unit": 2
+  },
+  {
+    "stimulus": "Consider the impact of the transatlantic trade on the colonies.",
+    "question": "The 'triangular trade' primarily involved which of the following?",
+    "answers": [
+      "Trade between the American colonies, Europe, and Africa.",
+      "Trade between the American colonies, the Caribbean, and South America.",
+      "Trade between England, France, and Spain.",
+      "Trade between the thirteen colonies."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: The triangular trade connected the colonies, Europe, and Africa.",
+      "Incorrect: South America was not a central component of the triangular trade.",
+      "Incorrect: France and Spain were not the main players in the triangular trade.",
+      "Incorrect: The triangular trade extended beyond just the thirteen colonies."
+    ],
+    "topic": "Transatlantic Trade",
+    "unit": 2
+  },
+  {
+    "stimulus": "Many factors influenced colonial life.",
+    "question": "Which of the following BEST describes the significance of the House of Burgesses?",
+    "answers": [
+      "It was the first example of representative self-government in the British colonies.",
+      "It was the first college established in the American colonies.",
+      "It was the first major battle of the American Revolutionary War.",
+      "It was the first written constitution in the American colonies."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: The House of Burgesses was the first representative assembly.",
+      "Incorrect: The House of Burgesses had nothing to do with the first college.",
+      "Incorrect: The House of Burgesses pre-dates the American Revolutionary War.",
+      "Incorrect: The Fundamental Orders of Connecticut was the first written constitution in the American colonies."
+    ],
+    "topic": "Colonial Society and Culture",
+    "unit": 2
+  },
+  {
+    "stimulus": "The relationships among European powers also affected the colonies.",
+    "question": "Which of the following European countries initially colonized the region that would become New York?",
+    "answers": [
+      "England",
+      "France",
+      "Spain",
+      "The Netherlands"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: England acquired New York later.",
+      "Incorrect: France colonized areas further north and west.",
+      "Incorrect: Spain focused on areas further south.",
+      "Correct: The Dutch initially colonized New York (New Amsterdam)."
+    ],
+    "topic": "European Colonization",
+    "unit": 2
+  },
+  {
+    "stimulus": "Consider the diversity of the British colonies in the 18th century.",
+    "question": "Which of the following colonies was established as a buffer between the English colonies and Spanish Florida?",
+    "answers": [
+      "South Carolina",
+      "North Carolina",
+      "Georgia",
+      "Virginia"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: South Carolina was an important colony but not primarily a buffer.",
+      "Incorrect: North Carolina was not primarily a buffer.",
+      "Correct: Georgia was established as a buffer colony.",
+      "Incorrect: Virginia was an older colony and not primarily a buffer."
+    ],
+    "topic": "The Regions of British Colonies",
+    "unit": 2
+  },
+  {
+    "stimulus": "Analyze the system of slavery and its impact on colonial society.",
+    "question": "What was the Middle Passage?",
+    "answers": [
+      "The sea route used to transport raw materials from the colonies to Europe.",
+      "The sea route used to transport manufactured goods from Europe to the colonies.",
+      "The forced voyage of enslaved Africans across the Atlantic Ocean to the Americas.",
+      "The overland route used by colonists to migrate westward."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: The Middle Passage referred to enslaved peoples, not raw materials.",
+      "Incorrect: The Middle Passage referred to enslaved peoples, not manufactured goods.",
+      "Correct: The Middle Passage was the horrific journey of enslaved Africans across the Atlantic.",
+      "Incorrect: The Middle Passage was the Atlantic voyage of enslaved peoples, not an overland route."
+    ],
+    "topic": "Slavery in the British Colonies",
+    "unit": 2
+  }
+]

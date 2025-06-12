@@ -1,0 +1,820 @@
+[
+  {
+    "stimulus": "The Marshall Plan aimed to provide economic assistance to war-torn Europe after World War II.",
+    "question": "What was a primary goal of the Marshall Plan?",
+    "answers": [
+      "To establish a military alliance against the Soviet Union.",
+      "To promote economic recovery and stability in Western Europe.",
+      "To spread communist ideology throughout Europe.",
+      "To punish Germany for its role in World War II."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Marshall Plan was not a military alliance.",
+      "Correct. The Marshall Plan's main goal was to rebuild and stabilize Western European economies.",
+      "Incorrect. The Marshall Plan was designed to prevent the spread of communism.",
+      "Incorrect. While Germany was affected, the plan aimed to rebuild, not punish."
+    ],
+    "topic": "Rebuilding Europe",
+    "unit": 9
+  },
+  {
+    "stimulus": "Winston Churchill's 'Iron Curtain' speech in 1946.",
+    "question": "What did Winston Churchill describe in his 'Iron Curtain' speech?",
+    "answers": [
+      "The alliance between the United States and the Soviet Union.",
+      "The division of Europe into Eastern and Western blocs.",
+      "The economic prosperity of post-war Europe.",
+      "The threat of nuclear war."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The speech highlighted the growing divide, not an alliance.",
+      "Correct. Churchill described the Soviet sphere of influence in Eastern Europe as an 'Iron Curtain'.",
+      "Incorrect. The speech focused on political division, not economic prosperity.",
+      "Incorrect. While the threat of nuclear war was present, it wasn't the main focus of this speech."
+    ],
+    "topic": "The Cold War",
+    "unit": 9
+  },
+  {
+    "stimulus": "The formation of NATO in 1949.",
+    "question": "Why was NATO formed?",
+    "answers": [
+      "To promote free trade among European nations.",
+      "To provide a collective defense against Soviet aggression.",
+      "To establish a unified European currency.",
+      "To mediate disputes between European nations."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. NATO's primary focus was security, not trade.",
+      "Correct. NATO was created as a military alliance to counter the Soviet Union.",
+      "Incorrect. NATO was not related to currency unification.",
+      "Incorrect. While it could play a role in mediating, that was not its primary purpose."
+    ],
+    "topic": "Two Super Powers Emerge",
+    "unit": 9
+  },
+  {
+    "stimulus": "Conflicts in the former Yugoslavia during the 1990s.",
+    "question": "Which event is an example of postwar nationalism and ethnic conflict in Europe?",
+    "answers": [
+      "The reunification of Germany.",
+      "The breakup of Yugoslavia.",
+      "The formation of the European Union.",
+      "The Prague Spring."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Reunification was peaceful, unlike the conflicts in Yugoslavia.",
+      "Correct. The breakup of Yugoslavia involved ethnic cleansing and violence.",
+      "Incorrect. The EU was a unifying force, not a source of conflict.",
+      "Incorrect. The Prague Spring was a political movement within Czechoslovakia."
+    ],
+    "topic": "Postwar Nationalism, Ethnic Conflict, and Atrocities",
+    "unit": 9
+  },
+  {
+    "stimulus": "The social and political changes in Western democracies after World War II.",
+    "question": "What was a significant trend in Western democracies after World War II?",
+    "answers": [
+      "The decline of social welfare programs.",
+      "The expansion of voting rights and social reforms.",
+      "The rise of totalitarian regimes.",
+      "The reduction of government regulation in the economy."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Social welfare programs generally expanded.",
+      "Correct. Many Western democracies expanded voting rights and implemented social reforms.",
+      "Incorrect. Totalitarianism declined after the war.",
+      "Incorrect. Government regulation remained significant, especially with welfare programs."
+    ],
+    "topic": "Contemporary Western Democracies",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Solidarity movement in Poland during the 1980s.",
+    "question": "What was Solidarity?",
+    "answers": [
+      "A Soviet-backed political party.",
+      "An independent trade union that challenged communist rule in Poland.",
+      "A secret police organization in East Germany.",
+      "A military alliance between Eastern European countries."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Solidarity opposed the communist regime.",
+      "Correct. Solidarity was a key force in the collapse of communism in Poland.",
+      "Incorrect. The Stasi was in East Germany, not Poland, and was a secret police, not Solidarity.",
+      "Incorrect. The Warsaw Pact was a military alliance, but Solidarity was not."
+    ],
+    "topic": "The Fall of Communism",
+    "unit": 9
+  },
+  {
+    "stimulus": "Simone de Beauvoir's 'The Second Sex'.",
+    "question": "What was a key argument made in Simone de Beauvoir's 'The Second Sex'?",
+    "answers": [
+      "Women are biologically inferior to men.",
+      "Women are socially constructed as 'other'.",
+      "Women should focus on domestic roles.",
+      "Women have achieved full equality with men."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. De Beauvoir argued against biological determinism.",
+      "Correct. A core argument of 'The Second Sex' is that women are socially constructed as 'other'.",
+      "Incorrect. De Beauvoir challenged traditional gender roles.",
+      "Incorrect. The book argues that full equality has not been reached."
+    ],
+    "topic": "20th-Century Feminism",
+    "unit": 9
+  },
+  {
+    "stimulus": "The end of French rule in Algeria.",
+    "question": "What was a major factor contributing to decolonization after World War II?",
+    "answers": [
+      "The desire of European powers to expand their empires.",
+      "The rising tide of nationalism in colonized regions.",
+      "The economic benefits of maintaining colonies.",
+      "The lack of support for independence movements."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. European powers faced pressure to relinquish their colonies.",
+      "Correct. Nationalism was a driving force behind decolonization.",
+      "Incorrect. Maintaining colonies became increasingly costly.",
+      "Incorrect. Independence movements gained significant support."
+    ],
+    "topic": "Decolonization",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Maastricht Treaty.",
+    "question": "What was the significance of the Maastricht Treaty?",
+    "answers": [
+      "It created the European Union.",
+      "It established the Warsaw Pact.",
+      "It ended World War II.",
+      "It divided Germany into East and West."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The Maastricht Treaty established the European Union.",
+      "Incorrect. The Warsaw Pact was a Soviet-led military alliance.",
+      "Incorrect. World War II ended in 1945.",
+      "Incorrect. Germany was divided after WWII, not by the Maastricht Treaty."
+    ],
+    "topic": "The European Union",
+    "unit": 9
+  },
+  {
+    "stimulus": "The influx of guest workers into Western Europe after World War II.",
+    "question": "What was a consequence of migration and immigration in Europe during the late 20th century?",
+    "answers": [
+      "Increased cultural homogeneity.",
+      "Increased cultural diversity and social tensions.",
+      "Decreased economic growth.",
+      "Decreased urbanization."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Migration led to more diversity, not homogeneity.",
+      "Correct. Immigration brought diversity but also social tensions.",
+      "Incorrect. Migration generally boosted economic growth.",
+      "Incorrect. Urbanization often increased with migration."
+    ],
+    "topic": "Migration and Immigration",
+    "unit": 9
+  },
+  {
+    "stimulus": "The development of the internet.",
+    "question": "How did technological advancements impact Europe in the late 20th century?",
+    "answers": [
+      "They decreased productivity in the workplace.",
+      "They fostered greater communication and interconnectedness.",
+      "They led to a decline in education levels.",
+      "They reduced the importance of scientific research."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Technology generally increased productivity.",
+      "Correct. The Internet fostered global communication.",
+      "Incorrect. Technology increased the need for higher education.",
+      "Incorrect. Technology spurred further scientific research."
+    ],
+    "topic": "Technology",
+    "unit": 9
+  },
+  {
+    "stimulus": "The rise of multinational corporations.",
+    "question": "What is a key characteristic of globalization?",
+    "answers": [
+      "Increased isolationism among nations.",
+      "Increased economic interdependence and cultural exchange.",
+      "Decreased international trade.",
+      "Decreased movement of people between countries."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Globalization promotes interconnectedness.",
+      "Correct. Globalization increases interdependence.",
+      "Incorrect. Globalization promotes trade.",
+      "Incorrect. Globalization increases migration."
+    ],
+    "topic": "Globalization",
+    "unit": 9
+  },
+  {
+    "stimulus": "Postmodern architecture.",
+    "question": "Which of the following is an example of a 20th-century cultural trend?",
+    "answers": [
+      "A return to classical artistic styles.",
+      "The emergence of postmodernism in art and architecture.",
+      "The decline of popular music.",
+      "The rejection of scientific advancements."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Modern trends moved away from classical styles.",
+      "Correct. Postmodernism emerged in the 20th century.",
+      "Incorrect. Popular music flourished.",
+      "Incorrect. Scientific advancements continued."
+    ],
+    "topic": "20th- and 21st-Century Culture, Arts, and Demographic Trends",
+    "unit": 9
+  },
+  {
+    "stimulus": "The role of the state in the economy.",
+    "question": "Which of the following demonstrates continuity in European history from the 20th to the 21st century?",
+    "answers": [
+      "The complete absence of government intervention in the economy.",
+      "The ongoing debates about the role and extent of government intervention.",
+      "The universal adoption of communism.",
+      "The disappearance of social welfare programs."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Governments continue to intervene in economies.",
+      "Correct. The debate over government intervention persists.",
+      "Incorrect. Communism collapsed in Europe.",
+      "Incorrect. Social welfare programs remain.",
+      "Continuity and Change in the 20th and 21st Centuries"
+    ],
+    "topic": "Continuity and Change in the 20th and 21st Centuries",
+    "unit": 9
+  },
+  {
+    "stimulus": "The aftermath of World War II in Europe.",
+    "question": "Which of the following describes the immediate context of Europe after World War II?",
+    "answers": [
+      "A period of unprecedented peace and prosperity across the continent.",
+      "Widespread devastation, economic hardship, and political instability.",
+      "A rapid return to pre-war social and political norms.",
+      "The immediate formation of a unified European government."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While peace eventually came, the immediate aftermath was difficult.",
+      "Correct. The war left Europe devastated.",
+      "Incorrect. Social and political norms were significantly altered.",
+      "Incorrect. Unification was a gradual process."
+    ],
+    "topic": "Contextualizing Cold War and Contemporary Europe",
+    "unit": 9
+  },
+  {
+    "stimulus": "The impact of the Berlin Wall on European society.",
+    "question": "How did the Berlin Wall impact European society during the Cold War?",
+    "answers": [
+      "It promoted cultural exchange and understanding between East and West.",
+      "It symbolized the division of Europe and restricted movement and interaction.",
+      "It facilitated economic cooperation between communist and democratic nations.",
+      "It led to a decrease in Cold War tensions."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. It hindered cultural exchange.",
+      "Correct. The wall symbolized division.",
+      "Incorrect. The wall restricted economic cooperation.",
+      "Incorrect. The wall heightened tensions."
+    ],
+    "topic": "The Cold War",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Warsaw Pact.",
+    "question": "What was the Warsaw Pact?",
+    "answers": [
+      "A military alliance of Western European nations.",
+      "A trade agreement between the United States and Europe.",
+      "A military alliance of Eastern European nations led by the Soviet Union.",
+      "A cultural exchange program between the East and West."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Warsaw Pact was an Eastern European alliance.",
+      "Incorrect. It was a military alliance, not a trade agreement.",
+      "Correct. The Warsaw Pact was the Soviet response to NATO.",
+      "Incorrect. The Warsaw Pact was not a cultural exchange program."
+    ],
+    "topic": "Two Super Powers Emerge",
+    "unit": 9
+  },
+  {
+    "stimulus": "The ethnic cleansing in Bosnia.",
+    "question": "Which of the following best describes the term 'ethnic cleansing'?",
+    "answers": [
+      "The promotion of cultural diversity and tolerance.",
+      "The forced removal or extermination of a particular ethnic group.",
+      "The peaceful integration of different ethnic groups.",
+      "The celebration of ethnic traditions and customs."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Ethnic cleansing is the opposite of promoting diversity.",
+      "Correct. Ethnic cleansing involves violence and forced removal.",
+      "Incorrect. Ethnic cleansing is not peaceful.",
+      "Incorrect. Ethnic cleansing involves the suppression of a particular ethnic group."
+    ],
+    "topic": "Postwar Nationalism, Ethnic Conflict, and Atrocities",
+    "unit": 9
+  },
+  {
+    "stimulus": "The role of political parties in Western European democracies.",
+    "question": "What role do political parties typically play in contemporary Western democracies?",
+    "answers": [
+      "They have little to no influence on government policy.",
+      "They organize and represent different ideologies and interests.",
+      "They are primarily focused on controlling the media.",
+      "They are banned from participating in elections."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Political parties are influential.",
+      "Correct. Parties represent ideologies.",
+      "Incorrect. Controlling media is not the primary function.",
+      "Incorrect. Parties are central to elections."
+    ],
+    "topic": "Contemporary Western Democracies",
+    "unit": 9
+  },
+  {
+    "stimulus": "Mikhail Gorbachev's reforms.",
+    "question": "What were 'Glasnost' and 'Perestroika'?",
+    "answers": [
+      "Military strategies used during the Cold War.",
+      "Economic sanctions imposed on the Soviet Union.",
+      "Reform policies introduced by Mikhail Gorbachev in the Soviet Union.",
+      "Political ideologies that supported totalitarian rule."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. These were political and economic reforms.",
+      "Incorrect. These were internal reforms, not sanctions.",
+      "Correct. Glasnost (openness) and Perestroika (restructuring) were key reforms.",
+      "Incorrect. These reforms moved away from totalitarian rule."
+    ],
+    "topic": "The Fall of Communism",
+    "unit": 9
+  },
+  {
+    "stimulus": "Betty Friedan's 'The Feminine Mystique'.",
+    "question": "What was the main argument in Betty Friedan's 'The Feminine Mystique'?",
+    "answers": [
+      "Women should be content with their roles as housewives.",
+      "Women should strive for equality and fulfillment outside of the home.",
+      "Women are naturally suited for domestic work.",
+      "Women should not participate in politics."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Friedan challenged this idea.",
+      "Correct. Friedan argued for women's fulfillment beyond the home.",
+      "Incorrect. Friedan challenged traditional gender roles.",
+      "Incorrect. Friedan supported women's participation in all aspects of society."
+    ],
+    "topic": "20th-Century Feminism",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Algerian War of Independence.",
+    "question": "Which country experienced a violent struggle for independence from France?",
+    "answers": [
+      "Vietnam",
+      "Algeria",
+      "India",
+      "Ghana"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Although the Vietnam War involved France, this questions focuses on struggles for independence.",
+      "Correct. The Algerian War was a major conflict for independence from France.",
+      "Incorrect. India gained independence from Britain.",
+      "Incorrect. Ghana gained independence peacefully from Britain."
+    ],
+    "topic": "Decolonization",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Eurozone crisis.",
+    "question": "What is the Eurozone?",
+    "answers": [
+      "A military alliance of European countries.",
+      "A group of European countries that use the Euro as their currency.",
+      "A political organization promoting European unity.",
+      "A trade agreement between Europe and North America."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Eurozone is about currency, not military alliances.",
+      "Correct. The Eurozone is the group of countries using the Euro.",
+      "Incorrect. The Eurozone is related to currency, not broad political organization.",
+      "Incorrect. The Eurozone is within Europe, not a trans-Atlantic agreement."
+    ],
+    "topic": "The European Union",
+    "unit": 9
+  },
+  {
+    "stimulus": "The increase in refugees seeking asylum in Europe.",
+    "question": "What is 'asylum' in the context of migration and immigration?",
+    "answers": [
+      "A form of economic investment.",
+      "Protection granted to refugees fleeing persecution or violence.",
+      "A program for temporary work permits.",
+      "A type of tourist visa."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Asylum is not an investment.",
+      "Correct. Asylum is protection for refugees.",
+      "Incorrect. Asylum is for those fleeing persecution, not just seeking work.",
+      "Incorrect. Asylum is for those fleeing persecution, not just tourists."
+    ],
+    "topic": "Migration and Immigration",
+    "unit": 9
+  },
+  {
+    "stimulus": "The invention of the microchip.",
+    "question": "How did the invention of the microchip impact European society?",
+    "answers": [
+      "It decreased reliance on fossil fuels.",
+      "It revolutionized computing and communication.",
+      "It led to a decline in manufacturing industries.",
+      "It reduced the need for skilled labor."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The microchip's primary impact wasn't related to fossil fuels.",
+      "Correct. The microchip was a revolution in computing.",
+      "Incorrect. It transformed manufacturing, but didn't necessarily lead to a decline.",
+      "Incorrect. It increased the need for skilled labor in some areas."
+    ],
+    "topic": "Technology",
+    "unit": 9
+  },
+  {
+    "stimulus": "The impact of social media on political discourse.",
+    "question": "What is a potential negative consequence of globalization?",
+    "answers": [
+      "Increased cultural understanding and tolerance.",
+      "The spread of misinformation and harmful ideologies.",
+      "Greater economic opportunities for all nations.",
+      "Reduced international conflict."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While possible, this question asks about potential *negative* consequences.",
+      "Correct. Misinformation is a recognized negative consequence.",
+      "Incorrect. Globalization doesn't guarantee equal opportunities.",
+      "Incorrect. Globalization can also create new tensions."
+    ],
+    "topic": "Globalization",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Theatre of the Absurd.",
+    "question": "Which artistic movement is characterized by illogical and irrational plots?",
+    "answers": [
+      "Realism",
+      "The Theatre of the Absurd",
+      "Romanticism",
+      "Neoclassicism"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Realism aims to depict reality.",
+      "Correct. The Theatre of the Absurd embraces illogical plots.",
+      "Incorrect. Romanticism emphasizes emotion, not necessarily irrationality.",
+      "Incorrect. Neoclassicism draws on classical forms and reason."
+    ],
+    "topic": "20th- and 21st-Century Culture, Arts, and Demographic Trends",
+    "unit": 9
+  },
+  {
+    "stimulus": "Changes in family structures.",
+    "question": "Which of the following represents a demographic trend in Europe during the late 20th and early 21st centuries?",
+    "answers": [
+      "A decrease in average life expectancy.",
+      "An increase in birth rates.",
+      "An aging population and declining birth rates.",
+      "A decrease in urbanization."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Life expectancy has generally increased.",
+      "Incorrect. Birth rates have generally declined.",
+      "Correct. Europe faces an aging population.",
+      "Incorrect. Urbanization has continued."
+    ],
+    "topic": "20th- and 21st-Century Culture, Arts, and Demographic Trends",
+    "unit": 9
+  },
+  {
+    "stimulus": "The enduring legacy of the Enlightenment.",
+    "question": "What is a key continuity between the 18th-century Enlightenment and contemporary European society?",
+    "answers": [
+      "The absolute power of monarchs.",
+      "The emphasis on reason, individualism, and human rights.",
+      "The widespread acceptance of social hierarchies.",
+      "The rejection of scientific advancements."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Monarchical power has declined.",
+      "Correct. Enlightenment values remain influential.",
+      "Incorrect. Social hierarchies are challenged.",
+      "Incorrect. Scientific advancements are embraced."
+    ],
+    "topic": "Continuity and Change in the 20th and 21st Centuries",
+    "unit": 9
+  },
+  {
+    "stimulus": "The political and social atmosphere after World War II.",
+    "question": "Which of the following describes a major political shift in Europe immediately after World War II?",
+    "answers": [
+      "A widespread return to monarchical rule.",
+      "The rise of democratic governments in Western Europe and communist regimes in Eastern Europe.",
+      "The complete absence of ideological conflict.",
+      "A unified European government."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Monarchies did not return.",
+      "Correct. Democracy rose in the West and Communism in the East.",
+      "Incorrect. The Cold War was an ideological conflict.",
+      "Incorrect. Europe was divided, not unified."
+    ],
+    "topic": "Contextualizing Cold War and Contemporary Europe",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Soviet Union's influence in Eastern Europe.",
+    "question": "Which country exerted significant political and military control over Eastern Europe during the Cold War?",
+    "answers": [
+      "The United States",
+      "The Soviet Union",
+      "Great Britain",
+      "France"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The US was the opposing superpower.",
+      "Correct. The Soviet Union dominated Eastern Europe.",
+      "Incorrect. Britain and France were Western powers.",
+      "Incorrect. Britain and France were Western powers."
+    ],
+    "topic": "The Cold War",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Space Race.",
+    "question": "What was the 'Space Race'?",
+    "answers": [
+      "A competition between the United States and the Soviet Union to achieve milestones in space exploration.",
+      "A trade agreement between European countries to regulate space technology.",
+      "A joint effort between the East and West to colonize other planets.",
+      "A series of environmental regulations aimed at protecting outer space."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The Space Race was a key aspect of the Cold War.",
+      "Incorrect. The Space Race was a competition, not a trade agreement.",
+      "Incorrect. It was a competition, not a joint effort.",
+      "Incorrect. Environmental regulations were not the focus."
+    ],
+    "topic": "Two Super Powers Emerge",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Srebrenica Massacre.",
+    "question": "Which event is considered a major act of genocide in Europe during the 1990s?",
+    "answers": [
+      "The reunification of Germany.",
+      "The Srebrenica Massacre.",
+      "The Velvet Revolution in Czechoslovakia.",
+      "The fall of the Berlin Wall."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Reunification was peaceful.",
+      "Correct. The Srebrenica Massacre was a genocidal act.",
+      "Incorrect. The Velvet Revolution was peaceful.",
+      "Incorrect. The fall of the Berlin Wall was peaceful."
+    ],
+    "topic": "Postwar Nationalism, Ethnic Conflict, and Atrocities",
+    "unit": 9
+  },
+  {
+    "stimulus": "The welfare state.",
+    "question": "What is a key characteristic of a 'welfare state'?",
+    "answers": [
+      "Minimal government intervention in the economy.",
+      "Extensive government provision of social services and economic security.",
+      "A focus on military spending and national defense.",
+      "A complete absence of taxation."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Welfare states involve significant intervention.",
+      "Correct. Welfare states prioritize social services.",
+      "Incorrect. While defense is important, social services are key.",
+      "Incorrect. Taxation is necessary to fund welfare programs."
+    ],
+    "topic": "Contemporary Western Democracies",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Velvet Revolution.",
+    "question": "Which country experienced a peaceful transition from communism to democracy known as the 'Velvet Revolution'?",
+    "answers": [
+      "Poland",
+      "Czechoslovakia",
+      "Hungary",
+      "Romania"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Poland's transition involved Solidarity and was not called the Velvet Revolution.",
+      "Correct. Czechoslovakia's revolution was peaceful and 'velvet'.",
+      "Incorrect. Hungary's transition was more complex.",
+      "Incorrect. Romania's transition was violent."
+    ],
+    "topic": "The Fall of Communism",
+    "unit": 9
+  },
+  {
+    "stimulus": "The concept of 'intersectionality'.",
+    "question": "What does the term 'intersectionality' refer to in the context of feminism?",
+    "answers": [
+      "The belief that all women experience oppression in the same way.",
+      "The interconnected nature of social categorizations such as race, class, and gender, creating overlapping systems of discrimination.",
+      "The separation of feminist movements based on different ideologies.",
+      "The focus solely on gender inequality while ignoring other forms of oppression."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Intersectionality acknowledges diverse experiences.",
+      "Correct. Intersectionality recognizes overlapping systems of discrimination.",
+      "Incorrect. Intersectionality aims to understand connections, not separations.",
+      "Incorrect. Intersectionality is not solely about gender."
+    ],
+    "topic": "20th-Century Feminism",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Suez Crisis.",
+    "question": "Which event highlighted the declining power of European colonial powers in the mid-20th century?",
+    "answers": [
+      "The Berlin Blockade",
+      "The Suez Crisis",
+      "The Hungarian Revolution",
+      "The Cuban Missile Crisis"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Berlin Blockade was a Cold War event.",
+      "Correct. The Suez Crisis showed the limits of British and French power.",
+      "Incorrect. The Hungarian Revolution was related to Soviet control.",
+      "Incorrect. The Cuban Missile Crisis was primarily a US-Soviet conflict."
+    ],
+    "topic": "Decolonization",
+    "unit": 9
+  },
+  {
+    "stimulus": "The Schengen Area.",
+    "question": "What is the Schengen Area?",
+    "answers": [
+      "A military alliance of European countries.",
+      "An area in Europe where internal border checks have been abolished.",
+      "A trade agreement between Europe and Asia.",
+      "A political organization promoting European federalism."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Schengen is about borders, not military alliances.",
+      "Correct. Schengen allows for free movement of people.",
+      "Incorrect. Schengen is within Europe, not between Europe and Asia.",
+      "Incorrect. Schengen is about border control, not a federal government."
+    ],
+    "topic": "The European Union",
+    "unit": 9
+  },
+  {
+    "stimulus": "The challenges faced by immigrant communities.",
+    "question": "Which of the following is a challenge often faced by immigrant communities in Europe?",
+    "answers": [
+      "Complete cultural assimilation and loss of identity.",
+      "Discrimination and social exclusion.",
+      "Guaranteed economic success and social mobility.",
+      "Immediate acceptance and integration into society."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Assimilation isn't guaranteed, and immigrants often maintain their culture.",
+      "Correct. Discrimination is a significant challenge.",
+      "Incorrect. Economic success isn't guaranteed.",
+      "Incorrect. Integration can be difficult."
+    ],
+    "topic": "Migration and Immigration",
+    "unit": 9
+  },
+  {
+    "stimulus": "Artificial intelligence.",
+    "question": "What is artificial intelligence (AI)?",
+    "answers": [
+      "The study of ancient civilizations.",
+      "The development of computer systems that can perform tasks that typically require human intelligence.",
+      "The branch of medicine focused on treating infectious diseases.",
+      "The exploration of outer space."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. AI is about computers, not ancient civilizations.",
+      "Correct. AI aims to create intelligent computer systems.",
+      "Incorrect. AI is not a branch of medicine.",
+      "Incorrect. AI can be used in space exploration, but is not the definition of AI."
+    ],
+    "topic": "Technology",
+    "unit": 9
+  },
+  {
+    "stimulus": "The rise of populism.",
+    "question": "What is a potential political consequence of globalization?",
+    "answers": [
+      "The decline of nationalism and protectionist policies.",
+      "The rise of populist movements and anti-immigration sentiment.",
+      "Increased international cooperation and diplomacy.",
+      "The weakening of nation-states."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Populism is often linked to nationalism.",
+      "Correct. Populism and anti-immigration sentiment are linked to globalization.",
+      "Incorrect. Globalization can also create tensions.",
+      "Incorrect. Globalization can strengthen or change nation-states, not weaken them."
+    ],
+    "topic": "Globalization",
+    "unit": 9
+  },
+  {
+    "stimulus": "The works of Samuel Beckett.",
+    "question": "Which author is known for his contributions to the Theatre of the Absurd?",
+    "answers": [
+      "William Shakespeare",
+      "Samuel Beckett",
+      "Jane Austen",
+      "Leo Tolstoy"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Shakespeare wrote tragedies and comedies, but not absurdism.",
+      "Correct. Beckett is a key figure in the Theatre of the Absurd.",
+      "Incorrect. Austen wrote novels of manners.",
+      "Incorrect. Tolstoy wrote realistic novels."
+    ],
+    "topic": "20th- and 21st-Century Culture, Arts, and Demographic Trends",
+    "unit": 9
+  },
+  {
+    "stimulus": "Changes in religious affiliation.",
+    "question": "What trend has become very prevelant in Europe during the 21st century",
+    "answers": [
+      "The spread of Christianity",
+      "The decline of religious affiliation",
+      "The rise of paganism",
+      "The increase in Christian affilitation"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Christianity has been steady, but not spreading",
+      "Correct. Decline in religious affiliation has been prevalent",
+      "Incorrect. Paganism has not been spreading, only increasing marginally",
+      "Incorrect. Christian affiliation has declined, not grown"
+    ],
+    "topic": "20th- and 21st-Century Culture, Arts, and Demographic Trends",
+    "unit": 9
+  }
+]

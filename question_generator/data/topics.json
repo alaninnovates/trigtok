@@ -1,0 +1,4748 @@
+[
+  {
+    "id": 1,
+    "unit_id": 12,
+    "topic": "1.1 Introducing Calculus: Can Change Occur at an Instant?",
+    "next_topic": 2
+  },
+  {
+    "id": 2,
+    "unit_id": 12,
+    "topic": "1.2 Defining Limits and Using Limit Notation",
+    "next_topic": 3
+  },
+  {
+    "id": 3,
+    "unit_id": 12,
+    "topic": "1.3 Estimating Limit Values from Graphs",
+    "next_topic": 4
+  },
+  {
+    "id": 4,
+    "unit_id": 12,
+    "topic": "1.4 Estimating Limit Values from Tables",
+    "next_topic": 5
+  },
+  {
+    "id": 5,
+    "unit_id": 12,
+    "topic": "1.5 Determining Limits Using Algebraic Properties of Limits",
+    "next_topic": 6
+  },
+  {
+    "id": 6,
+    "unit_id": 12,
+    "topic": "1.6 Determining Limits Using Algebraic Manipulation",
+    "next_topic": 7
+  },
+  {
+    "id": 7,
+    "unit_id": 12,
+    "topic": "1.7 Selecting Procedures for Determining Limits",
+    "next_topic": 8
+  },
+  {
+    "id": 8,
+    "unit_id": 12,
+    "topic": "1.8 Determining Limits Using the Squeeze Theorem",
+    "next_topic": 9
+  },
+  {
+    "id": 9,
+    "unit_id": 12,
+    "topic": "1.9 Connecting Multiple Representations of Limits",
+    "next_topic": 10
+  },
+  {
+    "id": 10,
+    "unit_id": 12,
+    "topic": "1.10 Exploring Types of Discontinuities",
+    "next_topic": 11
+  },
+  {
+    "id": 11,
+    "unit_id": 12,
+    "topic": "1.11 Defining Continuity at a Point",
+    "next_topic": 12
+  },
+  {
+    "id": 12,
+    "unit_id": 12,
+    "topic": "1.12 Confirming Continuity over an Interval",
+    "next_topic": 13
+  },
+  {
+    "id": 13,
+    "unit_id": 12,
+    "topic": "1.13 Removing Discontinuities",
+    "next_topic": 14
+  },
+  {
+    "id": 14,
+    "unit_id": 12,
+    "topic": "1.14 Connecting Infinite Limits and Vertical Asymptotes",
+    "next_topic": 15
+  },
+  {
+    "id": 15,
+    "unit_id": 12,
+    "topic": "1.15 Connecting Limits at Infinity and Horizontal Asymptotes",
+    "next_topic": 16
+  },
+  {
+    "id": 16,
+    "unit_id": 12,
+    "topic": "1.16 Working with the Intermediate Value Theorem (IVT)",
+    "next_topic": 17
+  },
+  {
+    "id": 17,
+    "unit_id": 13,
+    "topic": "2.1 Defining Average and Instantaneous Rates of Change at a Point",
+    "next_topic": 18
+  },
+  {
+    "id": 18,
+    "unit_id": 13,
+    "topic": "2.2 Defining the Derivative of a Function and Using Derivative Notation",
+    "next_topic": 19
+  },
+  {
+    "id": 19,
+    "unit_id": 13,
+    "topic": "2.3 Estimating Derivatives of a Function at a Point",
+    "next_topic": 20
+  },
+  {
+    "id": 20,
+    "unit_id": 13,
+    "topic": "2.4 Connecting Differentiability and Continuity: Determining When Derivatives Do and Do Not Exist",
+    "next_topic": 21
+  },
+  {
+    "id": 21,
+    "unit_id": 13,
+    "topic": "2.5 Applying the Power Rule",
+    "next_topic": 22
+  },
+  {
+    "id": 22,
+    "unit_id": 13,
+    "topic": "2.6 Derivative Rules: Constant, Sum, Difference, and Constant Multiple",
+    "next_topic": 23
+  },
+  {
+    "id": 23,
+    "unit_id": 13,
+    "topic": "2.7 Derivatives of cos x, sin x, e^x, and ln x",
+    "next_topic": 24
+  },
+  {
+    "id": 24,
+    "unit_id": 13,
+    "topic": "2.8 The Product Rule",
+    "next_topic": 25
+  },
+  {
+    "id": 25,
+    "unit_id": 13,
+    "topic": "2.9 The Quotient Rule",
+    "next_topic": 26
+  },
+  {
+    "id": 26,
+    "unit_id": 13,
+    "topic": "2.10 Finding the Derivatives of Tangent, Cotangent, Secant, and/or Cosecant Functions",
+    "next_topic": 27
+  },
+  {
+    "id": 27,
+    "unit_id": 14,
+    "topic": "3.1 The Chain Rule",
+    "next_topic": 28
+  },
+  {
+    "id": 28,
+    "unit_id": 14,
+    "topic": "3.2 Implicit Differentiation",
+    "next_topic": 29
+  },
+  {
+    "id": 29,
+    "unit_id": 14,
+    "topic": "3.3 Differentiating Inverse Functions",
+    "next_topic": 30
+  },
+  {
+    "id": 30,
+    "unit_id": 14,
+    "topic": "3.4 Differentiating Inverse Trigonometric Functions",
+    "next_topic": 31
+  },
+  {
+    "id": 31,
+    "unit_id": 14,
+    "topic": "3.5 Selecting Procedures for Calculating Derivatives",
+    "next_topic": 32
+  },
+  {
+    "id": 32,
+    "unit_id": 14,
+    "topic": "3.6 Calculating Higher-Order Derivatives",
+    "next_topic": 33
+  },
+  {
+    "id": 33,
+    "unit_id": 15,
+    "topic": "4.1 Interpreting the Meaning of the Derivative in Context",
+    "next_topic": 34
+  },
+  {
+    "id": 34,
+    "unit_id": 15,
+    "topic": "4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration",
+    "next_topic": 35
+  },
+  {
+    "id": 35,
+    "unit_id": 15,
+    "topic": "4.3 Rates of Change in Applied Contexts Other Than Motion",
+    "next_topic": 36
+  },
+  {
+    "id": 36,
+    "unit_id": 15,
+    "topic": "4.4 Introduction to Related Rates",
+    "next_topic": 37
+  },
+  {
+    "id": 37,
+    "unit_id": 15,
+    "topic": "4.5 Solving Related Rates Problems",
+    "next_topic": 38
+  },
+  {
+    "id": 38,
+    "unit_id": 15,
+    "topic": "4.6 Approximating Values of a Function Using Local Linearity and Linearization",
+    "next_topic": 39
+  },
+  {
+    "id": 39,
+    "unit_id": 15,
+    "topic": "4.7 Using L'Hospital's Rule for Determining Limits of Indeterminate Forms",
+    "next_topic": 40
+  },
+  {
+    "id": 40,
+    "unit_id": 16,
+    "topic": "5.1 Using the Mean Value Theorem",
+    "next_topic": 41
+  },
+  {
+    "id": 41,
+    "unit_id": 16,
+    "topic": "5.2 Extreme Value Theorem, Global Versus Local Extrema, and Critical Points",
+    "next_topic": 42
+  },
+  {
+    "id": 42,
+    "unit_id": 16,
+    "topic": "5.3 Determining Intervals on Which a Function Is Increasing or Decreasing",
+    "next_topic": 43
+  },
+  {
+    "id": 43,
+    "unit_id": 16,
+    "topic": "5.4 Using the First Derivative Test to Determine Relative (Local) Extrema",
+    "next_topic": 44
+  },
+  {
+    "id": 44,
+    "unit_id": 16,
+    "topic": "5.5 Using the Candidates Test to Determine Absolute (Global) Extrema",
+    "next_topic": 45
+  },
+  {
+    "id": 45,
+    "unit_id": 16,
+    "topic": "5.6 Determining Concavity of Functions over Their Domains",
+    "next_topic": 46
+  },
+  {
+    "id": 46,
+    "unit_id": 16,
+    "topic": "5.7 Using the Second Derivative Test to Determine Extrema",
+    "next_topic": 47
+  },
+  {
+    "id": 47,
+    "unit_id": 16,
+    "topic": "5.8 Sketching Graphs of Functions and Their Derivatives",
+    "next_topic": 48
+  },
+  {
+    "id": 48,
+    "unit_id": 16,
+    "topic": "5.9 Connecting a Function, Its First Derivative, and Its Second Derivative",
+    "next_topic": 49
+  },
+  {
+    "id": 49,
+    "unit_id": 16,
+    "topic": "5.10 Introduction to Optimization Problems",
+    "next_topic": 50
+  },
+  {
+    "id": 50,
+    "unit_id": 16,
+    "topic": "5.11 Solving Optimization Problems",
+    "next_topic": 51
+  },
+  {
+    "id": 51,
+    "unit_id": 16,
+    "topic": "5.12 Exploring Behaviors of Implicit Relations",
+    "next_topic": 52
+  },
+  {
+    "id": 52,
+    "unit_id": 17,
+    "topic": "6.1 Exploring Accumulations of Change",
+    "next_topic": 53
+  },
+  {
+    "id": 53,
+    "unit_id": 17,
+    "topic": "6.2 Approximating Areas with Riemann Sums",
+    "next_topic": 54
+  },
+  {
+    "id": 54,
+    "unit_id": 17,
+    "topic": "6.3 Riemann Sums, Summation Notation, and Definite Integral Notation",
+    "next_topic": 55
+  },
+  {
+    "id": 55,
+    "unit_id": 17,
+    "topic": "6.4 The Fundamental Theorem of Calculus and Accumulation Functions",
+    "next_topic": 56
+  },
+  {
+    "id": 56,
+    "unit_id": 17,
+    "topic": "6.5 Interpreting the Behavior of Accumulation Functions Involving Area",
+    "next_topic": 57
+  },
+  {
+    "id": 57,
+    "unit_id": 17,
+    "topic": "6.6 Applying Properties of Definite Integrals",
+    "next_topic": 58
+  },
+  {
+    "id": 58,
+    "unit_id": 17,
+    "topic": "6.7 The Fundamental Theorem of Calculus and Definite Integrals",
+    "next_topic": 59
+  },
+  {
+    "id": 59,
+    "unit_id": 17,
+    "topic": "6.8 Finding Antiderivatives and Indefinite Integrals: Basic Rules and Notation",
+    "next_topic": 60
+  },
+  {
+    "id": 60,
+    "unit_id": 17,
+    "topic": "6.9 Integrating Using Substitution",
+    "next_topic": 61
+  },
+  {
+    "id": 61,
+    "unit_id": 17,
+    "topic": "6.10 Integrating Functions Using Long Division and Completing the Square",
+    "next_topic": 62
+  },
+  {
+    "id": 62,
+    "unit_id": 17,
+    "topic": "6.11 Integrating Using Integration by Parts",
+    "next_topic": 63
+  },
+  {
+    "id": 63,
+    "unit_id": 17,
+    "topic": "6.12 Using Linear Partial Fractions",
+    "next_topic": 64
+  },
+  {
+    "id": 64,
+    "unit_id": 17,
+    "topic": "6.13 Evaluating Improper Integrals",
+    "next_topic": 65
+  },
+  {
+    "id": 65,
+    "unit_id": 17,
+    "topic": "6.14 Selecting Techniques for Antidifferentiation",
+    "next_topic": 66
+  },
+  {
+    "id": 66,
+    "unit_id": 18,
+    "topic": "7.1 Modeling Situations with Differential Equations",
+    "next_topic": 67
+  },
+  {
+    "id": 67,
+    "unit_id": 18,
+    "topic": "7.2 Verifying Solutions for Differential Equations",
+    "next_topic": 68
+  },
+  {
+    "id": 68,
+    "unit_id": 18,
+    "topic": "7.3 Sketching Slope Fields",
+    "next_topic": 69
+  },
+  {
+    "id": 69,
+    "unit_id": 18,
+    "topic": "7.4 Reasoning Using Slope Fields",
+    "next_topic": 70
+  },
+  {
+    "id": 70,
+    "unit_id": 18,
+    "topic": "7.5 Approximating Solutions Using Euler's Method",
+    "next_topic": 71
+  },
+  {
+    "id": 71,
+    "unit_id": 18,
+    "topic": "7.6 Finding General Solutions Using Separation of Variables",
+    "next_topic": 72
+  },
+  {
+    "id": 72,
+    "unit_id": 18,
+    "topic": "7.7 Finding Particular Solutions Using Initial Conditions and Separation of Variables",
+    "next_topic": 73
+  },
+  {
+    "id": 73,
+    "unit_id": 18,
+    "topic": "7.8 Exponential Models with Differential Equations",
+    "next_topic": 74
+  },
+  {
+    "id": 74,
+    "unit_id": 18,
+    "topic": "7.9 Logistic Models with Differential Equations",
+    "next_topic": 75
+  },
+  {
+    "id": 75,
+    "unit_id": 19,
+    "topic": "8.1 Finding the Average Value of a Function on an Interval",
+    "next_topic": 76
+  },
+  {
+    "id": 76,
+    "unit_id": 19,
+    "topic": "8.2 Connecting Position, Velocity, and Acceleration of Functions Using Integrals",
+    "next_topic": 77
+  },
+  {
+    "id": 77,
+    "unit_id": 19,
+    "topic": "8.3 Using Accumulation Functions and Definite Integrals in Applied Contexts",
+    "next_topic": 78
+  },
+  {
+    "id": 78,
+    "unit_id": 19,
+    "topic": "8.4 Finding the Area Between Curves Expressed as Functions of x",
+    "next_topic": 79
+  },
+  {
+    "id": 79,
+    "unit_id": 19,
+    "topic": "8.5 Finding the Area Between Curves Expressed as Functions of y",
+    "next_topic": 80
+  },
+  {
+    "id": 80,
+    "unit_id": 19,
+    "topic": "8.6 Finding the Area Between Curves That Intersect at More Than Two Points",
+    "next_topic": 81
+  },
+  {
+    "id": 81,
+    "unit_id": 19,
+    "topic": "8.7 Volumes with Cross Sections: Squares and Rectangles",
+    "next_topic": 82
+  },
+  {
+    "id": 82,
+    "unit_id": 19,
+    "topic": "8.8 Volumes with Cross Sections: Triangles and Semicircles",
+    "next_topic": 83
+  },
+  {
+    "id": 83,
+    "unit_id": 19,
+    "topic": "8.9 Volume with Disc Method: Revolving Around the x- or y-Axis",
+    "next_topic": 84
+  },
+  {
+    "id": 84,
+    "unit_id": 19,
+    "topic": "8.10 Volume with Disc Method: Revolving Around Other Axes",
+    "next_topic": 85
+  },
+  {
+    "id": 85,
+    "unit_id": 19,
+    "topic": "8.11 Volume with Washer Method: Revolving Around the x- or y-Axis",
+    "next_topic": 86
+  },
+  {
+    "id": 86,
+    "unit_id": 19,
+    "topic": "8.12 Volume with Washer Method: Revolving Around Other Axes",
+    "next_topic": 87
+  },
+  {
+    "id": 87,
+    "unit_id": 19,
+    "topic": "8.13 The Arc Length of a Smooth, Planar Curve and Distance Traveled",
+    "next_topic": 88
+  },
+  {
+    "id": 88,
+    "unit_id": 20,
+    "topic": "9.1 Defining and Differentiating Parametric Equations",
+    "next_topic": 89
+  },
+  {
+    "id": 89,
+    "unit_id": 20,
+    "topic": "9.2 Second Derivatives of Parametric Equations",
+    "next_topic": 90
+  },
+  {
+    "id": 90,
+    "unit_id": 20,
+    "topic": "9.3 Finding Arc Lengths of Curves Given by Parametric Equations",
+    "next_topic": 91
+  },
+  {
+    "id": 91,
+    "unit_id": 20,
+    "topic": "9.4 Defining and Differentiating Vector-Valued Functions",
+    "next_topic": 92
+  },
+  {
+    "id": 92,
+    "unit_id": 20,
+    "topic": "9.5 Integrating Vector-Valued Functions",
+    "next_topic": 93
+  },
+  {
+    "id": 93,
+    "unit_id": 20,
+    "topic": "9.6 Solving Motion Problems Using Parametric and Vector-Valued Functions",
+    "next_topic": 94
+  },
+  {
+    "id": 94,
+    "unit_id": 20,
+    "topic": "9.7 Defining Polar Coordinates and Differentiating in Polar Form",
+    "next_topic": 95
+  },
+  {
+    "id": 95,
+    "unit_id": 20,
+    "topic": "9.8 Find the Area of a Polar Region or the Area Bounded by a Single Polar Curve",
+    "next_topic": 96
+  },
+  {
+    "id": 96,
+    "unit_id": 20,
+    "topic": "9.9 Finding the Area of the Region Bounded by Two Polar Curves",
+    "next_topic": 97
+  },
+  {
+    "id": 97,
+    "unit_id": 21,
+    "topic": "10.1 Defining Convergent and Divergent Infinite Series",
+    "next_topic": 98
+  },
+  {
+    "id": 98,
+    "unit_id": 21,
+    "topic": "10.2 Working with Geometric Series",
+    "next_topic": 99
+  },
+  {
+    "id": 99,
+    "unit_id": 21,
+    "topic": "10.3 The nth Term Test for Divergence",
+    "next_topic": 100
+  },
+  {
+    "id": 100,
+    "unit_id": 21,
+    "topic": "10.4 Integral Test for Convergence",
+    "next_topic": 101
+  },
+  {
+    "id": 101,
+    "unit_id": 21,
+    "topic": "10.5 Harmonic Series and p-Series",
+    "next_topic": 102
+  },
+  {
+    "id": 102,
+    "unit_id": 21,
+    "topic": "10.6 Comparison Tests for Convergence",
+    "next_topic": 103
+  },
+  {
+    "id": 103,
+    "unit_id": 21,
+    "topic": "10.7 Alternating Series Test for Convergence",
+    "next_topic": 104
+  },
+  {
+    "id": 104,
+    "unit_id": 21,
+    "topic": "10.8 Ratio Test for Convergence",
+    "next_topic": 105
+  },
+  {
+    "id": 105,
+    "unit_id": 21,
+    "topic": "10.9 Determining Absolute or Conditional Convergence",
+    "next_topic": 106
+  },
+  {
+    "id": 106,
+    "unit_id": 21,
+    "topic": "10.10 Alternating Series Error Bound",
+    "next_topic": 107
+  },
+  {
+    "id": 107,
+    "unit_id": 21,
+    "topic": "10.11 Finding Taylor Polynomial Approximations of Functions",
+    "next_topic": 108
+  },
+  {
+    "id": 108,
+    "unit_id": 21,
+    "topic": "10.12 Lagrange Error Bound",
+    "next_topic": 109
+  },
+  {
+    "id": 109,
+    "unit_id": 21,
+    "topic": "10.13 Radius and Interval of Convergence of Power Series",
+    "next_topic": 110
+  },
+  {
+    "id": 110,
+    "unit_id": 21,
+    "topic": "10.14 Finding Taylor or Maclaurin Series for a Function",
+    "next_topic": 111
+  },
+  {
+    "id": 111,
+    "unit_id": 21,
+    "topic": "10.15 Representing Functions as Power Series",
+    "next_topic": ""
+  },
+  {
+    "id": 112,
+    "unit_id": 22,
+    "topic": "1.1 Introduction to Ecosystems",
+    "next_topic": 113
+  },
+  {
+    "id": 113,
+    "unit_id": 22,
+    "topic": "1.2 Terrestrial Biomes",
+    "next_topic": 114
+  },
+  {
+    "id": 114,
+    "unit_id": 22,
+    "topic": "1.3 Aquatic Biomes",
+    "next_topic": 115
+  },
+  {
+    "id": 115,
+    "unit_id": 22,
+    "topic": "1.4 The Carbon Cycle",
+    "next_topic": 116
+  },
+  {
+    "id": 116,
+    "unit_id": 22,
+    "topic": "1.5 The Nitrogen Cycle",
+    "next_topic": 117
+  },
+  {
+    "id": 117,
+    "unit_id": 22,
+    "topic": "1.6 The Phosphorus Cycle",
+    "next_topic": 118
+  },
+  {
+    "id": 118,
+    "unit_id": 22,
+    "topic": "1.7 The Hydrologic (Water) Cycle",
+    "next_topic": 119
+  },
+  {
+    "id": 119,
+    "unit_id": 22,
+    "topic": "1.8 Primary Productivity",
+    "next_topic": 120
+  },
+  {
+    "id": 120,
+    "unit_id": 22,
+    "topic": "1.9 Trophic Levels",
+    "next_topic": 121
+  },
+  {
+    "id": 121,
+    "unit_id": 22,
+    "topic": "1.10 Energy Flow and the 10% Rule",
+    "next_topic": 122
+  },
+  {
+    "id": 122,
+    "unit_id": 22,
+    "topic": "1.11 Food Chains and Food Webs",
+    "next_topic": 123
+  },
+  {
+    "id": 123,
+    "unit_id": 23,
+    "topic": "2.1 Introduction to Biodiversity",
+    "next_topic": 124
+  },
+  {
+    "id": 124,
+    "unit_id": 23,
+    "topic": "2.2 Ecosystem Services",
+    "next_topic": 125
+  },
+  {
+    "id": 125,
+    "unit_id": 23,
+    "topic": "2.3 Island Biogeography",
+    "next_topic": 126
+  },
+  {
+    "id": 126,
+    "unit_id": 23,
+    "topic": "2.4 Ecological Tolerance",
+    "next_topic": 127
+  },
+  {
+    "id": 127,
+    "unit_id": 23,
+    "topic": "2.5 Natural Disruptions to Ecosystems",
+    "next_topic": 128
+  },
+  {
+    "id": 128,
+    "unit_id": 23,
+    "topic": "2.6 Adaptations",
+    "next_topic": 129
+  },
+  {
+    "id": 129,
+    "unit_id": 23,
+    "topic": "2.7 Ecological Succession",
+    "next_topic": 130
+  },
+  {
+    "id": 130,
+    "unit_id": 24,
+    "topic": "3.1 Generalist and Specialist Species",
+    "next_topic": 131
+  },
+  {
+    "id": 131,
+    "unit_id": 24,
+    "topic": "3.2 K-Selected r-Selected Species",
+    "next_topic": 132
+  },
+  {
+    "id": 132,
+    "unit_id": 24,
+    "topic": "3.3 Survivorship Curves",
+    "next_topic": 133
+  },
+  {
+    "id": 133,
+    "unit_id": 24,
+    "topic": "3.4 Carrying Capacity",
+    "next_topic": 134
+  },
+  {
+    "id": 134,
+    "unit_id": 24,
+    "topic": "3.5 Population Growth and Resource Availability",
+    "next_topic": 135
+  },
+  {
+    "id": 135,
+    "unit_id": 24,
+    "topic": "3.6 Age Structure Diagrams",
+    "next_topic": 136
+  },
+  {
+    "id": 136,
+    "unit_id": 24,
+    "topic": "3.7 Total Fertility Rate",
+    "next_topic": 137
+  },
+  {
+    "id": 137,
+    "unit_id": 24,
+    "topic": "3.8 Human Population Dynamics",
+    "next_topic": 138
+  },
+  {
+    "id": 138,
+    "unit_id": 24,
+    "topic": "3.9 Demographic Transition",
+    "next_topic": 139
+  },
+  {
+    "id": 139,
+    "unit_id": 25,
+    "topic": "4.1 Plate Tectonics",
+    "next_topic": 140
+  },
+  {
+    "id": 140,
+    "unit_id": 25,
+    "topic": "4.2 Soil Formation and Erosion",
+    "next_topic": 141
+  },
+  {
+    "id": 141,
+    "unit_id": 25,
+    "topic": "4.3 Soil Composition and Properties",
+    "next_topic": 142
+  },
+  {
+    "id": 142,
+    "unit_id": 25,
+    "topic": "4.4 Earth's Atmosphere",
+    "next_topic": 143
+  },
+  {
+    "id": 143,
+    "unit_id": 25,
+    "topic": "4.5 Global Wind Patterns",
+    "next_topic": 144
+  },
+  {
+    "id": 144,
+    "unit_id": 25,
+    "topic": "4.6 Watersheds",
+    "next_topic": 145
+  },
+  {
+    "id": 145,
+    "unit_id": 25,
+    "topic": "4.7 Solar Radiation and Earth's Seasons",
+    "next_topic": 146
+  },
+  {
+    "id": 146,
+    "unit_id": 25,
+    "topic": "4.8 Earth's Geography and Climate",
+    "next_topic": 147
+  },
+  {
+    "id": 147,
+    "unit_id": 25,
+    "topic": "4.9 El Niño and La Niña",
+    "next_topic": 148
+  },
+  {
+    "id": 148,
+    "unit_id": 26,
+    "topic": "5.1 The Tragedy of the Commons",
+    "next_topic": 149
+  },
+  {
+    "id": 149,
+    "unit_id": 26,
+    "topic": "5.2 Clearcutting",
+    "next_topic": 150
+  },
+  {
+    "id": 150,
+    "unit_id": 26,
+    "topic": "5.3 The Green Revolution",
+    "next_topic": 151
+  },
+  {
+    "id": 151,
+    "unit_id": 26,
+    "topic": "5.4 Impacts of Agricultural Practices",
+    "next_topic": 152
+  },
+  {
+    "id": 152,
+    "unit_id": 26,
+    "topic": "5.5 Irrigation Methods",
+    "next_topic": 153
+  },
+  {
+    "id": 153,
+    "unit_id": 26,
+    "topic": "5.6 Pest Control Methods",
+    "next_topic": 154
+  },
+  {
+    "id": 154,
+    "unit_id": 26,
+    "topic": "5.7 Meat Production Methods",
+    "next_topic": 155
+  },
+  {
+    "id": 155,
+    "unit_id": 26,
+    "topic": "5.8 Impacts of Overfishing",
+    "next_topic": 156
+  },
+  {
+    "id": 156,
+    "unit_id": 26,
+    "topic": "5.9 Impacts of Mining",
+    "next_topic": 157
+  },
+  {
+    "id": 157,
+    "unit_id": 26,
+    "topic": "5.10 Impacts of Urbanization",
+    "next_topic": 158
+  },
+  {
+    "id": 158,
+    "unit_id": 26,
+    "topic": "5.11 Ecological Footprints",
+    "next_topic": 159
+  },
+  {
+    "id": 159,
+    "unit_id": 26,
+    "topic": "5.12 Introduction to Sustainability",
+    "next_topic": 160
+  },
+  {
+    "id": 160,
+    "unit_id": 26,
+    "topic": "5.13 Methods to Reduce Urban Runoff",
+    "next_topic": 161
+  },
+  {
+    "id": 161,
+    "unit_id": 26,
+    "topic": "5.14 Integrated Pest Management",
+    "next_topic": 162
+  },
+  {
+    "id": 162,
+    "unit_id": 26,
+    "topic": "5.15 Sustainable Agriculture",
+    "next_topic": 163
+  },
+  {
+    "id": 163,
+    "unit_id": 26,
+    "topic": "5.16 Aquaculture",
+    "next_topic": 164
+  },
+  {
+    "id": 164,
+    "unit_id": 26,
+    "topic": "5.17 Sustainable Forestry",
+    "next_topic": 165
+  },
+  {
+    "id": 165,
+    "unit_id": 27,
+    "topic": "6.1 Renewable and Nonrenewable Resources",
+    "next_topic": 166
+  },
+  {
+    "id": 166,
+    "unit_id": 27,
+    "topic": "6.2 Global Energy Consumption",
+    "next_topic": 167
+  },
+  {
+    "id": 167,
+    "unit_id": 27,
+    "topic": "6.3 Fuel Types and Uses",
+    "next_topic": 168
+  },
+  {
+    "id": 168,
+    "unit_id": 27,
+    "topic": "6.4 Distribution of Natural Energy Resources",
+    "next_topic": 169
+  },
+  {
+    "id": 169,
+    "unit_id": 27,
+    "topic": "6.5 Fossil Fuels",
+    "next_topic": 170
+  },
+  {
+    "id": 170,
+    "unit_id": 27,
+    "topic": "6.6 Nuclear Power",
+    "next_topic": 171
+  },
+  {
+    "id": 171,
+    "unit_id": 27,
+    "topic": "6.7 Energy from Biomass",
+    "next_topic": 172
+  },
+  {
+    "id": 172,
+    "unit_id": 27,
+    "topic": "6.8 Solar Energy",
+    "next_topic": 173
+  },
+  {
+    "id": 173,
+    "unit_id": 27,
+    "topic": "6.9 Hydroelectric Power",
+    "next_topic": 174
+  },
+  {
+    "id": 174,
+    "unit_id": 27,
+    "topic": "6.10 Geothermal Energy",
+    "next_topic": 175
+  },
+  {
+    "id": 175,
+    "unit_id": 27,
+    "topic": "6.11 Hydrogen Fuel Cell",
+    "next_topic": 176
+  },
+  {
+    "id": 176,
+    "unit_id": 27,
+    "topic": "6.12 Wind Energy",
+    "next_topic": 177
+  },
+  {
+    "id": 177,
+    "unit_id": 27,
+    "topic": "6.13 Energy Conservation",
+    "next_topic": 178
+  },
+  {
+    "id": 178,
+    "unit_id": 28,
+    "topic": "7.1 Introduction to Air Pollution",
+    "next_topic": 179
+  },
+  {
+    "id": 179,
+    "unit_id": 28,
+    "topic": "7.2 Photochemical Smog",
+    "next_topic": 180
+  },
+  {
+    "id": 180,
+    "unit_id": 28,
+    "topic": "7.3 Thermal Inversion",
+    "next_topic": 181
+  },
+  {
+    "id": 181,
+    "unit_id": 28,
+    "topic": "7.4 Atmospheric CO2 and Particulates",
+    "next_topic": 182
+  },
+  {
+    "id": 182,
+    "unit_id": 28,
+    "topic": "7.5 Indoor Air Pollutants",
+    "next_topic": 183
+  },
+  {
+    "id": 183,
+    "unit_id": 28,
+    "topic": "7.6 Reduction of Air Pollutants",
+    "next_topic": 184
+  },
+  {
+    "id": 184,
+    "unit_id": 28,
+    "topic": "7.7 Acid Rain",
+    "next_topic": 185
+  },
+  {
+    "id": 185,
+    "unit_id": 28,
+    "topic": "7.8 Noise Pollution",
+    "next_topic": 186
+  },
+  {
+    "id": 186,
+    "unit_id": 29,
+    "topic": "8.1 Sources of Pollution",
+    "next_topic": 187
+  },
+  {
+    "id": 187,
+    "unit_id": 29,
+    "topic": "8.2 Human Impacts on Ecosystems",
+    "next_topic": 188
+  },
+  {
+    "id": 188,
+    "unit_id": 29,
+    "topic": "8.3 Endocrine Disruptors",
+    "next_topic": 189
+  },
+  {
+    "id": 189,
+    "unit_id": 29,
+    "topic": "8.4 Human Impacts on Wetlands and Mangroves",
+    "next_topic": 190
+  },
+  {
+    "id": 190,
+    "unit_id": 29,
+    "topic": "8.5 Eutrophication",
+    "next_topic": 191
+  },
+  {
+    "id": 191,
+    "unit_id": 29,
+    "topic": "8.6 Thermal Pollution",
+    "next_topic": 192
+  },
+  {
+    "id": 192,
+    "unit_id": 29,
+    "topic": "8.7 Persistent Organic Pollutants (POPs)",
+    "next_topic": 193
+  },
+  {
+    "id": 193,
+    "unit_id": 29,
+    "topic": "8.8 Bioaccumulation and Biomagnification",
+    "next_topic": 194
+  },
+  {
+    "id": 194,
+    "unit_id": 29,
+    "topic": "8.9 Solid Waste Disposal",
+    "next_topic": 195
+  },
+  {
+    "id": 195,
+    "unit_id": 29,
+    "topic": "8.10 Waste Reduction Methods",
+    "next_topic": 196
+  },
+  {
+    "id": 196,
+    "unit_id": 29,
+    "topic": "8.11 Sewage Treatment",
+    "next_topic": 197
+  },
+  {
+    "id": 197,
+    "unit_id": 29,
+    "topic": "8.12 Lethal Dose 50% (LD50)",
+    "next_topic": 198
+  },
+  {
+    "id": 198,
+    "unit_id": 29,
+    "topic": "8.13 Dose Response Curve",
+    "next_topic": 199
+  },
+  {
+    "id": 199,
+    "unit_id": 29,
+    "topic": "8.14 Pollution and Human Health",
+    "next_topic": 200
+  },
+  {
+    "id": 200,
+    "unit_id": 29,
+    "topic": "8.15 Pathogens and Infectious Diseases",
+    "next_topic": 201
+  },
+  {
+    "id": 201,
+    "unit_id": 30,
+    "topic": "9.1 Stratospheric Ozone Depletion",
+    "next_topic": 202
+  },
+  {
+    "id": 202,
+    "unit_id": 30,
+    "topic": "9.2 Reducing Ozone Depletion",
+    "next_topic": 203
+  },
+  {
+    "id": 203,
+    "unit_id": 30,
+    "topic": "9.3 The Greenhouse Effect",
+    "next_topic": 204
+  },
+  {
+    "id": 204,
+    "unit_id": 30,
+    "topic": "9.4 Increases in the Greenhouse Gases",
+    "next_topic": 205
+  },
+  {
+    "id": 205,
+    "unit_id": 30,
+    "topic": "9.5 Global Climate Change",
+    "next_topic": 206
+  },
+  {
+    "id": 206,
+    "unit_id": 30,
+    "topic": "9.6 Ocean Warming",
+    "next_topic": 207
+  },
+  {
+    "id": 207,
+    "unit_id": 30,
+    "topic": "9.7 Ocean Acidification",
+    "next_topic": 208
+  },
+  {
+    "id": 208,
+    "unit_id": 30,
+    "topic": "9.8 Invasive Species",
+    "next_topic": 209
+  },
+  {
+    "id": 209,
+    "unit_id": 30,
+    "topic": "9.9 Endangered Species",
+    "next_topic": 210
+  },
+  {
+    "id": 210,
+    "unit_id": 30,
+    "topic": "9.10 Human Impacts on Biodiversity",
+    "next_topic": ""
+  },
+  {
+    "id": 211,
+    "unit_id": 31,
+    "topic": "1.1 Moles and Molar Mass",
+    "next_topic": 212
+  },
+  {
+    "id": 212,
+    "unit_id": 31,
+    "topic": "1.2 Mass Spectra of Elements",
+    "next_topic": 213
+  },
+  {
+    "id": 213,
+    "unit_id": 31,
+    "topic": "1.3 Elemental Composition of Pure Substances",
+    "next_topic": 214
+  },
+  {
+    "id": 214,
+    "unit_id": 31,
+    "topic": "1.4 Composition of Mixtures",
+    "next_topic": 215
+  },
+  {
+    "id": 215,
+    "unit_id": 31,
+    "topic": "1.5 Atomic Structure and Electron Configuration",
+    "next_topic": 216
+  },
+  {
+    "id": 216,
+    "unit_id": 31,
+    "topic": "1.6 Photoelectron Spectroscopy",
+    "next_topic": 217
+  },
+  {
+    "id": 217,
+    "unit_id": 31,
+    "topic": "1.7 Periodic Trends",
+    "next_topic": 218
+  },
+  {
+    "id": 218,
+    "unit_id": 31,
+    "topic": "1.8 Valence Electrons and Ionic Compounds",
+    "next_topic": 219
+  },
+  {
+    "id": 219,
+    "unit_id": 32,
+    "topic": "2.1 Types of Chemical Bonds",
+    "next_topic": 220
+  },
+  {
+    "id": 220,
+    "unit_id": 32,
+    "topic": "2.2 Intramolecular Force and Potential Energy",
+    "next_topic": 221
+  },
+  {
+    "id": 221,
+    "unit_id": 32,
+    "topic": "2.3 Structure of Ionic Solids",
+    "next_topic": 222
+  },
+  {
+    "id": 222,
+    "unit_id": 32,
+    "topic": "2.4 Structure of Metals and Alloys",
+    "next_topic": 223
+  },
+  {
+    "id": 223,
+    "unit_id": 32,
+    "topic": "2.5 Lewis Diagrams",
+    "next_topic": 224
+  },
+  {
+    "id": 224,
+    "unit_id": 32,
+    "topic": "2.6 Resonance and Formal Charge",
+    "next_topic": 225
+  },
+  {
+    "id": 225,
+    "unit_id": 32,
+    "topic": "2.7 VSEPR and Hybridization",
+    "next_topic": 226
+  },
+  {
+    "id": 226,
+    "unit_id": 33,
+    "topic": "3.1 Intermolecular and Interparticle Forces",
+    "next_topic": 227
+  },
+  {
+    "id": 227,
+    "unit_id": 33,
+    "topic": "3.2 Properties of Solids",
+    "next_topic": 228
+  },
+  {
+    "id": 228,
+    "unit_id": 33,
+    "topic": "3.3 Solids, Liquids, and Gases",
+    "next_topic": 229
+  },
+  {
+    "id": 229,
+    "unit_id": 33,
+    "topic": "3.4 Ideal Gas Law",
+    "next_topic": 230
+  },
+  {
+    "id": 230,
+    "unit_id": 33,
+    "topic": "3.5 Kinetic Molecular Theory",
+    "next_topic": 231
+  },
+  {
+    "id": 231,
+    "unit_id": 33,
+    "topic": "3.6 Deviation from Ideal Gas Law",
+    "next_topic": 232
+  },
+  {
+    "id": 232,
+    "unit_id": 33,
+    "topic": "3.7 Solutions and Mixtures",
+    "next_topic": 233
+  },
+  {
+    "id": 233,
+    "unit_id": 33,
+    "topic": "3.8 Representations of Solutions",
+    "next_topic": 234
+  },
+  {
+    "id": 234,
+    "unit_id": 33,
+    "topic": "3.9 Separation of Solutions and Mixtures",
+    "next_topic": 235
+  },
+  {
+    "id": 235,
+    "unit_id": 33,
+    "topic": "3.10 Solubility",
+    "next_topic": 236
+  },
+  {
+    "id": 236,
+    "unit_id": 33,
+    "topic": "3.11 Spectroscopy and the Electromagnetic Spectrum",
+    "next_topic": 237
+  },
+  {
+    "id": 237,
+    "unit_id": 33,
+    "topic": "3.12 Properties of Photons",
+    "next_topic": 238
+  },
+  {
+    "id": 238,
+    "unit_id": 33,
+    "topic": "3.13 Beer-Lambert Law",
+    "next_topic": 239
+  },
+  {
+    "id": 239,
+    "unit_id": 34,
+    "topic": "4.1 Introduction for Reactions",
+    "next_topic": 240
+  },
+  {
+    "id": 240,
+    "unit_id": 34,
+    "topic": "4.2 Net Ionic Equations",
+    "next_topic": 241
+  },
+  {
+    "id": 241,
+    "unit_id": 34,
+    "topic": "4.3 Representations of Reactions",
+    "next_topic": 242
+  },
+  {
+    "id": 242,
+    "unit_id": 34,
+    "topic": "4.4 Physical and Chemical Changes",
+    "next_topic": 243
+  },
+  {
+    "id": 243,
+    "unit_id": 34,
+    "topic": "4.5 Stoichiometry",
+    "next_topic": 244
+  },
+  {
+    "id": 244,
+    "unit_id": 34,
+    "topic": "4.6 Introduction to Titration",
+    "next_topic": 245
+  },
+  {
+    "id": 245,
+    "unit_id": 34,
+    "topic": "4.7 Types of Chemical Reactions",
+    "next_topic": 246
+  },
+  {
+    "id": 246,
+    "unit_id": 34,
+    "topic": "4.8 Introduction to Acid-Base Reactions",
+    "next_topic": 247
+  },
+  {
+    "id": 247,
+    "unit_id": 34,
+    "topic": "4.9 Oxidation-Reduction (Redox) Reactions",
+    "next_topic": 248
+  },
+  {
+    "id": 248,
+    "unit_id": 35,
+    "topic": "5.1 Reaction Rates",
+    "next_topic": 249
+  },
+  {
+    "id": 249,
+    "unit_id": 35,
+    "topic": "5.2 Introduction to Rate Law",
+    "next_topic": 250
+  },
+  {
+    "id": 250,
+    "unit_id": 35,
+    "topic": "5.3 Concentration Changes Over Time",
+    "next_topic": 251
+  },
+  {
+    "id": 251,
+    "unit_id": 35,
+    "topic": "5.4 Elementary Reactions",
+    "next_topic": 252
+  },
+  {
+    "id": 252,
+    "unit_id": 35,
+    "topic": "5.5 Collision Model",
+    "next_topic": 253
+  },
+  {
+    "id": 253,
+    "unit_id": 35,
+    "topic": "5.6 Reaction Energy Profile",
+    "next_topic": 254
+  },
+  {
+    "id": 254,
+    "unit_id": 35,
+    "topic": "5.7 Introduction to Reaction Mechanisms",
+    "next_topic": 255
+  },
+  {
+    "id": 255,
+    "unit_id": 35,
+    "topic": "5.8 Reaction Mechanism and Rate Law",
+    "next_topic": 256
+  },
+  {
+    "id": 256,
+    "unit_id": 35,
+    "topic": "5.9 Pre-Equilibrium Approximation",
+    "next_topic": 257
+  },
+  {
+    "id": 257,
+    "unit_id": 35,
+    "topic": "5.10 Multistep Reaction Energy Profile",
+    "next_topic": 258
+  },
+  {
+    "id": 258,
+    "unit_id": 35,
+    "topic": "5.11 Catalysis",
+    "next_topic": 259
+  },
+  {
+    "id": 259,
+    "unit_id": 36,
+    "topic": "6.1 Endothermic and Exothermic Processes",
+    "next_topic": 260
+  },
+  {
+    "id": 260,
+    "unit_id": 36,
+    "topic": "6.2 Energy Diagrams",
+    "next_topic": 261
+  },
+  {
+    "id": 261,
+    "unit_id": 36,
+    "topic": "6.3 Heat Transfer and Thermal Equilibrium",
+    "next_topic": 262
+  },
+  {
+    "id": 262,
+    "unit_id": 36,
+    "topic": "6.4 Heat Capacity and Calorimetry",
+    "next_topic": 263
+  },
+  {
+    "id": 263,
+    "unit_id": 36,
+    "topic": "6.5 Energy of Phase Changes",
+    "next_topic": 264
+  },
+  {
+    "id": 264,
+    "unit_id": 36,
+    "topic": "6.6 Introduction to Enthalpy of Reaction",
+    "next_topic": 265
+  },
+  {
+    "id": 265,
+    "unit_id": 36,
+    "topic": "6.7 Bond Enthalpies",
+    "next_topic": 266
+  },
+  {
+    "id": 266,
+    "unit_id": 36,
+    "topic": "6.8 Enthalpy of Formation",
+    "next_topic": 267
+  },
+  {
+    "id": 267,
+    "unit_id": 36,
+    "topic": "6.9 Hess's Law",
+    "next_topic": 268
+  },
+  {
+    "id": 268,
+    "unit_id": 37,
+    "topic": "7.1 Introduction to Equilibrium",
+    "next_topic": 269
+  },
+  {
+    "id": 269,
+    "unit_id": 37,
+    "topic": "7.2 Direction of Reversible Reactions",
+    "next_topic": 270
+  },
+  {
+    "id": 270,
+    "unit_id": 37,
+    "topic": "7.3 Reaction Quotient and Equilibrium Constant",
+    "next_topic": 271
+  },
+  {
+    "id": 271,
+    "unit_id": 37,
+    "topic": "7.4 Calculating the Equilibrium Constant",
+    "next_topic": 272
+  },
+  {
+    "id": 272,
+    "unit_id": 37,
+    "topic": "7.5 Magnitude of the Equilibrium Constant",
+    "next_topic": 273
+  },
+  {
+    "id": 273,
+    "unit_id": 37,
+    "topic": "7.6 Properties of the Equilibrium Constant",
+    "next_topic": 274
+  },
+  {
+    "id": 274,
+    "unit_id": 37,
+    "topic": "7.7 Calculating Equilibrium Concentrations",
+    "next_topic": 275
+  },
+  {
+    "id": 275,
+    "unit_id": 37,
+    "topic": "7.8 Representations of Equilibrium",
+    "next_topic": 276
+  },
+  {
+    "id": 276,
+    "unit_id": 37,
+    "topic": "7.9 Introduction to Le Châtelier's Principle",
+    "next_topic": 277
+  },
+  {
+    "id": 277,
+    "unit_id": 37,
+    "topic": "7.10 Reaction Quotient and Le Châtelier's Principle",
+    "next_topic": 278
+  },
+  {
+    "id": 278,
+    "unit_id": 37,
+    "topic": "7.11 Introduction to Solubility Equilibria",
+    "next_topic": 279
+  },
+  {
+    "id": 279,
+    "unit_id": 37,
+    "topic": "7.12 Common-Ion Effect",
+    "next_topic": 280
+  },
+  {
+    "id": 280,
+    "unit_id": 38,
+    "topic": "8.1 Introduction to Acids and Bases",
+    "next_topic": 281
+  },
+  {
+    "id": 281,
+    "unit_id": 38,
+    "topic": "8.2 pH and pOH of Strong Acids and Bases",
+    "next_topic": 282
+  },
+  {
+    "id": 282,
+    "unit_id": 38,
+    "topic": "8.3 Weak Acid and Base Equilibria",
+    "next_topic": 283
+  },
+  {
+    "id": 283,
+    "unit_id": 38,
+    "topic": "8.4 Acid-Base Reactions and Buffers",
+    "next_topic": 284
+  },
+  {
+    "id": 284,
+    "unit_id": 38,
+    "topic": "8.5 Acid-Base Titrations",
+    "next_topic": 285
+  },
+  {
+    "id": 285,
+    "unit_id": 38,
+    "topic": "8.6 Molecular Structure of Acids and Bases",
+    "next_topic": 286
+  },
+  {
+    "id": 286,
+    "unit_id": 38,
+    "topic": "8.7 pH and pKa",
+    "next_topic": 287
+  },
+  {
+    "id": 287,
+    "unit_id": 38,
+    "topic": "8.8 Properties of Buffers",
+    "next_topic": 288
+  },
+  {
+    "id": 288,
+    "unit_id": 38,
+    "topic": "8.9 Henderson-Hasselbalch Equation",
+    "next_topic": 289
+  },
+  {
+    "id": 289,
+    "unit_id": 38,
+    "topic": "8.10 Buffer Capacity",
+    "next_topic": 290
+  },
+  {
+    "id": 290,
+    "unit_id": 38,
+    "topic": "8.11 pH and Solubility",
+    "next_topic": 291
+  },
+  {
+    "id": 291,
+    "unit_id": 39,
+    "topic": "9.1 Introduction to Entropy",
+    "next_topic": 292
+  },
+  {
+    "id": 292,
+    "unit_id": 39,
+    "topic": "9.2 Absolute Entropy and Entropy Change",
+    "next_topic": 293
+  },
+  {
+    "id": 293,
+    "unit_id": 39,
+    "topic": "9.3 Gibbs Free Energy and Thermodynamic Favorability",
+    "next_topic": 294
+  },
+  {
+    "id": 294,
+    "unit_id": 39,
+    "topic": "9.4 Thermodynamic and Kinetic Control",
+    "next_topic": 295
+  },
+  {
+    "id": 295,
+    "unit_id": 39,
+    "topic": "9.5 Free Energy and Equilibrium",
+    "next_topic": 296
+  },
+  {
+    "id": 296,
+    "unit_id": 39,
+    "topic": "9.6 Free Energy of Dissolution",
+    "next_topic": 297
+  },
+  {
+    "id": 297,
+    "unit_id": 39,
+    "topic": "9.7 Coupled Reactions",
+    "next_topic": 298
+  },
+  {
+    "id": 298,
+    "unit_id": 39,
+    "topic": "9.8 Galvanic (Voltaic) and Electrolytic Cells",
+    "next_topic": 299
+  },
+  {
+    "id": 299,
+    "unit_id": 39,
+    "topic": "9.9 Cell Potential and Free Energy",
+    "next_topic": 300
+  },
+  {
+    "id": 300,
+    "unit_id": 39,
+    "topic": "9.10 Cell Potential Under Nonstandard Conditions",
+    "next_topic": 301
+  },
+  {
+    "id": 301,
+    "unit_id": 39,
+    "topic": "9.11 Electrolysis and Faraday's Law",
+    "next_topic": ""
+  },
+  {
+    "id": 302,
+    "unit_id": 40,
+    "topic": "1.1 Structure of Water and Hydrogen Bonding",
+    "next_topic": 303
+  },
+  {
+    "id": 303,
+    "unit_id": 40,
+    "topic": "1.2 Elements of Life",
+    "next_topic": 304
+  },
+  {
+    "id": 304,
+    "unit_id": 40,
+    "topic": "1.3 Introduction to Biological Macromolecules",
+    "next_topic": 305
+  },
+  {
+    "id": 305,
+    "unit_id": 40,
+    "topic": "1.4 Properties of Biological Macromolecules",
+    "next_topic": 306
+  },
+  {
+    "id": 306,
+    "unit_id": 40,
+    "topic": "1.5 Structure and Function of Biological Macromolecules",
+    "next_topic": 307
+  },
+  {
+    "id": 307,
+    "unit_id": 40,
+    "topic": "1.6 Nucleic Acids",
+    "next_topic": 308
+  },
+  {
+    "id": 308,
+    "unit_id": 41,
+    "topic": "2.1 Cell Structure: Subcellular Components",
+    "next_topic": 309
+  },
+  {
+    "id": 309,
+    "unit_id": 41,
+    "topic": "2.2 Cell Structure and Function",
+    "next_topic": 310
+  },
+  {
+    "id": 310,
+    "unit_id": 41,
+    "topic": "2.3 Cell Size",
+    "next_topic": 311
+  },
+  {
+    "id": 311,
+    "unit_id": 41,
+    "topic": "2.4 Plasma Membranes",
+    "next_topic": 312
+  },
+  {
+    "id": 312,
+    "unit_id": 41,
+    "topic": "2.5 Membrane Permeability",
+    "next_topic": 313
+  },
+  {
+    "id": 313,
+    "unit_id": 41,
+    "topic": "2.6 Membrane Transport",
+    "next_topic": 314
+  },
+  {
+    "id": 314,
+    "unit_id": 41,
+    "topic": "2.7 Facilitated Diffusion",
+    "next_topic": 315
+  },
+  {
+    "id": 315,
+    "unit_id": 41,
+    "topic": "2.8 Tonicity and Osmoregulation",
+    "next_topic": 316
+  },
+  {
+    "id": 316,
+    "unit_id": 41,
+    "topic": "2.9 Mechanisms of Transport",
+    "next_topic": 317
+  },
+  {
+    "id": 317,
+    "unit_id": 41,
+    "topic": "2.10 Cell Compartmentalization",
+    "next_topic": 318
+  },
+  {
+    "id": 318,
+    "unit_id": 41,
+    "topic": "2.11 Origins of Cell Compartmentalization",
+    "next_topic": 319
+  },
+  {
+    "id": 319,
+    "unit_id": 42,
+    "topic": "3.1 Enzyme Structure",
+    "next_topic": 320
+  },
+  {
+    "id": 320,
+    "unit_id": 42,
+    "topic": "3.2 Enzyme Catalysis",
+    "next_topic": 321
+  },
+  {
+    "id": 321,
+    "unit_id": 42,
+    "topic": "3.3 Environmental Impacts on Enzyme Function",
+    "next_topic": 322
+  },
+  {
+    "id": 322,
+    "unit_id": 42,
+    "topic": "3.4 Cellular Energy",
+    "next_topic": 323
+  },
+  {
+    "id": 323,
+    "unit_id": 42,
+    "topic": "3.5 Photosynthesis",
+    "next_topic": 324
+  },
+  {
+    "id": 324,
+    "unit_id": 42,
+    "topic": "3.6 Cellular Respiration",
+    "next_topic": 325
+  },
+  {
+    "id": 325,
+    "unit_id": 42,
+    "topic": "3.7 Fitness",
+    "next_topic": 326
+  },
+  {
+    "id": 326,
+    "unit_id": 43,
+    "topic": "4.1 Cell Communication",
+    "next_topic": 327
+  },
+  {
+    "id": 327,
+    "unit_id": 43,
+    "topic": "4.2 Introduction to Signal Transduction",
+    "next_topic": 328
+  },
+  {
+    "id": 328,
+    "unit_id": 43,
+    "topic": "4.3 Signal Transduction",
+    "next_topic": 329
+  },
+  {
+    "id": 329,
+    "unit_id": 43,
+    "topic": "4.4 Changes in Signal Transduction Pathways",
+    "next_topic": 330
+  },
+  {
+    "id": 330,
+    "unit_id": 43,
+    "topic": "4.5 Feedback",
+    "next_topic": 331
+  },
+  {
+    "id": 331,
+    "unit_id": 43,
+    "topic": "4.6 Cell Cycle",
+    "next_topic": 332
+  },
+  {
+    "id": 332,
+    "unit_id": 43,
+    "topic": "4.7 Regulation of Cell Cycle",
+    "next_topic": 333
+  },
+  {
+    "id": 333,
+    "unit_id": 44,
+    "topic": "5.1 Meiosis",
+    "next_topic": 334
+  },
+  {
+    "id": 334,
+    "unit_id": 44,
+    "topic": "5.2 Meiosis and Genetic Diversity",
+    "next_topic": 335
+  },
+  {
+    "id": 335,
+    "unit_id": 44,
+    "topic": "5.3 Mendelian Genetics",
+    "next_topic": 336
+  },
+  {
+    "id": 336,
+    "unit_id": 44,
+    "topic": "5.4 Non-Mendelian Genetics",
+    "next_topic": 337
+  },
+  {
+    "id": 337,
+    "unit_id": 44,
+    "topic": "5.5 Environmental Effects on Phenotype",
+    "next_topic": 338
+  },
+  {
+    "id": 338,
+    "unit_id": 44,
+    "topic": "5.6 Chromosomal Inheritance",
+    "next_topic": 339
+  },
+  {
+    "id": 339,
+    "unit_id": 45,
+    "topic": "6.1 DNA and RNA Structure",
+    "next_topic": 340
+  },
+  {
+    "id": 340,
+    "unit_id": 45,
+    "topic": "6.2 Replication",
+    "next_topic": 341
+  },
+  {
+    "id": 341,
+    "unit_id": 45,
+    "topic": "6.3 Transcription and RNA Processing",
+    "next_topic": 342
+  },
+  {
+    "id": 342,
+    "unit_id": 45,
+    "topic": "6.4 Translation",
+    "next_topic": 343
+  },
+  {
+    "id": 343,
+    "unit_id": 45,
+    "topic": "6.5 Regulation of Gene Expression",
+    "next_topic": 344
+  },
+  {
+    "id": 344,
+    "unit_id": 45,
+    "topic": "6.6 Gene Expression and Cell Specialization",
+    "next_topic": 345
+  },
+  {
+    "id": 345,
+    "unit_id": 45,
+    "topic": "6.7 Mutations",
+    "next_topic": 346
+  },
+  {
+    "id": 346,
+    "unit_id": 45,
+    "topic": "6.8 Biotechnology",
+    "next_topic": 347
+  },
+  {
+    "id": 347,
+    "unit_id": 46,
+    "topic": "7.1 Introduction to Natural Selection",
+    "next_topic": 348
+  },
+  {
+    "id": 348,
+    "unit_id": 46,
+    "topic": "7.2 Natural Selection",
+    "next_topic": 349
+  },
+  {
+    "id": 349,
+    "unit_id": 46,
+    "topic": "7.3 Artificial Selection",
+    "next_topic": 350
+  },
+  {
+    "id": 350,
+    "unit_id": 46,
+    "topic": "7.4 Population Genetics",
+    "next_topic": 351
+  },
+  {
+    "id": 351,
+    "unit_id": 46,
+    "topic": "7.5 Hardy-Weinberg Equilibrium",
+    "next_topic": 352
+  },
+  {
+    "id": 352,
+    "unit_id": 46,
+    "topic": "7.6 Evidence of Evolution",
+    "next_topic": 353
+  },
+  {
+    "id": 353,
+    "unit_id": 46,
+    "topic": "7.7 Common Ancestry",
+    "next_topic": 354
+  },
+  {
+    "id": 354,
+    "unit_id": 46,
+    "topic": "7.8 Continuing Evolution",
+    "next_topic": 355
+  },
+  {
+    "id": 355,
+    "unit_id": 46,
+    "topic": "7.9 Phylogeny",
+    "next_topic": 356
+  },
+  {
+    "id": 356,
+    "unit_id": 46,
+    "topic": "7.10 Speciation",
+    "next_topic": 357
+  },
+  {
+    "id": 357,
+    "unit_id": 46,
+    "topic": "7.11 Extinction",
+    "next_topic": 358
+  },
+  {
+    "id": 358,
+    "unit_id": 46,
+    "topic": "7.12 Variations in Populations",
+    "next_topic": 359
+  },
+  {
+    "id": 359,
+    "unit_id": 46,
+    "topic": "7.13 Origin of Life on Earth",
+    "next_topic": 360
+  },
+  {
+    "id": 360,
+    "unit_id": 47,
+    "topic": "8.1 Responses to the Environment",
+    "next_topic": 361
+  },
+  {
+    "id": 361,
+    "unit_id": 47,
+    "topic": "8.2 Energy Flow Through Ecosystems",
+    "next_topic": 362
+  },
+  {
+    "id": 362,
+    "unit_id": 47,
+    "topic": "8.3 Population Ecology",
+    "next_topic": 363
+  },
+  {
+    "id": 363,
+    "unit_id": 47,
+    "topic": "8.4 Effect of Density of Populations",
+    "next_topic": 364
+  },
+  {
+    "id": 364,
+    "unit_id": 47,
+    "topic": "8.5 Community Ecology",
+    "next_topic": 365
+  },
+  {
+    "id": 365,
+    "unit_id": 47,
+    "topic": "8.6 Biodiversity",
+    "next_topic": 366
+  },
+  {
+    "id": 366,
+    "unit_id": 47,
+    "topic": "8.7 Disruptions to Ecosystems",
+    "next_topic": ""
+  },
+  {
+    "id": 367,
+    "unit_id": 48,
+    "topic": "1.1 Contextualizing Renaissance and Discovery",
+    "next_topic": 368
+  },
+  {
+    "id": 368,
+    "unit_id": 48,
+    "topic": "1.2 Italian Renaissance",
+    "next_topic": 369
+  },
+  {
+    "id": 369,
+    "unit_id": 48,
+    "topic": "1.3 Northern Renaissance",
+    "next_topic": 370
+  },
+  {
+    "id": 370,
+    "unit_id": 48,
+    "topic": "1.4 Printing",
+    "next_topic": 371
+  },
+  {
+    "id": 371,
+    "unit_id": 48,
+    "topic": "1.5 New Monarchies",
+    "next_topic": 372
+  },
+  {
+    "id": 372,
+    "unit_id": 48,
+    "topic": "1.6 Technological Advances and the Age of Exploration",
+    "next_topic": 373
+  },
+  {
+    "id": 373,
+    "unit_id": 48,
+    "topic": "1.7 Rivals on the World Stage",
+    "next_topic": 374
+  },
+  {
+    "id": 374,
+    "unit_id": 48,
+    "topic": "1.8 Colonial Expansion and Columbian Exchange",
+    "next_topic": 375
+  },
+  {
+    "id": 375,
+    "unit_id": 48,
+    "topic": "1.9 The Slave Trade",
+    "next_topic": 376
+  },
+  {
+    "id": 376,
+    "unit_id": 48,
+    "topic": "1.10 The Commercial Revolution",
+    "next_topic": 377
+  },
+  {
+    "id": 377,
+    "unit_id": 48,
+    "topic": "1.11 Causation in the Renaissance and Age of Discovery",
+    "next_topic": 378
+  },
+  {
+    "id": 378,
+    "unit_id": 49,
+    "topic": "2.1 Contextualizing 16th- and 17th-Century Challenges and Developments",
+    "next_topic": 379
+  },
+  {
+    "id": 379,
+    "unit_id": 49,
+    "topic": "2.2 Luther and the Protestant Reformation",
+    "next_topic": 380
+  },
+  {
+    "id": 380,
+    "unit_id": 49,
+    "topic": "2.3 Protestant Reform Continues",
+    "next_topic": 381
+  },
+  {
+    "id": 381,
+    "unit_id": 49,
+    "topic": "2.4 Wars of Religion",
+    "next_topic": 382
+  },
+  {
+    "id": 382,
+    "unit_id": 49,
+    "topic": "2.5 The Catholic Reformation",
+    "next_topic": 383
+  },
+  {
+    "id": 383,
+    "unit_id": 49,
+    "topic": "2.6 16th-Century Society and Politics",
+    "next_topic": 384
+  },
+  {
+    "id": 384,
+    "unit_id": 49,
+    "topic": "2.7 Art of the 16th Century: Mannerism and Baroque Art",
+    "next_topic": 385
+  },
+  {
+    "id": 385,
+    "unit_id": 49,
+    "topic": "2.8 Causation in the Age of Reformation and the Wars of Religion",
+    "next_topic": 386
+  },
+  {
+    "id": 386,
+    "unit_id": 50,
+    "topic": "3.1 Contextualizing State Building",
+    "next_topic": 387
+  },
+  {
+    "id": 387,
+    "unit_id": 50,
+    "topic": "3.2 The English Civil War and the Glorious Revolution",
+    "next_topic": 388
+  },
+  {
+    "id": 388,
+    "unit_id": 50,
+    "topic": "3.3 Continuities and Changes to Economic Practice and Development",
+    "next_topic": 389
+  },
+  {
+    "id": 389,
+    "unit_id": 50,
+    "topic": "3.4 Economic Development and Mercantilism",
+    "next_topic": 390
+  },
+  {
+    "id": 390,
+    "unit_id": 50,
+    "topic": "3.5 The Dutch Golden Age",
+    "next_topic": 391
+  },
+  {
+    "id": 391,
+    "unit_id": 50,
+    "topic": "3.6 Balance of Power",
+    "next_topic": 392
+  },
+  {
+    "id": 392,
+    "unit_id": 50,
+    "topic": "3.7 Absolutist Approaches to Power",
+    "next_topic": 393
+  },
+  {
+    "id": 393,
+    "unit_id": 50,
+    "topic": "3.8 Comparison in the Age of Absolutism and Constitutionalism",
+    "next_topic": 394
+  },
+  {
+    "id": 394,
+    "unit_id": 51,
+    "topic": "4.1 Contextualizing the Scientific Revolution and the Enlightenment",
+    "next_topic": 395
+  },
+  {
+    "id": 395,
+    "unit_id": 51,
+    "topic": "4.2 The Scientific Revolution",
+    "next_topic": 396
+  },
+  {
+    "id": 396,
+    "unit_id": 51,
+    "topic": "4.3 The Enlightenment",
+    "next_topic": 397
+  },
+  {
+    "id": 397,
+    "unit_id": 51,
+    "topic": "4.4 18th-Century Society and Demographics",
+    "next_topic": 398
+  },
+  {
+    "id": 398,
+    "unit_id": 51,
+    "topic": "4.5 18th-Century Culture and Arts",
+    "next_topic": 399
+  },
+  {
+    "id": 399,
+    "unit_id": 51,
+    "topic": "4.6 Enlightened and Other Approaches to Power",
+    "next_topic": 400
+  },
+  {
+    "id": 400,
+    "unit_id": 51,
+    "topic": "4.7 Causation in the Age of the Scientific Revolution and the Enlightenment",
+    "next_topic": 401
+  },
+  {
+    "id": 401,
+    "unit_id": 52,
+    "topic": "5.1 Contextualizing 18th-Century States",
+    "next_topic": 402
+  },
+  {
+    "id": 402,
+    "unit_id": 52,
+    "topic": "5.2 The Rise of Global Markets",
+    "next_topic": 403
+  },
+  {
+    "id": 403,
+    "unit_id": 52,
+    "topic": "5.3 Britain's Ascendency",
+    "next_topic": 404
+  },
+  {
+    "id": 404,
+    "unit_id": 52,
+    "topic": "5.4 The French Revolution",
+    "next_topic": 405
+  },
+  {
+    "id": 405,
+    "unit_id": 52,
+    "topic": "5.5 The French Revolution's Effects",
+    "next_topic": 406
+  },
+  {
+    "id": 406,
+    "unit_id": 52,
+    "topic": "5.6 Napoleon's Rise, Dominance, and Defeat",
+    "next_topic": 407
+  },
+  {
+    "id": 407,
+    "unit_id": 52,
+    "topic": "5.7 The Congress of Vienna",
+    "next_topic": 408
+  },
+  {
+    "id": 408,
+    "unit_id": 52,
+    "topic": "5.8 Romanticism",
+    "next_topic": 409
+  },
+  {
+    "id": 409,
+    "unit_id": 52,
+    "topic": "5.9 Continuity and Change in 18th-Century States",
+    "next_topic": 410
+  },
+  {
+    "id": 410,
+    "unit_id": 53,
+    "topic": "6.1 Contextualizing Industrialization and Its Origins and Effects",
+    "next_topic": 411
+  },
+  {
+    "id": 411,
+    "unit_id": 53,
+    "topic": "6.2 The Spread of Industry Throughout Europe",
+    "next_topic": 412
+  },
+  {
+    "id": 412,
+    "unit_id": 53,
+    "topic": "6.3 Second Wave Industrialization and Its Effects",
+    "next_topic": 413
+  },
+  {
+    "id": 413,
+    "unit_id": 53,
+    "topic": "6.4 Social Effects of Industrialization",
+    "next_topic": 414
+  },
+  {
+    "id": 414,
+    "unit_id": 53,
+    "topic": "6.5 The Concert of Europe and European Conservatism",
+    "next_topic": 415
+  },
+  {
+    "id": 415,
+    "unit_id": 53,
+    "topic": "6.6 Reactions and Revolutions",
+    "next_topic": 416
+  },
+  {
+    "id": 416,
+    "unit_id": 53,
+    "topic": "6.7 Ideologies of Change and Reform Movements",
+    "next_topic": 417
+  },
+  {
+    "id": 417,
+    "unit_id": 53,
+    "topic": "6.8 19th-Century Social Reform",
+    "next_topic": 418
+  },
+  {
+    "id": 418,
+    "unit_id": 53,
+    "topic": "6.9 Institutional Responses and Reform",
+    "next_topic": 419
+  },
+  {
+    "id": 419,
+    "unit_id": 53,
+    "topic": "6.10 Causation in the Age of Industrialization",
+    "next_topic": 420
+  },
+  {
+    "id": 420,
+    "unit_id": 54,
+    "topic": "7.1 Contextualizing 19th-Century Perspectives and Political Developments",
+    "next_topic": 421
+  },
+  {
+    "id": 421,
+    "unit_id": 54,
+    "topic": "7.2 Nationalism",
+    "next_topic": 422
+  },
+  {
+    "id": 422,
+    "unit_id": 54,
+    "topic": "7.3 National Unification and Diplomatic Tensions",
+    "next_topic": 423
+  },
+  {
+    "id": 423,
+    "unit_id": 54,
+    "topic": "7.4 Darwinism, Social Darwinism",
+    "next_topic": 424
+  },
+  {
+    "id": 424,
+    "unit_id": 54,
+    "topic": "7.5 The Age of Progress and Modernity",
+    "next_topic": 425
+  },
+  {
+    "id": 425,
+    "unit_id": 54,
+    "topic": "7.6 New Imperialism: Motivations and Methods",
+    "next_topic": 426
+  },
+  {
+    "id": 426,
+    "unit_id": 54,
+    "topic": "7.7 Imperialism's Global Effects",
+    "next_topic": 427
+  },
+  {
+    "id": 427,
+    "unit_id": 54,
+    "topic": "7.8 19th-Century Culture and Arts",
+    "next_topic": 428
+  },
+  {
+    "id": 428,
+    "unit_id": 54,
+    "topic": "7.9 Causation in 19th-Century Perspectives and Political Developments",
+    "next_topic": 429
+  },
+  {
+    "id": 429,
+    "unit_id": 55,
+    "topic": "8.1 Contextualizing 20th-Century Global Conflicts",
+    "next_topic": 430
+  },
+  {
+    "id": 430,
+    "unit_id": 55,
+    "topic": "8.2 World War I",
+    "next_topic": 431
+  },
+  {
+    "id": 431,
+    "unit_id": 55,
+    "topic": "8.3 The Russian Revolution and Its Effects",
+    "next_topic": 432
+  },
+  {
+    "id": 432,
+    "unit_id": 55,
+    "topic": "8.4 Versailles Conference and Peace Settlement",
+    "next_topic": 433
+  },
+  {
+    "id": 433,
+    "unit_id": 55,
+    "topic": "8.5 Global Economic Crisis",
+    "next_topic": 434
+  },
+  {
+    "id": 434,
+    "unit_id": 55,
+    "topic": "8.6 Fascism and Totalitarianism",
+    "next_topic": 435
+  },
+  {
+    "id": 435,
+    "unit_id": 55,
+    "topic": "8.7 Europe During the Interwar Period",
+    "next_topic": 436
+  },
+  {
+    "id": 436,
+    "unit_id": 55,
+    "topic": "8.8 World War II",
+    "next_topic": 437
+  },
+  {
+    "id": 437,
+    "unit_id": 55,
+    "topic": "8.9 The Holocaust",
+    "next_topic": 438
+  },
+  {
+    "id": 438,
+    "unit_id": 55,
+    "topic": "8.10 20th-Century Cultural, Intellectual, and Artistic Developments",
+    "next_topic": 439
+  },
+  {
+    "id": 439,
+    "unit_id": 55,
+    "topic": "8.11 Continuity and Changes in an Age of Global Conflict",
+    "next_topic": 440
+  },
+  {
+    "id": 440,
+    "unit_id": 56,
+    "topic": "9.1 Contextualizing Cold War and Contemporary Europe",
+    "next_topic": 441
+  },
+  {
+    "id": 441,
+    "unit_id": 56,
+    "topic": "9.2 Rebuilding Europe",
+    "next_topic": 442
+  },
+  {
+    "id": 442,
+    "unit_id": 56,
+    "topic": "9.3 The Cold War",
+    "next_topic": 443
+  },
+  {
+    "id": 443,
+    "unit_id": 56,
+    "topic": "9.4 Two Super Powers Emerge",
+    "next_topic": 444
+  },
+  {
+    "id": 444,
+    "unit_id": 56,
+    "topic": "9.5 Postwar Nationalism, Ethnic Conflict, and Atrocities",
+    "next_topic": 445
+  },
+  {
+    "id": 445,
+    "unit_id": 56,
+    "topic": "9.6 Contemporary Western Democracies",
+    "next_topic": 446
+  },
+  {
+    "id": 446,
+    "unit_id": 56,
+    "topic": "9.7 The Fall of Communism",
+    "next_topic": 447
+  },
+  {
+    "id": 447,
+    "unit_id": 56,
+    "topic": "9.8 20th-Century Feminism",
+    "next_topic": 448
+  },
+  {
+    "id": 448,
+    "unit_id": 56,
+    "topic": "9.9 Decolonization",
+    "next_topic": 449
+  },
+  {
+    "id": 449,
+    "unit_id": 56,
+    "topic": "9.10 The European Union",
+    "next_topic": 450
+  },
+  {
+    "id": 450,
+    "unit_id": 56,
+    "topic": "9.11 Migration and Immigration",
+    "next_topic": 451
+  },
+  {
+    "id": 451,
+    "unit_id": 56,
+    "topic": "9.12 Technology",
+    "next_topic": 452
+  },
+  {
+    "id": 452,
+    "unit_id": 56,
+    "topic": "9.13 Globalization",
+    "next_topic": 453
+  },
+  {
+    "id": 453,
+    "unit_id": 56,
+    "topic": "9.14 20th- and 21st-Century Culture, Arts, and Demographic Trends",
+    "next_topic": 454
+  },
+  {
+    "id": 454,
+    "unit_id": 56,
+    "topic": "9.15 Continuity and Change in the 20th and 21st Centuries",
+    "next_topic": ""
+  },
+  {
+    "id": 455,
+    "unit_id": 57,
+    "topic": "1.1 Change in Tandem",
+    "next_topic": 456
+  },
+  {
+    "id": 456,
+    "unit_id": 57,
+    "topic": "1.2 Rates of Change",
+    "next_topic": 457
+  },
+  {
+    "id": 457,
+    "unit_id": 57,
+    "topic": "1.3 Rates of Change in Linear and Quadratic Functions",
+    "next_topic": 458
+  },
+  {
+    "id": 458,
+    "unit_id": 57,
+    "topic": "1.4 Polynomial Functions and Rates of Change",
+    "next_topic": 459
+  },
+  {
+    "id": 459,
+    "unit_id": 57,
+    "topic": "1.5 Polynomial Functions and Complex Zeros",
+    "next_topic": 460
+  },
+  {
+    "id": 460,
+    "unit_id": 57,
+    "topic": "1.6 Polynomial Functions and End Behavior",
+    "next_topic": 461
+  },
+  {
+    "id": 461,
+    "unit_id": 57,
+    "topic": "1.7 Rational Functions and End Behavior",
+    "next_topic": 462
+  },
+  {
+    "id": 462,
+    "unit_id": 57,
+    "topic": "1.8 Rational Functions and Zeros",
+    "next_topic": 463
+  },
+  {
+    "id": 463,
+    "unit_id": 57,
+    "topic": "1.9 Rational Functions and Vertical Asymptotes",
+    "next_topic": 464
+  },
+  {
+    "id": 464,
+    "unit_id": 57,
+    "topic": "1.10 Rational Functions and Holes",
+    "next_topic": 465
+  },
+  {
+    "id": 465,
+    "unit_id": 57,
+    "topic": "1.11 Equivalent Representations of Polynomial and Rational Expressions",
+    "next_topic": 466
+  },
+  {
+    "id": 466,
+    "unit_id": 57,
+    "topic": "1.12 Transformations of Functions",
+    "next_topic": 467
+  },
+  {
+    "id": 467,
+    "unit_id": 57,
+    "topic": "1.13 Function Model Selection and Assumption Articulation",
+    "next_topic": 468
+  },
+  {
+    "id": 468,
+    "unit_id": 57,
+    "topic": "1.14 Function Model Construction and Application",
+    "next_topic": 469
+  },
+  {
+    "id": 469,
+    "unit_id": 58,
+    "topic": "2.1 Change in Arithmetic and Geometric Sequences",
+    "next_topic": 470
+  },
+  {
+    "id": 470,
+    "unit_id": 58,
+    "topic": "2.2 Change in Linear and Exponential Functions",
+    "next_topic": 471
+  },
+  {
+    "id": 471,
+    "unit_id": 58,
+    "topic": "2.3 Exponential Functions",
+    "next_topic": 472
+  },
+  {
+    "id": 472,
+    "unit_id": 58,
+    "topic": "2.4 Exponential Function Manipulation",
+    "next_topic": 473
+  },
+  {
+    "id": 473,
+    "unit_id": 58,
+    "topic": "2.5 Exponential Function Context and Data Modeling",
+    "next_topic": 474
+  },
+  {
+    "id": 474,
+    "unit_id": 58,
+    "topic": "2.6 Competing Function Model Validation",
+    "next_topic": 475
+  },
+  {
+    "id": 475,
+    "unit_id": 58,
+    "topic": "2.7 Composition of Functions",
+    "next_topic": 476
+  },
+  {
+    "id": 476,
+    "unit_id": 58,
+    "topic": "2.8 Inverse Functions",
+    "next_topic": 477
+  },
+  {
+    "id": 477,
+    "unit_id": 58,
+    "topic": "2.9 Logarithmic Expressions",
+    "next_topic": 478
+  },
+  {
+    "id": 478,
+    "unit_id": 58,
+    "topic": "2.10 Inverses of Exponential Functions",
+    "next_topic": 479
+  },
+  {
+    "id": 479,
+    "unit_id": 58,
+    "topic": "2.11 Logarithmic Functions",
+    "next_topic": 480
+  },
+  {
+    "id": 480,
+    "unit_id": 58,
+    "topic": "2.12 Logarithmic Function Manipulation",
+    "next_topic": 481
+  },
+  {
+    "id": 481,
+    "unit_id": 58,
+    "topic": "2.13 Exponential and Logarithmic Equations and Inequalities",
+    "next_topic": 482
+  },
+  {
+    "id": 482,
+    "unit_id": 58,
+    "topic": "2.14 Logarithmic Function Context and Data Modeling",
+    "next_topic": 483
+  },
+  {
+    "id": 483,
+    "unit_id": 58,
+    "topic": "2.15 Semi-log Plots",
+    "next_topic": 484
+  },
+  {
+    "id": 484,
+    "unit_id": 59,
+    "topic": "3.1 Periodic Phenomena",
+    "next_topic": 485
+  },
+  {
+    "id": 485,
+    "unit_id": 59,
+    "topic": "3.2 Sine, Cosine, and Tangent",
+    "next_topic": 486
+  },
+  {
+    "id": 486,
+    "unit_id": 59,
+    "topic": "3.3 Sine and Cosine Function Values",
+    "next_topic": 487
+  },
+  {
+    "id": 487,
+    "unit_id": 59,
+    "topic": "3.4 Sine and Cosine Function Graphs",
+    "next_topic": 488
+  },
+  {
+    "id": 488,
+    "unit_id": 59,
+    "topic": "3.5 Sinusoidal Functions",
+    "next_topic": 489
+  },
+  {
+    "id": 489,
+    "unit_id": 59,
+    "topic": "3.6 Sinusoidal Function Transformations",
+    "next_topic": 490
+  },
+  {
+    "id": 490,
+    "unit_id": 59,
+    "topic": "3.7 Sinusoidal Function Context and Data Modeling",
+    "next_topic": 491
+  },
+  {
+    "id": 491,
+    "unit_id": 59,
+    "topic": "3.8 The Tangent Function",
+    "next_topic": 492
+  },
+  {
+    "id": 492,
+    "unit_id": 59,
+    "topic": "3.9 Inverse Trigonometric Functions",
+    "next_topic": 493
+  },
+  {
+    "id": 493,
+    "unit_id": 59,
+    "topic": "3.10 Trigonometric Equations and Inequalities",
+    "next_topic": 494
+  },
+  {
+    "id": 494,
+    "unit_id": 59,
+    "topic": "3.11 The Secant, Cosecant, and Cotangent Functions",
+    "next_topic": 495
+  },
+  {
+    "id": 495,
+    "unit_id": 59,
+    "topic": "3.12 Equivalent Representations of Trigonometric Functions",
+    "next_topic": 496
+  },
+  {
+    "id": 496,
+    "unit_id": 59,
+    "topic": "3.13 Trigonometry and Polar Coordinates",
+    "next_topic": 497
+  },
+  {
+    "id": 497,
+    "unit_id": 59,
+    "topic": "3.14 Polar Function Graphs",
+    "next_topic": 498
+  },
+  {
+    "id": 498,
+    "unit_id": 59,
+    "topic": "3.15 Rates of Change in Polar Functions",
+    "next_topic": 499
+  },
+  {
+    "id": 499,
+    "unit_id": 60,
+    "topic": "4.1 Parametric Functions",
+    "next_topic": 500
+  },
+  {
+    "id": 500,
+    "unit_id": 60,
+    "topic": "4.2 Parametric Functions Modeling Planar Motion",
+    "next_topic": 501
+  },
+  {
+    "id": 501,
+    "unit_id": 60,
+    "topic": "4.3 Parametric Functions and Rates of Change",
+    "next_topic": 502
+  },
+  {
+    "id": 502,
+    "unit_id": 60,
+    "topic": "4.4 Parametrically Defined Circles and Lines",
+    "next_topic": 503
+  },
+  {
+    "id": 503,
+    "unit_id": 60,
+    "topic": "4.5 Implicitly Defined Functions",
+    "next_topic": 504
+  },
+  {
+    "id": 504,
+    "unit_id": 60,
+    "topic": "4.6 Conic Sections",
+    "next_topic": 505
+  },
+  {
+    "id": 505,
+    "unit_id": 60,
+    "topic": "4.7 Parametrization of Implicitly Defined Functions",
+    "next_topic": 506
+  },
+  {
+    "id": 506,
+    "unit_id": 60,
+    "topic": "4.8 Vectors",
+    "next_topic": 507
+  },
+  {
+    "id": 507,
+    "unit_id": 60,
+    "topic": "4.9 Vector-Valued Functions",
+    "next_topic": 508
+  },
+  {
+    "id": 508,
+    "unit_id": 60,
+    "topic": "4.10 Matrices",
+    "next_topic": 509
+  },
+  {
+    "id": 509,
+    "unit_id": 60,
+    "topic": "4.11 The Inverse and Determinant of a Matrix",
+    "next_topic": 510
+  },
+  {
+    "id": 510,
+    "unit_id": 60,
+    "topic": "4.12 Linear Transformations and Matrices",
+    "next_topic": 511
+  },
+  {
+    "id": 511,
+    "unit_id": 60,
+    "topic": "4.13 Matrices as Functions",
+    "next_topic": 512
+  },
+  {
+    "id": 512,
+    "unit_id": 60,
+    "topic": "4.14 Matrices Modeling Contexts",
+    "next_topic": ""
+  },
+  {
+    "id": 513,
+    "unit_id": 61,
+    "topic": "1.1 Interaction of Heredity and Environment",
+    "next_topic": 514
+  },
+  {
+    "id": 514,
+    "unit_id": 61,
+    "topic": "1.2 Overview of the Nervous System",
+    "next_topic": 515
+  },
+  {
+    "id": 515,
+    "unit_id": 61,
+    "topic": "1.3 The Neuron and Neural Firing",
+    "next_topic": 516
+  },
+  {
+    "id": 516,
+    "unit_id": 61,
+    "topic": "1.4 The Brain",
+    "next_topic": 517
+  },
+  {
+    "id": 517,
+    "unit_id": 61,
+    "topic": "1.5 Sleep",
+    "next_topic": 518
+  },
+  {
+    "id": 518,
+    "unit_id": 61,
+    "topic": "1.6 Sensation",
+    "next_topic": 519
+  },
+  {
+    "id": 519,
+    "unit_id": 62,
+    "topic": "2.1 Perception",
+    "next_topic": 520
+  },
+  {
+    "id": 520,
+    "unit_id": 62,
+    "topic": "2.2 Thinking, Problem-Solving, Judgments, and Decision-Making",
+    "next_topic": 521
+  },
+  {
+    "id": 521,
+    "unit_id": 62,
+    "topic": "2.3 Introduction to Memory",
+    "next_topic": 522
+  },
+  {
+    "id": 522,
+    "unit_id": 62,
+    "topic": "2.4 Encoding Memories",
+    "next_topic": 523
+  },
+  {
+    "id": 523,
+    "unit_id": 62,
+    "topic": "2.5 Storing Memories",
+    "next_topic": 524
+  },
+  {
+    "id": 524,
+    "unit_id": 62,
+    "topic": "2.6 Retrieving Memories",
+    "next_topic": 525
+  },
+  {
+    "id": 525,
+    "unit_id": 62,
+    "topic": "2.7 Forgetting and Other Memory Challenges",
+    "next_topic": 526
+  },
+  {
+    "id": 526,
+    "unit_id": 62,
+    "topic": "2.8 Intelligence and Achievement",
+    "next_topic": 527
+  },
+  {
+    "id": 527,
+    "unit_id": 63,
+    "topic": "3.1 Themes and Methods in Developmental Psychology",
+    "next_topic": 528
+  },
+  {
+    "id": 528,
+    "unit_id": 63,
+    "topic": "3.2 Physical Development Across the Lifespan",
+    "next_topic": 529
+  },
+  {
+    "id": 529,
+    "unit_id": 63,
+    "topic": "3.3 Gender and Sexual Orientation",
+    "next_topic": 530
+  },
+  {
+    "id": 530,
+    "unit_id": 63,
+    "topic": "3.4 Cognitive Development Across the Lifespan",
+    "next_topic": 531
+  },
+  {
+    "id": 531,
+    "unit_id": 63,
+    "topic": "3.5 Communication and Language Development",
+    "next_topic": 532
+  },
+  {
+    "id": 532,
+    "unit_id": 63,
+    "topic": "3.6 Social-Emotional Development Across the Lifespan",
+    "next_topic": 533
+  },
+  {
+    "id": 533,
+    "unit_id": 63,
+    "topic": "3.7 Classical Conditioning",
+    "next_topic": 534
+  },
+  {
+    "id": 534,
+    "unit_id": 63,
+    "topic": "3.8 Operant Conditioning",
+    "next_topic": 535
+  },
+  {
+    "id": 535,
+    "unit_id": 63,
+    "topic": "3.9 Social, Cognitive, and Neurological Factors in Learning",
+    "next_topic": 536
+  },
+  {
+    "id": 536,
+    "unit_id": 64,
+    "topic": "4.1 Attribution Theory and Person Perception",
+    "next_topic": 537
+  },
+  {
+    "id": 537,
+    "unit_id": 64,
+    "topic": "4.2 Attitude Formation and Attitude Change",
+    "next_topic": 538
+  },
+  {
+    "id": 538,
+    "unit_id": 64,
+    "topic": "4.3 Psychology of Social Situations",
+    "next_topic": 539
+  },
+  {
+    "id": 539,
+    "unit_id": 64,
+    "topic": "4.4 Psychodynamic and Humanistic Theories of Personality",
+    "next_topic": 540
+  },
+  {
+    "id": 540,
+    "unit_id": 64,
+    "topic": "4.5 Social-Cognitive and Trait Theories of Personality",
+    "next_topic": 541
+  },
+  {
+    "id": 541,
+    "unit_id": 64,
+    "topic": "4.6 Motivation",
+    "next_topic": 542
+  },
+  {
+    "id": 542,
+    "unit_id": 64,
+    "topic": "4.7 Emotion",
+    "next_topic": 543
+  },
+  {
+    "id": 543,
+    "unit_id": 65,
+    "topic": "5.1 Introduction to Health Psychology",
+    "next_topic": 544
+  },
+  {
+    "id": 544,
+    "unit_id": 65,
+    "topic": "5.2 Positive Psychology",
+    "next_topic": 545
+  },
+  {
+    "id": 545,
+    "unit_id": 65,
+    "topic": "5.3 Explaining and Classifying Psychological Disorders",
+    "next_topic": 546
+  },
+  {
+    "id": 546,
+    "unit_id": 65,
+    "topic": "5.4 Selection of Categories of Psychological Disorders",
+    "next_topic": 547
+  },
+  {
+    "id": 547,
+    "unit_id": 65,
+    "topic": "5.5 Treatment of Psychological Disorders",
+    "next_topic": 548
+  },
+  {
+    "id": 548,
+    "unit_id": 67,
+    "topic": "1.1 Developments in East Asia from c. 1200 to c. 1450",
+    "next_topic": 549
+  },
+  {
+    "id": 549,
+    "unit_id": 67,
+    "topic": "1.2 Developments in Dar al-Islam from c. 1200 to c. 1450",
+    "next_topic": 550
+  },
+  {
+    "id": 550,
+    "unit_id": 67,
+    "topic": "1.3 Developments in South and Southeast Asia from c. 1200 to c. 1450",
+    "next_topic": 551
+  },
+  {
+    "id": 551,
+    "unit_id": 67,
+    "topic": "1.4 State Building in the Americas",
+    "next_topic": 552
+  },
+  {
+    "id": 552,
+    "unit_id": 67,
+    "topic": "1.5 State Building in Africa",
+    "next_topic": 553
+  },
+  {
+    "id": 553,
+    "unit_id": 67,
+    "topic": "1.6 Developments in Europe from c. 1200 to c. 1450",
+    "next_topic": 554
+  },
+  {
+    "id": 554,
+    "unit_id": 67,
+    "topic": "1.7 Comparison in the Period from c. 1200 to c. 1450",
+    "next_topic": 555
+  },
+  {
+    "id": 555,
+    "unit_id": 68,
+    "topic": "2.1 The Silk Roads",
+    "next_topic": 556
+  },
+  {
+    "id": 556,
+    "unit_id": 68,
+    "topic": "2.2 The Mongol Empire and the Making of the Modern World",
+    "next_topic": 557
+  },
+  {
+    "id": 557,
+    "unit_id": 68,
+    "topic": "2.3 Exchange in the Indian Ocean",
+    "next_topic": 558
+  },
+  {
+    "id": 558,
+    "unit_id": 68,
+    "topic": "2.4 Trans-Saharan Trade Routes",
+    "next_topic": 559
+  },
+  {
+    "id": 559,
+    "unit_id": 68,
+    "topic": "2.5 Cultural Consequences of Connectivity",
+    "next_topic": 560
+  },
+  {
+    "id": 560,
+    "unit_id": 68,
+    "topic": "2.6 Environmental Consequences of Connectivity",
+    "next_topic": 561
+  },
+  {
+    "id": 561,
+    "unit_id": 68,
+    "topic": "2.7 Comparison of Economic Exchange",
+    "next_topic": 562
+  },
+  {
+    "id": 562,
+    "unit_id": 69,
+    "topic": "3.1 Empires Expand",
+    "next_topic": 563
+  },
+  {
+    "id": 563,
+    "unit_id": 69,
+    "topic": "3.2 Empires: Administration",
+    "next_topic": 564
+  },
+  {
+    "id": 564,
+    "unit_id": 69,
+    "topic": "3.3 Empires: Belief Systems",
+    "next_topic": 565
+  },
+  {
+    "id": 565,
+    "unit_id": 69,
+    "topic": "3.4 Comparison in Land-Based Empires",
+    "next_topic": 566
+  },
+  {
+    "id": 566,
+    "unit_id": 70,
+    "topic": "4.1 Technological Innovations from 1450 to 1750",
+    "next_topic": 567
+  },
+  {
+    "id": 567,
+    "unit_id": 70,
+    "topic": "4.2 Exploration: Causes and Events from 1450 to 1750",
+    "next_topic": 568
+  },
+  {
+    "id": 568,
+    "unit_id": 70,
+    "topic": "4.3 Columbian Exchange",
+    "next_topic": 569
+  },
+  {
+    "id": 569,
+    "unit_id": 70,
+    "topic": "4.4 Maritime Empires Established",
+    "next_topic": 570
+  },
+  {
+    "id": 570,
+    "unit_id": 70,
+    "topic": "4.5 Maritime Empires Maintained and Developed",
+    "next_topic": 571
+  },
+  {
+    "id": 571,
+    "unit_id": 70,
+    "topic": "4.6 Internal and External Challenges to State Power from 1450 to 1750",
+    "next_topic": 572
+  },
+  {
+    "id": 572,
+    "unit_id": 70,
+    "topic": "4.7 Changing Social Hierarchies from 1450 to 1750",
+    "next_topic": 573
+  },
+  {
+    "id": 573,
+    "unit_id": 70,
+    "topic": "4.8 Continuity and Change from 1450 to 1750",
+    "next_topic": 574
+  },
+  {
+    "id": 574,
+    "unit_id": 71,
+    "topic": "5.1 The Enlightenment",
+    "next_topic": 575
+  },
+  {
+    "id": 575,
+    "unit_id": 71,
+    "topic": "5.2 Nationalism and Revolutions in the Period from 1750 to 1900",
+    "next_topic": 576
+  },
+  {
+    "id": 576,
+    "unit_id": 71,
+    "topic": "5.3 Industrial Revolution Begins",
+    "next_topic": 577
+  },
+  {
+    "id": 577,
+    "unit_id": 71,
+    "topic": "5.4 Industrialization Spreads in the Period from 1750 to 1900",
+    "next_topic": 578
+  },
+  {
+    "id": 578,
+    "unit_id": 71,
+    "topic": "5.5 Technology of the Industrial Age",
+    "next_topic": 579
+  },
+  {
+    "id": 579,
+    "unit_id": 71,
+    "topic": "5.6 Industrialization: Government's Role from 1750 to 1900",
+    "next_topic": 580
+  },
+  {
+    "id": 580,
+    "unit_id": 71,
+    "topic": "5.7 Economic Developments and Innovations in the Industrial Age",
+    "next_topic": 581
+  },
+  {
+    "id": 581,
+    "unit_id": 71,
+    "topic": "5.8 Reactions to the Industrial Economy from 1750 to 1900",
+    "next_topic": 582
+  },
+  {
+    "id": 582,
+    "unit_id": 71,
+    "topic": "5.9 Society and the Industrial Age",
+    "next_topic": 583
+  },
+  {
+    "id": 583,
+    "unit_id": 71,
+    "topic": "5.10 Continuity and Change in the Industrial Age",
+    "next_topic": 584
+  },
+  {
+    "id": 584,
+    "unit_id": 72,
+    "topic": "6.1 Rationales for Imperialism from 1750 to 1900",
+    "next_topic": 585
+  },
+  {
+    "id": 585,
+    "unit_id": 72,
+    "topic": "6.2 State Expansion from 1750 to 1900",
+    "next_topic": 586
+  },
+  {
+    "id": 586,
+    "unit_id": 72,
+    "topic": "6.3 Indigenous Responses to State Expansion from 1750 to 1900",
+    "next_topic": 587
+  },
+  {
+    "id": 587,
+    "unit_id": 72,
+    "topic": "6.4 Global Economic Development from 1750 to 1900",
+    "next_topic": 588
+  },
+  {
+    "id": 588,
+    "unit_id": 72,
+    "topic": "6.5 Economic Imperialism from 1750 to 1900",
+    "next_topic": 589
+  },
+  {
+    "id": 589,
+    "unit_id": 72,
+    "topic": "6.6 Causes of Migration in an Interconnected World",
+    "next_topic": 590
+  },
+  {
+    "id": 590,
+    "unit_id": 72,
+    "topic": "6.7 Effects of Migration",
+    "next_topic": 591
+  },
+  {
+    "id": 591,
+    "unit_id": 72,
+    "topic": "6.8 Causation in the Imperial Age",
+    "next_topic": 592
+  },
+  {
+    "id": 592,
+    "unit_id": 73,
+    "topic": "7.1 Shifting Power After 1900",
+    "next_topic": 593
+  },
+  {
+    "id": 593,
+    "unit_id": 73,
+    "topic": "7.2 Causes of World War I",
+    "next_topic": 594
+  },
+  {
+    "id": 594,
+    "unit_id": 73,
+    "topic": "7.3 Conducting World War I",
+    "next_topic": 595
+  },
+  {
+    "id": 595,
+    "unit_id": 73,
+    "topic": "7.4 The Economy in the Interwar Period",
+    "next_topic": 596
+  },
+  {
+    "id": 596,
+    "unit_id": 73,
+    "topic": "7.5 Unresolved Tensions After World War I",
+    "next_topic": 597
+  },
+  {
+    "id": 597,
+    "unit_id": 73,
+    "topic": "7.6 Causes of World War II",
+    "next_topic": 598
+  },
+  {
+    "id": 598,
+    "unit_id": 73,
+    "topic": "7.7 Conducting World War II",
+    "next_topic": 599
+  },
+  {
+    "id": 599,
+    "unit_id": 73,
+    "topic": "7.8 Mass Atrocities After 1900",
+    "next_topic": 600
+  },
+  {
+    "id": 600,
+    "unit_id": 73,
+    "topic": "7.9 Causation in Global Conflict",
+    "next_topic": 601
+  },
+  {
+    "id": 601,
+    "unit_id": 74,
+    "topic": "8.1 Setting the Stage for the Cold War and Decolonization",
+    "next_topic": 602
+  },
+  {
+    "id": 602,
+    "unit_id": 74,
+    "topic": "8.2 The Cold War",
+    "next_topic": 603
+  },
+  {
+    "id": 603,
+    "unit_id": 74,
+    "topic": "8.3 Effects of the Cold War",
+    "next_topic": 604
+  },
+  {
+    "id": 604,
+    "unit_id": 74,
+    "topic": "8.4 Spread of Communism After 1900",
+    "next_topic": 605
+  },
+  {
+    "id": 605,
+    "unit_id": 74,
+    "topic": "8.5 Decolonization After 1900",
+    "next_topic": 606
+  },
+  {
+    "id": 606,
+    "unit_id": 74,
+    "topic": "8.6 Newly Independent States",
+    "next_topic": 607
+  },
+  {
+    "id": 607,
+    "unit_id": 74,
+    "topic": "8.7 Global Resistance to Established Order After 1900",
+    "next_topic": 608
+  },
+  {
+    "id": 608,
+    "unit_id": 74,
+    "topic": "8.8 End of the Cold War",
+    "next_topic": 609
+  },
+  {
+    "id": 609,
+    "unit_id": 74,
+    "topic": "8.9 Causation in the Age of the Cold War and Decolonization",
+    "next_topic": 610
+  },
+  {
+    "id": 610,
+    "unit_id": 75,
+    "topic": "9.1 Advances in Technology and Exchange After 1900",
+    "next_topic": 611
+  },
+  {
+    "id": 611,
+    "unit_id": 75,
+    "topic": "9.2 Technological Advances and Limitations After 1900: Disease",
+    "next_topic": 612
+  },
+  {
+    "id": 612,
+    "unit_id": 75,
+    "topic": "9.3 Technological Advances: Debates About the Environment After 1900",
+    "next_topic": 613
+  },
+  {
+    "id": 613,
+    "unit_id": 75,
+    "topic": "9.4 Economics in the Global Age",
+    "next_topic": 614
+  },
+  {
+    "id": 614,
+    "unit_id": 75,
+    "topic": "9.5 Calls for Reform and Responses After 1900",
+    "next_topic": 615
+  },
+  {
+    "id": 615,
+    "unit_id": 75,
+    "topic": "9.6 Globalized Culture After 1900",
+    "next_topic": 616
+  },
+  {
+    "id": 616,
+    "unit_id": 75,
+    "topic": "9.7 Resistance to Globalization After 1900",
+    "next_topic": 617
+  },
+  {
+    "id": 617,
+    "unit_id": 75,
+    "topic": "9.8 Institutions Developing in a Globalized World",
+    "next_topic": 618
+  },
+  {
+    "id": 618,
+    "unit_id": 75,
+    "topic": "9.9 Continuity and Change in a Globalized World",
+    "next_topic": ""
+  },
+  {
+    "id": 619,
+    "unit_id": 77,
+    "topic": "1.1 Contextualizing Period 1",
+    "next_topic": 620
+  },
+  {
+    "id": 620,
+    "unit_id": 77,
+    "topic": "1.2 Native American Societies Before European Contact",
+    "next_topic": 621
+  },
+  {
+    "id": 621,
+    "unit_id": 77,
+    "topic": "1.3 European Exploration in the Americas",
+    "next_topic": 622
+  },
+  {
+    "id": 622,
+    "unit_id": 77,
+    "topic": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
+    "next_topic": 623
+  },
+  {
+    "id": 623,
+    "unit_id": 77,
+    "topic": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
+    "next_topic": 624
+  },
+  {
+    "id": 624,
+    "unit_id": 77,
+    "topic": "1.6 Cultural Interactions Between Europeans, Native Americans, and Africans",
+    "next_topic": 625
+  },
+  {
+    "id": 625,
+    "unit_id": 77,
+    "topic": "1.7 Causation in Period 1",
+    "next_topic": 626
+  },
+  {
+    "id": 626,
+    "unit_id": 78,
+    "topic": "2.1 Contextualizing Period 2",
+    "next_topic": 627
+  },
+  {
+    "id": 627,
+    "unit_id": 78,
+    "topic": "2.2 European Colonization",
+    "next_topic": 628
+  },
+  {
+    "id": 628,
+    "unit_id": 78,
+    "topic": "2.3 The Regions of British Colonies",
+    "next_topic": 629
+  },
+  {
+    "id": 629,
+    "unit_id": 78,
+    "topic": "2.4 Transatlantic Trade",
+    "next_topic": 630
+  },
+  {
+    "id": 630,
+    "unit_id": 78,
+    "topic": "2.5 Interactions Between American Indians and Europeans",
+    "next_topic": 631
+  },
+  {
+    "id": 631,
+    "unit_id": 78,
+    "topic": "2.6 Slavery in the British Colonies",
+    "next_topic": 632
+  },
+  {
+    "id": 632,
+    "unit_id": 78,
+    "topic": "2.7 Colonial Society and Culture",
+    "next_topic": 633
+  },
+  {
+    "id": 633,
+    "unit_id": 78,
+    "topic": "2.8 Comparison in Period 2",
+    "next_topic": 634
+  },
+  {
+    "id": 634,
+    "unit_id": 79,
+    "topic": "3.1 Contextualizing Period 3",
+    "next_topic": 635
+  },
+  {
+    "id": 635,
+    "unit_id": 79,
+    "topic": "3.2 The Seven Years' War (The French and Indian War)",
+    "next_topic": 636
+  },
+  {
+    "id": 636,
+    "unit_id": 79,
+    "topic": "3.3 Taxation Without Representation",
+    "next_topic": 637
+  },
+  {
+    "id": 637,
+    "unit_id": 79,
+    "topic": "3.4 Philosophical Foundations of the American Revolution",
+    "next_topic": 638
+  },
+  {
+    "id": 638,
+    "unit_id": 79,
+    "topic": "3.5 The American Revolution",
+    "next_topic": 639
+  },
+  {
+    "id": 639,
+    "unit_id": 79,
+    "topic": "3.6 The Influence of Revolutionary Ideals",
+    "next_topic": 640
+  },
+  {
+    "id": 640,
+    "unit_id": 79,
+    "topic": "3.7 The Articles of Confederation",
+    "next_topic": 641
+  },
+  {
+    "id": 641,
+    "unit_id": 79,
+    "topic": "3.8 The Constitutional Convention and Debates over Ratification",
+    "next_topic": 642
+  },
+  {
+    "id": 642,
+    "unit_id": 79,
+    "topic": "3.9 The Constitution",
+    "next_topic": 643
+  },
+  {
+    "id": 643,
+    "unit_id": 79,
+    "topic": "3.10 Shaping a New Republic",
+    "next_topic": 644
+  },
+  {
+    "id": 644,
+    "unit_id": 79,
+    "topic": "3.11 Developing an American Identity",
+    "next_topic": 645
+  },
+  {
+    "id": 645,
+    "unit_id": 79,
+    "topic": "3.12 Movement in the Early Republic",
+    "next_topic": 646
+  },
+  {
+    "id": 646,
+    "unit_id": 79,
+    "topic": "3.13 Continuity and Change in Period 3",
+    "next_topic": 647
+  },
+  {
+    "id": 647,
+    "unit_id": 80,
+    "topic": "4.1 Contextualizing Period 4",
+    "next_topic": 648
+  },
+  {
+    "id": 648,
+    "unit_id": 80,
+    "topic": "4.2 The Rise of Political Parties and the Era of Jefferson",
+    "next_topic": 649
+  },
+  {
+    "id": 649,
+    "unit_id": 80,
+    "topic": "4.3 Politics and Regional Interests",
+    "next_topic": 650
+  },
+  {
+    "id": 650,
+    "unit_id": 80,
+    "topic": "4.4 America on the World Stage",
+    "next_topic": 651
+  },
+  {
+    "id": 651,
+    "unit_id": 80,
+    "topic": "4.5 Market Revolution: Industrialization",
+    "next_topic": 652
+  },
+  {
+    "id": 652,
+    "unit_id": 80,
+    "topic": "4.6 Market Revolution: Society and Culture",
+    "next_topic": 653
+  },
+  {
+    "id": 653,
+    "unit_id": 80,
+    "topic": "4.7 Expanding Democracy",
+    "next_topic": 654
+  },
+  {
+    "id": 654,
+    "unit_id": 80,
+    "topic": "4.8 Jackson and Federal Power",
+    "next_topic": 655
+  },
+  {
+    "id": 655,
+    "unit_id": 80,
+    "topic": "4.9 The Development of an American Culture",
+    "next_topic": 656
+  },
+  {
+    "id": 656,
+    "unit_id": 80,
+    "topic": "4.10 The Second Great Awakening",
+    "next_topic": 657
+  },
+  {
+    "id": 657,
+    "unit_id": 80,
+    "topic": "4.11 An Age of Reform",
+    "next_topic": 658
+  },
+  {
+    "id": 658,
+    "unit_id": 80,
+    "topic": "4.12 African Americans in the Early Republic",
+    "next_topic": 659
+  },
+  {
+    "id": 659,
+    "unit_id": 80,
+    "topic": "4.13 The Society of the South in the Early Republic",
+    "next_topic": 660
+  },
+  {
+    "id": 660,
+    "unit_id": 80,
+    "topic": "4.14 Causation in Period 4",
+    "next_topic": 661
+  },
+  {
+    "id": 661,
+    "unit_id": 81,
+    "topic": "5.1 Contextualizing Period 5",
+    "next_topic": 662
+  },
+  {
+    "id": 662,
+    "unit_id": 81,
+    "topic": "5.2 Manifest Destiny",
+    "next_topic": 663
+  },
+  {
+    "id": 663,
+    "unit_id": 81,
+    "topic": "5.3 The Mexican-American War",
+    "next_topic": 664
+  },
+  {
+    "id": 664,
+    "unit_id": 81,
+    "topic": "5.4 The Compromise of 1850",
+    "next_topic": 665
+  },
+  {
+    "id": 665,
+    "unit_id": 81,
+    "topic": "5.5 Sectional Conflict: Regional Differences",
+    "next_topic": 666
+  },
+  {
+    "id": 666,
+    "unit_id": 81,
+    "topic": "5.6 Failure of Compromise",
+    "next_topic": 667
+  },
+  {
+    "id": 667,
+    "unit_id": 81,
+    "topic": "5.7 Election of 1860 and Secession",
+    "next_topic": 668
+  },
+  {
+    "id": 668,
+    "unit_id": 81,
+    "topic": "5.8 Military Conflict in the Civil War",
+    "next_topic": 669
+  },
+  {
+    "id": 669,
+    "unit_id": 81,
+    "topic": "5.9 Government Policies During the Civil War",
+    "next_topic": 670
+  },
+  {
+    "id": 670,
+    "unit_id": 81,
+    "topic": "5.10 Reconstruction",
+    "next_topic": 671
+  },
+  {
+    "id": 671,
+    "unit_id": 81,
+    "topic": "5.11 Failure of Reconstruction",
+    "next_topic": 672
+  },
+  {
+    "id": 672,
+    "unit_id": 81,
+    "topic": "5.12 Comparison in Period 5",
+    "next_topic": 673
+  },
+  {
+    "id": 673,
+    "unit_id": 82,
+    "topic": "6.1 Contextualizing Period 6",
+    "next_topic": 674
+  },
+  {
+    "id": 674,
+    "unit_id": 82,
+    "topic": "6.2 Westward Expansion: Economic Development",
+    "next_topic": 675
+  },
+  {
+    "id": 675,
+    "unit_id": 82,
+    "topic": "6.3 Westward Expansion: Social and Cultural Development",
+    "next_topic": 676
+  },
+  {
+    "id": 676,
+    "unit_id": 82,
+    "topic": "6.4 The \"New South",
+    "next_topic": 677
+  },
+  {
+    "id": 677,
+    "unit_id": 82,
+    "topic": "6.5 Technological Innovation",
+    "next_topic": 678
+  },
+  {
+    "id": 678,
+    "unit_id": 82,
+    "topic": "6.6 The Rise of Industrial Capitalism",
+    "next_topic": 679
+  },
+  {
+    "id": 679,
+    "unit_id": 82,
+    "topic": "6.7 Labor in the Gilded Age",
+    "next_topic": 680
+  },
+  {
+    "id": 680,
+    "unit_id": 82,
+    "topic": "6.8 Immigration and Migration in the Gilded Age",
+    "next_topic": 681
+  },
+  {
+    "id": 681,
+    "unit_id": 82,
+    "topic": "6.9 Responses to Immigration in the Gilded Age",
+    "next_topic": 682
+  },
+  {
+    "id": 682,
+    "unit_id": 82,
+    "topic": "6.10 Development of the Middle Class",
+    "next_topic": 683
+  },
+  {
+    "id": 683,
+    "unit_id": 82,
+    "topic": "6.11 Reform in the Gilded Age",
+    "next_topic": 684
+  },
+  {
+    "id": 684,
+    "unit_id": 82,
+    "topic": "6.12 Controversies over the Role of Government in the Gilded Age",
+    "next_topic": 685
+  },
+  {
+    "id": 685,
+    "unit_id": 82,
+    "topic": "6.13 Politics in the Gilded Age",
+    "next_topic": 686
+  },
+  {
+    "id": 686,
+    "unit_id": 82,
+    "topic": "6.14 Continuity and Change in Period 6",
+    "next_topic": 687
+  },
+  {
+    "id": 687,
+    "unit_id": 83,
+    "topic": "7.1 Contextualizing Period 7",
+    "next_topic": 688
+  },
+  {
+    "id": 688,
+    "unit_id": 83,
+    "topic": "7.2 Imperialism: Debates",
+    "next_topic": 689
+  },
+  {
+    "id": 689,
+    "unit_id": 83,
+    "topic": "7.3 The Spanish-American War",
+    "next_topic": 690
+  },
+  {
+    "id": 690,
+    "unit_id": 83,
+    "topic": "7.4 The Progressives",
+    "next_topic": 691
+  },
+  {
+    "id": 691,
+    "unit_id": 83,
+    "topic": "7.5 World War I: Military and Diplomacy",
+    "next_topic": 692
+  },
+  {
+    "id": 692,
+    "unit_id": 83,
+    "topic": "7.6 World War I: Home Front",
+    "next_topic": 693
+  },
+  {
+    "id": 693,
+    "unit_id": 83,
+    "topic": "7.7 1920s: Innovations in Communication and Technology",
+    "next_topic": 694
+  },
+  {
+    "id": 694,
+    "unit_id": 83,
+    "topic": "7.8 1920s: Cultural and Political Controversies",
+    "next_topic": 695
+  },
+  {
+    "id": 695,
+    "unit_id": 83,
+    "topic": "7.9 The Great Depression",
+    "next_topic": 696
+  },
+  {
+    "id": 696,
+    "unit_id": 83,
+    "topic": "7.10 The New Deal",
+    "next_topic": 697
+  },
+  {
+    "id": 697,
+    "unit_id": 83,
+    "topic": "7.11 Interwar Foreign Policy",
+    "next_topic": 698
+  },
+  {
+    "id": 698,
+    "unit_id": 83,
+    "topic": "7.12 World War II: Mobilization",
+    "next_topic": 699
+  },
+  {
+    "id": 699,
+    "unit_id": 83,
+    "topic": "7.13 World War II: Military",
+    "next_topic": 700
+  },
+  {
+    "id": 700,
+    "unit_id": 83,
+    "topic": "7.14 Postwar Diplomacy",
+    "next_topic": 701
+  },
+  {
+    "id": 701,
+    "unit_id": 83,
+    "topic": "7.15 Comparison in Period 7",
+    "next_topic": 702
+  },
+  {
+    "id": 702,
+    "unit_id": 84,
+    "topic": "8.1 Contextualizing Period 8",
+    "next_topic": 703
+  },
+  {
+    "id": 703,
+    "unit_id": 84,
+    "topic": "8.2 The Cold War from 1945 to 1980",
+    "next_topic": 704
+  },
+  {
+    "id": 704,
+    "unit_id": 84,
+    "topic": "8.3 The Red Scare",
+    "next_topic": 705
+  },
+  {
+    "id": 705,
+    "unit_id": 84,
+    "topic": "8.4 Economy after 1945",
+    "next_topic": 706
+  },
+  {
+    "id": 706,
+    "unit_id": 84,
+    "topic": "8.5 Culture after 1945",
+    "next_topic": 707
+  },
+  {
+    "id": 707,
+    "unit_id": 84,
+    "topic": "8.6 Early Steps in the Civil Rights Movement (1940s and 1950s)",
+    "next_topic": 708
+  },
+  {
+    "id": 708,
+    "unit_id": 84,
+    "topic": "8.7 America as a World Power",
+    "next_topic": 709
+  },
+  {
+    "id": 709,
+    "unit_id": 84,
+    "topic": "8.8 The Vietnam War",
+    "next_topic": 710
+  },
+  {
+    "id": 710,
+    "unit_id": 84,
+    "topic": "8.9 The Great Society",
+    "next_topic": 711
+  },
+  {
+    "id": 711,
+    "unit_id": 84,
+    "topic": "8.10 The African American Civil Rights Movement (1960s)",
+    "next_topic": 712
+  },
+  {
+    "id": 712,
+    "unit_id": 84,
+    "topic": "8.11 The Civil Rights Movement Expands",
+    "next_topic": 713
+  },
+  {
+    "id": 713,
+    "unit_id": 84,
+    "topic": "8.12 Youth Culture of the 1960s",
+    "next_topic": 714
+  },
+  {
+    "id": 714,
+    "unit_id": 84,
+    "topic": "8.13 The Environment and Natural Resources from 1968 to 1980",
+    "next_topic": 715
+  },
+  {
+    "id": 715,
+    "unit_id": 84,
+    "topic": "8.14 Society in Transition",
+    "next_topic": 716
+  },
+  {
+    "id": 716,
+    "unit_id": 84,
+    "topic": "8.15 Continuity and Change in Period 8",
+    "next_topic": 717
+  },
+  {
+    "id": 717,
+    "unit_id": 85,
+    "topic": "9.1 Contextualizing Period 9",
+    "next_topic": 718
+  },
+  {
+    "id": 718,
+    "unit_id": 85,
+    "topic": "9.2 Reagan and Conservatism",
+    "next_topic": 719
+  },
+  {
+    "id": 719,
+    "unit_id": 85,
+    "topic": "9.3 The End of the Cold War",
+    "next_topic": 720
+  },
+  {
+    "id": 720,
+    "unit_id": 85,
+    "topic": "9.4 A Changing Economy",
+    "next_topic": 721
+  },
+  {
+    "id": 721,
+    "unit_id": 85,
+    "topic": "9.5 Migration and Immigration in the 1990s and 2000s",
+    "next_topic": 722
+  },
+  {
+    "id": 722,
+    "unit_id": 85,
+    "topic": "9.6 Challenges of the 21st Century",
+    "next_topic": 723
+  },
+  {
+    "id": 723,
+    "unit_id": 85,
+    "topic": "9.7 Causation in Period 9",
+    "next_topic": ""
+  },
+  {
+    "id": 724,
+    "unit_id": 86,
+    "topic": "1.1 Introduction to Maps",
+    "next_topic": 725
+  },
+  {
+    "id": 725,
+    "unit_id": 86,
+    "topic": "1.2 Geographic Data",
+    "next_topic": 726
+  },
+  {
+    "id": 726,
+    "unit_id": 86,
+    "topic": "1.3 The Power of Geographic Data",
+    "next_topic": 727
+  },
+  {
+    "id": 727,
+    "unit_id": 86,
+    "topic": "1.4 Spatial Concepts",
+    "next_topic": 728
+  },
+  {
+    "id": 728,
+    "unit_id": 86,
+    "topic": "1.5 Human-Environmental Interaction",
+    "next_topic": 729
+  },
+  {
+    "id": 729,
+    "unit_id": 86,
+    "topic": "1.6 Scales of Analysis",
+    "next_topic": 730
+  },
+  {
+    "id": 730,
+    "unit_id": 86,
+    "topic": "1.7 Regional Analysis",
+    "next_topic": 731
+  },
+  {
+    "id": 731,
+    "unit_id": 87,
+    "topic": "2.1 Population Distribution",
+    "next_topic": 732
+  },
+  {
+    "id": 732,
+    "unit_id": 87,
+    "topic": "2.2 Consequences of Population Distribution",
+    "next_topic": 733
+  },
+  {
+    "id": 733,
+    "unit_id": 87,
+    "topic": "2.3 Population Composition",
+    "next_topic": 734
+  },
+  {
+    "id": 734,
+    "unit_id": 87,
+    "topic": "2.4 Population Dynamics",
+    "next_topic": 735
+  },
+  {
+    "id": 735,
+    "unit_id": 87,
+    "topic": "2.5 The Demographic Transition Model",
+    "next_topic": 736
+  },
+  {
+    "id": 736,
+    "unit_id": 87,
+    "topic": "2.6 Malthusian Theory",
+    "next_topic": 737
+  },
+  {
+    "id": 737,
+    "unit_id": 87,
+    "topic": "2.7 Population Policies",
+    "next_topic": 738
+  },
+  {
+    "id": 738,
+    "unit_id": 87,
+    "topic": "2.8 Women and Demographic Change",
+    "next_topic": 739
+  },
+  {
+    "id": 739,
+    "unit_id": 87,
+    "topic": "2.9 Aging Populations",
+    "next_topic": 740
+  },
+  {
+    "id": 740,
+    "unit_id": 87,
+    "topic": "2.10 Causes of Migration",
+    "next_topic": 741
+  },
+  {
+    "id": 741,
+    "unit_id": 87,
+    "topic": "2.11 Forced and Voluntary Migration",
+    "next_topic": 742
+  },
+  {
+    "id": 742,
+    "unit_id": 87,
+    "topic": "2.12 Effects of Migration",
+    "next_topic": 743
+  },
+  {
+    "id": 743,
+    "unit_id": 88,
+    "topic": "3.1 Introduction to Culture",
+    "next_topic": 744
+  },
+  {
+    "id": 744,
+    "unit_id": 88,
+    "topic": "3.2 Cultural Landscapes",
+    "next_topic": 745
+  },
+  {
+    "id": 745,
+    "unit_id": 88,
+    "topic": "3.3 Cultural Patterns",
+    "next_topic": 746
+  },
+  {
+    "id": 746,
+    "unit_id": 88,
+    "topic": "3.4 Types of Diffusion",
+    "next_topic": 747
+  },
+  {
+    "id": 747,
+    "unit_id": 88,
+    "topic": "3.5 Historical Causes of Diffusion",
+    "next_topic": 748
+  },
+  {
+    "id": 748,
+    "unit_id": 88,
+    "topic": "3.6 Contemporary Causes of Diffusion",
+    "next_topic": 749
+  },
+  {
+    "id": 749,
+    "unit_id": 88,
+    "topic": "3.7 Diffusion of Religion and Language",
+    "next_topic": 750
+  },
+  {
+    "id": 750,
+    "unit_id": 88,
+    "topic": "3.8 Effects of Diffusion",
+    "next_topic": 751
+  },
+  {
+    "id": 751,
+    "unit_id": 89,
+    "topic": "4.1 Introduction to Political Geography",
+    "next_topic": 752
+  },
+  {
+    "id": 752,
+    "unit_id": 89,
+    "topic": "4.2 Political Processes",
+    "next_topic": 753
+  },
+  {
+    "id": 753,
+    "unit_id": 89,
+    "topic": "4.3 Political Power and Territoriality",
+    "next_topic": 754
+  },
+  {
+    "id": 754,
+    "unit_id": 89,
+    "topic": "4.4 Defining Political Boundaries",
+    "next_topic": 755
+  },
+  {
+    "id": 755,
+    "unit_id": 89,
+    "topic": "4.5 The Function of Political Boundaries",
+    "next_topic": 756
+  },
+  {
+    "id": 756,
+    "unit_id": 89,
+    "topic": "4.6 Internal Boundaries",
+    "next_topic": 757
+  },
+  {
+    "id": 757,
+    "unit_id": 89,
+    "topic": "4.7 Forms of Governance",
+    "next_topic": 758
+  },
+  {
+    "id": 758,
+    "unit_id": 89,
+    "topic": "4.8 Defining Devolutionary Factors",
+    "next_topic": 759
+  },
+  {
+    "id": 759,
+    "unit_id": 89,
+    "topic": "4.9 Challenges to Sovereignty",
+    "next_topic": 760
+  },
+  {
+    "id": 760,
+    "unit_id": 89,
+    "topic": "4.10 Consequences of Centrifugal and Centripetal Forces",
+    "next_topic": 761
+  },
+  {
+    "id": 761,
+    "unit_id": 90,
+    "topic": "5.1 Introduction to Agriculture",
+    "next_topic": 762
+  },
+  {
+    "id": 762,
+    "unit_id": 90,
+    "topic": "5.2 Settlement Patterns and Survey Methods",
+    "next_topic": 763
+  },
+  {
+    "id": 763,
+    "unit_id": 90,
+    "topic": "5.3 Agricultural Origins and Diffusions",
+    "next_topic": 764
+  },
+  {
+    "id": 764,
+    "unit_id": 90,
+    "topic": "5.4 The Second Agricultural Revolution",
+    "next_topic": 765
+  },
+  {
+    "id": 765,
+    "unit_id": 90,
+    "topic": "5.5 The Green Revolution",
+    "next_topic": 766
+  },
+  {
+    "id": 766,
+    "unit_id": 90,
+    "topic": "5.6 Agricultural Production Regions",
+    "next_topic": 767
+  },
+  {
+    "id": 767,
+    "unit_id": 90,
+    "topic": "5.7 Spatial Organization of Agriculture",
+    "next_topic": 768
+  },
+  {
+    "id": 768,
+    "unit_id": 90,
+    "topic": "5.8 Von Thünen Model",
+    "next_topic": 769
+  },
+  {
+    "id": 769,
+    "unit_id": 90,
+    "topic": "5.9 The Global System of Agriculture",
+    "next_topic": 770
+  },
+  {
+    "id": 770,
+    "unit_id": 90,
+    "topic": "5.10 Consequences of Agricultural Practices",
+    "next_topic": 771
+  },
+  {
+    "id": 771,
+    "unit_id": 90,
+    "topic": "5.11 Challenges of Contemporary Agriculture",
+    "next_topic": 772
+  },
+  {
+    "id": 772,
+    "unit_id": 90,
+    "topic": "5.12 Women in Agriculture",
+    "next_topic": 773
+  },
+  {
+    "id": 773,
+    "unit_id": 91,
+    "topic": "6.1 The Origin and Influences of Urbanization",
+    "next_topic": 774
+  },
+  {
+    "id": 774,
+    "unit_id": 91,
+    "topic": "6.2 Cities Across the World",
+    "next_topic": 775
+  },
+  {
+    "id": 775,
+    "unit_id": 91,
+    "topic": "6.3 Cities and Globalization",
+    "next_topic": 776
+  },
+  {
+    "id": 776,
+    "unit_id": 91,
+    "topic": "6.4 The Size and Distribution of Cities",
+    "next_topic": 777
+  },
+  {
+    "id": 777,
+    "unit_id": 91,
+    "topic": "6.5 The Internal Structure of Cities",
+    "next_topic": 778
+  },
+  {
+    "id": 778,
+    "unit_id": 91,
+    "topic": "6.6 Density and Land Use",
+    "next_topic": 779
+  },
+  {
+    "id": 779,
+    "unit_id": 91,
+    "topic": "6.7 Infrastructure",
+    "next_topic": 780
+  },
+  {
+    "id": 780,
+    "unit_id": 91,
+    "topic": "6.8 Urban Sustainability",
+    "next_topic": 781
+  },
+  {
+    "id": 781,
+    "unit_id": 91,
+    "topic": "6.9 Urban Data",
+    "next_topic": 782
+  },
+  {
+    "id": 782,
+    "unit_id": 91,
+    "topic": "6.10 Challenges of Urban Changes",
+    "next_topic": 783
+  },
+  {
+    "id": 783,
+    "unit_id": 91,
+    "topic": "6.11 Challenges of Urban Sustainability",
+    "next_topic": 784
+  },
+  {
+    "id": 784,
+    "unit_id": 92,
+    "topic": "7.1 The Industrial Revolution",
+    "next_topic": 785
+  },
+  {
+    "id": 785,
+    "unit_id": 92,
+    "topic": "7.2 Economic Sectors and Patterns",
+    "next_topic": 786
+  },
+  {
+    "id": 786,
+    "unit_id": 92,
+    "topic": "7.3 Measures of Development",
+    "next_topic": 787
+  },
+  {
+    "id": 787,
+    "unit_id": 92,
+    "topic": "7.4 Women and Economic Development",
+    "next_topic": 788
+  },
+  {
+    "id": 788,
+    "unit_id": 92,
+    "topic": "7.5 Theories of Development",
+    "next_topic": 789
+  },
+  {
+    "id": 789,
+    "unit_id": 92,
+    "topic": "7.6 Trade and the World Economy",
+    "next_topic": 790
+  },
+  {
+    "id": 790,
+    "unit_id": 92,
+    "topic": "7.7 Changes as a Result of the World Economy",
+    "next_topic": 791
+  },
+  {
+    "id": 791,
+    "unit_id": 92,
+    "topic": "7.8 Sustainable Development",
+    "next_topic": ""
+  }
+]

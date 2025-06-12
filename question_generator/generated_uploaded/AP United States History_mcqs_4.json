@@ -1,0 +1,724 @@
+[
+  {
+    "stimulus": "The period from 1800 to 1848 witnessed significant transformations in American society and politics.",
+    "question": "Which of the following best describes a major historical context for the events of Period 4?",
+    "answers": [
+      "The immediate aftermath of the Civil War and Reconstruction.",
+      "The rise of abolitionism and sectional tensions leading to the Civil War.",
+      "The consolidation of federal power under the Federalist Party.",
+      "The era of good feelings and national unity following the War of 1812."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Civil War occurred after Period 4.",
+      "Correct. Period 4 saw increasing debates over slavery, contributing to sectionalism.",
+      "Incorrect. The Federalist Party declined significantly after 1800.",
+      "Incorrect. While there was an \"Era of Good Feelings,\" sectional tensions were still present and growing."
+    ],
+    "topic": "Contextualizing Period 4",
+    "unit": 4
+  },
+  {
+    "stimulus": "Thomas Jefferson's election in 1800 marked a significant shift in American politics.",
+    "question": "What was the primary significance of the election of 1800?",
+    "answers": [
+      "It demonstrated the peaceful transfer of power between two opposing political parties.",
+      "It led to the immediate abolition of slavery.",
+      "It marked the beginning of a long period of Federalist dominance.",
+      "It resulted in the immediate secession of several southern states."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The election represented a peaceful transition from Federalists to Democratic-Republicans.",
+      "Incorrect. Abolition did not occur until much later.",
+      "Incorrect. The Democratic-Republicans gained power, not the Federalists.",
+      "Incorrect. Secession did not occur until the Civil War era."
+    ],
+    "topic": "The Rise of Political Parties and the Era of Jefferson",
+    "unit": 4
+  },
+  {
+    "stimulus": "The War of 1812 highlighted regional differences within the United States.",
+    "question": "Which region of the United States most strongly opposed the War of 1812?",
+    "answers": [
+      "The South",
+      "The West",
+      "New England",
+      "The Mid-Atlantic"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The South generally supported the war.",
+      "Incorrect. The West generally supported the war.",
+      "Correct. New England merchants and Federalists opposed the war due to its impact on trade.",
+      "Incorrect. The Mid-Atlantic region was divided but generally supported the war effort."
+    ],
+    "topic": "Politics and Regional Interests",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Monroe Doctrine articulated a new vision for American foreign policy.",
+    "question": "What was the main principle of the Monroe Doctrine?",
+    "answers": [
+      "The United States would actively intervene in European affairs.",
+      "European powers should not interfere in the affairs of the Western Hemisphere.",
+      "The United States would form alliances with European powers to promote democracy.",
+      "The United States would focus solely on domestic issues and avoid foreign entanglements."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Monroe Doctrine aimed to keep European powers out of the Americas.",
+      "Correct. The Monroe Doctrine warned European powers against further colonization or interference in the Americas.",
+      "Incorrect. The Monroe Doctrine advocated for non-alliance.",
+      "Incorrect. The Monroe Doctrine was a clear statement of foreign policy."
+    ],
+    "topic": "America on the World Stage",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Market Revolution brought significant economic changes to the United States.",
+    "question": "What was a key feature of the Market Revolution?",
+    "answers": [
+      "A decline in agricultural production.",
+      "An increase in subsistence farming.",
+      "The growth of factories and wage labor.",
+      "A decrease in internal trade."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Agricultural production actually increased.",
+      "Incorrect. The Market Revolution shifted away from subsistence farming.",
+      "Correct. Industrialization and the factory system were central to the Market Revolution.",
+      "Incorrect. Internal trade significantly increased during this period."
+    ],
+    "topic": "Market Revolution: Industrialization",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Market Revolution impacted social structures and class relations.",
+    "question": "Which of the following social changes was a result of the Market Revolution?",
+    "answers": [
+      "A decrease in social mobility.",
+      "The emergence of a distinct middle class.",
+      "A decline in the importance of family-based labor.",
+      "A strengthening of aristocratic social hierarchies."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Social mobility generally increased.",
+      "Correct. The Market Revolution created new opportunities and a growing middle class.",
+      "Incorrect. Family-based labor remained important in some sectors, but declined overall.",
+      "Incorrect. The Market Revolution challenged traditional social hierarchies."
+    ],
+    "topic": "Market Revolution: Society and Culture",
+    "unit": 4
+  },
+  {
+    "stimulus": "Andrew Jackson's presidency is often associated with the expansion of democracy.",
+    "question": "Which of the following is most associated with the expansion of democracy during the Jacksonian Era?",
+    "answers": [
+      "The abolition of the Electoral College.",
+      "The elimination of property requirements for voting.",
+      "The extension of suffrage to women.",
+      "The granting of citizenship to Native Americans."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Electoral College was not abolished.",
+      "Correct. Many states eliminated property requirements, expanding suffrage to more white men.",
+      "Incorrect. Women's suffrage did not occur until much later.",
+      "Incorrect. Native Americans were largely excluded from citizenship and voting rights."
+    ],
+    "topic": "Expanding Democracy",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Nullification Crisis tested the limits of federal power.",
+    "question": "What was the central issue in the Nullification Crisis?",
+    "answers": [
+      "The federal government's power to regulate slavery.",
+      "The federal government's authority to impose tariffs.",
+      "The federal government's control over westward expansion.",
+      "The federal government's role in infrastructure development."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While slavery was a major issue, it was not the direct cause of the Nullification Crisis.",
+      "Correct. South Carolina nullified federal tariffs, challenging federal authority.",
+      "Incorrect. Westward expansion was a separate issue.",
+      "Incorrect. Infrastructure was not the central issue in this crisis."
+    ],
+    "topic": "Jackson and Federal Power",
+    "unit": 4
+  },
+  {
+    "stimulus": "American art and literature began to develop a distinct national identity in the early 19th century.",
+    "question": "Which of the following is an example of the development of an American national culture in Period 4?",
+    "answers": [
+      "The widespread adoption of European artistic styles.",
+      "The emergence of distinctly American literary themes and settings.",
+      "The rejection of religious themes in art and literature.",
+      "The decline of popular music and theater."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. American artists and writers sought to create their own unique styles.",
+      "Correct. Writers like James Fenimore Cooper explored American themes and landscapes.",
+      "Incorrect. Religious themes remained important.",
+      "Incorrect. Popular music and theater flourished."
+    ],
+    "topic": "The Development of an American Culture",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Second Great Awakening had a profound impact on American society.",
+    "question": "What was a major effect of the Second Great Awakening?",
+    "answers": [
+      "A decline in religious participation.",
+      "An increase in social reform movements.",
+      "A decrease in the influence of evangelical Christianity.",
+      "A strengthening of established churches."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Religious participation increased significantly.",
+      "Correct. The Second Great Awakening inspired movements for abolition, temperance, and other reforms.",
+      "Incorrect. Evangelical Christianity became more influential.",
+      "Incorrect. The Second Great Awakening challenged established churches."
+    ],
+    "topic": "The Second Great Awakening",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Age of Reform saw numerous movements aimed at improving American society.",
+    "question": "Which of the following reform movements was prominent in the Age of Reform?",
+    "answers": [
+      "The anti-suffrage movement.",
+      "The temperance movement.",
+      "The pro-slavery movement.",
+      "The anti-immigration movement."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The suffrage movement, not anti-suffrage, was prominent.",
+      "Correct. The temperance movement sought to reduce alcohol consumption.",
+      "Incorrect. The abolition movement opposed slavery.",
+      "Incorrect. Nativism existed, but the question asks for a *reform* movement."
+    ],
+    "topic": "An Age of Reform",
+    "unit": 4
+  },
+  {
+    "stimulus": "African Americans faced significant challenges and discrimination in the early republic.",
+    "question": "What was a major form of resistance to slavery among African Americans?",
+    "answers": [
+      "Openly embracing the culture of slaveholders.",
+      "Maintaining cultural traditions and family structures.",
+      "Petitioning Congress for stricter enforcement of slave laws.",
+      "Supporting the colonization movement to return to Africa."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Enslaved people resisted assimilation.",
+      "Correct. Maintaining cultural identity was a form of resistance.",
+      "Incorrect. Enslaved people wanted to abolish slavery, not strengthen it.",
+      "Incorrect. While some supported colonization, many opposed it as it wasn't true liberation."
+    ],
+    "topic": "African Americans in the Early Republic",
+    "unit": 4
+  },
+  {
+    "stimulus": "The institution of slavery shaped the society of the South in the early republic.",
+    "question": "Which of the following describes the economy of the South in the early 19th century?",
+    "answers": [
+      "Based primarily on manufacturing and industry.",
+      "Heavily reliant on slave labor and agriculture.",
+      "Diversified with a mix of agriculture and industry.",
+      "Focused on small-scale family farms."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The South was primarily agricultural.",
+      "Correct. The Southern economy depended on slave labor and cash crops like cotton.",
+      "Incorrect. The South lacked significant industrial development.",
+      "Incorrect. While small farms existed, the plantation system dominated."
+    ],
+    "topic": "The Society of the South in the Early Republic",
+    "unit": 4
+  },
+  {
+    "stimulus": "The events of Period 4 led to significant long-term consequences for the United States.",
+    "question": "Which of the following was a major cause of the Civil War?",
+    "answers": [
+      "The decline of industrialization in the North.",
+      "The increasing economic equality between the North and the South.",
+      "The expansion of slavery into new territories.",
+      "The decreasing power of the federal government."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The North industrialized significantly.",
+      "Incorrect. Economic disparities increased.",
+      "Correct. The debate over slavery in new territories intensified sectional tensions.",
+      "Incorrect. The power of the federal government was a point of contention, but it wasn't decreasing in reality."
+    ],
+    "topic": "Causation in Period 4",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Louisiana Purchase of 1803 significantly expanded the territory of the United States.",
+    "question": "What was a significant consequence of the Louisiana Purchase?",
+    "answers": [
+      "It eliminated the issue of slavery in the United States.",
+      "It doubled the size of the United States and opened new lands for settlement.",
+      "It led to a decrease in westward expansion.",
+      "It strengthened the relationship between the United States and Great Britain."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Louisiana Purchase intensified the slavery debate.",
+      "Correct. The purchase doubled the size of the US.",
+      "Incorrect. It spurred westward expansion.",
+      "Incorrect. Relations with Britain remained tense."
+    ],
+    "topic": "America on the World Stage",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Hartford Convention revealed deep divisions within the United States during the War of 1812.",
+    "question": "What was the purpose of the Hartford Convention?",
+    "answers": [
+      "To support the war effort and raise funds for the military.",
+      "To negotiate a peace treaty with Great Britain.",
+      "To discuss New England's grievances and potential secession.",
+      "To plan for the annexation of Canada."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Hartford Convention was critical of the war.",
+      "Incorrect. Peace negotiations were handled by the federal government.",
+      "Correct. New England Federalists met to discuss their opposition to the war.",
+      "Incorrect. Annexation of Canada was not a goal of the convention."
+    ],
+    "topic": "Politics and Regional Interests",
+    "unit": 4
+  },
+  {
+    "stimulus": "Alexis de Tocqueville observed American society during the 1830s.",
+    "question": "According to Alexis de Tocqueville, what was a defining characteristic of American society?",
+    "answers": [
+      "A strong emphasis on aristocratic privilege.",
+      "A deep-seated commitment to social equality and democracy.",
+      "A widespread acceptance of slavery.",
+      "A lack of interest in civic participation."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Tocqueville noted the absence of aristocracy.",
+      "Correct. Tocqueville admired the American commitment to equality (for white men) and democracy.",
+      "Incorrect. Tocqueville observed the contradictions of slavery in a democratic society.",
+      "Incorrect. Tocqueville noted Americans' active civic participation."
+    ],
+    "topic": "The Development of an American Culture",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Indian Removal Act led to the forced relocation of Native American tribes.",
+    "question": "Which Native American tribe was forcibly removed from their lands in the Trail of Tears?",
+    "answers": [
+      "The Sioux",
+      "The Cherokee",
+      "The Apache",
+      "The Navajo"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Sioux were located in the Great Plains.",
+      "Correct. The Cherokee were forcibly removed from the Southeast.",
+      "Incorrect. The Apache were located in the Southwest.",
+      "Incorrect. The Navajo were located in the Southwest."
+    ],
+    "topic": "Jackson and Federal Power",
+    "unit": 4
+  },
+  {
+    "stimulus": "The invention of the cotton gin transformed the Southern economy.",
+    "question": "What was the primary impact of the cotton gin on slavery?",
+    "answers": [
+      "It led to the gradual decline of slavery.",
+      "It made slavery more profitable and expanded its use.",
+      "It had no impact on the institution of slavery.",
+      "It led to the immediate abolition of slavery in the South."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The opposite is true.",
+      "Correct. The cotton gin increased cotton production, which increased demand for slave labor.",
+      "Incorrect. The cotton gin had a major impact.",
+      "Incorrect. The cotton gin strengthened slavery."
+    ],
+    "topic": "The Society of the South in the Early Republic",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Panic of 1837 had significant economic consequences.",
+    "question": "What was a major cause of the Panic of 1837?",
+    "answers": [
+      "Over-speculation in land and other assets.",
+      "A decrease in international trade.",
+      "A surplus of agricultural goods.",
+      "The abolition of the national bank."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Over-speculation fueled the economic crisis.",
+      "Incorrect. International trade was not the primary cause.",
+      "Incorrect. A surplus wasn't the main driver.",
+      "Incorrect. The *destruction* of the national bank contributed, but over-speculation was the primary cause."
+    ],
+    "topic": "Jackson and Federal Power",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Erie Canal transformed transportation and commerce in the United States.",
+    "question": "What was a major impact of the Erie Canal?",
+    "answers": [
+      "It decreased the cost of transportation and facilitated trade.",
+      "It led to the decline of New York City as a major port.",
+      "It had little impact on the national economy.",
+      "It primarily benefited the Southern states."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The canal significantly lowered transportation costs.",
+      "Incorrect. New York City's importance grew.",
+      "Incorrect. The canal had a significant impact.",
+      "Incorrect. The canal primarily benefited the North."
+    ],
+    "topic": "Market Revolution: Industrialization",
+    "unit": 4
+  },
+  {
+    "stimulus": "Transcendentalism emerged as an important intellectual and cultural movement.",
+    "question": "What was a core belief of transcendentalism?",
+    "answers": [
+      "The importance of material wealth and success.",
+      "The inherent goodness of people and nature.",
+      "The necessity of strict social hierarchies.",
+      "The rejection of individual intuition and emotion."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Transcendentalism valued spirituality over materialism.",
+      "Correct. Transcendentalists believed in the inherent goodness of people and nature.",
+      "Incorrect. Transcendentalism emphasized individualism.",
+      "Incorrect. Transcendentalists valued intuition."
+    ],
+    "topic": "The Development of an American Culture",
+    "unit": 4
+  },
+  {
+    "stimulus": "The expansion of suffrage during the Jacksonian Era was not universal.",
+    "question": "Which group was generally excluded from the expansion of democracy during the Jacksonian Era?",
+    "answers": [
+      "White men without property.",
+      "African American men.",
+      "Immigrant men.",
+      "Working-class men."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Property requirements were being dropped.",
+      "Correct. African Americans were largely excluded from voting rights.",
+      "Incorrect. Immigrant men, once naturalized, could often vote.",
+      "Incorrect. Working-class white men benefitted from expanded suffrage."
+    ],
+    "topic": "Expanding Democracy",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Missouri Compromise addressed the issue of slavery in new territories.",
+    "question": "What was the main provision of the Missouri Compromise?",
+    "answers": [
+      "Slavery would be allowed in all new territories.",
+      "Slavery would be prohibited in all new territories.",
+      "Missouri would enter as a slave state, and Maine as a free state, with a line drawn to regulate slavery in the remaining Louisiana Purchase territory.",
+      "Slavery would be decided by popular sovereignty in each new territory."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. This was not the case.",
+      "Incorrect. This was not the case.",
+      "Correct. The Missouri Compromise had these specific provisions.",
+      "Incorrect. Popular sovereignty came later."
+    ],
+    "topic": "Politics and Regional Interests",
+    "unit": 4
+  },
+  {
+    "stimulus": "The concept of 'Manifest Destiny' influenced American expansionism.",
+    "question": "What does the term 'Manifest Destiny' refer to?",
+    "answers": [
+      "The belief that the United States was destined to expand across the North American continent.",
+      "The desire to limit the growth of the United States to its existing borders.",
+      "The policy of isolating the United States from foreign affairs.",
+      "The effort to promote peace and cooperation with Native American tribes."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. It described the belief that the US was destined to expand across the continent.",
+      "Incorrect. The opposite of what Manifest Destiny was.",
+      "Incorrect. Manifest Destiny was expansionist, not isolationist.",
+      "Incorrect. Manifest Destiny often justified the displacement of Native Americans."
+    ],
+    "topic": "America on the World Stage",
+    "unit": 4
+  },
+  {
+    "stimulus": "The factory system transformed labor practices in the United States.",
+    "question": "What was a key characteristic of the Lowell system?",
+    "answers": [
+      "The employment of entire families in factories.",
+      "The use of slave labor in textile mills.",
+      "The recruitment of young, unmarried women as factory workers.",
+      "The reliance on skilled artisans and craftsmen."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While families were employed elsewhere, the Lowell system used young women.",
+      "Incorrect. While slavery existed, it wasn't the basis of the Lowell system.",
+      "Correct. The Lowell system was known for employing young women.",
+      "Incorrect. The factory system was based on mass production, not skilled artisans."
+    ],
+    "topic": "Market Revolution: Industrialization",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Second Great Awakening led to the growth of new religious denominations.",
+    "question": "Which religious denomination grew significantly during the Second Great Awakening?",
+    "answers": [
+      "Catholicism",
+      "Unitarianism",
+      "Methodism",
+      "Judaism"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Catholicism did not see as much growth.",
+      "Incorrect. Unitarianism did not see as much growth.",
+      "Correct. Methodism experienced significant growth.",
+      "Incorrect. Judaism did not see as much growth."
+    ],
+    "topic": "The Second Great Awakening",
+    "unit": 4
+  },
+  {
+    "stimulus": "Abolitionism gained momentum in the early 19th century.",
+    "question": "Who was a prominent leader of the abolitionist movement?",
+    "answers": [
+      "John C. Calhoun",
+      "Henry Clay",
+      "William Lloyd Garrison",
+      "Stephen Douglas"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Calhoun was a staunch defender of slavery.",
+      "Incorrect. Clay was more focused on compromise.",
+      "Correct. Garrison was a radical abolitionist.",
+      "Incorrect. Douglas advocated for popular sovereignty."
+    ],
+    "topic": "An Age of Reform",
+    "unit": 4
+  },
+  {
+    "stimulus": "Slave narratives provided powerful accounts of the realities of slavery.",
+    "question": "What was the significance of slave narratives?",
+    "answers": [
+      "They provided firsthand accounts of the horrors of slavery.",
+      "They supported the arguments of pro-slavery advocates.",
+      "They had little impact on public opinion.",
+      "They were primarily fictional accounts with little basis in reality."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. They were firsthand accounts of slavery.",
+      "Incorrect. They were used to argue against slavery.",
+      "Incorrect. They had a significant impact.",
+      "Incorrect. They were based on real life experiences."
+    ],
+    "topic": "African Americans in the Early Republic",
+    "unit": 4
+  },
+  {
+    "stimulus": "Planters in the South held significant political and economic power.",
+    "question": "What was the planter aristocracy?",
+    "answers": [
+      "A small but influential class of wealthy slaveholders.",
+      "A group of small farmers who owned no slaves.",
+      "An organization that promoted abolitionism in the South.",
+      "A political party that advocated for industrialization."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. This describes the planter aristocracy.",
+      "Incorrect. This describes yeoman farmers.",
+      "Incorrect. Planters supported slavery.",
+      "Incorrect. Planters were focused on agriculture."
+    ],
+    "topic": "The Society of the South in the Early Republic",
+    "unit": 4
+  },
+  {
+    "stimulus": "The presidency of Andrew Jackson was controversial.",
+    "question": "Which action of Andrew Jackson's presidency was most controversial?",
+    "answers": [
+      "His support for states' rights.",
+      "His veto of the re-chartering of the National Bank.",
+      "His efforts to reduce the national debt.",
+      "His expansion of voting rights to non-property owners."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While he supported states' rights to an extent, this was not the most controversial aspect.",
+      "Correct. The Bank Veto was highly controversial.",
+      "Incorrect. Reducing the debt was generally seen as positive.",
+      "Incorrect. Expansion of voting rights was popular."
+    ],
+    "topic": "Jackson and Federal Power",
+    "unit": 4
+  },
+  {
+    "stimulus": "The election of 1824 was a turning point in American politics.",
+    "question": "What was the 'corrupt bargain' in the election of 1824?",
+    "answers": [
+      "A secret deal between Andrew Jackson and John C. Calhoun to suppress the vote in South Carolina.",
+      "A public agreement between Henry Clay and Andrew Jackson to promote westward expansion.",
+      "A secret agreement between Henry Clay and John Quincy Adams to make Adams president in exchange for Clay becoming Secretary of State.",
+      "A political alliance between Daniel Webster and Martin Van Buren to create a new national bank."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. It didn't involve Jackson or Calhoun",
+      "Incorrect. It wasn't between Clay and Jackson",
+      "Correct. This is the definition of the Corrupt Bargain",
+      "Incorrect. It didn't involve Webster or Van Buren."
+    ],
+    "topic": "The Rise of Political Parties and the Era of Jefferson",
+    "unit": 4
+  },
+  {
+    "stimulus": "The role of women changed during the Market Revolution.",
+    "question": "What was the 'cult of domesticity'?",
+    "answers": [
+      "A movement that advocated for women's suffrage and equal rights.",
+      "A set of beliefs that emphasized women's roles as wives and mothers responsible for the moral upbringing of their families.",
+      "A system of forced labor in which women were required to work in factories.",
+      "A cultural phenomenon that celebrated women's achievements in science and technology."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. It was the opposite of this.",
+      "Correct. This describes the Cult of Domesticity",
+      "Incorrect. While women worked in factories, it wasn't forced.",
+      "Incorrect. It wasn't focused on women's achievements in STEM."
+    ],
+    "topic": "Market Revolution: Society and Culture",
+    "unit": 4
+  },
+  {
+    "stimulus": "Westward Expansion impacted the demographics of the United States.",
+    "question": "Which group moved westward in large numbers during the period 1800-1848?",
+    "answers": [
+      "Enslaved African Americans seeking freedom",
+      "Immigrants from Europe seeking economic opportunity",
+      "Native Americans forced off their ancestral lands",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Partially Correct. Some enslaved people sought freedom in the West.",
+      "Partially Correct. European immigrants did move West.",
+      "Partially Correct. Native Americans were forced West.",
+      "Correct. All of the answers are true."
+    ],
+    "topic": "Causation in Period 4",
+    "unit": 4
+  },
+  {
+    "stimulus": "The American System aimed to promote economic development.",
+    "question": "What were the key components of the American System?",
+    "answers": [
+      "A national bank, protective tariffs, and internal improvements",
+      "Free trade, limited government, and states' rights",
+      "Agricultural subsidies, price controls, and land redistribution",
+      "Open immigration, cultural diversity, and religious freedom"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. These are the key components of the American System.",
+      "Incorrect. This describes laissez-faire economics.",
+      "Incorrect. This wasn't part of the American System.",
+      "Incorrect. While these are important, they were not part of the economic system."
+    ],
+    "topic": "Politics and Regional Interests",
+    "unit": 4
+  },
+  {
+    "stimulus": "The Knickerbocker School helped establish a uniquely American identity.",
+    "question": "Which author was a member of the Knickerbocker School?",
+    "answers": [
+      "Nathaniel Hawthorne",
+      "Ralph Waldo Emerson",
+      "Washington Irving",
+      "Henry David Thoreau"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Hawthorne was not part of the Knickerbocker School.",
+      "Incorrect. Emerson was not part of the Knickerbocker School.",
+      "Correct. Irving was a key member of this group.",
+      "Incorrect. Thoreau was not part of the Knickerbocker School."
+    ],
+    "topic": "The Development of an American Culture",
+    "unit": 4
+  },
+  {
+    "stimulus": "The temperance movement sought to address social problems.",
+    "question": "What was the main goal of the temperance movement?",
+    "answers": [
+      "To abolish slavery",
+      "To promote women's suffrage",
+      "To reduce the consumption of alcohol",
+      "To improve public education"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. This was the goal of the abolition movement.",
+      "Incorrect. This was the goal of the suffrage movement.",
+      "Correct. This was the goal of the temperance movement.",
+      "Incorrect. This was the goal of education reformers."
+    ],
+    "topic": "An Age of Reform",
+    "unit": 4
+  },
+  {
+    "stimulus": "African American churches played a vital role in the community.",
+    "question": "What role did the African American church play in the early 19th century?",
+    "answers": [
+      "It served primarily as a place of worship with little social or political influence.",
+      "It provided a space for education, community building, and resistance to slavery.",
+      "It reinforced the social hierarchy and supported the institution of slavery.",
+      "It focused solely on converting white Americans to Christianity."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. It had significant social and political influence.",
+      "Correct. The church served multiple vital functions.",
+      "Incorrect. It opposed slavery.",
+      "Incorrect. It focused on serving the African American community."
+    ],
+    "topic": "African Americans in the Early Republic",
+    "unit": 4
+  }
+]

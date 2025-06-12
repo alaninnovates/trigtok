@@ -1,0 +1,401 @@
+[
+  {
+    "stimulus": "\u201cThe natural rights of man are life, liberty, and property. These rights are absolute, inherent, and inalienable. No man or body of men can deprive him of them.\u201d - John Locke, *Two Treatises of Government*",
+    "question": "The ideas expressed in the passage are most directly a response to which of the following?",
+    "answers": [
+      "The rise of Romanticism and its emphasis on emotion and individualism.",
+      "The concept of absolutism and the divine right of kings.",
+      "The challenges posed by industrialization and urbanization.",
+      "The growth of scientific inquiry and empirical observation."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Romanticism arose later as a reaction to the Enlightenment.",
+      "Correct. Locke's ideas directly challenged the idea of absolute monarchy and the divine right of kings, advocating for natural rights and limited government.",
+      "Incorrect. Industrialization and urbanization were not the primary target of Locke's political philosophy.",
+      "Incorrect. While Locke was writing during the Scientific Revolution, his political philosophy focused on rights and governance, not scientific methodology."
+    ],
+    "topic": "The Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "\u201cI think, therefore I am.\u201d - Ren\u00e9 Descartes",
+    "question": "This quote reflects a key concept in the Scientific Revolution, primarily?",
+    "answers": [
+      "Empirical observation as the primary source of knowledge.",
+      "Deductive reasoning and the power of the human mind.",
+      "The importance of divine revelation in understanding the world.",
+      "The necessity of collaboration in scientific inquiry."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Descartes emphasized reason over observation.",
+      "Correct. This quote embodies Descartes' emphasis on rationalism and the power of the human mind to arrive at truth through deductive reasoning.",
+      "Incorrect. Descartes' philosophy relied on reason rather than faith.",
+      "Incorrect. The quote highlights individual thought, not collaboration."
+    ],
+    "topic": "The Scientific Revolution",
+    "unit": 4
+  },
+  {
+    "stimulus": "Consider the context of 18th-century Europe.",
+    "question": "Which of the following factors contributed most to the rise of the Enlightenment?",
+    "answers": [
+      "The consolidation of papal authority after the Protestant Reformation.",
+      "Increased exposure to new cultures and ideas through exploration and trade.",
+      "The decline of urban centers and the resurgence of feudalism.",
+      "Widespread economic depression and social unrest."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Enlightenment challenged traditional religious authority.",
+      "Correct. Exploration and trade facilitated the exchange of ideas and exposed Europeans to diverse cultures, fostering intellectual curiosity and questioning of traditional norms.",
+      "Incorrect. Urban centers were growing, and feudalism was in decline.",
+      "Incorrect. While unrest existed, increased cultural exchange more directly fostered the rise of the Enlightenment."
+    ],
+    "topic": "Contextualizing the Scientific Revolution and the Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "Consider the state of European demographics in the 1700s.",
+    "question": "Which of the following best describes a demographic trend in 18th-century Europe?",
+    "answers": [
+      "A significant decline in overall population due to widespread famine.",
+      "Increased urbanization and population growth in major cities.",
+      "A decrease in agricultural productivity leading to food shortages.",
+      "A widespread decrease in the number of children born per family."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Overall population increased during this period.",
+      "Correct. The 18th century saw significant population growth and increased urbanization, particularly in major cities, driven by factors such as improved agricultural techniques and a decline in disease.",
+      "Incorrect. Agricultural productivity generally increased.",
+      "Incorrect. Birth rates remained relatively high, contributing to population growth."
+    ],
+    "topic": "18th-Century Society and Demographics",
+    "unit": 4
+  },
+  {
+    "stimulus": "Consider the art and music of the 1700s.",
+    "question": "Which of the following artistic movements is most closely associated with the Enlightenment?",
+    "answers": [
+      "Gothic",
+      "Baroque",
+      "Rococo",
+      "Neoclassical"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Gothic art was prominent in the medieval period.",
+      "Incorrect. Baroque art preceded the Enlightenment.",
+      "Incorrect. Rococo art preceded and existed concurrently with the Enlightenment, but is less associated with the Enlightenment.",
+      "Correct. Neoclassical art, with its emphasis on reason, order, and classical ideals, aligns with the values of the Enlightenment."
+    ],
+    "topic": "18th-Century Culture and Arts",
+    "unit": 4
+  },
+  {
+    "stimulus": "Consider the leaders of Europe in the 1700s.",
+    "question": "Which of the following monarchs is most associated with enlightened absolutism?",
+    "answers": [
+      "Louis XIV of France",
+      "Charles I of England",
+      "Peter the Great of Russia",
+      "Joseph II of Austria"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Louis XIV was an absolute monarch but not considered an 'enlightened' one.",
+      "Incorrect. Charles I was not an enlightened monarch.",
+      "Incorrect. Peter the Great was more of a modernizer, but he did not embrace enlightened ideals as fully as other monarchs.",
+      "Correct. Joseph II of Austria implemented reforms based on Enlightenment principles, such as religious toleration and legal reform."
+    ],
+    "topic": "Enlightened and Other Approaches to Power",
+    "unit": 4
+  },
+  {
+    "stimulus": "Think about the long-term effects of the Scientific Revolution and the Enlightenment.",
+    "question": "Which of the following was a long-term consequence of the Scientific Revolution?",
+    "answers": [
+      "A decline in the authority of the Catholic Church.",
+      "A renewed emphasis on faith and religious dogma.",
+      "The strengthening of feudalism and manorialism.",
+      "A decrease in literacy rates across Europe."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The Scientific Revolution challenged traditional beliefs and promoted reason, leading to a decline in the Church's authority.",
+      "Incorrect. The Scientific Revolution emphasized reason and observation over faith.",
+      "Incorrect. Feudalism was already in decline.",
+      "Incorrect. Literacy rates generally increased during this period."
+    ],
+    "topic": "Causation in the Age of the Scientific Revolution and the Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "Which of the following best describes the central idea of the Scientific Revolution?",
+    "answers": [
+      "Knowledge should be based on empirical observation and mathematical reasoning.",
+      "The Bible is the ultimate source of scientific truth.",
+      "Alchemy and astrology are the keys to understanding the universe.",
+      "Scientific inquiry should be controlled by the Church."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. This accurately describes the core principles of the Scientific Revolution.",
+      "Incorrect. The Scientific Revolution challenged traditional religious authority.",
+      "Incorrect. These were pre-scientific beliefs that the Scientific Revolution moved away from.",
+      "Incorrect. The Scientific Revolution sought to separate scientific inquiry from religious control."
+    ],
+    "topic": "The Scientific Revolution",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "Which of the following is a key idea associated with the Enlightenment?",
+    "answers": [
+      "The divine right of kings",
+      "The importance of tradition and hierarchy",
+      "The separation of powers in government",
+      "The necessity of absolute monarchy"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Enlightenment challenged the divine right of kings.",
+      "Incorrect. The Enlightenment questioned traditional hierarchies.",
+      "Correct. The separation of powers, as advocated by Montesquieu, was a key Enlightenment idea.",
+      "Incorrect. The Enlightenment generally favored limited government and constitutionalism."
+    ],
+    "topic": "The Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "Which of the following was a major impact of the Enlightenment on European society?",
+    "answers": [
+      "A decrease in religious toleration",
+      "The rise of democratic ideals and revolutions",
+      "The strengthening of feudalism",
+      "A decline in scientific inquiry"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Enlightenment promoted religious toleration.",
+      "Correct. The Enlightenment fostered democratic ideals and inspired revolutions in America and France.",
+      "Incorrect. Feudalism was already in decline.",
+      "Incorrect. The Enlightenment built upon and expanded scientific inquiry."
+    ],
+    "topic": "Causation in the Age of the Scientific Revolution and the Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "Which of the following describes a way in which the Scientific Revolution influenced the Enlightenment?",
+    "answers": [
+      "By reinforcing traditional religious beliefs",
+      "By providing a model for applying reason to social and political problems",
+      "By advocating for the divine right of kings",
+      "By promoting the importance of emotion over reason"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Scientific Revolution challenged traditional religious beliefs.",
+      "Correct. The Scientific Revolution's emphasis on reason and observation influenced Enlightenment thinkers to apply these methods to society and politics.",
+      "Incorrect. The Scientific Revolution did not advocate for the divine right of kings.",
+      "Incorrect. Both movements emphasized reason."
+    ],
+    "topic": "Causation in the Age of the Scientific Revolution and the Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "Which of the following best describes the concept of 'salons' during the Enlightenment?",
+    "answers": [
+      "Religious gatherings for prayer and worship",
+      "Formal political assemblies",
+      "Social gatherings where intellectuals discussed ideas",
+      "Military training camps"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Salons were not primarily religious gatherings.",
+      "Incorrect. Salons were social, not formal political, gatherings.",
+      "Correct. Salons were important venues for the exchange of ideas among intellectuals during the Enlightenment.",
+      "Incorrect. Salons were not related to military training."
+    ],
+    "topic": "18th-Century Culture and Arts",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "How did the Enlightenment impact views on social equality?",
+    "answers": [
+      "It largely reinforced existing social hierarchies.",
+      "It led to the immediate and complete abolition of slavery.",
+      "It promoted the idea that all individuals are born with natural rights and are equal.",
+      "It had no impact on views of social equality."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Enlightenment questioned traditional social hierarchies.",
+      "Incorrect. While the Enlightenment contributed to anti-slavery movements, it did not immediately abolish slavery.",
+      "Correct. Enlightenment thinkers advocated for natural rights and equality, influencing later movements for social justice.",
+      "Incorrect. The Enlightenment significantly impacted views on social equality."
+    ],
+    "topic": "The Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "What role did women play in the Scientific Revolution and the Enlightenment?",
+    "answers": [
+      "They were entirely excluded from scientific and intellectual pursuits.",
+      "They were limited to domestic roles and had no influence.",
+      "Some women participated in scientific research and intellectual discussions, though often facing barriers.",
+      "They held the majority of scientific and academic positions."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Some women did participate, though their opportunities were limited.",
+      "Incorrect. Some women exerted influence, though often indirectly.",
+      "Correct. While facing challenges, some women made contributions to science and intellectual life.",
+      "Incorrect. Women were a minority in scientific and academic positions."
+    ],
+    "topic": "The Scientific Revolution",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "Which of the following scientific advancements is associated with Isaac Newton?",
+    "answers": [
+      "The heliocentric theory of the solar system",
+      "The laws of motion and universal gravitation",
+      "The invention of the telescope",
+      "The development of the scientific method"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This is associated with Copernicus and Galileo.",
+      "Correct. Newton is famous for his laws of motion and universal gravitation.",
+      "Incorrect. This is associated with Galileo.",
+      "Incorrect. While Newton used the scientific method, he is not credited with its development."
+    ],
+    "topic": "The Scientific Revolution",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "What was the primary goal of enlightened absolutists?",
+    "answers": [
+      "To establish democratic republics.",
+      "To strengthen their own rule while implementing reforms based on Enlightenment ideas.",
+      "To abolish monarchy altogether.",
+      "To return to feudalism."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Enlightened absolutists remained monarchs and did not seek to establish republics.",
+      "Correct. They aimed to modernize and strengthen their states by incorporating Enlightenment principles without relinquishing power.",
+      "Incorrect. They sought to retain monarchical power.",
+      "Incorrect. Feudalism was in decline."
+    ],
+    "topic": "Enlightened and Other Approaches to Power",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "How did the Enlightenment affect the relationship between science and religion?",
+    "answers": [
+      "It strengthened the alliance between science and religion.",
+      "It led to a complete separation of science and religion, with no interaction between the two.",
+      "It challenged traditional religious explanations and emphasized reason and empirical evidence.",
+      "It had no impact on the relationship between science and religion."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Enlightenment generally challenged traditional religious authority.",
+      "Incorrect. While tension increased, science and religion were not completely separated.",
+      "Correct. The Enlightenment promoted reason and challenged religious dogma, leading to tension between science and religion.",
+      "Incorrect. The Enlightenment significantly impacted this relationship."
+    ],
+    "topic": "Causation in the Age of the Scientific Revolution and the Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "Which writer is most closely associated with the concept of the 'general will'?",
+    "answers": [
+      "John Locke",
+      "Montesquieu",
+      "Jean-Jacques Rousseau",
+      "Voltaire"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Locke focused on natural rights and limited government.",
+      "Incorrect. Montesquieu focused on the separation of powers.",
+      "Correct. Rousseau articulated the concept of the 'general will', representing the collective interest of the people.",
+      "Incorrect. Voltaire advocated for freedom of speech and religious toleration."
+    ],
+    "topic": "The Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "Which of the following was a key factor contributing to population growth in 18th-century Europe?",
+    "answers": [
+      "Widespread adoption of birth control methods.",
+      "Decreased food supply due to climate change.",
+      "Improvements in agricultural techniques and food distribution.",
+      "Increased frequency of wars and conflicts."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Birth control methods were not widely adopted at this time.",
+      "Incorrect. Food supply generally increased.",
+      "Correct. Improved agricultural practices led to increased food production, supporting population growth.",
+      "Incorrect. While wars occurred, they did not have the largest effect on population size."
+    ],
+    "topic": "18th-Century Society and Demographics",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "How did the Enlightenment influence political revolutions of the late 18th century?",
+    "answers": [
+      "By justifying absolute monarchy",
+      "By reinforcing traditional social hierarchies",
+      "By providing intellectual justification for challenging existing power structures",
+      "By discouraging reform and promoting stability"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Enlightenment opposed absolute monarchy.",
+      "Incorrect. The Enlightenment challenged traditional social hierarchies.",
+      "Correct. Enlightenment ideas provided a philosophical basis for questioning existing power structures and demanding reform.",
+      "Incorrect. The Enlightenment promoted reform, not stability."
+    ],
+    "topic": "Causation in the Age of the Scientific Revolution and the Enlightenment",
+    "unit": 4
+  },
+  {
+    "stimulus": "N/A",
+    "question": "What was the primary focus of Cesare Beccaria's reforms?",
+    "answers": [
+      "Improving military strategy",
+      "Reforming the criminal justice system",
+      "Promoting religious tolerance",
+      "Advancing scientific knowledge"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Beccaria was focused on the justice system.",
+      "Correct. Beccaria advocated for reforms to make the criminal justice system more humane and just.",
+      "Incorrect. Beccaria focused on the justice system.",
+      "Incorrect. Beccaria focused on the justice system."
+    ],
+    "topic": "Enlightened and Other Approaches to Power",
+    "unit": 4
+  }
+]

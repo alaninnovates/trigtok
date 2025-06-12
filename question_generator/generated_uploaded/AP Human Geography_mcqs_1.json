@@ -1,0 +1,401 @@
+[
+  {
+    "stimulus": "A cartographer is creating a map to show the population density of Europe. They decide to use dots, with each dot representing 10,000 people.",
+    "question": "What type of map is the cartographer creating?",
+    "answers": [
+      "Choropleth Map",
+      "Dot Map",
+      "Isoline Map",
+      "Cartogram"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. A choropleth map uses different shades or colors to represent statistical data.",
+      "Correct. A dot map uses dots to represent the occurrence of a phenomenon, in this case, population.",
+      "Incorrect. An isoline map connects points of equal value, such as elevation or temperature.",
+      "Incorrect. A cartogram distorts the size of geographic areas to reflect statistical data."
+    ],
+    "topic": "Introduction to Maps",
+    "unit": 1
+  },
+  {
+    "stimulus": "A researcher is collecting data on the number of cars that pass through an intersection every hour.",
+    "question": "What type of geographic data are they collecting?",
+    "answers": [
+      "Qualitative Data",
+      "Quantitative Data",
+      "Spatial Data",
+      "Remote Sensing Data"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Qualitative data is descriptive and not numerical.",
+      "Correct. Quantitative data is numerical and can be statistically analyzed.",
+      "Incorrect. Spatial data refers to the location or distribution of geographic features.",
+      "Incorrect. Remote sensing data is collected from satellites or aircraft."
+    ],
+    "topic": "Geographic Data",
+    "unit": 1
+  },
+  {
+    "stimulus": "A city planner uses GIS to analyze crime data and identify areas with high crime rates. They then use this information to allocate resources and implement crime prevention strategies.",
+    "question": "How is geographic data being used in this scenario?",
+    "answers": [
+      "To create aesthetically pleasing maps",
+      "To solve problems and make informed decisions",
+      "To promote tourism",
+      "To confuse people with complex information"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While maps can be aesthetically pleasing, the primary purpose here is problem-solving.",
+      "Correct. The planner is using data to understand and address a problem.",
+      "Incorrect. The scenario doesn't relate to tourism.",
+      "Incorrect. The goal is to inform, not confuse."
+    ],
+    "topic": "The Power of Geographic Data",
+    "unit": 1
+  },
+  {
+    "stimulus": "The statement 'The park is located two blocks west of the library' is an example of...",
+    "question": "Which spatial concept is represented in the stimulus?",
+    "answers": [
+      "Absolute Location",
+      "Relative Location",
+      "Density",
+      "Distribution"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Absolute location refers to a specific point using coordinates.",
+      "Correct. Relative location describes a place in relation to other places.",
+      "Incorrect. Density refers to the frequency of something in a given area.",
+      "Incorrect. Distribution refers to the arrangement of something across Earth's surface."
+    ],
+    "topic": "Spatial Concepts",
+    "unit": 1
+  },
+  {
+    "stimulus": "A study examines the impact of deforestation on local rainfall patterns.",
+    "question": "Which geographic concept is best illustrated in this scenario?",
+    "answers": [
+      "Globalization",
+      "Human-Environmental Interaction",
+      "Urbanization",
+      "Cultural Diffusion"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Globalization refers to the increasing interconnectedness of the world.",
+      "Correct. Human-Environmental Interaction focuses on the relationship between humans and the environment.",
+      "Incorrect. Urbanization refers to the growth of cities.",
+      "Incorrect. Cultural diffusion refers to the spread of cultural traits."
+    ],
+    "topic": "Human-Environmental Interaction",
+    "unit": 1
+  },
+  {
+    "stimulus": "A researcher is studying the impact of poverty on educational attainment. They conduct one study focusing on a single school district and another study examining the entire country.",
+    "question": "What geographic concept is the researcher manipulating?",
+    "answers": [
+      "Scale of Analysis",
+      "Regional Analysis",
+      "Spatial Distribution",
+      "Environmental Determinism"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Scale of analysis refers to the level at which data is aggregated and analyzed.",
+      "Incorrect. Regional analysis focuses on the characteristics of a specific region.",
+      "Incorrect. Spatial distribution refers to the arrangement of phenomena across Earth's surface.",
+      "Incorrect. Environmental determinism is the belief that the environment determines human behavior."
+    ],
+    "topic": "Scales of Analysis",
+    "unit": 1
+  },
+  {
+    "stimulus": "A geographer is studying the cultural and economic characteristics of the Midwest region of the United States.",
+    "question": "Which geographic concept is the geographer using?",
+    "answers": [
+      "Globalization",
+      "Human-Environmental Interaction",
+      "Regional Analysis",
+      "Spatial Analysis"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Globalization refers to the increasing interconnectedness of the world.",
+      "Incorrect. Human-Environmental Interaction focuses on the relationship between humans and the environment.",
+      "Correct. Regional analysis focuses on the characteristics of a specific region.",
+      "Incorrect. Spatial analysis refers to the study of the location and distribution of phenomena."
+    ],
+    "topic": "Regional Analysis",
+    "unit": 1
+  },
+  {
+    "stimulus": "A map shows the locations of all Starbucks coffee shops in the United States.",
+    "question": "This map primarily illustrates which geographic concept?",
+    "answers": [
+      "Density",
+      "Distribution",
+      "Diffusion",
+      "Distance Decay"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Density refers to the frequency of something within a defined area.",
+      "Correct. Distribution refers to the arrangement of features or phenomena across a space.",
+      "Incorrect. Diffusion refers to the spread of something over time or space.",
+      "Incorrect. Distance decay refers to the effect of distance on interaction."
+    ],
+    "topic": "Spatial Concepts",
+    "unit": 1
+  },
+  {
+    "stimulus": "The government uses satellite imagery to monitor deforestation rates in the Amazon rainforest.",
+    "question": "Which type of geographic data collection is being used?",
+    "answers": [
+      "Census Data",
+      "Survey Data",
+      "Remote Sensing Data",
+      "Geographic Information System (GIS) Data"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Census data is gathered through population counts.",
+      "Incorrect. Survey data is gathered through questionnaires and interviews.",
+      "Correct. Remote sensing data is collected from satellites or aircraft.",
+      "Incorrect. GIS data involves the integration and analysis of spatial data layers."
+    ],
+    "topic": "Geographic Data",
+    "unit": 1
+  },
+  {
+    "stimulus": "A geographer argues that the physical environment alone determines the cultural practices of a society.",
+    "question": "Which concept best describes this viewpoint?",
+    "answers": [
+      "Possibilism",
+      "Environmental Determinism",
+      "Cultural Landscape",
+      "Regionalism"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Possibilism suggests that humans have choices and can modify their environment.",
+      "Correct. Environmental determinism posits that the physical environment dictates human actions and culture.",
+      "Incorrect. Cultural landscape refers to the visible imprint of human activity on the landscape.",
+      "Incorrect. Regionalism is the identification with and loyalty to a region."
+    ],
+    "topic": "Human-Environmental Interaction",
+    "unit": 1
+  },
+  {
+    "stimulus": "A map of the world uses different colors to represent countries with different levels of GDP per capita.",
+    "question": "What type of map is this?",
+    "answers": [
+      "Isoline Map",
+      "Dot Map",
+      "Choropleth Map",
+      "Cartogram"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. An isoline map uses lines to connect points of equal value.",
+      "Incorrect. A dot map uses dots to represent the occurrence of a phenomenon.",
+      "Correct. A choropleth map uses different shades or colors to represent statistical data.",
+      "Incorrect. A cartogram distorts the size of geographic areas to reflect statistical data."
+    ],
+    "topic": "Introduction to Maps",
+    "unit": 1
+  },
+  {
+    "stimulus": "A real estate agent describes a house as being 'near several good schools and a shopping center.'",
+    "question": "What type of location is the agent describing?",
+    "answers": [
+      "Absolute Location",
+      "Mathematical Location",
+      "Relative Location",
+      "Precise Location"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Absolute location is a specific point on Earth's surface.",
+      "Incorrect. Mathematical location is similar to absolute location, using coordinates.",
+      "Correct. Relative location describes a place in relation to other places.",
+      "Incorrect. Precise location is similar to absolute location."
+    ],
+    "topic": "Spatial Concepts",
+    "unit": 1
+  },
+  {
+    "stimulus": "A study compares the economic development of countries in Africa to those in Europe.",
+    "question": "This comparison is an example of analysis at what scale?",
+    "answers": [
+      "Local",
+      "Regional",
+      "National",
+      "Global"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Local scale refers to a small area, such as a city or town.",
+      "Correct. Regional scale involves comparing multiple countries within a region.",
+      "Incorrect. National scale focuses on a single country.",
+      "Incorrect. Global scale involves the entire world."
+    ],
+    "topic": "Scales of Analysis",
+    "unit": 1
+  },
+  {
+    "stimulus": "A geographer is studying the unique combination of environmental, cultural, and economic factors that characterize the American South.",
+    "question": "Which geographic concept is the geographer applying?",
+    "answers": [
+      "Spatial Diffusion",
+      "Human-Environment Interaction",
+      "Regional Analysis",
+      "Globalization"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Spatial diffusion refers to the spread of something across space.",
+      "Incorrect. Human-environment interaction examines the relationship between humans and the environment.",
+      "Correct. Regional analysis involves studying the unique characteristics of a specific region.",
+      "Incorrect. Globalization refers to the increasing interconnectedness of the world."
+    ],
+    "topic": "Regional Analysis",
+    "unit": 1
+  },
+  {
+    "stimulus": "Farmers in the Netherlands have modified their environment to create polders, land reclaimed from the sea.",
+    "question": "This is an example of...",
+    "answers": [
+      "Environmental Determinism",
+      "Possibilism",
+      "Environmental Degradation",
+      "Sustainable Development"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Environmental determinism suggests the environment controls humans.",
+      "Correct. Possibilism suggests humans can modify the environment.",
+      "Incorrect. Environmental degradation refers to the harming of the environment.",
+      "Incorrect. Sustainable development aims to meet needs without harming future generations."
+    ],
+    "topic": "Human-Environmental Interaction",
+    "unit": 1
+  },
+  {
+    "stimulus": "A map shows lines connecting points of equal elevation.",
+    "question": "What type of map is this?",
+    "answers": [
+      "Choropleth Map",
+      "Dot Map",
+      "Isoline Map",
+      "Cartogram"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. A choropleth map uses different shades or colors to represent statistical data.",
+      "Incorrect. A dot map uses dots to represent the occurrence of a phenomenon.",
+      "Correct. An isoline map connects points of equal value, such as elevation.",
+      "Incorrect. A cartogram distorts the size of geographic areas to reflect statistical data."
+    ],
+    "topic": "Introduction to Maps",
+    "unit": 1
+  },
+  {
+    "stimulus": "A researcher wants to understand why a certain disease is more prevalent in one neighborhood compared to another.",
+    "question": "Which concept is most relevant to their investigation?",
+    "answers": [
+      "Spatial Association",
+      "Relative Location",
+      "Environmental Determinism",
+      "Globalization"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Spatial association refers to the degree to which things are similarly arranged in space.",
+      "Incorrect. Relative location describes a place in relation to other places.",
+      "Incorrect. Environmental determinism suggests the environment controls humans.",
+      "Incorrect. Globalization refers to the increasing interconnectedness of the world."
+    ],
+    "topic": "Spatial Concepts",
+    "unit": 1
+  },
+  {
+    "stimulus": "A company analyzes the demographics of different cities to decide where to open new stores.",
+    "question": "How is geographic data being used?",
+    "answers": [
+      "For marketing and business decisions",
+      "For artistic expression",
+      "For weather forecasting",
+      "For historical research"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Demographic data helps businesses understand their target markets.",
+      "Incorrect. While data can be visualized artistically, that's not the primary purpose here.",
+      "Incorrect. Weather forecasting uses meteorological data.",
+      "Incorrect. Historical research uses historical records."
+    ],
+    "topic": "The Power of Geographic Data",
+    "unit": 1
+  },
+  {
+    "stimulus": "The concept that interaction decreases with increasing distance is known as...",
+    "question": "Which of the following explains the decrease in interaction over distance?",
+    "answers": [
+      "Spatial Diffusion",
+      "Distance Decay",
+      "Globalization",
+      "Friction of Distance"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Spatial diffusion is the spread of a phenomenon over space and time.",
+      "Incorrect. Distance decay is the effect of distance on interaction, but not the reason why.",
+      "Incorrect. Globalization is the increasing interconnectedness of the world.",
+      "Correct. Friction of distance refers to the increasing time and cost that usually comes with increasing distance."
+    ],
+    "topic": "Spatial Concepts",
+    "unit": 1
+  },
+  {
+    "stimulus": "A map projection distorts shape in order to preserve area.",
+    "question": "What property is being preserved?",
+    "answers": [
+      "Shape",
+      "Distance",
+      "Direction",
+      "Area"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Shape is distorted in this projection.",
+      "Incorrect. Distance is not necessarily preserved.",
+      "Incorrect. Direction is not necessarily preserved.",
+      "Correct. The question states that area is preserved."
+    ],
+    "topic": "Introduction to Maps",
+    "unit": 1
+  },
+  {
+    "stimulus": "A geographer studies the impact of climate change on agricultural practices in different parts of the world.",
+    "question": "Which core geographic concept is best represented by this research?",
+    "answers": [
+      "Population Distribution",
+      "Cultural Landscape",
+      "Human-Environment Interaction",
+      "Urbanization"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Population distribution is the arrangement of people across the Earth's surface.",
+      "Incorrect. Cultural landscape is the visible imprint of human activity on the land.",
+      "Correct. Human-environment interaction focuses on the reciprocal relationship between humans and the environment.",
+      "Incorrect. Urbanization is the process of cities growing and expanding."
+    ],
+    "topic": "Human-Environmental Interaction",
+    "unit": 1
+  }
+]

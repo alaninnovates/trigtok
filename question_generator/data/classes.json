@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "AP Seminar",
+    "enabled": false
+  },
+  {
+    "id": 2,
+    "name": "AP Art History",
+    "enabled": false
+  },
+  {
+    "id": 3,
+    "name": "AP Music Theory",
+    "enabled": false
+  },
+  {
+    "id": 4,
+    "name": "AP English Language and Composition",
+    "enabled": false
+  },
+  {
+    "id": 5,
+    "name": "AP English Literature and Composition",
+    "enabled": false
+  },
+  {
+    "id": 6,
+    "name": "AP African American Studies",
+    "enabled": false
+  },
+  {
+    "id": 7,
+    "name": "AP Comparative Government and Politics",
+    "enabled": false
+  },
+  {
+    "id": 8,
+    "name": "AP European History",
+    "enabled": false
+  },
+  {
+    "id": 9,
+    "name": "AP Human Geography",
+    "enabled": false
+  },
+  {
+    "id": 10,
+    "name": "AP Macroeconomics",
+    "enabled": false
+  },
+  {
+    "id": 11,
+    "name": "AP Microeconomics",
+    "enabled": false
+  },
+  {
+    "id": 12,
+    "name": "AP Psychology",
+    "enabled": false
+  },
+  {
+    "id": 13,
+    "name": "AP United States Government and Politics",
+    "enabled": false
+  },
+  {
+    "id": 14,
+    "name": "AP United States History",
+    "enabled": false
+  },
+  {
+    "id": 15,
+    "name": "AP World History: Modern",
+    "enabled": false
+  },
+  {
+    "id": 16,
+    "name": "AP Calculus AB",
+    "enabled": false
+  },
+  {
+    "id": 17,
+    "name": "AP Calculus BC",
+    "enabled": false
+  },
+  {
+    "id": 18,
+    "name": "AP Computer Science A",
+    "enabled": false
+  },
+  {
+    "id": 19,
+    "name": "AP Computer Science Principles",
+    "enabled": false
+  },
+  {
+    "id": 20,
+    "name": "AP Precalculus",
+    "enabled": true
+  },
+  {
+    "id": 21,
+    "name": "AP Statistics",
+    "enabled": false
+  },
+  {
+    "id": 22,
+    "name": "AP Biology",
+    "enabled": false
+  },
+  {
+    "id": 23,
+    "name": "AP Chemistry",
+    "enabled": false
+  },
+  {
+    "id": 24,
+    "name": "AP Environmental Science",
+    "enabled": false
+  },
+  {
+    "id": 25,
+    "name": "AP Physics 1: Algebra-Based",
+    "enabled": false
+  },
+  {
+    "id": 26,
+    "name": "AP Physics 2: Algebra-Based",
+    "enabled": false
+  },
+  {
+    "id": 27,
+    "name": "AP Physics C: Electricity and Magnetism",
+    "enabled": false
+  },
+  {
+    "id": 28,
+    "name": "AP Physics C: Mechanics",
+    "enabled": false
+  },
+  {
+    "id": 29,
+    "name": "AP Chinese Language and Culture",
+    "enabled": false
+  },
+  {
+    "id": 30,
+    "name": "AP French Language and Culture",
+    "enabled": false
+  },
+  {
+    "id": 31,
+    "name": "AP German Language and Culture",
+    "enabled": false
+  },
+  {
+    "id": 32,
+    "name": "AP Italian Language and Culture",
+    "enabled": false
+  },
+  {
+    "id": 33,
+    "name": "AP Japanese Language and Culture",
+    "enabled": false
+  },
+  {
+    "id": 34,
+    "name": "AP Latin",
+    "enabled": false
+  },
+  {
+    "id": 35,
+    "name": "AP Spanish Language and Culture",
+    "enabled": false
+  },
+  {
+    "id": 36,
+    "name": "AP Spanish Literature and Culture",
+    "enabled": false
+  }
+]

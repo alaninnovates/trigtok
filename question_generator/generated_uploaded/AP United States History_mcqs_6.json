@@ -1,0 +1,724 @@
+[
+  {
+    "stimulus": "The frontier has gone, and with its going has closed the first period of American history.",
+    "question": "The author of this quote, Frederick Jackson Turner, is most well known for what?",
+    "answers": [
+      "Advocating for the immediate annexation of Texas.",
+      "His thesis that the frontier shaped American identity and promoted democracy.",
+      "Leading the Radical Republicans in their efforts to reconstruct the South.",
+      "Promoting the idea of Manifest Destiny and American expansionism."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While Texas annexation was a topic of debate, Turner's work focused on the frontier.",
+      "Correct. Turner's Frontier Thesis is his most famous work, arguing that the frontier experience shaped American character and institutions.",
+      "Incorrect. Radical Republicans and Reconstruction were earlier periods in American history.",
+      "Incorrect. While related to expansion, Turner's main focus was on the impact of the frontier, not the ideology of expansion itself."
+    ],
+    "topic": "Westward Expansion: Social and Cultural Development",
+    "unit": 6
+  },
+  {
+    "stimulus": "Source: Henry Grady, editor of the Atlanta Constitution, 1886.  \"We have sowed towns and cities in the place of theories, and put business above politics... We have fallen in love with work... we have recovered from our delusions.\"",
+    "question": "Henry Grady's statement best represents the beliefs of which group?",
+    "answers": [
+      "Populists seeking agricultural reform.",
+      "Radical Republicans advocating for civil rights.",
+      "Advocates of the \"New South\" seeking economic diversification.",
+      "Supporters of laissez-faire economic policies."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Populists were critical of industrialization and sought reforms to help farmers.",
+      "Incorrect. Radical Republicans were primarily concerned with political and social equality for African Americans.",
+      "Correct. Grady was a leading voice in promoting the idea of a \"New South\" that embraced industrialization and economic development.",
+      "Incorrect. While the New South did advocate for industrialization, this quote is directly related to the beliefs of those who support the \"New South\"."
+    ],
+    "topic": "The \"New South",
+    "unit": 6
+  },
+  {
+    "stimulus": "The electric light did not come from the gas... Improvement came by new methods.",
+    "question": "This quote by Andrew Carnegie highlights what key aspect of technological innovation during the Gilded Age?",
+    "answers": [
+      "Incremental improvements to existing technologies were the primary driver of progress.",
+      "Technological advancements were primarily funded by government initiatives.",
+      "Radical new inventions and processes often replaced older, less efficient ones.",
+      "Technological progress was solely driven by the needs of the agricultural sector."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. While some improvements were incremental, the quote emphasizes the disruptive nature of new inventions.",
+      "Incorrect. Private enterprise, not government, primarily funded technological advancements.",
+      "Correct. Carnegie's quote emphasizes the point that new inventions replace old ones.",
+      "Incorrect. While agriculture benefited from technology, innovation spanned various sectors."
+    ],
+    "topic": "Technological Innovation",
+    "unit": 6
+  },
+  {
+    "stimulus": "The combination has always an immediate and inevitable effect upon wages. They are always reduced.",
+    "question": "This quote reflects the concerns of what group during the Gilded Age?",
+    "answers": [
+      "Factory owners worried about increased labor costs.",
+      "Industrial workers facing declining wages and job security.",
+      "Farmers concerned about railroad monopolies.",
+      "Middle-class reformers seeking to regulate big business."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Factory owners would likely not be complaining about increased labor costs in this time period.",
+      "Correct. This quote accurately reflects the fears of industrial workers.",
+      "Incorrect. Farmers were concerned about railroad rates and other issues.",
+      "Incorrect. Reformers were not focused on the immediate effects on wages."
+    ],
+    "topic": "Labor in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Give me your tired, your poor, Your huddled masses yearning to breathe free.",
+    "question": "This excerpt from a poem by Emma Lazarus, which is inscribed on the Statue of Liberty, best represents what?",
+    "answers": [
+      "The nativist sentiment prevalent in the late 19th century.",
+      "The primary motivation for westward expansion.",
+      "The promise of economic opportunity in the South.",
+      "The idealistic view of immigration held by some Americans."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Nativism was anti-immigrant, contrasting with the poem's welcoming tone.",
+      "Incorrect. Westward expansion was driven by land and resource acquisition.",
+      "Incorrect. The South struggled economically and was not a primary destination for immigrants.",
+      "Correct. The poem embodies the welcoming sentiment some Americans held towards immigrants."
+    ],
+    "topic": "Immigration and Migration in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "There is no reason why good Americans should not come to be governed by good American laws, made by men chosen by good Americans.",
+    "question": "This quote from Josiah Strong's *Our Country* reflects what sentiment?",
+    "answers": [
+      "Support for the Dawes Act and assimilation of Native Americans.",
+      "Advocacy for unrestricted immigration from all countries.",
+      "Opposition to the Chinese Exclusion Act.",
+      "Support for the Social Gospel Movement."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Josiah Strong was in favor of converting people to be more \"American.\"",
+      "Incorrect. Josiah Strong did not support unrestricted immigration.",
+      "Incorrect. This quote is not directly about the Chinese Exclusion Act.",
+      "Incorrect. The Social Gospel Movement focused on applying Christian ethics to social problems."
+    ],
+    "topic": "Responses to Immigration in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "The home, as it exists today, is the creation of the last half-century.",
+    "question": "This quote suggests what key development during the Gilded Age?",
+    "answers": [
+      "A decline in the importance of family values.",
+      "The emergence of a distinct middle-class culture and domestic ideal.",
+      "Increased poverty and homelessness due to industrialization.",
+      "A return to traditional gender roles after the Civil War."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The quote suggests a change, not a decline, in family values.",
+      "Correct. The quote supports the creation of the middle class.",
+      "Incorrect. While poverty existed, the quote focuses on the home.",
+      "Incorrect. Gender roles were evolving, with some women entering the workforce."
+    ],
+    "topic": "Development of the Middle Class",
+    "unit": 6
+  },
+  {
+    "stimulus": "We seek not the \u0b95\u0bc2 destruction of property or any injustice to the rich; all we ask is an equal chance in the race of life.",
+    "question": "This statement reflects the goals of which reform movement during the Gilded Age?",
+    "answers": [
+      "The Social Gospel Movement.",
+      "The Populist Movement.",
+      "The Progressive Movement.",
+      "The Temperance Movement."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Social Gospel Movement focused on applying Christian ethics to social problems.",
+      "Correct. The Populist Movement sought reforms to address the concerns of farmers and laborers.",
+      "Incorrect. The Progressive Movement emerged later and addressed a broader range of issues.",
+      "Incorrect. The Temperance Movement focused on banning alcohol."
+    ],
+    "topic": "Reform in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "That the government should regulate commerce to the extent required by the public interest is admitted on all hands.",
+    "question": "This quote reflects what shift in thinking regarding the role of government during the Gilded Age?",
+    "answers": [
+      "A growing consensus in favor of laissez-faire economic policies.",
+      "A rejection of any government intervention in the economy.",
+      "A growing acceptance of government regulation to address social and economic problems.",
+      "A belief that the government should own and operate all major industries."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Laissez-faire policies advocate for minimal government intervention.",
+      "Incorrect. The quote specifically mentions government regulation.",
+      "Correct. This quote supports government regulation.",
+      "Incorrect. The quote suggests regulation, not government ownership."
+    ],
+    "topic": "Controversies over the Role of Government in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "The President should merely sign the bills that Congress sends him.",
+    "question": "This statement reflects the political views of which of the following groups during the Gilded Age?",
+    "answers": [
+      "Those who favored a strong executive branch.",
+      "Those who believed in limited government and congressional supremacy.",
+      "Those who advocated for direct democracy and popular sovereignty.",
+      "Those who supported an activist government role in regulating the economy."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This statement would limit the power of the executive branch.",
+      "Correct. This statement limits the power of the executive branch, therefore supporting limited government.",
+      "Incorrect. This statement has nothing to do with direct democracy.",
+      "Incorrect. This statement advocates a smaller government role."
+    ],
+    "topic": "Politics in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "From the end of the Civil War to the dawn of the 20th century, the United States was transformed from an agrarian republic to an industrial power.",
+    "question": "This statement best summarizes which major trend during Period 6 (1865-1898)?",
+    "answers": [
+      "The decline of immigration and urbanization.",
+      "The rise of sectionalism and political division.",
+      "The increasing power of the Southern aristocracy.",
+      "The rapid industrialization and economic growth of the nation."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Immigration and urbanization increased.",
+      "Incorrect. While political divisions existed, the dominant trend was industrialization.",
+      "Incorrect. The Southern aristocracy declined in power.",
+      "Correct. The economy drastically shifted."
+    ],
+    "topic": "Continuity and Change in Period 6",
+    "unit": 6
+  },
+  {
+    "stimulus": "The farmer is the man who feeds us all.",
+    "question": "This quote, while seemingly celebrating farmers, ignores what key development of Period 6?",
+    "answers": [
+      "The growing economic interdependence between agriculture and industry.",
+      "The decreasing importance of agriculture in the national economy.",
+      "The increasing political power of farmers through organizations like the Grange.",
+      "The persistence of racial inequality in the Southern agricultural system."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The quote ignores the importance of industry and manufacturing.",
+      "Correct. This quote implies the importance of farming, but ignores the rise of industry.",
+      "Incorrect. While groups like the Grange were important, this quote doesn't directly address them.",
+      "Incorrect. While racial inequality was a factor, the main oversight is about the economic shift."
+    ],
+    "topic": "Continuity and Change in Period 6",
+    "unit": 6
+  },
+  {
+    "stimulus": "We are all socialists now.",
+    "question": "While not literally true, this statement made by a prominent figure in the late 19th century suggests what?",
+    "answers": [
+      "A widespread adoption of socialist ideology by the American public.",
+      "A growing awareness of the need to address social and economic inequality.",
+      "A decline in support for laissez-faire capitalism.",
+      "A rejection of traditional American values and individualism."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Socialism did not gain widespread support.",
+      "Incorrect. While there was growing awareness, this is not the best answer.",
+      "Correct. The quote implies some support for intervention.",
+      "Incorrect. Not necessarily a rejection of traditional American values."
+    ],
+    "topic": "Controversies over the Role of Government in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Gospel of Wealth",
+    "question": "What is the main point of Andrew Carnegie's \"Gospel of Wealth\"?",
+    "answers": [
+      "The wealthy have a responsibility to use their riches to benefit society.",
+      "Unrestrained competition is the best way to promote economic growth.",
+      "Labor unions should be encouraged to protect workers' rights.",
+      "Government regulation is essential to prevent monopolies and protect consumers."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The main idea of Carnegie's \"Gospel of Wealth\" is that the wealthy should give back to society.",
+      "Incorrect. While Carnegie believed in competition, this is not the main point.",
+      "Incorrect. Carnegie was critical of labor unions.",
+      "Incorrect. Carnegie believed in limited government regulation."
+    ],
+    "topic": "The Rise of Industrial Capitalism",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Chinese Must Go!",
+    "question": "This slogan reflected what?",
+    "answers": [
+      "The welcoming attitude towards immigrants on the West Coast.",
+      "The desire to integrate Chinese immigrants into American society.",
+      "The nativist sentiment and anti-Chinese prejudice prevalent in the late 19th century.",
+      "The economic competition between American and Chinese businesses."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. This slogan is not welcoming.",
+      "Incorrect. Integration was not what those who yelled this slogan were looking for.",
+      "Correct. This slogan is rooted in nativism and prejudice.",
+      "Incorrect. While economic competition existed, the slogan primarily reflects racial prejudice."
+    ],
+    "topic": "Responses to Immigration in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "The frontier is the line of most rapid and effective Americanization.",
+    "question": "According to Frederick Jackson Turner, what was the role of the frontier?",
+    "answers": [
+      "A barrier to westward expansion and cultural exchange.",
+      "A force that homogenized diverse groups into a distinct American identity.",
+      "A region dominated by European cultural influences.",
+      "A place where traditional European social hierarchies were reinforced."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The frontier was seen as a zone of expansion, not a barrier.",
+      "Correct. Turner argued that the frontier shaped a unique American identity.",
+      "Incorrect. The frontier was seen as distinct from European influences.",
+      "Incorrect. The frontier was seen as a place where traditional hierarchies were challenged."
+    ],
+    "topic": "Westward Expansion: Social and Cultural Development",
+    "unit": 6
+  },
+  {
+    "stimulus": "The farmer no longer owns himself but is owned by the railroads.",
+    "question": "This quote expresses the concerns of which group?",
+    "answers": [
+      "Industrial workers facing low wages and unsafe working conditions.",
+      "Southern planters struggling to adapt to the post-Civil War economy.",
+      "Western farmers burdened by debt and unfair railroad practices.",
+      "Eastern bankers worried about the stability of the financial system."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The quote specifically mentions farmers and railroads.",
+      "Incorrect. While Southern planters faced challenges, this quote refers to railroads.",
+      "Correct. This quote accurately reflects the plight of western farmers.",
+      "Incorrect. The quote does not directly relate to banking."
+    ],
+    "topic": "Reform in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Atlanta Constitution",
+    "question": "Which person was the editor of the Atlanta Constitution and a leading advocate for the 'New South'?",
+    "answers": [
+      "Booker T. Washington",
+      "W.E.B. Du Bois",
+      "Henry Grady",
+      "Ida B. Wells"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Booker T. Washington was an educator.",
+      "Incorrect. W.E.B. Du Bois was a civil rights activist.",
+      "Correct. Henry Grady was the editor of the Atlanta Constitution.",
+      "Incorrect. Ida B. Wells was a journalist and activist."
+    ],
+    "topic": "The \"New South",
+    "unit": 6
+  },
+  {
+    "stimulus": "Taylorism",
+    "question": "What did the concept of Taylorism lead to?",
+    "answers": [
+      "Increased workplace autonomy for skilled laborers.",
+      "The rise of craft guilds and apprenticeship programs.",
+      "Greater efficiency in production through scientific management techniques.",
+      "A decline in industrial output due to labor unrest."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Taylorism reduced workplace autonomy.",
+      "Incorrect. Taylorism led to the decline of craft guilds.",
+      "Correct. Taylorism is all about efficiency.",
+      "Incorrect. Taylorism sought to increase, not decrease, output."
+    ],
+    "topic": "Technological Innovation",
+    "unit": 6
+  },
+  {
+    "stimulus": "Knights of Labor",
+    "question": "The Knights of Labor advocated for what?",
+    "answers": [
+      "Restrictions on immigration to protect American workers.",
+      "The abolition of child labor and the eight-hour workday.",
+      "The creation of a socialist state through violent revolution.",
+      "The establishment of racially segregated labor unions in the South."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Knights of Labor were more inclusive of immigrants.",
+      "Correct. The Knights of Labor advocated for the abolition of child labor.",
+      "Incorrect. The Knights of Labor were not revolutionary socialists.",
+      "Incorrect. The Knights of Labor did not advocate for segregation."
+    ],
+    "topic": "Labor in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "New Immigrants",
+    "question": "Where did \"New Immigrants\" primarily come from?",
+    "answers": [
+      "Northern and Western Europe.",
+      "Eastern and Southern Europe.",
+      "Canada and Latin America.",
+      "Asia and Africa."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Old Immigrants came from Northern and Western Europe.",
+      "Correct. New Immigrants came from Eastern and Southern Europe.",
+      "Incorrect. This was not the primary source of New Immigrants.",
+      "Incorrect. This was not the primary source of New Immigrants."
+    ],
+    "topic": "Immigration and Migration in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "American Protective Association",
+    "question": "What was the main goal of the American Protective Association?",
+    "answers": [
+      "To promote cultural exchange and understanding between immigrants and native-born Americans.",
+      "To advocate for the rights and protection of immigrant workers.",
+      "To restrict immigration and limit the influence of immigrants in American society.",
+      "To provide social services and support to newly arrived immigrants."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The APA was anti-immigrant.",
+      "Incorrect. The APA was anti-immigrant.",
+      "Correct. The APA was a nativist organization.",
+      "Incorrect. The APA was anti-immigrant."
+    ],
+    "topic": "Responses to Immigration in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Victorian Era",
+    "question": "What was a defining characteristic of middle-class culture in the Gilded Age?",
+    "answers": [
+      "A rejection of traditional gender roles and expectations.",
+      "Emphasis on leisure and recreation over work and self-improvement.",
+      "Adherence to strict social norms and a focus on respectability and domesticity.",
+      "Embrace of radical political ideologies and social activism."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Middle-class culture reinforced traditional gender roles.",
+      "Incorrect. The middle class valued work and self-improvement.",
+      "Correct. Victorian Era focused on social norms.",
+      "Incorrect. The middle class was generally conservative."
+    ],
+    "topic": "Development of the Middle Class",
+    "unit": 6
+  },
+  {
+    "stimulus": "Populist Party",
+    "question": "What was a key proposal of the Populist Party?",
+    "answers": [
+      "The gold standard.",
+      "Government ownership of railroads and telegraphs.",
+      "High tariffs to protect American industries.",
+      "A strong central bank controlled by private interests."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Populists opposed the gold standard.",
+      "Correct. Populists advocated for government ownership.",
+      "Incorrect. Populists did not generally support high tariffs.",
+      "Incorrect. Populists opposed private control of the banking system."
+    ],
+    "topic": "Reform in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Interstate Commerce Act",
+    "question": "What did the Interstate Commerce Act attempt to do?",
+    "answers": [
+      "Promote laissez-faire economics by deregulating interstate trade.",
+      "Regulate railroad rates and practices.",
+      "Encourage the formation of monopolies and trusts.",
+      "Protect the rights of workers to organize and strike."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The act aimed to regulate, not deregulate.",
+      "Correct. The Interstate Commerce Act regulated railroads.",
+      "Incorrect. The act aimed to limit monopolies.",
+      "Incorrect. The act did not focus on workers' rights."
+    ],
+    "topic": "Controversies over the Role of Government in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Boss Tweed",
+    "question": "Who was Boss Tweed?",
+    "answers": [
+      "A leading industrialist and philanthropist.",
+      "A prominent civil rights activist.",
+      "The head of the Tammany Hall political machine in New York City.",
+      "A progressive reformer who fought against corruption in government."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Boss Tweed was a corrupt politician.",
+      "Incorrect. Boss Tweed was not a civil rights activist.",
+      "Correct. Boss Tweed was the leader of Tammany Hall.",
+      "Incorrect. Boss Tweed was the embodiment of corruption."
+    ],
+    "topic": "Politics in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Plessy v. Ferguson",
+    "question": "What did the Supreme Court rule in Plessy v. Ferguson?",
+    "answers": [
+      "That segregation was unconstitutional.",
+      "That \"separate but equal\" facilities were constitutional.",
+      "That African Americans should be granted full civil rights.",
+      "That the federal government had no power to regulate segregation."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Plessy v. Ferguson legalized segregation.",
+      "Correct. This ruling upheld segregation.",
+      "Incorrect. This ruling denied civil rights.",
+      "Incorrect. The court ruled on the constitutionality of segregation laws."
+    ],
+    "topic": "Continuity and Change in Period 6",
+    "unit": 6
+  },
+  {
+    "stimulus": "Homestead Act",
+    "question": "What did the Homestead Act of 1862 do?",
+    "answers": [
+      "Provided free land in the West to anyone who would farm it.",
+      "Established national parks and forests to protect natural resources.",
+      "Granted citizenship to Native Americans who agreed to assimilate into American culture.",
+      "Regulated the railroad industry to prevent monopolies."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. This act provided land to settlers.",
+      "Incorrect. This act was not related to establishing national parks.",
+      "Incorrect. This act did not grant citizenship to Native Americans.",
+      "Incorrect. This act was not related to regulating railroads."
+    ],
+    "topic": "Westward Expansion: Economic Development",
+    "unit": 6
+  },
+  {
+    "stimulus": "The crop-lien system",
+    "question": "What was the crop-lien system?",
+    "answers": [
+      "A system of debt peonage that trapped many Southern farmers in a cycle of poverty.",
+      "A government program that provided subsidies to farmers who grew surplus crops.",
+      "A marketing cooperative that allowed farmers to sell their crops directly to consumers.",
+      "A system of irrigation that transformed arid land into fertile farmland."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The crop-lien system was a cycle of debt.",
+      "Incorrect. It was not a government program.",
+      "Incorrect. It was not a marketing cooperative.",
+      "Incorrect. It was not a system of irrigation."
+    ],
+    "topic": "The \"New South",
+    "unit": 6
+  },
+  {
+    "stimulus": "Bessemer process",
+    "question": "What did the Bessemer process do?",
+    "answers": [
+      "A method for refining oil into kerosene and gasoline.",
+      "A new way of harvesting wheat using steam-powered machinery.",
+      "An efficient and inexpensive method for mass-producing steel.",
+      "A technique for extracting precious metals from ore."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Bessemer process is related to steel.",
+      "Incorrect. Bessemer process is related to steel.",
+      "Correct. The Bessemer process allowed for efficient steel production.",
+      "Incorrect. Bessemer process is related to steel."
+    ],
+    "topic": "Technological Innovation",
+    "unit": 6
+  },
+  {
+    "stimulus": "American Federation of Labor (AFL)",
+    "question": "Who founded the American Federation of Labor (AFL)?",
+    "answers": [
+      "Terence V. Powderly",
+      "Samuel Gompers",
+      "Eugene V. Debs",
+      "Mother Jones"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Terence V. Powderly lead the Knights of Labor.",
+      "Correct. Samuel Gompers founded the AFL.",
+      "Incorrect. Eugene V. Debs was a socialist leader.",
+      "Incorrect. Mother Jones was a labor activist."
+    ],
+    "topic": "Labor in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Ellis Island",
+    "question": "What was Ellis Island?",
+    "answers": [
+      "The main immigration processing center in New York City.",
+      "A settlement house that provided services to immigrants.",
+      "A labor union that organized immigrant workers.",
+      "A political organization that sought to restrict immigration."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Ellis Island was the main immigration processing center.",
+      "Incorrect. Ellis Island was not a settlement house.",
+      "Incorrect. Ellis Island was not a labor union.",
+      "Incorrect. Ellis Island was not a political organization."
+    ],
+    "topic": "Immigration and Migration in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Nativism",
+    "question": "What is nativism?",
+    "answers": [
+      "A belief in the importance of preserving natural resources.",
+      "A policy of promoting international trade and cooperation.",
+      "A preference for native-born inhabitants over immigrants.",
+      "A movement to improve relations between different ethnic groups."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. That would be conservationism.",
+      "Incorrect. That would be globalism.",
+      "Correct. Nativism favors native-born inhabitants.",
+      "Incorrect. That would be multiculturalism."
+    ],
+    "topic": "Responses to Immigration in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Conspicuous consumption",
+    "question": "What does 'conspicuous consumption' mean?",
+    "answers": [
+      "The practice of donating large sums of money to charity.",
+      "The act of purchasing goods and services to display wealth.",
+      "The movement to boycott products made by child labor.",
+      "The effort to conserve natural resources and reduce waste."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. That would be philanthropy.",
+      "Correct. This is the accurate definition of conspicuous consumption.",
+      "Incorrect. This is related to labor reform.",
+      "Incorrect. This is related to environmentalism."
+    ],
+    "topic": "Development of the Middle Class",
+    "unit": 6
+  },
+  {
+    "stimulus": "Granger Laws",
+    "question": "What did the Granger Laws aim to do?",
+    "answers": [
+      "Regulate railroad rates and grain elevator fees.",
+      "Provide low-interest loans to farmers.",
+      "Establish agricultural colleges and universities.",
+      "Promote the conservation of natural resources."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Granger Laws regulated railroad rates.",
+      "Incorrect. This was not their primary goal.",
+      "Incorrect. This was not their primary goal.",
+      "Incorrect. This was not their primary goal."
+    ],
+    "topic": "Reform in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Sherman Antitrust Act",
+    "question": "What was the purpose of the Sherman Antitrust Act?",
+    "answers": [
+      "To promote the growth of monopolies and trusts.",
+      "To regulate working conditions and protect the rights of labor unions.",
+      "To prevent businesses from engaging in anti-competitive practices.",
+      "To establish a national banking system and control the money supply."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. It was to prevent the growth of monopolies.",
+      "Incorrect. It did not regulate working conditions.",
+      "Correct. The Sherman Antitrust Act prevented anti-competitive practices.",
+      "Incorrect. It did not establish a national banking system."
+    ],
+    "topic": "Controversies over the Role of Government in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Tammany Hall",
+    "question": "Where was Tammany Hall located?",
+    "answers": [
+      "Chicago",
+      "Boston",
+      "New York City",
+      "Philadelphia"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Tammany Hall was not in Chicago.",
+      "Incorrect. Tammany Hall was not in Boston.",
+      "Correct. Tammany Hall was in New York City.",
+      "Incorrect. Tammany Hall was not in Philadelphia."
+    ],
+    "topic": "Politics in the Gilded Age",
+    "unit": 6
+  },
+  {
+    "stimulus": "Jim Crow Laws",
+    "question": "What was the impact of Jim Crow laws?",
+    "answers": [
+      "They integrated schools and public facilities in the South.",
+      "They protected the voting rights of African Americans.",
+      "They enforced racial segregation and disenfranchisement in the South.",
+      "They promoted economic equality between blacks and whites."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Jim Crow laws enforced segregation.",
+      "Incorrect. Jim Crow laws disenfranchised African Americans.",
+      "Correct. Jim Crow laws enforced segregation and disenfranchisement.",
+      "Incorrect. Jim Crow laws did not promote economic equality."
+    ],
+    "topic": "Continuity and Change in Period 6",
+    "unit": 6
+  }
+]

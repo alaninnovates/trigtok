@@ -1,0 +1,572 @@
+[
+  {
+    "stimulus": "\u201cThe railway system is a vast network, a mighty loom, upon which the threads of commerce and social relations are woven into a complex and ever-changing pattern.\u201d - Samuel Smiles, 1861",
+    "question": "The quotation above best illustrates which of the following?",
+    "answers": [
+      "The limitations of industrial transportation during the early 19th century.",
+      "The transformative impact of industrialization on European society and economy.",
+      "The negative social consequences of industrial pollution and urbanization.",
+      "The resistance to technological innovation among the working class."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Smiles' quotation describes the expanding nature of industrial transportation, especially the railways, and its contribution to society.",
+      "Correct. The quote highlights the way railways connect commerce and society.",
+      "Incorrect. While pollution and urbanization were consequences of industrialization, the quote does not pertain to this.",
+      "Incorrect. Smiles' writing focused on the advancement caused by industrialization and technology. The quote does not refer to resistance."
+    ],
+    "topic": "Contextualizing Industrialization and Its Origins and Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "\u201cThe factory is a place of relentless toil, where men, women, and children are subjected to the tyranny of machines and the whims of greedy owners.\u201d - Flora Tristan, 1843",
+    "question": "The quotation above best reflects which of the following critiques of industrialization?",
+    "answers": [
+      "The expansion of global trade networks and international competition.",
+      "The decline of traditional agricultural practices and rural communities.",
+      "The exploitation of labor and the harsh working conditions in factories.",
+      "The rise of consumerism and the erosion of traditional values."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While global trade was affected, the quote focuses on labor and factory conditions.",
+      "Incorrect. The quote focuses on labor and factory conditions, not agriculture.",
+      "Correct. The quote directly describes the 'tyranny of machines' and 'greedy owners,' referring to harsh working conditions and labor exploitation.",
+      "Incorrect. While consumerism was related, the quote focuses on factory conditions."
+    ],
+    "topic": "Contextualizing Industrialization and Its Origins and Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Crystal Palace, built in London in 1851, was made of iron and glass and housed the Great Exhibition.",
+    "question": "The Crystal Palace and the Great Exhibition best represent which of the following?",
+    "answers": [
+      "The artistic achievements of the Romantic movement.",
+      "The architectural styles of the Neoclassical era.",
+      "The technological advancements and industrial power of Great Britain.",
+      "The cultural exchange between Europe and its colonies."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Crystal Palace was a technological marvel, not particularly an artistic achievement of the Romantic movement.",
+      "Incorrect. The Crystal Palace was built with iron and glass, and therefore does not represent the Neoclassical era.",
+      "Correct. The Crystal Palace, made of iron and glass, was a display of industrial power.",
+      "Incorrect. The Crystal Palace was an example of the industrial revolution in Great Britain, not necessarily cultural exchange between Europe and its colonies."
+    ],
+    "topic": "Contextualizing Industrialization and Its Origins and Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Enclosure Acts in England led to the privatization of common lands.",
+    "question": "What was one major effect of the Enclosure Acts?",
+    "answers": [
+      "Increased urbanization due to displacement of rural workers.",
+      "A decrease in agricultural productivity due to soil erosion.",
+      "A strengthening of feudal ties between landowners and peasants.",
+      "A decline in the availability of raw materials for industry."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The Enclosure Acts displaced rural workers, causing them to move to urban areas.",
+      "Incorrect. The Enclosure Acts increased the productivity of landowners.",
+      "Incorrect. The Enclosure Acts strengthened the power of landowners by ending feudal ties.",
+      "Incorrect. The Enclosure Acts did not lead to the decline of raw materials for industry."
+    ],
+    "topic": "Contextualizing Industrialization and Its Origins and Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "The putting-out system involved merchants providing raw materials to rural workers who processed them in their homes.",
+    "question": "How did the putting-out system differ from the factory system?",
+    "answers": [
+      "It relied on skilled artisans working in centralized workshops.",
+      "It concentrated production in large-scale factories using machinery.",
+      "It distributed production across households, using manual labor.",
+      "It was primarily used for the production of luxury goods for the aristocracy."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. This describes guilds, not the putting-out system.",
+      "Incorrect. This describes the factory system.",
+      "Correct. The putting-out system involved distributing materials to households for processing.",
+      "Incorrect. The putting-out system was used for the production of many goods."
+    ],
+    "topic": "Contextualizing Industrialization and Its Origins and Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "The spinning jenny and the power loom revolutionized textile production.",
+    "question": "Which of the following was a direct consequence of these inventions?",
+    "answers": [
+      "The decline of the agricultural sector in England.",
+      "The increased demand for raw cotton from the Americas.",
+      "The rise of the domestic system of production.",
+      "The decreased reliance on fossil fuels for energy."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. These inventions bolstered textile production, not the decline of agriculture.",
+      "Correct. These inventions increased production and demand for materials such as cotton.",
+      "Incorrect. These inventions directly led to the decline of the domestic system.",
+      "Incorrect. These inventions were often powered by coal, which increased reliance on fossil fuels."
+    ],
+    "topic": "The Spread of Industry Throughout Europe",
+    "unit": 6
+  },
+  {
+    "stimulus": "Belgium was one of the first countries on the continent to industrialize.",
+    "question": "Which factor contributed MOST to Belgium's early industrialization?",
+    "answers": [
+      "Abundant reserves of coal and iron ore.",
+      "A strong tradition of mercantilist economic policies.",
+      "A highly skilled and educated workforce.",
+      "Political stability and a unified national market."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Coal and iron were vital for industrial production.",
+      "Incorrect. Mercantilism was a declining policy by this time.",
+      "Incorrect. While Belgium had a workforce, its skill was not the main driver.",
+      "Incorrect. Belgium experienced instability during this time."
+    ],
+    "topic": "The Spread of Industry Throughout Europe",
+    "unit": 6
+  },
+  {
+    "stimulus": "Some nations were slower to industrialize than others.",
+    "question": "Which of the following was a major obstacle to industrialization in Eastern Europe?",
+    "answers": [
+      "A lack of natural resources such as coal and iron ore.",
+      "A rigid social structure and the persistence of serfdom.",
+      "A strong tradition of guild production and artisan craftsmanship.",
+      "A lack of access to capital and investment from Western Europe."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Eastern Europe possessed many natural resources.",
+      "Correct. Rigid social structures such as serfdom hindered progress.",
+      "Incorrect. Guild production was not as prevalent in Eastern Europe.",
+      "Incorrect. Eastern Europe did have access to capital."
+    ],
+    "topic": "The Spread of Industry Throughout Europe",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Zollverein was a customs union established in Prussia.",
+    "question": "What was the main purpose of the Zollverein?",
+    "answers": [
+      "To promote free trade and economic integration among German states.",
+      "To protect German industries from foreign competition through high tariffs.",
+      "To establish a common currency and banking system for Germany.",
+      "To regulate labor practices and working conditions in German factories."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The Zollverein allowed free trade between member states.",
+      "Incorrect. The Zollverein's aim was to eliminate internal tariffs and promote trade.",
+      "Incorrect. The Zollverein did not establish a common currency.",
+      "Incorrect. The Zollverein did not have regulatory power."
+    ],
+    "topic": "The Spread of Industry Throughout Europe",
+    "unit": 6
+  },
+  {
+    "stimulus": "The development of railroads facilitated the movement of goods and people.",
+    "question": "How did railroads contribute to the spread of industrialization?",
+    "answers": [
+      "By decreasing the demand for coal and iron ore.",
+      "By increasing the cost of transportation and trade.",
+      "By creating new markets and stimulating economic growth.",
+      "By reinforcing regional economic disparities and isolation."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Railroads increased the demand for coal and iron.",
+      "Incorrect. Railroads lowered the cost of transportation and trade.",
+      "Correct. Railroads stimulated economic growth and created new markets.",
+      "Incorrect. Railroads decreased economic disparities."
+    ],
+    "topic": "The Spread of Industry Throughout Europe",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Bessemer process revolutionized steel production.",
+    "question": "What was the primary impact of the Bessemer process?",
+    "answers": [
+      "It made steel production more expensive and time-consuming.",
+      "It decreased the quality and durability of steel products.",
+      "It enabled the mass production of affordable and high-quality steel.",
+      "It led to the decline of the coal mining industry."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Bessemer process made steel production more efficient.",
+      "Incorrect. The Bessemer process increased the quality and durability of steel products.",
+      "Correct. The Bessemer process led to mass production of steel.",
+      "Incorrect. The Bessemer process increased the demand for coal."
+    ],
+    "topic": "Second Wave Industrialization and Its Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "Electricity became a major source of power during the Second Industrial Revolution.",
+    "question": "How did the widespread adoption of electricity impact European industries?",
+    "answers": [
+      "It decreased the efficiency and productivity of factories.",
+      "It limited the geographic expansion of industrial production.",
+      "It enabled the development of new industries and technologies.",
+      "It reduced the demand for skilled labor and craftsmanship."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. It increased the efficiency of factories.",
+      "Incorrect. It enabled geographic expansion.",
+      "Correct. Electricity led to new industries and technologies.",
+      "Incorrect. It increased demand for skilled labor."
+    ],
+    "topic": "Second Wave Industrialization and Its Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "Germany emerged as a leading industrial power during the late 19th century.",
+    "question": "Which factor contributed MOST to Germany's rapid industrialization?",
+    "answers": [
+      "A large colonial empire and access to overseas markets.",
+      "A decentralized political system and strong regional autonomy.",
+      "Government support for industrial research and development.",
+      "A laissez-faire economic policy and minimal state intervention."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Germany's colonial empire was established after industrialization.",
+      "Incorrect. Germany had a centralized government.",
+      "Correct. Germany supported industrial development.",
+      "Incorrect. Germany's government intervened often."
+    ],
+    "topic": "Second Wave Industrialization and Its Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "The internal combustion engine revolutionized transportation.",
+    "question": "Which of the following was a direct consequence of the invention of the internal combustion engine?",
+    "answers": [
+      "The decline of the petroleum industry.",
+      "The mass production of automobiles and airplanes.",
+      "The decreased reliance on steam power in factories.",
+      "The expansion of railway networks across Europe."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. It increased the need for petroleum.",
+      "Correct. The combustion engine made automobiles and airplanes possible.",
+      "Incorrect. This had little impact on steam power.",
+      "Incorrect. The internal combustion engine led to the mass production of automobiles and airplanes."
+    ],
+    "topic": "Second Wave Industrialization and Its Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "The chemical industry experienced significant growth during the Second Industrial Revolution.",
+    "question": "Which of the following was a major product of the chemical industry during this period?",
+    "answers": [
+      "Cotton textiles and woolen fabrics.",
+      "Iron and steel products.",
+      "Dyes, fertilizers, and explosives.",
+      "Steam engines and locomotives."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. These are products of the textile industry.",
+      "Incorrect. These are products of the iron and steel industry.",
+      "Correct. Dyes, fertilizers, and explosives are products of the chemical industry.",
+      "Incorrect. These are products of machine production."
+    ],
+    "topic": "Second Wave Industrialization and Its Effects",
+    "unit": 6
+  },
+  {
+    "stimulus": "\u201cThe great towns are a blot upon the face of the country.\u201d - Friedrich Engels, 1844",
+    "question": "Engels's sentiment in the quote best reflects which of the following?",
+    "answers": [
+      "The positive effects of urbanization on public health and sanitation.",
+      "The negative social and environmental consequences of rapid urbanization.",
+      "The growing support for urban planning and municipal reforms.",
+      "The romanticization of rural life and the rejection of industrial society."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Engels is very critical of urbanization in this time period.",
+      "Correct. Engels' quote reflects on the negative consequences of rapid urbanization.",
+      "Incorrect. Engels reflects on the negative impacts of urbanization and not a desire for change.",
+      "Incorrect. Engels' quote reflects on the negative consequences of rapid urbanization."
+    ],
+    "topic": "Social Effects of Industrialization",
+    "unit": 6
+  },
+  {
+    "stimulus": "The rise of industrial capitalism led to new social classes.",
+    "question": "Which of the following best describes the main characteristics of the new middle class that arose during the Industrial Revolution?",
+    "answers": [
+      "Landownership and inherited aristocratic titles.",
+      "Factory ownership, professional occupations, and access to education.",
+      "Agricultural labor, rural lifestyles, and traditional values.",
+      "Manual labor, factory work, and participation in trade unions."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This describes the aristocracy.",
+      "Correct. The middle class was characterized by factory ownership, professional occupations, and access to education.",
+      "Incorrect. This describes the peasant class.",
+      "Incorrect. This describes the working class."
+    ],
+    "topic": "Social Effects of Industrialization",
+    "unit": 6
+  },
+  {
+    "stimulus": "Child labor was a common feature of early industrialization.",
+    "question": "What was the primary reason for the widespread employment of children in factories?",
+    "answers": [
+      "Children were more skilled and efficient than adult workers.",
+      "Children were more resistant to diseases and workplace accidents.",
+      "Children were cheaper to employ and easier to control.",
+      "Children were legally required to work in factories to support their families."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Children were not more skilled than adult workers.",
+      "Incorrect. Children were more susceptible to diseases and accidents.",
+      "Correct. Children were easier to exploit and control.",
+      "Incorrect. There was no legal requirement."
+    ],
+    "topic": "Social Effects of Industrialization",
+    "unit": 6
+  },
+  {
+    "stimulus": "Industrialization led to significant changes in family structure.",
+    "question": "How did industrialization affect the traditional roles of women in the family?",
+    "answers": [
+      "Women gained greater economic independence and social equality.",
+      "Women were increasingly confined to the domestic sphere and excluded from the workforce.",
+      "Women's wages increased dramatically, surpassing those of men.",
+      "Women became more involved in political activism and social reform movements."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Women did not gain equal economic independence or social equality.",
+      "Correct. Women were confined to the domestic sphere.",
+      "Incorrect. Men still were paid far more than women.",
+      "Incorrect. While this is true, it is not the main effect of industrialization."
+    ],
+    "topic": "Social Effects of Industrialization",
+    "unit": 6
+  },
+  {
+    "stimulus": "Urbanization led to overcrowding and unsanitary living conditions.",
+    "question": "What was one major consequence of the rapid growth of cities during the Industrial Revolution?",
+    "answers": [
+      "Improved public health and sanitation systems.",
+      "Decreased crime rates and social unrest.",
+      "Increased access to affordable housing for the working class.",
+      "Spread of diseases and high mortality rates."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Public health and sanitation were low.",
+      "Incorrect. Crime rates and social unrest were high.",
+      "Incorrect. Housing was not affordable.",
+      "Correct. There was a large spread of disease."
+    ],
+    "topic": "Social Effects of Industrialization",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Congress of Vienna aimed to restore the old order after the Napoleonic Wars.",
+    "question": "Which principle guided the decisions made at the Congress of Vienna?",
+    "answers": [
+      "National self-determination and popular sovereignty.",
+      "Balance of power and legitimacy.",
+      "Free trade and economic liberalism.",
+      "Social equality and universal suffrage."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Congress of Vienna wanted to restore Europe to its pre-revolution state.",
+      "Correct. They wanted to restore the balance of power.",
+      "Incorrect. The Congress of Vienna did not include trade or economy.",
+      "Incorrect. The Congress of Vienna wanted to restore Europe to its pre-revolution state."
+    ],
+    "topic": "The Concert of Europe and European Conservatism",
+    "unit": 6
+  },
+  {
+    "stimulus": "Metternich was a key figure in the Austrian government.",
+    "question": "What was Metternich's primary goal in the post-Napoleonic era?",
+    "answers": [
+      "To promote democratic reforms and constitutionalism.",
+      "To suppress nationalism and maintain the conservative order.",
+      "To expand Austrian influence through territorial conquest.",
+      "To foster economic growth and industrial development."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Metternich suppressed democratic reform.",
+      "Correct. Metternich suppressed nationalism.",
+      "Incorrect. Metternich did not want to expand Austrian influence.",
+      "Incorrect. Metternich was not as concerned with economic growth."
+    ],
+    "topic": "The Concert of Europe and European Conservatism",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Concert of Europe aimed to maintain peace and stability.",
+    "question": "What was the main purpose of the Concert of Europe?",
+    "answers": [
+      "To promote European unity and integration.",
+      "To prevent revolutions and maintain the existing political order.",
+      "To establish a common military alliance against external threats.",
+      "To foster cultural exchange and intellectual collaboration."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Concert of Europe was against integration.",
+      "Correct. The Concert of Europe wanted to prevent revolutions.",
+      "Incorrect. The Concert of Europe did not focus on military action.",
+      "Incorrect. The Concert of Europe did not focus on cultural exchange."
+    ],
+    "topic": "The Concert of Europe and European Conservatism",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Carlsbad Decrees were issued in Austria.",
+    "question": "What did the Carlsbad Decrees aim to suppress?",
+    "answers": [
+      "Industrial growth and economic competition.",
+      "Liberal and nationalist ideas in universities and the press.",
+      "Religious dissent and sectarian conflicts.",
+      "Worker strikes and labor unrest."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Carlsbad Decrees focused on social and political change.",
+      "Correct. The Carlsbad Decrees aimed to suppress liberal and nationalist ideas.",
+      "Incorrect. The Carlsbad Decrees were not concerned with religious dissent.",
+      "Incorrect. The Carlsbad Decrees were not concerned with worker strikes."
+    ],
+    "topic": "The Concert of Europe and European Conservatism",
+    "unit": 6
+  },
+  {
+    "stimulus": "Conservatism was a dominant ideology in the early 19th century.",
+    "question": "Which of the following best describes the core beliefs of conservatism in the early 19th century?",
+    "answers": [
+      "Emphasis on individual rights, popular sovereignty, and limited government.",
+      "Support for gradual reform, constitutionalism, and social equality.",
+      "Belief in tradition, hierarchy, and the authority of the monarchy and the church.",
+      "Advocacy for radical social change, revolution, and the abolition of private property."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. This describes liberalism.",
+      "Incorrect. This describes liberalism.",
+      "Correct. Conservatism emphasized tradition and hierarchy.",
+      "Incorrect. This describes communism."
+    ],
+    "topic": "The Concert of Europe and European Conservatism",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Revolutions of 1830 and 1848 swept across Europe.",
+    "question": "What was a common cause of the Revolutions of 1830 and 1848?",
+    "answers": [
+      "Widespread famine and economic collapse.",
+      "The rise of fascism and totalitarian regimes.",
+      "Growing demands for political and social reform.",
+      "Religious conflicts and sectarian violence."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While there were economic problems, that was not the primary cause.",
+      "Incorrect. Fascism arose later.",
+      "Correct. The revolutions were due to a call for reform.",
+      "Incorrect. Religious conflicts were not the main cause."
+    ],
+    "topic": "Reactions and Revolutions",
+    "unit": 6
+  },
+  {
+    "stimulus": "The July Revolution in France led to the overthrow of Charles X.",
+    "question": "What was the main outcome of the July Revolution in France?",
+    "answers": [
+      "The establishment of a republic and the abolition of the monarchy.",
+      "The restoration of the Bourbon monarchy under a more liberal king.",
+      "The rise of Napoleon III and the Second Empire.",
+      "The outbreak of a civil war between royalists and republicans."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The monarchy was not abolished.",
+      "Correct. Charles X was replaced by a more liberal king.",
+      "Incorrect. This happened after the 1848 revolution.",
+      "Incorrect. There was no civil war."
+    ],
+    "topic": "Reactions and Revolutions",
+    "unit": 6
+  },
+  {
+    "stimulus": "The 1848 Revolution in Germany aimed to unify the country.",
+    "question": "What was the Frankfurt Parliament's main goal?",
+    "answers": [
+      "To establish a socialist state and abolish private property.",
+      "To create a constitutional monarchy and unify the German states.",
+      "To restore the Holy Roman Empire under Austrian leadership.",
+      "To promote free trade and economic integration with France."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This did not include socialism.",
+      "Correct. They wanted to unify German states.",
+      "Incorrect. The holy roman empire no longer existed.",
+      "Incorrect. France was not relevant."
+    ],
+    "topic": "Reactions and Revolutions",
+    "unit": 6
+  },
+  {
+    "stimulus": "The Revolutions of 1848 ultimately failed in many countries.",
+    "question": "Which factor contributed MOST to the failure of the Revolutions of 1848?",
+    "answers": [
+      "The overwhelming military power of foreign intervention.",
+      "The lack of popular support for revolutionary ideals.",
+      "The divisions among revolutionaries and the strength of conservative forces.",
+      "The success of governments in addressing the grievances of the working class."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. There was no foreign intervention.",
+      "Incorrect. There was popular support.",
+      "Correct. Divisions among revolutionaries and the strength of conservative forces was a primary reason for failure.",
+      "Incorrect. The government did not address grievances."
+    ],
+    "topic": "Reactions and Revolutions",
+    "unit": 6
+  },
+  {
+    "stimulus": "Nationalism played a significant role in the Revolutions of 1848.",
+    "question": "How did nationalism contribute to the Revolutions of 1848?",
+    "answers": [
+      "By promoting international cooperation and solidarity among workers.",
+      "By uniting different ethnic groups under a common political banner.",
+      "By fueling conflicts between different national groups within empires.",
+      "By reinforcing traditional loyalties to monarchs and aristocratic elites."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Nationalism was focused on the nation.",
+      "Incorrect. It fueled conflict between groups.",
+      "Correct. Nationalism fueled conflict.",
+      "Incorrect. Nationalism weakened traditional loyalties."
+    ],
+    "topic": "Reactions and Revolutions",
+    "unit": 6
+  }
+]

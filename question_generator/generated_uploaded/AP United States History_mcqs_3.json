@@ -1,0 +1,668 @@
+[
+  {
+    "stimulus": "The French and Indian War (1754-1763) was a pivotal conflict in North American history.",
+    "question": "Which of the following was a major consequence of the French and Indian War?",
+    "answers": [
+      "Increased cooperation and unity between the British and the American colonists.",
+      "The expulsion of the Spanish from North America.",
+      "Increased British debt and attempts to consolidate control over the colonies.",
+      "The immediate end of salutary neglect and the rise of colonial self-governance."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The war actually strained relations between the British and the colonists due to issues like quartering and differing war strategies.",
+      "Incorrect. While Spain was involved, they were not expelled. They gained territory west of the Mississippi.",
+      "Correct. The war led to significant debt for Britain, prompting them to impose new taxes and tighten control over the colonies, leading to resentment.",
+      "Incorrect. Salutary neglect ended gradually, but the end of the war did not immediately result in colonial self-governance."
+    ],
+    "topic": "The Seven Years' War (The French and Indian War)",
+    "unit": 3
+  },
+  {
+    "stimulus": "The cry of 'No taxation without representation' echoed throughout the American colonies.",
+    "question": "What was the main grievance of the American colonists regarding taxation by the British?",
+    "answers": [
+      "The colonists objected to all forms of taxation, regardless of representation.",
+      "The colonists believed they should only be taxed by their own elected representatives.",
+      "The colonists were primarily concerned about the amount of taxes being levied.",
+      "The colonists preferred taxation by the French over the British."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The colonists were not against all taxation, but rather taxation without having elected representatives to advocate for their interests.",
+      "Correct. The colonists' core belief was that they should only be taxed by their own elected representatives in colonial assemblies.",
+      "Incorrect. While the amount of taxes was a concern, the primary issue was the lack of representation in the British Parliament.",
+      "Incorrect. The colonists were against French taxation since they were British citizens.",
+      ""
+    ],
+    "topic": "Taxation Without Representation",
+    "unit": 3
+  },
+  {
+    "stimulus": "John Locke's ideas on natural rights heavily influenced the American Revolution.",
+    "question": "Which of the following best describes Locke's concept of natural rights?",
+    "answers": [
+      "Rights granted by the government to its citizens.",
+      "Rights inherent to all individuals, including life, liberty, and property.",
+      "Rights that can be altered or revoked by societal consensus.",
+      "Rights exclusively for the wealthy and privileged."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Locke argued that natural rights exist independently of government.",
+      "Correct. Locke believed that individuals are born with inherent rights, including life, liberty, and property, that cannot be legitimately taken away.",
+      "Incorrect. Locke asserted that natural rights are inalienable, meaning they cannot be legitimately taken away.",
+      "Incorrect. Locke believed these rights applied to all individuals."
+    ],
+    "topic": "Philosophical Foundations of the American Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Declaration of Independence, penned by Thomas Jefferson, articulated the reasons for the American colonies' separation from Great Britain.",
+    "question": "What was the primary purpose of the Declaration of Independence?",
+    "answers": [
+      "To establish a new form of government for the newly independent states.",
+      "To formally declare the colonies' independence from Great Britain and justify the reasons for doing so.",
+      "To outline a detailed plan for economic development in the newly independent states.",
+      "To negotiate a peaceful resolution with Great Britain."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While it implied a need for a new government, it didn't establish one.",
+      "Correct. The Declaration served as a formal declaration of independence and a justification for that action, listing grievances against the King.",
+      "Incorrect. It does not focus on economic development.",
+      "Incorrect. The Declaration signified the abandonment of peaceful resolution efforts."
+    ],
+    "topic": "The American Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "Republican Motherhood emerged as an ideal following the American Revolution.",
+    "question": "Which of the following best describes the concept of 'Republican Motherhood'?",
+    "answers": [
+      "The idea that women should have equal political rights as men.",
+      "The belief that women should focus solely on domestic duties and avoid politics.",
+      "The idea that women had a vital role in educating their children in civic virtue and republican ideals.",
+      "The belief that women should be excluded from education and public life."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Republican Motherhood did not advocate for full political equality.",
+      "Incorrect. While domestic duties were important, Republican Motherhood stressed women's role in educating children.",
+      "Correct. Republican Motherhood emphasized women's role in instilling republican values in their children, thereby contributing to the success of the republic.",
+      "Incorrect. Republican Motherhood encouraged education for women, albeit with the purpose of raising virtuous citizens."
+    ],
+    "topic": "The Influence of Revolutionary Ideals",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Articles of Confederation represented the first attempt at a national government for the newly independent United States.",
+    "question": "Which of the following was a significant weakness of the Articles of Confederation?",
+    "answers": [
+      "The national government had too much power over the states.",
+      "There was no national currency or uniform system of taxation.",
+      "The executive branch was too strong and centralized.",
+      "Amendments required unanimous consent from all states."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The central government was intentionally weak under the Articles.",
+      "Correct. The lack of a national currency and uniform taxation system hindered economic stability and growth.",
+      "Incorrect. There was no strong executive branch under the Articles.",
+      "Correct. Requiring unanimous consent made it nearly impossible to pass amendments."
+    ],
+    "topic": "The Articles of Confederation",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Constitutional Convention of 1787 brought together delegates from various states to address the shortcomings of the Articles of Confederation.",
+    "question": "Which of the following was a major point of contention during the Constitutional Convention?",
+    "answers": [
+      "Whether to abolish slavery immediately.",
+      "How to apportion representation in the national legislature.",
+      "Whether to establish a monarchy or a republic.",
+      "Whether to allow states to coin their own money."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While slavery was debated, the immediate abolition was not seriously considered.",
+      "Correct. The issue of representation between large and small states led to compromises like the Great Compromise.",
+      "Incorrect. The decision to establish a republic was essentially unanimous.",
+      "Incorrect. Most delegates agreed that coining money should be a federal power."
+    ],
+    "topic": "The Constitutional Convention and Debates over Ratification",
+    "unit": 3
+  },
+  {
+    "stimulus": "The United States Constitution established a framework for a federal republic.",
+    "question": "Which of the following principles is enshrined in the United States Constitution?",
+    "answers": [
+      "Unlimited power for the executive branch.",
+      "Separation of powers and checks and balances.",
+      "Direct democracy with no electoral college.",
+      "A unitary system of government with centralized authority."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Constitution limits the power of all branches.",
+      "Correct. The Constitution establishes separation of powers among the legislative, executive, and judicial branches, with checks and balances to prevent tyranny.",
+      "Incorrect. The Constitution establishes a representative democracy, not a direct democracy, and includes the Electoral College.",
+      "Incorrect. The US has a federal system, dividing power between the national and state governments."
+    ],
+    "topic": "The Constitution",
+    "unit": 3
+  },
+  {
+    "stimulus": "George Washington faced numerous challenges as the first President of the United States.",
+    "question": "Which of the following actions did George Washington take that helped shape the new republic?",
+    "answers": [
+      "He advocated for the immediate abolition of slavery.",
+      "He established a policy of strict isolationism in foreign affairs.",
+      "He created a national bank to stabilize the economy.",
+      "He supported direct democracy and opposed the Electoral College."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While Washington expressed concerns about slavery, he did not advocate for immediate abolition.",
+      "Incorrect. While Washington warned against permanent alliances, he did not advocate for complete isolationism.",
+      "Correct. Washington supported Hamilton's plan for a national bank, which helped to stabilize the economy.",
+      "Incorrect. Washington accepted the structure of the government as it was created by the Constitution."
+    ],
+    "topic": "Shaping a New Republic",
+    "unit": 3
+  },
+  {
+    "stimulus": "The early United States grappled with defining its national identity.",
+    "question": "Which of the following contributed to the development of a distinct American identity in the early republic?",
+    "answers": [
+      "Continued reliance on European cultural and artistic traditions.",
+      "Development of unique American art, literature, and educational institutions.",
+      "Widespread support for maintaining close ties with Great Britain.",
+      "Adoption of a national religion to unify the population."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While European influences remained, a distinct American culture began to emerge.",
+      "Correct. The development of American art, literature, and educational institutions fostered a sense of national identity.",
+      "Incorrect. The Revolution led to a desire to distance from Great Britain.",
+      "Incorrect. The US Constitution ensures the separation of church and state."
+    ],
+    "topic": "Developing an American Identity",
+    "unit": 3
+  },
+  {
+    "stimulus": "Westward expansion was a defining characteristic of the early republic.",
+    "question": "Which of the following factors contributed to westward movement in the early republic?",
+    "answers": [
+      "Decreasing population in the eastern states.",
+      "Availability of cheap land and opportunities for economic advancement.",
+      "Government policies restricting westward migration.",
+      "Fear of Native American attacks and territorial disputes."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The population was generally increasing in the east, though some did move west.",
+      "Correct. The promise of cheap land and economic opportunities attracted settlers westward.",
+      "Incorrect. Government policies generally encouraged westward expansion.",
+      "Incorrect. While these were concerns, they did not stop westward expansion."
+    ],
+    "topic": "Movement in the Early Republic",
+    "unit": 3
+  },
+  {
+    "stimulus": "Period 3 (1754-1800) witnessed significant continuities and changes in American society.",
+    "question": "Which of the following represents a continuity from the pre-Revolutionary period to the early republic?",
+    "answers": [
+      "The complete abolition of slavery in all states.",
+      "The expansion of voting rights to all adult males.",
+      "The persistence of social hierarchies and inequalities.",
+      "The elimination of economic dependence on agriculture."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Slavery persisted in many states.",
+      "Incorrect. Voting rights were still restricted to property-owning white males in most states.",
+      "Correct. Social hierarchies and inequalities based on race, class, and gender remained prevalent.",
+      "Incorrect. Agriculture remained the dominant sector of the economy."
+    ],
+    "topic": "Continuity and Change in Period 3",
+    "unit": 3
+  },
+  {
+    "stimulus": "Benjamin Franklin's plan to unite the colonies for defense.",
+    "question": "What was the main objective of the Albany Plan of Union?",
+    "answers": [
+      "To declare independence from Great Britain",
+      "To establish a unified colonial government for defense and other purposes",
+      "To negotiate peace with France",
+      "To protest against British taxation"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Albany Plan was proposed before the idea of independence was widespread.",
+      "Correct. The Albany Plan aimed to create a unified colonial government to address common issues such as defense against Native Americans and the French.",
+      "Incorrect. The Albany Plan was focused on colonial unity, not negotiating peace.",
+      "Incorrect. The Albany Plan predates the major taxation disputes that led to the Revolution."
+    ],
+    "topic": "The Seven Years' War (The French and Indian War)",
+    "unit": 3
+  },
+  {
+    "stimulus": "British policies restricting colonial trade and manufacturing.",
+    "question": "What was the purpose of the Navigation Acts?",
+    "answers": [
+      "To promote free trade between the colonies and other nations",
+      "To regulate colonial trade to benefit England",
+      "To encourage colonial manufacturing",
+      "To protect Native American lands"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Navigation Acts were designed to restrict trade, not promote it.",
+      "Correct. The Navigation Acts aimed to control colonial trade, ensuring that the benefits went primarily to England.",
+      "Incorrect. The Navigation Acts restricted colonial manufacturing to maintain England's economic advantage.",
+      "Incorrect. The Navigation Acts focused on trade regulations, not Native American land protection."
+    ],
+    "topic": "Taxation Without Representation",
+    "unit": 3
+  },
+  {
+    "stimulus": "Thomas Paine's influential pamphlet advocating for American independence.",
+    "question": "What was the main argument presented in Common Sense?",
+    "answers": [
+      "That the colonies should remain under British rule",
+      "That the colonies should reconcile with the British monarchy",
+      "That the colonies should declare independence and establish a republic",
+      "That the colonies should seek assistance from France"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Common Sense strongly argued against British rule.",
+      "Incorrect. Paine rejected the idea of reconciliation with the monarchy.",
+      "Correct. Common Sense advocated for independence and the establishment of a republican government.",
+      "Incorrect. While seeking foreign assistance was a later strategy, it was not the main argument of Common Sense."
+    ],
+    "topic": "Philosophical Foundations of the American Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Battle of Saratoga marked a turning point in the Revolutionary War.",
+    "question": "Why was the Battle of Saratoga significant?",
+    "answers": [
+      "It was the final battle of the war",
+      "It convinced France to ally with the American colonies",
+      "It resulted in a major British victory",
+      "It led to the capture of George Washington"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The war continued for several more years after Saratoga.",
+      "Correct. The American victory at Saratoga convinced France to officially recognize and support the American cause.",
+      "Incorrect. The Battle of Saratoga was an American victory.",
+      "Incorrect. Washington was not captured at Saratoga."
+    ],
+    "topic": "The American Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "The concept of civic virtue in the early republic.",
+    "question": "What does civic virtue refer to?",
+    "answers": [
+      "The right to vote and participate in elections",
+      "The idea that citizens should prioritize the common good over their self-interest",
+      "The protection of individual liberties",
+      "The separation of powers in government"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While voting is important, civic virtue is more about selfless contribution.",
+      "Correct. Civic virtue emphasizes the importance of citizens acting in the best interest of the community and nation.",
+      "Incorrect. While individual liberties are important, civic virtue focuses on the collective good.",
+      "Incorrect. Separation of powers is a structural principle of government, not a personal attribute."
+    ],
+    "topic": "The Influence of Revolutionary Ideals",
+    "unit": 3
+  },
+  {
+    "stimulus": "Shays' Rebellion highlighted weaknesses in the Articles of Confederation.",
+    "question": "What was the main cause of Shays' Rebellion?",
+    "answers": [
+      "Protests against high taxes and debt in Massachusetts",
+      "Demands for greater representation in the British Parliament",
+      "Opposition to the abolition of slavery",
+      "Disputes over land ownership in the Ohio River Valley"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Shays' Rebellion was primarily caused by economic grievances, including high taxes and debt, among farmers in Massachusetts.",
+      "Incorrect. Shays' Rebellion occurred after the American Revolution and was not related to British policies.",
+      "Incorrect. Slavery was not a central issue in Shays' Rebellion.",
+      "Incorrect. While land disputes were a factor in other conflicts, they were not the main cause of Shays' Rebellion."
+    ],
+    "topic": "The Articles of Confederation",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Great Compromise resolved a key issue at the Constitutional Convention.",
+    "question": "What was the main feature of the Great Compromise?",
+    "answers": [
+      "It established a single legislative body with equal representation for all states",
+      "It created a bicameral legislature with representation based on population in one house and equal representation in the other",
+      "It granted the president the power to veto state laws",
+      "It abolished slavery in the United States"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Great Compromise created two legislative bodies.",
+      "Correct. The Great Compromise established a bicameral legislature with the House of Representatives based on population and the Senate with equal representation for each state.",
+      "Incorrect. The Great Compromise focused on legislative representation, not presidential powers.",
+      "Incorrect. The Great Compromise did not address slavery."
+    ],
+    "topic": "The Constitutional Convention and Debates over Ratification",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Bill of Rights guarantees fundamental freedoms.",
+    "question": "What is the purpose of the Bill of Rights?",
+    "answers": [
+      "To establish a strong central government",
+      "To limit the power of the states",
+      "To protect individual liberties and rights",
+      "To define the structure of the executive branch"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Bill of Rights is intended to limit government power.",
+      "Incorrect. The Bill of Rights focuses on individual rights, not state power.",
+      "Correct. The Bill of Rights guarantees fundamental freedoms and rights to individuals, such as freedom of speech, religion, and the press.",
+      "Incorrect. The Bill of Rights does not address the structure of the executive branch."
+    ],
+    "topic": "The Constitution",
+    "unit": 3
+  },
+  {
+    "stimulus": "Alexander Hamilton's financial plan for the United States.",
+    "question": "What were the main components of Hamilton's financial plan?",
+    "answers": [
+      "Establishing a national bank, assuming state debts, and imposing tariffs",
+      "Rejecting all forms of taxation",
+      "Promoting agricultural development",
+      "Eliminating the national debt immediately"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Hamilton's plan included creating a national bank, assuming state debts, and implementing tariffs to stabilize the economy.",
+      "Incorrect. Hamilton's plan relied on taxation to generate revenue.",
+      "Incorrect. While Hamilton recognized the importance of agriculture, his plan focused on industry and finance.",
+      "Incorrect. Hamilton's plan aimed to manage the debt, not eliminate it immediately."
+    ],
+    "topic": "Shaping a New Republic",
+    "unit": 3
+  },
+  {
+    "stimulus": "The emergence of a national culture in the United States.",
+    "question": "Which of the following contributed to the development of a distinct American culture in the early republic?",
+    "answers": [
+      "Continued reliance on European artistic traditions",
+      "The promotion of education and the development of American literature and art",
+      "The adoption of a national religion",
+      "The rejection of Enlightenment ideals"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While European influences remained, American culture began to diverge.",
+      "Correct. The growth of education, literature, and art contributed to a unique American cultural identity.",
+      "Incorrect. The US Constitution ensures the separation of church and state.",
+      "Incorrect. Enlightenment ideals heavily influenced American thought and culture."
+    ],
+    "topic": "Developing an American Identity",
+    "unit": 3
+  },
+  {
+    "stimulus": "The expansion of slavery in the United States.",
+    "question": "What factor contributed to the expansion of slavery in the United States during the late 18th century?",
+    "answers": [
+      "The decline of the plantation system",
+      "The invention of the cotton gin",
+      "The abolition of the international slave trade",
+      "The decreased demand for agricultural products"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The plantation system was expanding, not declining.",
+      "Correct. The invention of the cotton gin increased the demand for slave labor in the South.",
+      "Incorrect. The international slave trade was not abolished until 1808.",
+      "Incorrect. The demand for agricultural products was increasing, especially cotton."
+    ],
+    "topic": "Movement in the Early Republic",
+    "unit": 3
+  },
+  {
+    "stimulus": "The long term impacts of the American Revolution.",
+    "question": "What was a long-term effect of the American Revolution?",
+    "answers": [
+      "The immediate end of slavery throughout the world",
+      "The establishment of a democratic government in every nation",
+      "The inspiration for other revolutionary movements",
+      "The decline of nationalism"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Slavery persisted for many years after the American Revolution.",
+      "Incorrect. The American Revolution did not immediately lead to democracy worldwide.",
+      "Correct. The American Revolution inspired other movements for independence and self-government.",
+      "Incorrect. Nationalism increased as a result of the Revolution."
+    ],
+    "topic": "Continuity and Change in Period 3",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Proclamation of 1763",
+    "question": "What did the Proclamation of 1763 state?",
+    "answers": [
+      "Colonists could not settle west of the Appalachian Mountains",
+      "Colonists had to pay for British troops stationed in America",
+      "Colonists had to send representatives to the British Parliament",
+      "Colonists could trade freely with any nation"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. It prohibited colonial settlement west of the Appalachian Mountains to reduce conflict with Native Americans.",
+      "Incorrect. The Quartering Act, not the Proclamation of 1763, dealt with housing British troops.",
+      "Incorrect. The Proclamation of 1763 did not relate to colonial representation in Parliament.",
+      "Incorrect. The Navigation Acts, not the Proclamation of 1763, regulated colonial trade."
+    ],
+    "topic": "The Seven Years' War (The French and Indian War)",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Stamp Act Congress of 1765",
+    "question": "What was the main purpose of the Stamp Act Congress?",
+    "answers": [
+      "To declare independence from Great Britain",
+      "To petition the British government to repeal the Stamp Act",
+      "To organize a colonial militia",
+      "To establish a colonial postal service"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Stamp Act Congress did not advocate for independence.",
+      "Correct. The main purpose was to petition the British government to repeal the Stamp Act, arguing it was taxation without representation.",
+      "Incorrect. The Stamp Act Congress did not focus on military organization.",
+      "Incorrect. The Stamp Act Congress was not related to postal services."
+    ],
+    "topic": "Taxation Without Representation",
+    "unit": 3
+  },
+  {
+    "stimulus": "The philosophy of the Enlightenment",
+    "question": "Which Enlightenment idea influenced the American Revolution?",
+    "answers": [
+      "The divine right of kings",
+      "The importance of hereditary aristocracy",
+      "The concept of natural rights and popular sovereignty",
+      "The need for absolute monarchy"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The Enlightenment challenged the divine right of kings.",
+      "Incorrect. The Enlightenment opposed hereditary aristocracy.",
+      "Correct. The ideas of natural rights and popular sovereignty, as articulated by thinkers like Locke, greatly influenced the Revolution.",
+      "Incorrect. The Enlightenment rejected absolute monarchy."
+    ],
+    "topic": "Philosophical Foundations of the American Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Battle of Yorktown",
+    "question": "What was the significance of the Battle of Yorktown?",
+    "answers": [
+      "It was the first battle of the Revolutionary War",
+      "It was the last major battle of the Revolutionary War, leading to American victory",
+      "It was a major British victory",
+      "It led to the capture of Philadelphia"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The first battle was at Lexington and Concord.",
+      "Correct. Yorktown was the last major battle, resulting in the surrender of British forces and securing American independence.",
+      "Incorrect. Yorktown was an American victory.",
+      "Incorrect. Yorktown was not related to the capture of Philadelphia."
+    ],
+    "topic": "The American Revolution",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Land Ordinance of 1785 and Northwest Ordinance of 1787",
+    "question": "What did the Northwest Ordinance of 1787 establish?",
+    "answers": [
+      "A system for admitting new states into the Union",
+      "A policy of unrestricted immigration",
+      "The abolition of slavery in all US territories",
+      "The construction of a transcontinental railroad"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. It established a process for territories to become states, promoting westward expansion and organized governance.",
+      "Incorrect. Immigration policy was not the focus of the Northwest Ordinance.",
+      "Incorrect. While the ordinance prohibited slavery in the Northwest Territory, it did not apply to all US territories.",
+      "Incorrect. Railroad construction was not addressed in the Northwest Ordinance."
+    ],
+    "topic": "The Influence of Revolutionary Ideals",
+    "unit": 3
+  },
+  {
+    "stimulus": "Federalist and Anti-Federalist debates",
+    "question": "What was the main difference between Federalists and Anti-Federalists?",
+    "answers": [
+      "Federalists supported a strong central government, while Anti-Federalists favored stronger state governments",
+      "Federalists opposed the Constitution, while Anti-Federalists supported it",
+      "Federalists supported states' rights, while Anti-Federalists favored a strong national government",
+      "Federalists wanted to ally with France, while Anti-Federalists wanted to ally with Great Britain"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Federalists advocated for a strong national government, while Anti-Federalists preferred more power to remain with the states.",
+      "Incorrect. Federalists supported the Constitution; Anti-Federalists opposed it unless a bill of rights was added.",
+      "Incorrect. The positions on states' rights are reversed.",
+      "Incorrect. The debate was primarily about government structure, not foreign policy."
+    ],
+    "topic": "The Constitutional Convention and Debates over Ratification",
+    "unit": 3
+  },
+  {
+    "stimulus": "The concept of judicial review",
+    "question": "What is judicial review?",
+    "answers": [
+      "The power of the president to veto laws passed by Congress",
+      "The power of the Supreme Court to declare laws unconstitutional",
+      "The process of amending the Constitution",
+      "The election of judges by popular vote"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This is the president's veto power.",
+      "Correct. Judicial review is the Supreme Court's authority to determine the constitutionality of laws.",
+      "Incorrect. This refers to amending the Constitution.",
+      "Incorrect. Judges are appointed, not elected, in the federal system."
+    ],
+    "topic": "The Constitution",
+    "unit": 3
+  },
+  {
+    "stimulus": "Washington's Farewell Address",
+    "question": "What was a key piece of advice given by George Washington in his Farewell Address?",
+    "answers": [
+      "To form permanent alliances with foreign nations",
+      "To avoid the creation of political parties",
+      "To expand the power of the presidency",
+      "To promote westward expansion at all costs"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Washington cautioned against permanent alliances.",
+      "Correct. He warned against the dangers of political factions and encouraged national unity.",
+      "Incorrect. Washington did not advocate for expanding presidential power.",
+      "Incorrect. While Washington supported westward expansion, he did not advocate for it at all costs."
+    ],
+    "topic": "Shaping a New Republic",
+    "unit": 3
+  },
+  {
+    "stimulus": "The First Great Awakening's effect on American Identity",
+    "question": "How did the First Great Awakening contribute to a sense of American Identity?",
+    "answers": [
+      "It encouraged unification of the colonies around common Christian values.",
+      "It caused great schisms between the colonies.",
+      "It reduced the overall religiosity within the colonies.",
+      "It encouraged deference to the Church of England."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The shared experience of the Awakening helped to unify colonists across different regions and denominations, fostering a sense of shared identity.",
+      "Incorrect. The First Great Awakening did cause divisions, but there was an overall unifying effect.",
+      "Incorrect. It generally heightened religious fervor.",
+      "Incorrect. The First Great Awakening ultimately diminished the influence of the Church of England."
+    ],
+    "topic": "Developing an American Identity",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Whiskey Rebellion",
+    "question": "What was the Whiskey Rebellion a protest against?",
+    "answers": [
+      "A tax on tea",
+      "A tax on whiskey",
+      "The Alien and Sedition Acts",
+      "The Embargo Act"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The protest against the tax on tea was long before the Whiskey Rebellion.",
+      "Correct. The Whiskey Rebellion was a protest by farmers in western Pennsylvania against a federal tax on whiskey.",
+      "Incorrect. The Alien and Sedition Acts came later and were about immigration and speech.",
+      "Incorrect. The Embargo Act was much later and was about trade."
+    ],
+    "topic": "Movement in the Early Republic",
+    "unit": 3
+  },
+  {
+    "stimulus": "The XYZ Affair",
+    "question": "What was the XYZ Affair?",
+    "answers": [
+      "A treaty between the United States and Spain",
+      "A diplomatic incident between the United States and France",
+      "A Supreme Court case",
+      "A battle during the War of 1812"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The XYZ Affair was with France, not Spain.",
+      "Correct. The XYZ Affair was a diplomatic incident in which French officials demanded bribes from American diplomats, leading to a quasi-war between the two countries.",
+      "Incorrect. The XYZ Affair was a diplomatic incident, not a court case.",
+      "Incorrect. The XYZ Affair happened before the War of 1812."
+    ],
+    "topic": "Continuity and Change in Period 3",
+    "unit": 3
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "stimulus": "\u201cThey are people of very gentle and peaceful disposition and are without arms\u2026 When your Highnesses [the King and Queen of Spain] so command, all the people could be taken away to Castile, or held as slaves on the island itself, for with 50 men we could subjugate them all and make them do whatever we want.\u201d - Christopher Columbus, Letter to King Ferdinand and Queen Isabella of Spain, 1493",
+    "question": "Columbus's description of the natives most directly led to which of the following?",
+    "answers": [
+      "Widespread resistance by Native Americans to European cultural practices.",
+      "Debates among Europeans regarding the treatment of Native Americans.",
+      "The introduction of new crops and livestock to the Americas.",
+      "Decreased interest in further exploration of the Americas."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While there was resistance, Columbus's initial descriptions influenced European attitudes and policies more broadly.",
+      "Correct. Columbus's views, and those of others, sparked debate about the morality and legality of exploiting Native Americans.",
+      "Incorrect. While the Columbian Exchange did occur, Columbus's statement is more directly related to the treatment of Native populations.",
+      "Incorrect. Columbus's voyages spurred further exploration, not decreased it."
+    ],
+    "topic": "Columbian Exchange, Spanish Exploration, and Conquest",
+    "unit": 1
+  },
+  {
+    "stimulus": "\u201cGod has inflicted a dreadful plague upon them, and so many of the natives are dead that they are unable to cultivate the ground.\u201d - Letter from a Spanish Missionary in New Spain, 1531",
+    "question": "The event described in the excerpt most directly contributed to which of the following?",
+    "answers": [
+      "The decline of the encomienda system and the rise of African slavery.",
+      "Increased cooperation between Europeans and Native Americans in agricultural practices.",
+      "Greater European interest in converting Native Americans to Christianity.",
+      "The establishment of racially integrated societies in New Spain."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The decline of the Native American population due to disease led to labor shortages, which in turn increased the demand for African slaves and contributed to the decline of the encomienda system.",
+      "Incorrect. Disease outbreaks hindered cooperation due to population decline and mistrust.",
+      "Incorrect. While conversion was a goal, disease-related population decline had a more significant impact on labor systems.",
+      "Incorrect. The social structure of New Spain was hierarchical, with Europeans at the top and little integration."
+    ],
+    "topic": "Columbian Exchange, Spanish Exploration, and Conquest",
+    "unit": 1
+  },
+  {
+    "stimulus": "\u201cIt is the unanimous Opinion of all who understand the Indian Tongue, that the Indians of New England did believe that there was one chief Maker of all things.\u201d - Roger Williams, *A Key into the Language of America*, 1643",
+    "question": "Roger Williams's assertion about Native American beliefs is most likely intended to do which of the following?",
+    "answers": [
+      "Demonstrate the sophistication and complexity of Native American spiritual thought.",
+      "Encourage further efforts to convert Native Americans to Christianity.",
+      "Justify the seizure of Native American lands by English colonists.",
+      "Promote greater cultural understanding and tolerance between Europeans and Native Americans."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. By highlighting the belief in a 'chief Maker,' Williams suggests a level of theological sophistication comparable to European religions.",
+      "Incorrect. While Williams was religious, the excerpt is more about understanding Native beliefs rather than promoting conversion.",
+      "Incorrect. Williams was generally more sympathetic to Native Americans and less inclined to justify land seizure.",
+      "Incorrect. This answer is plausible, but the primary intent is to highlight the intellectual depth of Native belief systems."
+    ],
+    "topic": "Cultural Interactions Between Europeans, Native Americans, and Africans",
+    "unit": 1
+  },
+  {
+    "stimulus": "\u201cThe Great famine destroyed much corn\u2026 At one time, to get a mouthful of food, we would trade all we had, even to the shirts from our backs\u2026 The Lord was pleased to move the hearts of the Indians to deal kindly with us, and they sent us corn, in our great want.\u201d - William Bradford, *Of Plymouth Plantation*, 1650",
+    "question": "Based on the excerpt, which of the following best describes the early relationship between the Pilgrims and Native Americans?",
+    "answers": [
+      "A relationship marked by conflict and competition for resources.",
+      "A relationship characterized by mutual dependence and assistance.",
+      "A relationship defined by the exploitation of Native American labor.",
+      "A relationship primarily focused on religious conversion."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While conflict did arise later, this excerpt emphasizes the initial assistance provided by Native Americans.",
+      "Correct. The excerpt highlights the crucial aid provided by Native Americans to the Pilgrims during a time of famine, demonstrating mutual dependence.",
+      "Incorrect. The excerpt does not mention the exploitation of Native American labor.",
+      "Incorrect. While religion was important to the Pilgrims, the excerpt focuses on their dependence on Native Americans for survival."
+    ],
+    "topic": "Cultural Interactions Between Europeans, Native Americans, and Africans",
+    "unit": 1
+  },
+  {
+    "stimulus": "\u201cThey [the Spanish] took women and children for slaves, and ill-treated them\u2026 They forced many of them to become Christians\u2026 They took away their food and forced them to work harder than usual, without giving them anything to eat.\u201d - Bartolom\u00e9 de Las Casas, *A Short Account of the Destruction of the Indies*, 1542",
+    "question": "Las Casas's account most directly contributed to which of the following?",
+    "answers": [
+      "The implementation of the encomienda system.",
+      "The passage of the New Laws aimed at reforming the treatment of Native Americans.",
+      "The widespread adoption of African slavery in Spanish colonies.",
+      "The end of Spanish colonization in the Americas."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Las Casas's account criticized the encomienda system, so it could not have led to its implementation.",
+      "Correct. Las Casas's writings helped expose the abuses of the Spanish colonial system, contributing to reforms such as the New Laws.",
+      "Incorrect. While Las Casas criticized the treatment of Native Americans, his work did not directly lead to the widespread adoption of African slavery.",
+      "Incorrect. Spanish colonization continued for centuries after Las Casas's account."
+    ],
+    "topic": "Labor, Slavery, and Caste in the Spanish Colonial System",
+    "unit": 1
+  },
+  {
+    "stimulus": "\u201cFrom these, after they are fed and made fat, the Spaniards make their customary banquets and feasts\u2026 they spare no cost; but dress them with as much variety as possible\u2026 They were wont to send all kinds of game to the King\u2026 now they send nothing but men, women, and children, smoke-dried, and salted.\u201d - Girolamo Benzoni, *History of the New World*, 1565",
+    "question": "Benzoni's description of Spanish practices in the Americas is best understood in the context of which of the following?",
+    "answers": [
+      "The development of democratic institutions in Spanish colonies.",
+      "The exploitation of Native American labor and resources for European profit.",
+      "The peaceful coexistence and cultural exchange between Europeans and Native Americans.",
+      "The Spanish Crown's efforts to protect Native American rights."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The passage describes exploitation, not democratic development.",
+      "Correct. Benzoni's description highlights the Spanish exploitation of Native Americans for their own gain.",
+      "Incorrect. The passage illustrates the opposite of peaceful coexistence and cultural exchange.",
+      "Incorrect. The passage criticizes the treatment of Native Americans, suggesting that the Spanish Crown did not protect their rights."
+    ],
+    "topic": "Labor, Slavery, and Caste in the Spanish Colonial System",
+    "unit": 1
+  },
+  {
+    "stimulus": "\u201cAs many as are of the age of fourteen Years, are sold for Slaves. These they carry to Maragnon, and to other Places, where they sell them. And those of a greater Age are kept for their own Use until they die.\u201d - Thomas Gage, *The English-American his Travail by Sea and Land*, 1648",
+    "question": "Gage's description of slavery in the Americas is best understood in the context of which of the following?",
+    "answers": [
+      "The gradual abolition of slavery throughout the Americas.",
+      "The use of enslaved persons as a primary source of labor in the Americas.",
+      "The development of legal protections for enslaved persons.",
+      "The widespread resistance of enslaved persons to their bondage."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This quote does not describe abolition, which occurred much later.",
+      "Correct. Gage's account highlights the sale and use of enslaved people as a labor force.",
+      "Incorrect. Enslaved persons were rarely given legal protections.",
+      "Incorrect. While resistance did occur, the quote focuses on the act of enslavement itself."
+    ],
+    "topic": "Labor, Slavery, and Caste in the Spanish Colonial System",
+    "unit": 1
+  },
+  {
+    "stimulus": "\u201cThe natives are very numerous, and seem not at all afraid of us\u2026 They are a well-formed people, ingenious and very active\u2026 The climate is temperate and healthy; the soil is fertile and productive\u2026 The country abounds with all sorts of game.\u201d - Giovanni da Verrazano, 1524",
+    "question": "Verrazano's description of the Americas most directly contributed to which of the following?",
+    "answers": [
+      "The establishment of peaceful relations between Europeans and Native Americans.",
+      "Increased European interest in exploration and colonization.",
+      "The development of democratic institutions in the Americas.",
+      "The decline of Native American populations due to disease."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While peaceful relations sometimes occurred, Verrazano's description led more directly to increased European interest.",
+      "Correct. Verrazano's positive portrayal of the Americas encouraged further exploration and colonization efforts.",
+      "Incorrect. Democratic institutions developed later and were not directly a result of Verrazano's descriptions.",
+      "Incorrect. While disease did impact Native American populations, it was not a direct result of Verrazano's description."
+    ],
+    "topic": "European Exploration in the Americas",
+    "unit": 1
+  },
+  {
+    "stimulus": "\u201cThe principal aim of these voyages is to carry the name and worship of God to those places.\u201d - Henry the Navigator, 1450s",
+    "question": "Henry the Navigator's statement best explains which of the following motivations for European exploration?",
+    "answers": [
+      "To gain access to new trade routes and markets.",
+      "To spread Christianity and convert indigenous populations.",
+      "To establish colonies for surplus population.",
+      "To discover new sources of precious metals."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. While trade was a motivation, the quote emphasizes the spread of religion.",
+      "Correct. The quote explicitly mentions carrying 'the name and worship of God,' indicating a religious motivation.",
+      "Incorrect. This was a motivation for colonization later, but not the focus of this quote.",
+      "Incorrect. While the discovery of precious metals was a motivation, the quote emphasizes religion."
+    ],
+    "topic": "European Exploration in the Americas",
+    "unit": 1
+  },
+  {
+    "stimulus": "Before 1492, various Native American societies had developed distinct cultures and ways of life.",
+    "question": "Which of the following best describes the primary factor that shaped the diverse Native American societies before European contact?",
+    "answers": [
+      "Adaptation to different geographic and environmental conditions.",
+      "The influence of European trade goods and technologies.",
+      "The spread of a uniform religious belief system.",
+      "Political unification under a single powerful empire."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Native American societies adapted their cultures, economies, and lifestyles to the specific environments they inhabited.",
+      "Incorrect. This is incorrect as the prompt notes that this question refers to pre-1492, before European contact.",
+      "Incorrect. Native American societies had diverse religious beliefs and practices.",
+      "Incorrect. Native American societies were generally decentralized and lacked a single unifying empire before European contact."
+    ],
+    "topic": "Native American Societies Before European Contact",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Anasazi people, for example, developed sophisticated irrigation systems to cultivate crops in the arid Southwest, while the Iroquois Confederacy formed a powerful political alliance in the Northeast.",
+    "question": "The examples of the Anasazi and Iroquois best illustrate which of the following?",
+    "answers": [
+      "The widespread adoption of European agricultural techniques by Native Americans.",
+      "The ability of Native American societies to adapt and innovate in response to their environments.",
+      "The uniformity of Native American cultures across North America.",
+      "The dependence of Native American societies on European trade for survival."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. These are pre-contact examples.",
+      "Correct. The Anasazi and Iroquois demonstrate the ability of Native Americans to develop innovative solutions to environmental and social challenges.",
+      "Incorrect. The prompt notes the diversity of Native American populations.",
+      "Incorrect. These are pre-contact examples."
+    ],
+    "topic": "Native American Societies Before European Contact",
+    "unit": 1
+  },
+  {
+    "stimulus": "Before 1492, the peoples of the Americas lacked technologies such as the wheel and metal tools, but they developed sophisticated agricultural practices, complex social structures, and advanced knowledge of astronomy and mathematics.",
+    "question": "Which of the following conclusions can be best supported by the information provided?",
+    "answers": [
+      "Native American societies were primitive and unsophisticated compared to European societies.",
+      "Native American societies were diverse and possessed unique strengths and innovations.",
+      "Native American societies were unable to adapt to their environments without European assistance.",
+      "Native American societies were primarily nomadic and lacked permanent settlements."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The passage says the opposite.",
+      "Correct. The passage highlights the unique strengths and innovations of Native American societies despite lacking certain technologies.",
+      "Incorrect. The passage describes advanced agricultural practices, which suggests adaptation.",
+      "Incorrect. The passage notes that societies were complex, suggesting permanent settlements."
+    ],
+    "topic": "Native American Societies Before European Contact",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Mississippian culture, which flourished in the Mississippi River Valley from around 800 to 1600 CE, was characterized by its large urban centers, monumental earthworks, and sophisticated agricultural practices.",
+    "question": "The Mississippian culture is significant because it demonstrates which of the following?",
+    "answers": [
+      "The limited capacity of Native American societies to develop complex civilizations.",
+      "The absence of social hierarchy and specialization of labor in Native American societies.",
+      "The ability of Native American societies to create complex and highly organized societies prior to European contact.",
+      "The dependence of Native American societies on European technology for agricultural production."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The description suggests that the civilization was complex, not limited.",
+      "Incorrect. The prompt indicates organized societies, which would suggest a social hierarchy.",
+      "Correct. The Mississippian culture demonstrates the capacity of Native American societies to develop advanced civilizations with urban centers and sophisticated agricultural practices.",
+      "Incorrect. The Mississippian culture flourished before European contact."
+    ],
+    "topic": "Native American Societies Before European Contact",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Columbian Exchange had a profound impact on both the Americas and Europe, transforming agriculture, diets, and populations.",
+    "question": "Which of the following best describes a significant impact of the Columbian Exchange on Europe?",
+    "answers": [
+      "The introduction of new diseases that decimated the European population.",
+      "The decline of European agriculture due to competition from American crops.",
+      "The introduction of new crops such as potatoes and corn that led to population growth.",
+      "The decrease in European interest in exploration and colonization."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Diseases primarily flowed from Europe to the Americas.",
+      "Incorrect. European agriculture expanded.",
+      "Correct. The introduction of new crops from the Americas led to increased food production and population growth in Europe.",
+      "Incorrect. The Columbian exchange increased interest in exploration."
+    ],
+    "topic": "Columbian Exchange, Spanish Exploration, and Conquest",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Spanish colonial system incorporated Native American labor and African slaves into its economic structure, resulting in a complex social hierarchy based on race and ethnicity.",
+    "question": "Which of the following best describes the primary labor system used by the Spanish in their American colonies during the 16th century?",
+    "answers": [
+      "Indentured servitude, where Europeans agreed to work for a set period in exchange for passage to the Americas.",
+      "Free labor, where individuals were paid wages for their work.",
+      "The encomienda system, where Native Americans were forced to provide labor to Spanish colonists.",
+      "Sharecropping, where individuals worked land owned by others in exchange for a portion of the crops."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. This was used more by the English than the Spanish.",
+      "Incorrect. Free labor was not the primary labor system.",
+      "Correct. The encomienda system was a labor system used by the Spanish that forced Native Americans to work for them.",
+      "Incorrect. Sharecropping developed after the Civil War."
+    ],
+    "topic": "Labor, Slavery, and Caste in the Spanish Colonial System",
+    "unit": 1
+  },
+  {
+    "stimulus": "The interactions between Europeans, Native Americans, and Africans in the Americas led to both conflict and cultural exchange, shaping the development of new societies and identities.",
+    "question": "Which of the following best describes a major consequence of the interactions between Europeans and Native Americans during the 16th and 17th centuries?",
+    "answers": [
+      "The preservation of Native American cultures and traditions in their original form.",
+      "The widespread adoption of Native American languages and customs by Europeans.",
+      "The exchange of agricultural products and technologies that transformed both societies.",
+      "The establishment of peaceful and harmonious relations between Europeans and Native Americans."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. There was cultural diffusion.",
+      "Incorrect. There was cultural diffusion.",
+      "Correct. The Columbian Exchange was a major consequence of interaction.",
+      "Incorrect. Relations were not peaceful."
+    ],
+    "topic": "Cultural Interactions Between Europeans, Native Americans, and Africans",
+    "unit": 1
+  },
+  {
+    "stimulus": "European colonization of the Americas resulted in significant demographic changes, including the decline of Native American populations due to disease and warfare, and the introduction of new populations from Europe and Africa.",
+    "question": "Which of the following was the most significant cause of the drastic decrease in the Native American population after European contact?",
+    "answers": [
+      "Warfare between European colonists and Native American tribes.",
+      "Forced labor and mistreatment of Native Americans by European colonists.",
+      "The introduction of new diseases to which Native Americans had no immunity.",
+      "The destruction of Native American agricultural systems by European colonists."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. This was a factor, but not the primary.",
+      "Incorrect. This was a factor, but not the primary.",
+      "Correct. The introduction of diseases like smallpox devastated Native American populations.",
+      "Incorrect. This was a factor, but not the primary."
+    ],
+    "topic": "Columbian Exchange, Spanish Exploration, and Conquest",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Spanish colonial system in the Americas established a rigid social hierarchy based on race and birthplace.",
+    "question": "Which of the following best describes the casta system in Spanish colonies?",
+    "answers": [
+      "A system of representative government based on popular sovereignty.",
+      "A system of forced labor that required Native Americans to work in mines and fields.",
+      "A hierarchical social system based on race and ancestry, with Europeans at the top.",
+      "A system of free trade that allowed colonists to engage in commerce with any nation."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. There was no representative government in the Spanish Colonies.",
+      "Incorrect. This describes the Encomienda system, not the casta system.",
+      "Correct. The casta system placed Europeans at the top, followed by mixed-race individuals, and then Native Americans and Africans.",
+      "Incorrect. Colonies could only trade with the mother country."
+    ],
+    "topic": "Labor, Slavery, and Caste in the Spanish Colonial System",
+    "unit": 1
+  },
+  {
+    "stimulus": "The Pueblo Revolt in 1680 was a major uprising of Native Americans against Spanish colonizers in present-day New Mexico.",
+    "question": "Which of the following was a primary cause of the Pueblo Revolt?",
+    "answers": [
+      "The Spanish suppression of Native American religious practices.",
+      "The introduction of new diseases by European colonists.",
+      "The forced labor and mistreatment of Native Americans by Spanish colonists.",
+      "All of the above."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. This was a cause, but not the primary.",
+      "Incorrect. This was a cause, but not the primary.",
+      "Incorrect. This was a cause, but not the primary.",
+      "Correct. The Pueblo Revolt was caused by religious suppression, forced labor, and mistreatment by the Spanish."
+    ],
+    "topic": "Cultural Interactions Between Europeans, Native Americans, and Africans",
+    "unit": 1
+  },
+  {
+    "stimulus": "The context of the early contact period between Europeans and Native Americans was shaped by competing worldviews, economic interests, and religious beliefs.",
+    "question": "Which of the following best describes the European perspective on land ownership in the Americas during the 16th and 17th centuries?",
+    "answers": [
+      "Europeans recognized Native American rights to the land and sought to negotiate treaties for its purchase.",
+      "Europeans believed that land should be held in common and used for the benefit of all people.",
+      "Europeans believed that land was a source of wealth and power, and that they had a right to claim it for themselves.",
+      "Europeans sought to preserve the natural environment and prevent its exploitation for economic gain."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. They did not acknowledge Native American rights.",
+      "Incorrect. Land was not seen as being held in common.",
+      "Correct. Europeans believed in private property and sought to acquire land for economic gain and to increase their power.",
+      "Incorrect. Europeans sought to exploit the land for economic gain."
+    ],
+    "topic": "Causation in Period 1",
+    "unit": 1
+  },
+  {
+    "stimulus": "The interactions between Europeans, Native Americans, and Africans in the Americas resulted in the exchange of goods, ideas, and technologies, but also in conflict, exploitation, and disease.",
+    "question": "Which of the following best explains the long-term significance of the Columbian Exchange?",
+    "answers": [
+      "It led to a period of peace and cooperation between Europeans and Native Americans.",
+      "It had a minimal impact on the development of the Americas and Europe.",
+      "It resulted in the widespread adoption of Native American cultural practices by Europeans.",
+      "It transformed the economies, societies, and environments of both the Americas and Europe."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. The Columbian Exchange was not a period of peace.",
+      "Incorrect. It had a significant impact.",
+      "Incorrect. Europeans did not adopt Native American cultural practices.",
+      "Correct. The Columbian Exchange had a transformative impact on both the Americas and Europe."
+    ],
+    "topic": "Causation in Period 1",
+    "unit": 1
+  }
+]

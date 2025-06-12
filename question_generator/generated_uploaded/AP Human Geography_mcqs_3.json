@@ -1,0 +1,458 @@
+[
+  {
+    "stimulus": "\u201cThe world\u2019s languages exhibit a remarkable degree of diversity, with estimates suggesting that there are between 6,000 and 7,000 distinct languages spoken today. However, this diversity is not evenly distributed across the globe. Certain regions, such as Papua New Guinea and Indonesia, are linguistic hotspots, boasting hundreds of different languages within their relatively small territories. In contrast, other regions, such as Europe and North America, are dominated by a handful of widely spoken languages.\u201d",
+    "question": "Based on the text, which of the following best describes the global distribution of languages?",
+    "answers": [
+      "Language diversity is evenly distributed across the globe.",
+      "Certain regions exhibit higher language diversity than others.",
+      "Europe and North America are linguistic hotspots.",
+      "The number of languages spoken globally is declining rapidly."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The text explicitly states that language diversity is *not* evenly distributed.",
+      "Correct. The text mentions that certain regions like Papua New Guinea and Indonesia have high linguistic diversity.",
+      "Incorrect. The text states that Europe and North America are dominated by few languages, implying *lower* diversity.",
+      "Incorrect. The text doesn't directly address language decline."
+    ],
+    "topic": "Diffusion of Religion and Language",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Amish, a religious group primarily located in North America, maintain a distinct cultural identity characterized by simple living, traditional clothing, and limited use of modern technology. They largely live in rural communities, often avoiding assimilation into mainstream society.",
+    "question": "The Amish community's spatial distribution and cultural practices are an example of:",
+    "answers": [
+      "Contagious diffusion",
+      "Hierarchical diffusion",
+      "Relocation diffusion",
+      "Reverse hierarchical diffusion"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Contagious diffusion refers to the spread of something from person to person, which doesn't accurately describe the Amish migration patterns.",
+      "Incorrect. Hierarchical diffusion spreads from large to small places, not necessarily tied to specific cultural groups relocating.",
+      "Correct. Relocation diffusion involves the spread of a culture or trait through the physical movement of people to a new location, fitting the Amish migration.",
+      "Incorrect. Reverse hierarchical diffusion spreads from small to large places and is not relevant to the Amish migration."
+    ],
+    "topic": "Types of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "A country adopts a new policy promoting bilingualism in schools and government offices. The policy aims to preserve indigenous languages while also ensuring proficiency in a dominant global language for economic opportunities.",
+    "question": "This policy is an attempt to balance the effects of which two opposing forces?",
+    "answers": [
+      "Cultural diffusion and cultural preservation",
+      "Economic globalization and political localization",
+      "Centripetal forces and centrifugal forces",
+      "Urbanization and suburbanization"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. The policy tries to allow the spread of a dominant language (cultural diffusion) while also keeping local languages alive (cultural preservation).",
+      "Incorrect. While related to globalization, the policy primarily addresses cultural, not economic, issues.",
+      "Incorrect. These are forces that unite or divide a state and are less relevant to language policy.",
+      "Incorrect. These processes relate to population shifts within urban areas."
+    ],
+    "topic": "Effects of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Silk Road, an ancient network of trade routes, connected the East and West. Along these routes, goods, ideas, and cultural practices were exchanged between different civilizations.",
+    "question": "The Silk Road is a historical example of:",
+    "answers": [
+      "Barrier to diffusion",
+      "Independent invention",
+      "Cultural hearth",
+      "Stimulus diffusion"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. The Silk Road facilitated diffusion, not hindered it.",
+      "Incorrect. Independent invention refers to the creation of something new without outside influence, not relevant to the Silk Road.",
+      "Incorrect. A cultural hearth is a place of origin for a culture, but the Silk Road was a route of exchange.",
+      "Correct. The Silk Road is a great example of Stimulus diffusion. Ideas and technologies moved across the Silk Road, and then were adapted by the local cultures. Stimulus Diffusion is adopting a trait, but modifying it to fit into the receiving culture."
+    ],
+    "topic": "Historical Causes of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "A group of indigenous people live in a remote area with very little contact with the outside world. They have their own unique customs, beliefs, and language.",
+    "question": "Which of the following best describes this situation?",
+    "answers": [
+      "Cultural assimilation",
+      "Cultural diffusion",
+      "Cultural convergence",
+      "Cultural divergence"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Cultural assimilation is the process of adopting the traits of another culture.",
+      "Incorrect. Cultural diffusion is the spread of cultural traits from one place to another.",
+      "Incorrect. Cultural convergence is the process of different cultures coming together and becoming more similar.",
+      "Correct. Cultural divergence is the process of cultures becoming more dissimilar over time."
+    ],
+    "topic": "Introduction to Culture",
+    "unit": 3
+  },
+  {
+    "stimulus": "The increasing popularity of K-pop music and Korean dramas in various parts of the world is largely attributed to the accessibility and reach of social media and online streaming platforms.",
+    "question": "This phenomenon is an example of:",
+    "answers": [
+      "Contagious diffusion",
+      "Hierarchical diffusion",
+      "Relocation diffusion",
+      "Reverse hierarchical diffusion"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Contagious diffusion occurs through direct contact, not necessarily through online platforms.",
+      "Correct. K-pop often gains popularity in major cities before spreading to smaller regions, fitting the pattern of hierarchical diffusion.",
+      "Incorrect. Relocation diffusion requires physical movement of people, which is not the primary factor in K-pop's spread.",
+      "Incorrect. Reverse hierarchical diffusion starts in small places and moves to large places."
+    ],
+    "topic": "Contemporary Causes of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "The English language has spread to many parts of the world due to colonization, trade, and the influence of American popular culture.",
+    "question": "Which of the following is the most accurate description of the spread of English?",
+    "answers": [
+      "English spread only through relocation diffusion.",
+      "English spread only through expansion diffusion.",
+      "English spread through a combination of relocation and expansion diffusion.",
+      "English spread through reverse hierarchical diffusion."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. While relocation diffusion played a role, it's not the only method.",
+      "Incorrect. While expansion diffusion played a role, it's not the only method.",
+      "Correct. Colonization (relocation) and increasing adoption without movement (expansion) both contributed.",
+      "Incorrect. Reverse hierarchical diffusion spreads from small places to large places, which does not fit the spread of English."
+    ],
+    "topic": "Historical Causes of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "A visible feature or aspect of culture is:",
+    "question": "Which of the following concepts best describes the impact of religion on the cultural landscape?",
+    "answers": [
+      "A universalizing religion.",
+      "A sacred site.",
+      "A cultural trait.",
+      "A cultural complex."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. A universalizing religion is a religion that attempts to appeal to all people, regardless of location or culture.",
+      "Correct. Religion shapes the cultural landscape through the creation of sacred sites, such as temples, churches, and mosques.",
+      "Incorrect. A cultural trait is a single aspect of a culture.",
+      "Incorrect. A cultural complex is a group of interrelated cultural traits."
+    ],
+    "topic": "Cultural Landscapes",
+    "unit": 3
+  },
+  {
+    "stimulus": "The increasing interconnectedness of the world through trade, communication, and migration.",
+    "question": "This phenomenon is best described as:",
+    "answers": [
+      "Globalization",
+      "Localization",
+      "Regionalization",
+      "Nationalism"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Globalization refers to the increasing interconnectedness of the world.",
+      "Incorrect. Localization refers to the process of adapting a product or service to a particular culture or region.",
+      "Incorrect. Regionalization refers to the process of dividing an area into smaller regions.",
+      "Incorrect. Nationalism refers to the belief that one's own country is superior to others."
+    ],
+    "topic": "Contemporary Causes of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "In the early 20th century, jazz music originated in African American communities in the United States. Over time, jazz spread to other parts of the world, influencing other musical genres and becoming a global phenomenon.",
+    "question": "Which of the following types of diffusion best explains the spread of jazz music from the United States to other parts of the world?",
+    "answers": [
+      "Contagious diffusion",
+      "Hierarchical diffusion",
+      "Relocation diffusion",
+      "Stimulus diffusion"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Contagious diffusion is the spread of a phenomenon from person to person, which does not accurately describe the spread of jazz music.",
+      "Incorrect. Hierarchical diffusion is the spread of a phenomenon from large, important places to smaller, less important places.",
+      "Incorrect. Relocation diffusion is the spread of a phenomenon through the movement of people from one place to another.",
+      "Correct. Stimulus Diffusion is the adaptation of jazz to new cultural contexts by local musicians."
+    ],
+    "topic": "Types of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "A region is known for its distinct architectural style, cuisine, and dialect. These characteristics are unique to the region and are not found anywhere else.",
+    "question": "Which of the following concepts best describes this situation?",
+    "answers": [
+      "Cultural landscape",
+      "Cultural hearth",
+      "Cultural region",
+      "Cultural trait"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. A cultural landscape is the visible imprint of human activity on the land.",
+      "Incorrect. A cultural hearth is a place where cultural traits originate.",
+      "Correct. A cultural region is an area that shares a common cultural identity.",
+      "Incorrect. A cultural trait is a single aspect of a culture."
+    ],
+    "topic": "Cultural Patterns",
+    "unit": 3
+  },
+  {
+    "stimulus": "A country that was colonized by a European power now has a population that speaks the colonizer's language and practices their religion.",
+    "question": "Which of the following terms best describes this phenomenon?",
+    "answers": [
+      "Cultural assimilation",
+      "Cultural divergence",
+      "Cultural landscape",
+      "Cultural relativism"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Cultural assimilation is the process of adopting the traits of another culture.",
+      "Incorrect. Cultural divergence is the process of cultures becoming more dissimilar over time.",
+      "Incorrect. Cultural landscape is the visible imprint of human activity on the land.",
+      "Incorrect. Cultural relativism is the principle that a person's beliefs, values, and practices should be understood based on that person's own culture, rather than be judged against the criteria of another."
+    ],
+    "topic": "Effects of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "A new trend starts in a major city and then spreads to other large cities before eventually reaching smaller towns and rural areas.",
+    "question": "This pattern of diffusion is an example of:",
+    "answers": [
+      "Contagious diffusion",
+      "Hierarchical diffusion",
+      "Relocation diffusion",
+      "Reverse hierarchical diffusion"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Contagious diffusion spreads through direct contact, not necessarily based on city size.",
+      "Correct. Hierarchical diffusion spreads from large, influential places to smaller ones.",
+      "Incorrect. Relocation diffusion involves the physical movement of people.",
+      "Incorrect. Reverse hierarchical diffusion spreads from small places to large places."
+    ],
+    "topic": "Types of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "The Indo-European language family is spoken by about half of the world's population and is the most widely distributed language family.",
+    "question": "Which of the following is NOT a reason why the Indo-European language family is so widely distributed?",
+    "answers": [
+      "The Indo-European language family originated in a small area and then spread through migration and conquest.",
+      "The Indo-European language family has been spread through colonialism and globalization.",
+      "The Indo-European language family has been spread through trade and commerce.",
+      "The Indo-European language family is the simplest and easiest language family to learn."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. This is a reason why the Indo-European language family is so widely distributed.",
+      "Incorrect. This is a reason why the Indo-European language family is so widely distributed.",
+      "Incorrect. This is a reason why the Indo-European language family is so widely distributed.",
+      "Correct. This is not a reason why the Indo-European language family is so widely distributed."
+    ],
+    "topic": "Diffusion of Religion and Language",
+    "unit": 3
+  },
+  {
+    "stimulus": "A country that promotes a common language and national identity through its education system and media.",
+    "question": "Which of the following best describes this government's actions?",
+    "answers": [
+      "Promoting cultural divergence",
+      "Reinforcing centrifugal forces",
+      "Strengthening centripetal forces",
+      "Encouraging cultural relativism"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The country is trying to create a single identity, not divergence.",
+      "Incorrect. Centrifugal forces divide a state.",
+      "Correct. Centripetal forces unite a state, and a common culture helps do that.",
+      "Incorrect. Cultural relativism is about understanding cultures, not creating one."
+    ],
+    "topic": "Effects of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "The spread of Christianity to the Americas by European colonizers.",
+    "question": "Which of the following types of diffusion best describes the spread of Christianity in this scenario?",
+    "answers": [
+      "Contagious diffusion",
+      "Hierarchical diffusion",
+      "Relocation diffusion",
+      "Stimulus diffusion"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Contagious diffusion is spread through direct contact.",
+      "Incorrect. Hierarchical diffusion spreads from authority figures.",
+      "Correct. Relocation diffusion involves the physical movement of people and their culture/religion.",
+      "Incorrect. Stimulus diffusion involves the adoption of an idea, but modifying it."
+    ],
+    "topic": "Diffusion of Religion and Language",
+    "unit": 3
+  },
+  {
+    "stimulus": "A region is known for its distinct style of dress, cuisine, and architecture. The people of this region share a common language, religion, and history.",
+    "question": "Which of the following concepts best describes this region?",
+    "answers": [
+      "Cultural landscape",
+      "Cultural hearth",
+      "Cultural region",
+      "Cultural trait"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Cultural landscape refers to the visible imprint of human activity on the land.",
+      "Incorrect. Cultural hearth refers to the origin or starting point of a culture.",
+      "Correct. Cultural region is an area with shared cultural traits.",
+      "Incorrect. A cultural trait is a single element of culture."
+    ],
+    "topic": "Cultural Patterns",
+    "unit": 3
+  },
+  {
+    "stimulus": "The increasing availability of smartphones and internet access in developing countries has led to the spread of Western cultural values and consumerism.",
+    "question": "Which of the following processes is most directly responsible for this phenomenon?",
+    "answers": [
+      "Cultural divergence",
+      "Cultural relativism",
+      "Cultural diffusion",
+      "Cultural landscape"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Cultural divergence refers to the tendency of cultures to become increasingly dissimilar over time.",
+      "Incorrect. Cultural relativism is the principle that a person's beliefs, values, and practices should be understood based on that person's own culture, rather than be judged against the criteria of another.",
+      "Correct. Cultural diffusion is the spread of cultural traits from one place to another.",
+      "Incorrect. A cultural landscape is the visible imprint of human activity on the land."
+    ],
+    "topic": "Contemporary Causes of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "A new fashion trend that begins in Paris and quickly spreads to major cities around the world.",
+    "question": "Which of the following types of diffusion best describes this phenomenon?",
+    "answers": [
+      "Contagious diffusion",
+      "Hierarchical diffusion",
+      "Relocation diffusion",
+      "Stimulus diffusion"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Contagious diffusion is the spread of a phenomenon from person to person, which does not accurately describe the spread of the new fashion trend.",
+      "Correct. Hierarchical diffusion is the spread of a phenomenon from large, important places to smaller, less important places.",
+      "Incorrect. Relocation diffusion is the spread of a phenomenon through the movement of people from one place to another.",
+      "Incorrect. Stimulus diffusion is the spread of an underlying principle, even though a characteristic itself apparently fails to diffuse."
+    ],
+    "topic": "Types of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "The spread of the English language around the world was greatly aided by British colonization.",
+    "question": "British colonization is an example of what type of cause of diffusion?",
+    "answers": [
+      "Environmental",
+      "Economic",
+      "Political",
+      "Social"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Environmental causes of diffusion involve geographic factors.",
+      "Incorrect. Economic causes of diffusion involve the flow of goods and money.",
+      "Correct. Political causes of diffusion involve governments spreading their ideologies or culture.",
+      "Incorrect. Social causes of diffusion involve social trends or movements."
+    ],
+    "topic": "Historical Causes of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "A landscape dominated by skyscrapers, shopping malls, and fast-food restaurants.",
+    "question": "Which of the following concepts best describes this landscape?",
+    "answers": [
+      "Cultural landscape",
+      "Natural landscape",
+      "Built environment",
+      "Sequent occupance"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Cultural landscape is the visible imprint of human activity on the land.",
+      "Incorrect. A natural landscape is a landscape that has not been altered by human activity.",
+      "Incorrect. A built environment is the part of the physical landscape that represents material culture.",
+      "Incorrect. Sequent occupance refers to the successive societies leave their cultural imprints on a place, each contributing to the cumulative cultural landscape."
+    ],
+    "topic": "Cultural Landscapes",
+    "unit": 3
+  },
+  {
+    "stimulus": "The French language is spoken in Quebec, Canada, despite the dominance of English in North America.",
+    "question": "The survival of the French language in Quebec is an example of:",
+    "answers": [
+      "Cultural assimilation",
+      "Cultural divergence",
+      "Cultural preservation",
+      "Cultural convergence"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Cultural assimilation is the process of adopting the traits of another culture.",
+      "Incorrect. Cultural divergence is the process of cultures becoming more dissimilar over time.",
+      "Correct. Cultural preservation is the effort to maintain and protect a culture from change or extinction.",
+      "Incorrect. Cultural convergence is the process of different cultures coming together and becoming more similar."
+    ],
+    "topic": "Effects of Diffusion",
+    "unit": 3
+  },
+  {
+    "stimulus": "Many scholars point to Mecca as the origin point for Islam.",
+    "question": "Which of the following best describes the role of Mecca in the diffusion of Islam?",
+    "answers": [
+      "Mecca is a barrier to the diffusion of Islam.",
+      "Mecca is a cultural hearth for Islam.",
+      "Mecca is a receiving location for Islam.",
+      "Mecca inhibits the spread of Islam."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Mecca is not a barrier, but a starting point.",
+      "Correct. Mecca is the origin and therefore a cultural hearth.",
+      "Incorrect. While Islam spread *to* other places, Mecca is the origin.",
+      "Incorrect. Mecca promoted the spread of Islam."
+    ],
+    "topic": "Diffusion of Religion and Language",
+    "unit": 3
+  },
+  {
+    "stimulus": "A town in the United States has a large Catholic church and a statue of the Virgin Mary in the town square.",
+    "question": "These religious symbols are part of the town's:",
+    "answers": [
+      "Cultural complex",
+      "Cultural trait",
+      "Cultural landscape",
+      "Cultural region"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. A cultural complex is a combination of traits.",
+      "Incorrect. A cultural trait is a single aspect of culture.",
+      "Correct. The symbols are part of the visible imprint of culture on the land.",
+      "Incorrect. A cultural region is an area with shared cultural traits."
+    ],
+    "topic": "Cultural Landscapes",
+    "unit": 3
+  }
+]

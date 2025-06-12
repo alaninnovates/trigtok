@@ -1,0 +1,458 @@
+[
+  {
+    "stimulus": "The growth of industry in Europe during the late 18th and early 19th centuries was largely based on the availability of key resources. Which of the following was the MOST important of these resources for the early industrial revolution?",
+    "question": "Which resource was most important for the early industrial revolution?",
+    "answers": [
+      "Coal",
+      "Iron Ore",
+      "Cotton",
+      "Timber"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: Coal was the primary energy source for early factories and steam engines.",
+      "Incorrect: Iron ore was important for manufacturing, but coal was needed to power the factories.",
+      "Incorrect: Cotton was a key raw material, but not an energy source.",
+      "Incorrect: Timber was used, but coal was a more important fuel source for steam engines."
+    ],
+    "topic": "The Industrial Revolution",
+    "unit": 7
+  },
+  {
+    "stimulus": "The development of the assembly line by Henry Ford revolutionized manufacturing. What concept was implemented in the assembly line?",
+    "question": "Which of the following best describes the key characteristic of Ford's assembly line production?",
+    "answers": [
+      "Vertical Integration",
+      "Labor Unions",
+      "Mass Production",
+      "Cottage Industry"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Vertical integration refers to a company controlling multiple stages of production, not assembly line's core principle.",
+      "Incorrect: Labor Unions were relevant to worker's rights and not assembly line's core principle.",
+      "Correct: Assembly lines enabled mass production by dividing tasks and speeding up manufacturing.",
+      "Incorrect: Cottage industry is small scale and home-based production, opposite of the assembly line."
+    ],
+    "topic": "The Industrial Revolution",
+    "unit": 7
+  },
+  {
+    "stimulus": "In 1990, most cities had production based economies, but as the world moves into the future, the economies shift to ones based on knowledge and technology.",
+    "question": "Which sector of the economy is primarily involved in the creation and distribution of information?",
+    "answers": [
+      "Primary Sector",
+      "Secondary Sector",
+      "Tertiary Sector",
+      "Quaternary Sector"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: The primary sector involves extraction of raw materials.",
+      "Incorrect: The secondary sector involves manufacturing.",
+      "Incorrect: The tertiary sector involves services.",
+      "Correct: The quaternary sector involves information, research, and management."
+    ],
+    "topic": "Economic Sectors and Patterns",
+    "unit": 7
+  },
+  {
+    "stimulus": "The growth of industry in Europe during the late 18th and early 19th centuries was largely based on the availability of key resources. Which of the following was the MOST important of these resources for the early industrial revolution?",
+    "question": "Which of the following economic activities is considered part of the secondary sector?",
+    "answers": [
+      "Farming",
+      "Mining",
+      "Manufacturing",
+      "Retail"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Farming is a primary sector activity.",
+      "Incorrect: Mining is a primary sector activity.",
+      "Correct: Manufacturing involves processing raw materials, which is part of the secondary sector.",
+      "Incorrect: Retail is a tertiary sector activity."
+    ],
+    "topic": "Economic Sectors and Patterns",
+    "unit": 7
+  },
+  {
+    "stimulus": "Economists often classify countries based on their level of economic development. Which of the following is the BEST indicator of a country's level of development?",
+    "question": "Which of the following statistics is the MOST reliable indicator of the level of development in a country?",
+    "answers": [
+      "Crude Birth Rate",
+      "Life Expectancy",
+      "Number of Factories",
+      "Amount of Farmland"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Crude birth rate can be influenced by cultural factors.",
+      "Correct: Life expectancy is a good indicator of healthcare, sanitation, and overall living conditions.",
+      "Incorrect: The number of factories only indicates industrialization, not overall development.",
+      "Incorrect: Amount of farmland is tied to agriculture and does not encompass overall development."
+    ],
+    "topic": "Measures of Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "The Human Development Index (HDI) combines several measures of development. Which of the following is NOT included in the HDI calculation?",
+    "question": "Which of the following is NOT a component of the Human Development Index (HDI)?",
+    "answers": [
+      "Life Expectancy",
+      "Education",
+      "Gross National Income per capita",
+      "Military Expenditure"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Life expectancy is a component of the HDI.",
+      "Incorrect: Education (mean and expected years of schooling) is a component of the HDI.",
+      "Incorrect: Gross National Income per capita is a component of the HDI.",
+      "Correct: Military expenditure is not a factor in the HDI."
+    ],
+    "topic": "Measures of Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "Studies show that when women are empowered economically, there are positive effects on their families and communities.",
+    "question": "Which of the following is the MOST likely outcome when women have greater access to education and employment?",
+    "answers": [
+      "Decreased Infant Mortality",
+      "Increased Fertility Rates",
+      "Reduced Agricultural Output",
+      "Increased Urban Sprawl"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: Empowered women tend to have healthier families and are better able to care for their children, leading to lower infant mortality.",
+      "Incorrect: Women with more education and employment tend to have fewer children.",
+      "Incorrect: Empowering women in agriculture often increases output.",
+      "Incorrect: While women's empowerment can influence migration patterns, it doesn't directly cause urban sprawl."
+    ],
+    "topic": "Women and Economic Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "In many developing countries, women play a crucial role in agriculture but often lack access to resources and opportunities. Which of the following is the MOST significant barrier to women's economic advancement in developing nations?",
+    "question": "What is the MOST significant barrier to women's economic advancement in developing countries?",
+    "answers": [
+      "Lack of Natural Resources",
+      "Limited Access to Credit and Land",
+      "High Levels of Education",
+      "Advanced Technology"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: While natural resources are important, they are not the most significant barrier specifically for women's economic advancement.",
+      "Correct: Limited access to credit and land restricts women's ability to start businesses and improve their livelihoods.",
+      "Incorrect: High levels of education would empower women, not hinder them.",
+      "Incorrect: Lack of advanced technology is a barrier, but access to credit and land are more fundamental."
+    ],
+    "topic": "Women and Economic Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "Walt Rostow's stages of economic growth provide a model for development. Which stage is defined by high mass consumption?",
+    "question": "According to Rostow's Stages of Economic Growth, in which stage does a country focus on mass consumption?",
+    "answers": [
+      "Traditional Society",
+      "Preconditions for Take-off",
+      "Drive to Maturity",
+      "Age of High Mass Consumption"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Traditional society is characterized by subsistence agriculture.",
+      "Incorrect: Preconditions for take-off involves initial infrastructure development.",
+      "Incorrect: Drive to maturity involves diversification and innovation.",
+      "Correct: The age of high mass consumption focuses on consumer goods and services."
+    ],
+    "topic": "Theories of Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "Dependency theory suggests that some countries are poor because of their interactions with wealthier countries. Which of the following BEST describes the core tenet of dependency theory?",
+    "question": "Which statement BEST describes the core idea behind dependency theory?",
+    "answers": [
+      "All countries develop through similar stages.",
+      "Wealthy countries exploit poorer countries.",
+      "Free trade benefits all countries equally.",
+      "Technology is the key to development."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: This aligns with modernization theory, not dependency theory.",
+      "Correct: Dependency theory argues that wealthy countries exploit poorer countries, hindering their development.",
+      "Incorrect: Dependency theory critiques the idea that free trade is always beneficial.",
+      "Incorrect: Technology is important, but dependency theory emphasizes power imbalances."
+    ],
+    "topic": "Theories of Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "The World Trade Organization (WTO) plays a significant role in regulating global trade. What is the primary goal of the WTO?",
+    "question": "What is the main objective of the World Trade Organization (WTO)?",
+    "answers": [
+      "To provide loans to developing countries",
+      "To reduce trade barriers between countries",
+      "To enforce environmental regulations",
+      "To promote fair labor standards"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: While the WTO can indirectly affect development, its primary function is not to provide loans.",
+      "Correct: The WTO aims to lower trade barriers and promote free trade.",
+      "Incorrect: The WTO's primary focus is on trade, not environmental regulations.",
+      "Incorrect: While the WTO can influence labor standards through trade agreements, it's not its primary focus."
+    ],
+    "topic": "Trade and the World Economy",
+    "unit": 7
+  },
+  {
+    "stimulus": "Fair trade aims to promote better conditions for producers in developing countries. What is a key characteristic of fair trade practices?",
+    "question": "Which of the following is a key characteristic of fair trade?",
+    "answers": [
+      "Lower prices for consumers",
+      "Guaranteed minimum prices for producers",
+      "Focus on maximizing profits for corporations",
+      "Reliance on child labor"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Fair trade products may be slightly more expensive due to the fair prices paid to producers.",
+      "Correct: Fair trade guarantees a minimum price to producers, ensuring a stable income.",
+      "Incorrect: Fair trade prioritizes fair compensation for producers, not maximizing corporate profits.",
+      "Incorrect: Fair trade prohibits child labor."
+    ],
+    "topic": "Trade and the World Economy",
+    "unit": 7
+  },
+  {
+    "stimulus": "As countries become more interconnected through global trade, there are various impacts on local economies. Which of the following is a POTENTIAL negative consequence of increased globalization?",
+    "question": "Which of the following is a potential negative consequence of globalization?",
+    "answers": [
+      "Increased cultural diversity",
+      "Job displacement in developed countries",
+      "Lower consumer prices",
+      "Faster technological innovation"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Increased cultural diversity is often considered a positive impact.",
+      "Correct: Globalization can lead to job losses in developed countries as companies move production to cheaper locations.",
+      "Incorrect: Lower consumer prices are generally considered a positive impact.",
+      "Incorrect: Faster technological innovation is generally considered a positive impact."
+    ],
+    "topic": "Changes as a Result of the World Economy",
+    "unit": 7
+  },
+  {
+    "stimulus": "The rise of multinational corporations has reshaped the global economy. What is a key characteristic of multinational corporations?",
+    "question": "What is a defining characteristic of multinational corporations (MNCs)?",
+    "answers": [
+      "They operate in only one country.",
+      "They have investments and activities in multiple countries.",
+      "They are owned by governments.",
+      "They focus solely on charitable activities."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: MNCs operate in multiple countries.",
+      "Correct: MNCs have investments and activities in many countries.",
+      "Incorrect: MNCs are typically private companies, not government-owned.",
+      "Incorrect: MNCs are primarily profit-driven, though they may engage in charitable activities."
+    ],
+    "topic": "Changes as a Result of the World Economy",
+    "unit": 7
+  },
+  {
+    "stimulus": "Sustainable development aims to meet the needs of the present without compromising the ability of future generations to meet their own needs.",
+    "question": "Which of the following BEST describes the goal of sustainable development?",
+    "answers": [
+      "Maximizing economic growth at all costs",
+      "Exploiting natural resources for short-term gain",
+      "Meeting current needs without harming future generations",
+      "Ignoring environmental concerns in favor of economic development"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Sustainable development seeks a balance between economic growth, social equity, and environmental protection.",
+      "Incorrect: Sustainable development emphasizes responsible resource management.",
+      "Correct: Sustainable development balances current needs with the needs of future generations.",
+      "Incorrect: Sustainable development incorporates environmental concerns."
+    ],
+    "topic": "Sustainable Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "Many environmental agreements have been created to combat climate change.",
+    "question": "Which of the following is an example of an international agreement aimed at addressing climate change?",
+    "answers": [
+      "The Kyoto Protocol",
+      "The North American Free Trade Agreement (NAFTA)",
+      "The General Agreement on Tariffs and Trade (GATT)",
+      "The Trans-Pacific Partnership (TPP)"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: The Kyoto Protocol was an international agreement aimed at reducing greenhouse gas emissions.",
+      "Incorrect: NAFTA is a trade agreement.",
+      "Incorrect: GATT is a trade agreement.",
+      "Incorrect: TPP is a trade agreement."
+    ],
+    "topic": "Sustainable Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "A country's economy can be split into sectors that describe the different processes that occur within it. The quinary sector is the highest level of the economy.",
+    "question": "Which sector of the economy is most likely to include the CEO of a large company?",
+    "answers": [
+      "Primary",
+      "Secondary",
+      "Quaternary",
+      "Quinary"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: The primary sector deals with extraction.",
+      "Incorrect: The secondary sector deals with manufacturing.",
+      "Incorrect: The quaternary sector deals with information and technology.",
+      "Correct: The quinary sector includes high-level decision makers and executives."
+    ],
+    "topic": "Economic Sectors and Patterns",
+    "unit": 7
+  },
+  {
+    "stimulus": "Economies around the world can fluctuate, especially in the face of international conflict.",
+    "question": "Which of the following events is most likely to cause deglobalization?",
+    "answers": [
+      "International organizations becoming more powerful",
+      "Increased economic dependence between countries",
+      "Increased levels of international conflict",
+      "Improvements in shipping technology"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: A stronger international organization presence would cause globalization.",
+      "Incorrect: Higher economic dependence would cause globalization.",
+      "Correct: International conflict could cause countries to separate themselves from the world.",
+      "Incorrect: Shipping advancements would increase globalization."
+    ],
+    "topic": "Trade and the World Economy",
+    "unit": 7
+  },
+  {
+    "stimulus": "Globalization can come with many advancements, but can lead to some social issues.",
+    "question": "Which of the following is most likely to lead to increased levels of urbanization?",
+    "answers": [
+      "Decreased global trade",
+      "The rise of e-commerce",
+      "An increase in birth rates",
+      "Increased job opportunities in rural areas"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect: Decreased global trade would lead to a decrease in urbanization.",
+      "Correct: E-commerce allows more jobs to move to cities.",
+      "Incorrect: A birth rate increase would lead to a more populated population, but doesn't increase urbanization.",
+      "Incorrect: An increase in rural jobs would disincentivize people from moving to cities."
+    ],
+    "topic": "Changes as a Result of the World Economy",
+    "unit": 7
+  },
+  {
+    "stimulus": "Companies that focus on resource extraction are participating in the primary sector of the economy.",
+    "question": "What type of job is a coal miner?",
+    "answers": [
+      "Primary Sector",
+      "Secondary Sector",
+      "Tertiary Sector",
+      "Quaternary Sector"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: Coal mining is an extraction activity.",
+      "Incorrect: The secondary sector involves manufacturing.",
+      "Incorrect: The tertiary sector involves services.",
+      "Incorrect: The quaternary sector involves information, research, and management."
+    ],
+    "topic": "Economic Sectors and Patterns",
+    "unit": 7
+  },
+  {
+    "stimulus": "Countries need to increase in development to meet the needs of their population.",
+    "question": "Which of the following is NOT a sign of development?",
+    "answers": [
+      "Lower crude birth rates",
+      "Higher life expectancy",
+      "Access to clean water",
+      "A young population"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Developed countries tend to have lower crude birth rates.",
+      "Incorrect: Developed countries tend to have higher life expectancies.",
+      "Incorrect: Developed countries tend to have reliable access to clean water.",
+      "Correct: Developed countries tend to have an older population as they develop."
+    ],
+    "topic": "Measures of Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "Women tend to face more social challenges in many countries than men do.",
+    "question": "Which of the following is an example of how a country can empower women?",
+    "answers": [
+      "Providing more education",
+      "Providing more access to contraception",
+      "Providing opportunities for work",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect: Providing more education is an example of female empowerment, but it is not the only answer.",
+      "Incorrect: Providing more access to contraception is an example of female empowerment, but it is not the only answer.",
+      "Incorrect: Providing opportunities for work is an example of female empowerment, but it is not the only answer.",
+      "Correct: All of the options are ways to empower women."
+    ],
+    "topic": "Women and Economic Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "Countries that rely on other countries for their success are considered to be dependent on them.",
+    "question": "According to Dependency Theory, what does a Core country do?",
+    "answers": [
+      "Exploits Peripheral countries",
+      "Is exploited by Core countries",
+      "Functions independently of Core countries",
+      "Has very little economic success"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct: Core countries exploit Peripheral countries, which leads to dependency.",
+      "Incorrect: Peripheral countries are exploited by Core countries.",
+      "Incorrect: Core countries do not function independently of Core countries because their success comes from exploitation.",
+      "Incorrect: Core countries are the most economically successful in the world."
+    ],
+    "topic": "Theories of Development",
+    "unit": 7
+  },
+  {
+    "stimulus": "To make sure that the future is protected, sustainability efforts need to be made.",
+    "question": "Which of the following is NOT one of the main pillars of sustainability?",
+    "answers": [
+      "Environmental protection",
+      "Economic growth",
+      "Technological advancement",
+      "Social equity"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect: Environmental protection is one of the main pillars of sustainability.",
+      "Incorrect: Economic growth is one of the main pillars of sustainability.",
+      "Correct: While it can help, technological advancement is not a main pillar of sustainability.",
+      "Incorrect: Social equity is one of the main pillars of sustainability."
+    ],
+    "topic": "Sustainable Development",
+    "unit": 7
+  }
+]

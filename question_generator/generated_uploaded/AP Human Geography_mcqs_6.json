@@ -1,0 +1,553 @@
+[
+  {
+    "stimulus": "Throughout history, cities have emerged as centers of innovation, economic activity, and cultural exchange. Early urban settlements often developed near fertile river valleys, facilitating agriculture and trade. Over time, these settlements grew in size and complexity, attracting migrants from rural areas seeking economic opportunities. The rise of industrialization in the 18th and 19th centuries further accelerated urbanization, as factories and manufacturing industries drew large numbers of people to urban centers. This rapid growth led to significant social, economic, and environmental changes, shaping the urban landscapes we see today.",
+    "question": "Based on the passage, which of the following factors contributed most significantly to the initial rise of urbanization?",
+    "answers": [
+      "The development of advanced transportation technologies.",
+      "The expansion of agricultural practices and trade networks.",
+      "The implementation of democratic political systems.",
+      "The decline of religious institutions in rural areas."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Advanced transportation technologies played a role in later stages of urbanization, not the initial rise.",
+      "Correct. The passage highlights the importance of fertile river valleys, agriculture, and trade in the emergence of early urban settlements.",
+      "Incorrect. Political systems are not explicitly mentioned as a primary driver of initial urbanization in the passage.",
+      "Incorrect. The role of religious institutions is not mentioned in the passage."
+    ],
+    "topic": "The Origin and Influences of Urbanization",
+    "unit": 6
+  },
+  {
+    "stimulus": "In many developing countries, cities are characterized by rapid population growth, informal settlements, and limited access to basic services such as clean water, sanitation, and healthcare. These challenges are often exacerbated by weak governance, corruption, and inadequate urban planning. As a result, urban residents in these areas face a range of social, economic, and environmental problems, including poverty, unemployment, pollution, and vulnerability to natural disasters.",
+    "question": "Based on the passage, which of the following is a common characteristic of cities in many developing countries?",
+    "answers": [
+      "Extensive green spaces and parks.",
+      "Efficient and well-maintained public transportation systems.",
+      "Widespread access to affordable housing.",
+      "Limited access to basic services and infrastructure."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. The passage suggests a lack of resources and infrastructure in developing countries, not an abundance of green spaces.",
+      "Incorrect. The passage describes challenges related to infrastructure, indicating that efficient public transportation is unlikely to be a common characteristic.",
+      "Incorrect. The passage mentions poverty and social challenges, suggesting that affordable housing is likely limited.",
+      "Correct. The passage explicitly mentions limited access to basic services such as clean water, sanitation, and healthcare as a characteristic of cities in many developing countries."
+    ],
+    "topic": "Cities Across the World",
+    "unit": 6
+  },
+  {
+    "stimulus": "The world city hypothesis suggests that globalization has led to the emergence of a hierarchical network of cities that serve as key nodes in the global economy. These cities, such as New York, London, and Tokyo, concentrate global capital, corporate headquarters, and international financial institutions. They also attract highly skilled workers and are centers of innovation and cultural production. World cities play a crucial role in shaping global flows of goods, services, information, and people.",
+    "question": "According to the world city hypothesis, what is a primary function of world cities in the global economy?",
+    "answers": [
+      "Promoting local cultural traditions and customs.",
+      "Concentrating global capital and corporate headquarters.",
+      "Supporting small-scale agricultural production.",
+      "Providing social welfare services to marginalized populations."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. World cities are more focused on global economic activities rather than preserving local traditions.",
+      "Correct. The passage explicitly mentions that world cities concentrate global capital, corporate headquarters, and international financial institutions.",
+      "Incorrect. World cities are primarily focused on global finance and innovation, not agricultural production.",
+      "Incorrect. While some world cities may offer social welfare services, it is not their primary function according to the hypothesis."
+    ],
+    "topic": "Cities and Globalization",
+    "unit": 6
+  },
+  {
+    "stimulus": "The rank-size rule is an observation about the size distribution of cities in many countries. It states that the nth largest city in a country will be 1/n the size of the largest city. For example, if the largest city has a population of 1 million, the second-largest city would have a population of 500,000, the third-largest city would have a population of 333,333, and so on.",
+    "question": "According to the rank-size rule, if the largest city in a country has a population of 5 million, what would be the approximate population of the fourth-largest city?",
+    "answers": [
+      "250,000",
+      "500,000",
+      "1,250,000",
+      "2,500,000"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. 5,000,000 / 4 = 1,250,000, this is not that one.",
+      "Incorrect. 5,000,000 / 4 = 1,250,000, this is not that one.",
+      "Correct. According to the rank-size rule, the fourth-largest city should have a population approximately equal to 1/4 of the largest city's population, which is 5,000,000 / 4 = 1,250,000.",
+      "Incorrect. 5,000,000 / 4 = 1,250,000, this is not that one."
+    ],
+    "topic": "The Size and Distribution of Cities",
+    "unit": 6
+  },
+  {
+    "stimulus": "The concentric zone model, developed by Ernest Burgess, describes the internal structure of cities as a series of concentric rings emanating from the central business district (CBD). These zones include the transition zone (characterized by mixed residential and commercial uses), the working-class zone (housing for industrial workers), the residential zone (containing middle-class housing), and the commuter zone (outer suburbs).",
+    "question": "According to the concentric zone model, which zone is typically characterized by mixed residential and commercial uses and is located adjacent to the central business district (CBD)?",
+    "answers": [
+      "The residential zone.",
+      "The commuter zone.",
+      "The transition zone.",
+      "The working-class zone."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The residential zone consists primarily of middle-class housing, not mixed uses.",
+      "Incorrect. The commuter zone is the outer suburbs, not adjacent to the CBD.",
+      "Correct. The transition zone is characterized by mixed residential and commercial uses and is located adjacent to the CBD.",
+      "Incorrect. The working-class zone primarily houses industrial workers."
+    ],
+    "topic": "The Internal Structure of Cities",
+    "unit": 6
+  },
+  {
+    "stimulus": "The concept of density refers to the number of people or dwelling units per unit area. High-density urban areas are characterized by tall buildings, compact development, and limited open space. Low-density urban areas, on the other hand, are characterized by single-family homes, sprawling development, and abundant open space. Land use patterns are closely related to density, with different types of activities and land uses clustering in areas with varying density levels.",
+    "question": "Which of the following is a typical characteristic of high-density urban areas?",
+    "answers": [
+      "Sprawling development and abundant open space.",
+      "Single-family homes and large yards.",
+      "Tall buildings and compact development.",
+      "Extensive road networks and automobile dependency."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. This describes low-density urban areas.",
+      "Incorrect. This describes low-density urban areas.",
+      "Correct. High-density urban areas are characterized by tall buildings, compact development, and limited open space.",
+      "Incorrect. While high-density areas often have extensive road networks, the defining characteristic is the building and population density."
+    ],
+    "topic": "Density and Land Use",
+    "unit": 6
+  },
+  {
+    "stimulus": "Urban infrastructure refers to the physical systems and facilities that support urban life, including transportation networks, water supply systems, sewage disposal systems, energy grids, and communication networks. Adequate infrastructure is essential for the functioning of cities, providing essential services to residents and businesses. However, many cities, particularly in developing countries, face challenges in providing and maintaining adequate infrastructure due to limited resources, rapid population growth, and inadequate planning.",
+    "question": "Which of the following is an example of urban infrastructure?",
+    "answers": [
+      "A local community garden.",
+      "A public park with walking trails.",
+      "A network of highways and bridges.",
+      "A farmers' market selling locally grown produce."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. A community garden is a local amenity, not a core infrastructure system.",
+      "Incorrect. A public park is a recreational space, not a core infrastructure system.",
+      "Correct. Transportation networks, including highways and bridges, are essential components of urban infrastructure.",
+      "Incorrect. A farmers' market is a retail venue, not a core infrastructure system."
+    ],
+    "topic": "Infrastructure",
+    "unit": 6
+  },
+  {
+    "stimulus": "Urban sustainability refers to the ability of cities to meet the needs of the present generation without compromising the ability of future generations to meet their own needs. Sustainable urban development seeks to balance economic growth, social equity, and environmental protection. This involves reducing pollution, conserving resources, promoting energy efficiency, and creating livable and resilient communities.",
+    "question": "What is the primary goal of urban sustainability?",
+    "answers": [
+      "To maximize economic profits for developers and investors.",
+      "To prioritize short-term economic growth over environmental concerns.",
+      "To meet the needs of the present without compromising future generations.",
+      "To maintain the status quo and resist any changes to urban development patterns."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Urban sustainability seeks to balance economic, social, and environmental factors, not just maximize profits.",
+      "Incorrect. Urban sustainability emphasizes environmental protection and long-term sustainability, not just short-term economic growth.",
+      "Correct. Urban sustainability aims to balance economic growth, social equity, and environmental protection to ensure that future generations can meet their own needs.",
+      "Incorrect. Urban sustainability seeks to adapt and innovate to create more livable and resilient communities, not resist change."
+    ],
+    "topic": "Urban Sustainability",
+    "unit": 6
+  },
+  {
+    "stimulus": "Urban data refers to the collection, analysis, and interpretation of information about cities. This data can include demographic data (population size, age, gender, ethnicity), economic data (employment rates, income levels, poverty rates), social data (crime rates, education levels, health indicators), and environmental data (air quality, water quality, greenhouse gas emissions). Urban data is used to inform urban planning, policymaking, and resource allocation.",
+    "question": "Which of the following is an example of urban data?",
+    "answers": [
+      "A city skyline photograph.",
+      "A resident's personal opinion about traffic congestion.",
+      "Statistical information about a city's unemployment rate.",
+      "A fictional novel set in an urban environment."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. A photograph is a visual representation, not quantifiable data.",
+      "Incorrect. A personal opinion is subjective and not quantifiable data.",
+      "Correct. Statistical information about unemployment rates is a type of urban data used for analysis and planning.",
+      "Incorrect. A fictional novel is a work of imagination, not a source of urban data."
+    ],
+    "topic": "Urban Data",
+    "unit": 6
+  },
+  {
+    "stimulus": "Urban changes can bring about a variety of challenges, including increased traffic congestion, air and water pollution, social inequality, and displacement of low-income residents. Rapid urbanization can strain existing infrastructure, leading to overcrowded schools, inadequate healthcare facilities, and a shortage of affordable housing. Urban sprawl can also contribute to environmental degradation and loss of biodiversity.",
+    "question": "Which of the following is a common challenge associated with rapid urban change?",
+    "answers": [
+      "Decreased traffic congestion.",
+      "Improved air and water quality.",
+      "Reduced social inequality.",
+      "Increased strain on existing infrastructure."
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Rapid urban change often leads to increased traffic congestion.",
+      "Incorrect. Rapid urban change can lead to increased pollution.",
+      "Incorrect. Rapid urban change often exacerbates social inequality.",
+      "Correct. Rapid urbanization can strain existing infrastructure, leading to overcrowding and shortages."
+    ],
+    "topic": "Challenges of Urban Changes",
+    "unit": 6
+  },
+  {
+    "stimulus": "Achieving urban sustainability presents numerous challenges, including balancing economic growth with environmental protection, addressing social inequality, and managing resource consumption. Cities must also adapt to the impacts of climate change, such as rising sea levels, extreme weather events, and water scarcity. Overcoming these challenges requires integrated planning, innovative technologies, and collaboration among governments, businesses, and communities.",
+    "question": "What is a significant challenge in achieving urban sustainability related to climate change?",
+    "answers": [
+      "Decreasing demand for natural resources.",
+      "Adapting to rising sea levels and extreme weather events.",
+      "Reducing reliance on renewable energy sources.",
+      "Ignoring the needs of marginalized communities."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Climate change and population growth often increase the demand for resources.",
+      "Correct. Cities must adapt to the impacts of climate change, such as rising sea levels, extreme weather events, and water scarcity.",
+      "Incorrect. Urban sustainability promotes the use of renewable energy sources.",
+      "Incorrect. Urban sustainability requires addressing social inequality and the needs of all communities."
+    ],
+    "topic": "Challenges of Urban Sustainability",
+    "unit": 6
+  },
+  {
+    "stimulus": "Consider the following scenario: A city is experiencing rapid population growth due to increased economic opportunities. This growth leads to a shortage of affordable housing, increased traffic congestion, and air pollution. The city government is considering different strategies to address these challenges.",
+    "question": "Which of the following strategies would best address the challenges associated with rapid population growth in the scenario?",
+    "answers": [
+      "Encouraging urban sprawl by building more housing in the suburbs.",
+      "Investing in public transportation and promoting mixed-use development.",
+      "Reducing environmental regulations to encourage economic development.",
+      "Ignoring the needs of low-income residents and focusing on attracting wealthy residents."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Encouraging urban sprawl would likely exacerbate traffic congestion and environmental degradation.",
+      "Correct. Investing in public transportation and promoting mixed-use development can help reduce traffic congestion, promote walkability, and create more affordable housing options.",
+      "Incorrect. Reducing environmental regulations would likely worsen air pollution and other environmental problems.",
+      "Incorrect. Ignoring the needs of low-income residents would likely exacerbate social inequality and create further challenges."
+    ],
+    "topic": "Challenges of Urban Changes",
+    "unit": 6
+  },
+  {
+    "stimulus": "Imagine a city striving to become more sustainable. It aims to reduce its carbon footprint, improve air quality, and enhance the quality of life for its residents. The city government is considering various initiatives to achieve these goals.",
+    "question": "Which of the following initiatives would best contribute to the city's sustainability goals?",
+    "answers": [
+      "Promoting car-dependent suburban development.",
+      "Investing in renewable energy sources and energy-efficient buildings.",
+      "Increasing reliance on fossil fuels for power generation.",
+      "Reducing investment in public transportation and pedestrian infrastructure."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Car-dependent suburban development increases carbon emissions and contributes to air pollution.",
+      "Correct. Investing in renewable energy sources and energy-efficient buildings can significantly reduce the city's carbon footprint and improve air quality.",
+      "Incorrect. Increasing reliance on fossil fuels would worsen air quality and increase carbon emissions.",
+      "Incorrect. Investing in public transportation and pedestrian infrastructure can reduce car dependency and promote more sustainable transportation options."
+    ],
+    "topic": "Urban Sustainability",
+    "unit": 6
+  },
+  {
+    "stimulus": "The primate city rule suggests that the largest city in a country will be disproportionately larger than other cities in the urban hierarchy. This phenomenon is often observed in developing countries with a history of colonialism and centralized governance. The primate city typically serves as the political, economic, and cultural center of the country, attracting migrants from rural areas and concentrating wealth and power.",
+    "question": "According to the primate city rule, what is a common characteristic of the largest city in a country?",
+    "answers": [
+      "It is smaller than other cities in the urban hierarchy.",
+      "It is disproportionately larger than other cities in the urban hierarchy.",
+      "It is located in a remote rural area.",
+      "It has a decentralized political system."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Primate cities are larger, not smaller.",
+      "Correct. The primate city rule suggests that the largest city will be disproportionately larger than other cities in the urban hierarchy.",
+      "Incorrect. Primate cities are typically the center of economic and political power.",
+      "Incorrect. Primate cities are usually associated with centralized political systems."
+    ],
+    "topic": "The Size and Distribution of Cities",
+    "unit": 6
+  },
+  {
+    "stimulus": "The sector model, developed by Homer Hoyt, describes the internal structure of cities as a series of sectors radiating out from the central business district (CBD). These sectors are often based on transportation routes and land use patterns. For example, a sector of industrial activity may extend along a major transportation corridor, while a sector of high-income residential areas may be located along a scenic route.",
+    "question": "According to the sector model, how is the internal structure of a city typically organized?",
+    "answers": [
+      "As a series of concentric rings emanating from the CBD.",
+      "As a series of sectors radiating out from the CBD.",
+      "As a collection of independent nodes or activity centers.",
+      "As a uniform grid pattern with equal distribution of land uses."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This is the description of the concentric zone model.",
+      "Correct. The sector model describes the internal structure of cities as a series of sectors radiating out from the CBD.",
+      "Incorrect. This describes the multiple nuclei model.",
+      "Incorrect. The sector model emphasizes the influence of transportation routes and land use patterns."
+    ],
+    "topic": "The Internal Structure of Cities",
+    "unit": 6
+  },
+  {
+    "stimulus": "Mixed-use development combines residential, commercial, and recreational uses in a single area. This approach can promote walkability, reduce car dependency, and create more vibrant and livable communities. By integrating different types of activities, mixed-use development can also help to reduce segregation and create more diverse and inclusive neighborhoods.",
+    "question": "What is a primary benefit of mixed-use development?",
+    "answers": [
+      "It promotes car dependency and urban sprawl.",
+      "It reduces walkability and increases traffic congestion.",
+      "It promotes walkability and reduces car dependency.",
+      "It creates segregated and exclusive neighborhoods."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Mixed-use development aims to reduce car dependency.",
+      "Incorrect. Mixed-use development aims to promote walkability.",
+      "Correct. Mixed-use development promotes walkability, reduces car dependency, and creates more vibrant and livable communities.",
+      "Incorrect. Mixed-use development aims to reduce segregation and create more diverse neighborhoods."
+    ],
+    "topic": "Density and Land Use",
+    "unit": 6
+  },
+  {
+    "stimulus": "Green infrastructure refers to a network of natural and semi-natural areas designed to provide a range of ecosystem services, such as stormwater management, air purification, and habitat provision. Green infrastructure can include parks, green roofs, urban forests, and permeable pavements. By integrating natural elements into the built environment, green infrastructure can enhance urban resilience and improve the quality of life for urban residents.",
+    "question": "Which of the following is an example of green infrastructure?",
+    "answers": [
+      "A network of highways and bridges.",
+      "A power plant burning fossil fuels.",
+      "A green roof on a building.",
+      "A landfill for solid waste disposal."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Highways and bridges are part of traditional infrastructure.",
+      "Incorrect. Power plants burning fossil fuels are not considered green infrastructure.",
+      "Correct. A green roof is an example of integrating natural elements into the built environment to provide ecosystem services.",
+      "Incorrect. Landfills are not considered green infrastructure."
+    ],
+    "topic": "Infrastructure",
+    "unit": 6
+  },
+  {
+    "stimulus": "The concept of resilience refers to the ability of cities to withstand and recover from shocks and stresses, such as natural disasters, economic downturns, and social unrest. Resilient cities are able to adapt to changing conditions and maintain essential functions. Building urban resilience requires investing in infrastructure, diversifying the economy, and fostering strong social networks.",
+    "question": "What is a key characteristic of a resilient city?",
+    "answers": [
+      "It is vulnerable to shocks and stresses.",
+      "It is able to withstand and recover from shocks and stresses.",
+      "It relies on a single industry for economic stability.",
+      "It has weak social networks and limited community engagement."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Vulnerability is the opposite of resilience.",
+      "Correct. A resilient city is able to withstand and recover from shocks and stresses, such as natural disasters, economic downturns, and social unrest.",
+      "Incorrect. Diversifying the economy is important for resilience.",
+      "Incorrect. Strong social networks are an important aspect of urban resilience."
+    ],
+    "topic": "Urban Sustainability",
+    "unit": 6
+  },
+  {
+    "stimulus": "Geographic information systems (GIS) are computer-based tools used to collect, analyze, and display spatial data. GIS can be used to map urban features, analyze patterns of crime, assess environmental risks, and plan transportation networks. By integrating data from various sources, GIS can provide valuable insights for urban planning and decision-making.",
+    "question": "What is the primary function of geographic information systems (GIS) in urban planning?",
+    "answers": [
+      "To create fictional narratives about urban life.",
+      "To collect, analyze, and display spatial data.",
+      "To promote personal opinions about urban development.",
+      "To design aesthetically pleasing buildings."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. GIS is used for data analysis, not fiction.",
+      "Correct. GIS is used to collect, analyze, and display spatial data, providing valuable insights for urban planning and decision-making.",
+      "Incorrect. GIS relies on objective data, not personal opinions.",
+      "Incorrect. GIS is a system for analyzing spatial data, not designing architecture."
+    ],
+    "topic": "Urban Data",
+    "unit": 6
+  },
+  {
+    "stimulus": "Gentrification is the process by which wealthier residents move into a deteriorated urban area, leading to increased property values and displacement of low-income residents. While gentrification can bring about improvements in infrastructure and amenities, it can also result in social and economic inequality.",
+    "question": "What is a potential negative consequence of gentrification?",
+    "answers": [
+      "Decreased property values in the area.",
+      "Displacement of low-income residents.",
+      "Reduced investment in infrastructure and amenities.",
+      "Increased social equality and integration."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Gentrification leads to increased property values.",
+      "Correct. Gentrification can result in the displacement of low-income residents.",
+      "Incorrect. Gentrification often leads to increased investment in infrastructure.",
+      "Incorrect. Gentrification can exacerbate social inequality."
+    ],
+    "topic": "Challenges of Urban Changes",
+    "unit": 6
+  },
+  {
+    "stimulus": "Urban sprawl is the expansion of low-density development on the fringe of urban areas. This pattern of development can lead to increased car dependency, loss of agricultural land, and environmental degradation. Urban sprawl is often driven by factors such as affordable housing, lower taxes, and a desire for larger lots.",
+    "question": "What is a common characteristic of urban sprawl?",
+    "answers": [
+      "High-density development and compact urban form.",
+      "Increased car dependency and loss of agricultural land.",
+      "Reduced environmental degradation and conservation of natural resources.",
+      "Decreased demand for affordable housing."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Urban sprawl is characterized by low-density development.",
+      "Correct. Urban sprawl can lead to increased car dependency, loss of agricultural land, and environmental degradation.",
+      "Incorrect. Urban sprawl contributes to environmental degradation.",
+      "Incorrect. Urban sprawl is often driven by the demand for affordable housing."
+    ],
+    "topic": "Challenges of Urban Sustainability",
+    "unit": 6
+  },
+  {
+    "stimulus": "Consider a city that has experienced a major economic downturn, resulting in high unemployment rates and widespread poverty. The city government is seeking strategies to revitalize the local economy and improve the quality of life for its residents.",
+    "question": "Which of the following strategies would be most effective in revitalizing the local economy and improving the quality of life in the city?",
+    "answers": [
+      "Reducing investment in education and job training programs.",
+      "Attracting new businesses and industries through incentives and infrastructure investments.",
+      "Ignoring the needs of unemployed residents and focusing on attracting wealthy investors.",
+      "Reducing social welfare programs to encourage self-reliance."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Investing in education and job training programs is essential for economic revitalization.",
+      "Correct. Attracting new businesses and industries can create jobs and stimulate economic growth.",
+      "Incorrect. It is important to support all residents.",
+      "Incorrect. Social welfare programs provide a safety net for vulnerable populations."
+    ],
+    "topic": "Challenges of Urban Changes",
+    "unit": 6
+  },
+  {
+    "stimulus": "Imagine a coastal city facing the threat of rising sea levels due to climate change. The city government is considering different approaches to protect its infrastructure and residents from the impacts of sea-level rise.",
+    "question": "Which of the following approaches would be most effective in protecting the city from the impacts of sea-level rise?",
+    "answers": [
+      "Ignoring the threat of sea-level rise and continuing with business as usual.",
+      "Investing in seawalls, levees, and other coastal defenses.",
+      "Reducing investment in public transportation and pedestrian infrastructure.",
+      "Increasing reliance on fossil fuels for power generation."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Ignoring the threat of sea-level rise would leave the city vulnerable to its impacts.",
+      "Correct. Investing in coastal defenses can protect the city's infrastructure and residents from flooding and erosion.",
+      "Incorrect. Public transportation is a great way to combat green house gasses.",
+      "Incorrect. Increasing reliance on fossil fuels would worsen climate change and sea-level rise."
+    ],
+    "topic": "Challenges of Urban Sustainability",
+    "unit": 6
+  },
+  {
+    "stimulus": "The multiple nuclei model, developed by Harris and Ullman, suggests that cities develop around multiple nodes or activity centers, rather than a single central business district (CBD). These nodes may include universities, industrial parks, airports, and residential areas. The multiple nuclei model recognizes that cities are complex and polycentric, with different activities clustering in different locations.",
+    "question": "According to the multiple nuclei model, how do cities typically develop?",
+    "answers": [
+      "Around a single central business district (CBD).",
+      "As a series of sectors radiating out from the CBD.",
+      "Around multiple nodes or activity centers.",
+      "As a uniform grid pattern with equal distribution of land uses."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. This is the description of the concentric zone model.",
+      "Incorrect. This is the description of the sector model.",
+      "Correct. The multiple nuclei model suggests that cities develop around multiple nodes or activity centers, rather than a single CBD.",
+      "Incorrect. The multiple nuclei model emphasizes the complex and polycentric nature of cities."
+    ],
+    "topic": "The Internal Structure of Cities",
+    "unit": 6
+  },
+  {
+    "stimulus": "New Urbanism is an urban planning movement that promotes walkable, mixed-use neighborhoods with a variety of housing options. New Urbanism aims to reduce car dependency, promote social interaction, and create more sustainable and livable communities. Key principles of New Urbanism include compact development, pedestrian-friendly design, and a mix of housing types and land uses.",
+    "question": "What is a primary goal of New Urbanism?",
+    "answers": [
+      "To promote car dependency and urban sprawl.",
+      "To create walkable, mixed-use neighborhoods.",
+      "To create segregated and exclusive communities.",
+      "To discourage social interaction and community engagement."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. New Urbanism aims to reduce car dependency.",
+      "Correct. New Urbanism promotes walkable, mixed-use neighborhoods with a variety of housing options.",
+      "Incorrect. New Urbanism aims to create inclusive and diverse communities.",
+      "Incorrect. New Urbanism aims to promote social interaction."
+    ],
+    "topic": "Density and Land Use",
+    "unit": 6
+  },
+  {
+    "stimulus": "Consider a city that is experiencing a severe water shortage due to drought and overuse of water resources. The city government is considering different strategies to address this challenge and ensure a sustainable water supply for its residents.",
+    "question": "Which of the following strategies would be most effective in addressing the water shortage and ensuring a sustainable water supply?",
+    "answers": [
+      "Encouraging water-intensive landscaping and agricultural practices.",
+      "Investing in water conservation measures and promoting water-efficient technologies.",
+      "Ignoring the water shortage and continuing with business as usual.",
+      "Reducing investment in public transportation and pedestrian infrastructure."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Water-intensive practices would exacerbate the water shortage.",
+      "Correct. Investing in water conservation measures and promoting water-efficient technologies can significantly reduce water demand.",
+      "Incorrect. Ignoring the water shortage would lead to severe consequences for the city's residents and economy.",
+      "Incorrect. This choice is irrelevant to the water shortage issue."
+    ],
+    "topic": "Challenges of Urban Sustainability",
+    "unit": 6
+  },
+  {
+    "stimulus": "Urban blight refers to the deterioration and decay of urban areas, often characterized by abandoned buildings, vacant lots, and high crime rates. Urban blight can result from a variety of factors, including economic decline, population loss, and inadequate investment in infrastructure.",
+    "question": "What is a common characteristic of urban blight?",
+    "answers": [
+      "High property values and thriving businesses.",
+      "Abandoned buildings and high crime rates.",
+      "Well-maintained infrastructure and low crime rates.",
+      "Stable population and economic growth."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Urban blight is associated with low property values and declining businesses.",
+      "Correct. Urban blight is characterized by abandoned buildings, vacant lots, and high crime rates.",
+      "Incorrect. Urban blight is associated with deteriorating infrastructure.",
+      "Incorrect. Urban blight is associated with population loss and economic decline."
+    ],
+    "topic": "Challenges of Urban Changes",
+    "unit": 6
+  },
+  {
+    "stimulus": "Consider a city that has a large informal sector, characterized by street vendors, informal settlements, and a lack of formal employment opportunities. The city government is seeking strategies to integrate the informal sector into the formal economy and improve the living conditions of informal workers.",
+    "question": "Which of the following strategies would be most effective in integrating the informal sector into the formal economy and improving the living conditions of informal workers?",
+    "answers": [
+      "Evicting street vendors and demolishing informal settlements.",
+      "Providing access to credit, training, and infrastructure for informal businesses.",
+      "Ignoring the informal sector and focusing on attracting large corporations.",
+      "Reducing social welfare programs to encourage self-reliance."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Evicting street vendors and demolishing informal settlements would worsen the living conditions of informal workers.",
+      "Correct. Providing access to credit, training, and infrastructure can help informal businesses grow and formalize.",
+      "Incorrect. It is important to support all aspects of the community.",
+      "Incorrect. Social welfare programs provide a safety net for vulnerable populations."
+    ],
+    "topic": "Challenges of Urban Changes",
+    "unit": 6
+  },
+  {
+    "stimulus": "Consider a city that is experiencing significant air pollution due to industrial emissions and automobile traffic. The city government is considering different approaches to improve air quality and protect public health.",
+    "question": "Which of the following strategies would be most effective in improving air quality and protecting public health in the city?",
+    "answers": [
+      "Increasing reliance on coal-fired power plants.",
+      "Investing in public transportation and promoting the use of electric vehicles.",
+      "Reducing environmental regulations to encourage economic growth.",
+      "Ignoring the air pollution problem and continuing with business as usual."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Coal-fired power plants are a major source of air pollution.",
+      "Correct. Investing in public transportation and promoting the use of electric vehicles can significantly reduce air pollution from automobile traffic.",
+      "Incorrect. Reducing environmental regulations would worsen air quality.",
+      "Incorrect. Ignoring the air pollution problem would have negative consequences for public health and the environment."
+    ],
+    "topic": "Challenges of Urban Sustainability",
+    "unit": 6
+  }
+]

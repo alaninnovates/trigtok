@@ -1,0 +1,648 @@
+[
+  {
+    "stimulus": "A country has a crude birth rate of 10 and a crude death rate of 12.  What stage of the Demographic Transition Model is this country most likely in?",
+    "question": "Which stage of the Demographic Transition Model best represents this country?",
+    "answers": [
+      "Stage 1: High Stationary",
+      "Stage 2: Early Expanding",
+      "Stage 4: Low Stationary",
+      "Stage 5: Declining"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Stage 1 is characterized by high birth and death rates, not low death rates.",
+      "Incorrect. Stage 2 has a high birth rate and a rapidly declining death rate.",
+      "Correct. Stage 5 is defined by a declining population due to a low birth rate and a higher death rate.",
+      "Incorrect. Stage 4 has a low birth rate and a low death rate, resulting in a stable population, which does not represent the scenario in the prompt."
+    ],
+    "topic": "The Demographic Transition Model",
+    "unit": 2
+  },
+  {
+    "stimulus": "A developed country has a total fertility rate of 1.5. What is the likely impact on its population?",
+    "question": "What is the most likely demographic impact of this total fertility rate?",
+    "answers": [
+      "Rapid population growth",
+      "Stable population size",
+      "Population decline",
+      "Increased youth dependency ratio"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. A TFR of 1.5 is well below the replacement rate, so the population is unlikely to grow rapidly.",
+      "Incorrect. A TFR of 2.1 is required to maintain a stable population size, 1.5 is below this.",
+      "Correct. A TFR of 1.5 is below the replacement rate (2.1), leading to a population decline.",
+      "Incorrect. A low TFR would lead to a decreased youth dependency ratio, not an increase."
+    ],
+    "topic": "Population Dynamics",
+    "unit": 2
+  },
+  {
+    "stimulus": "Thomas Malthus argued that population growth would inevitably outstrip food production.  What factor did Malthus fail to account for in his theory?",
+    "question": "Which of the following factors did Malthus fail to adequately consider in his prediction?",
+    "answers": [
+      "The impact of disease on population",
+      "The potential for technological advancements in agriculture",
+      "The role of government policies in regulating population",
+      "The effect of migration on population distribution"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Malthus considered the impact of famine and disease as positive checks on population growth.",
+      "Correct. Malthus did not foresee the significant advancements in agricultural technology that have allowed food production to keep pace with, and sometimes exceed, population growth.",
+      "Incorrect. Malthus did not account for government population policies.",
+      "Incorrect. Malthus did not account for migration as a variable in his population predictions."
+    ],
+    "topic": "Malthusian Theory",
+    "unit": 2
+  },
+  {
+    "stimulus": "A country implements a policy that provides financial incentives to families for having more children.",
+    "question": "What type of population policy is this country pursuing?",
+    "answers": [
+      "Eugenic population policy",
+      "Restrictive population policy",
+      "Expansive population policy",
+      "Immigration restriction policy"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Eugenic policies focus on improving the genetic quality of a population.",
+      "Incorrect. Restrictive policies aim to limit population growth.",
+      "Correct. Expansive policies encourage population growth, often through incentives for having more children.",
+      "Incorrect. Immigration restriction policies pertain to controlling the movement of people into a country."
+    ],
+    "topic": "Population Policies",
+    "unit": 2
+  },
+  {
+    "stimulus": "Many developed countries are experiencing a rise in the median age of their populations.",
+    "question": "What is a likely consequence of an aging population?",
+    "answers": [
+      "Decreased strain on social security systems",
+      "Increased demand for elder care services",
+      "Lower healthcare costs",
+      "Increased birth rates"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. An aging population puts increased strain on social security systems.",
+      "Correct. Aging populations require more elder care services, increasing demand.",
+      "Incorrect. Healthcare costs tend to be higher for older populations.",
+      "Incorrect. Aging populations are usually associated with lower birth rates."
+    ],
+    "topic": "Aging Populations",
+    "unit": 2
+  },
+  {
+    "stimulus": "A group of people are displaced from their homes due to a civil war.",
+    "question": "This scenario is an example of what type of migration?",
+    "answers": [
+      "Economic migration",
+      "Forced migration",
+      "Voluntary migration",
+      "Step migration"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Economic migration is driven by economic opportunities.",
+      "Correct. Forced migration occurs when people are compelled to move due to violence or persecution.",
+      "Incorrect. Voluntary migration is based on personal choice.",
+      "Incorrect. Step migration is migration that occurs in stages."
+    ],
+    "topic": "Forced and Voluntary Migration",
+    "unit": 2
+  },
+  {
+    "stimulus": "The majority of people in Egypt live close to the Nile River.",
+    "question": "Which of the following best explains this population distribution?",
+    "answers": [
+      "High elevation",
+      "Access to fresh water and fertile land",
+      "Government mandates",
+      "Industrial opportunities"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. High elevation is not a factor for increased settlement, but rather is generally the opposite.",
+      "Correct. Access to fresh water for drinking and agriculture, and fertile land for farming, are major factors influencing population distribution.",
+      "Incorrect. Government policies may play a small role in settlement, but do not explain why most settlement is around the Nile.",
+      "Incorrect. Industrial opportunities attract people to certain areas, but do not explain Egypt's settlement along the Nile River."
+    ],
+    "topic": "Population Distribution",
+    "unit": 2
+  },
+  {
+    "stimulus": "A country has a high agricultural density.",
+    "question": "What does this indicate about the relationship between farmers and arable land in this country?",
+    "answers": [
+      "There is a small number of farmers per unit of arable land.",
+      "There is a large number of farmers per unit of arable land.",
+      "The country has a large amount of arable land.",
+      "The country has a small population."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. A small number of farmers would indicate a low agricultural density.",
+      "Correct. High agricultural density means there are many farmers for each unit of arable land.",
+      "Incorrect. A large amount of arable land would lead to a lower agricultural density, assuming the number of farmers remains constant.",
+      "Incorrect. The overall population size does not directly determine agricultural density; it's the number of farmers relative to arable land."
+    ],
+    "topic": "Consequences of Population Distribution",
+    "unit": 2
+  },
+  {
+    "stimulus": "A population pyramid shows a wide base and a narrow top.",
+    "question": "What does this population pyramid indicate about the population?",
+    "answers": [
+      "It is a developed country with an aging population.",
+      "It is a developing country with a high birth rate and a high death rate.",
+      "It is a country with a large number of elderly people.",
+      "It is a country with a balanced age structure."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Developed countries usually have a more rectangular pyramid shape due to an aging population and lower birth rates.",
+      "Correct. A wide base indicates a high birth rate, while a narrow top suggests a high death rate and shorter life expectancy, characteristic of developing countries.",
+      "Incorrect. A population pyramid with a large number of elderly people would have a wider top.",
+      "Incorrect. A balanced age structure would show a more even distribution across age groups."
+    ],
+    "topic": "Population Composition",
+    "unit": 2
+  },
+  {
+    "stimulus": "A country's population is growing at a rate of 3% per year.",
+    "question": "What is the approximate doubling time of this country's population?",
+    "answers": [
+      "10 years",
+      "23 years",
+      "70 years",
+      "30 years"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This doubling time does not align with the rate of natural increase.",
+      "Correct. Using the Rule of 70 (70 / growth rate), the doubling time is approximately 70 / 3 = 23.3 years.",
+      "Incorrect. This doubling time does not align with the rate of natural increase.",
+      "Incorrect. This doubling time does not align with the rate of natural increase."
+    ],
+    "topic": "Population Dynamics",
+    "unit": 2
+  },
+  {
+    "stimulus": "A country transitions from high birth and death rates to low birth and death rates over time.",
+    "question": "Which model describes this transition?",
+    "answers": [
+      "Epidemiological Transition Model",
+      "Demographic Transition Model",
+      "Rostow's Stages of Economic Growth",
+      "Gravity Model"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Epidemiological Transition Model focuses on changes in disease patterns.",
+      "Correct. The Demographic Transition Model describes the shift from high birth and death rates to low birth and death rates.",
+      "Incorrect. Rostow's model describes economic development stages.",
+      "Incorrect. The Gravity Model predicts interaction between places."
+    ],
+    "topic": "The Demographic Transition Model",
+    "unit": 2
+  },
+  {
+    "stimulus": "Some argue that resource depletion will lead to societal collapse as population increases.",
+    "question": "This argument aligns with which theory?",
+    "answers": [
+      "Boserup's Theory",
+      "Malthusian Theory",
+      "Dependency Theory",
+      "Weber's Least Cost Theory"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Boserup's Theory argues that population growth stimulates agricultural innovation.",
+      "Correct. Malthusian Theory posits that population growth will outstrip resource availability, leading to crisis.",
+      "Incorrect. Dependency Theory focuses on the relationship between developed and developing countries.",
+      "Incorrect. Weber's Theory deals with industrial location."
+    ],
+    "topic": "Malthusian Theory",
+    "unit": 2
+  },
+  {
+    "stimulus": "A country offers paid parental leave to new parents.",
+    "question": "What type of population policy is this an example of?",
+    "answers": [
+      "Restrictive population policy",
+      "Expansive population policy",
+      "Eugenic population policy",
+      "Immigration policy"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Restrictive population policies aim to limit population growth.",
+      "Correct. This is an expansive population policy, encouraging families to have children through incentives.",
+      "Incorrect. Eugenic policies focus on improving the genetic quality of the population.",
+      "Incorrect. Immigration policies regulate the movement of people across borders."
+    ],
+    "topic": "Population Policies",
+    "unit": 2
+  },
+  {
+    "stimulus": "Increased access to education for women is correlated with lower fertility rates.",
+    "question": "Which of the following best explains this correlation?",
+    "answers": [
+      "Educated women are more likely to prioritize career and personal goals over having children.",
+      "Educated women have fewer opportunities for marriage.",
+      "Education makes women less healthy.",
+      "Educated women are forced to have fewer children by the government."
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. Education often empowers women to pursue career and personal goals, leading to delayed marriage and childbearing, and ultimately lower fertility rates.",
+      "Incorrect. Education generally increases a woman's opportunities and social standing.",
+      "Incorrect. Education generally improves women's health outcomes.",
+      "Incorrect. This is not the case in most countries, especially those with higher education rates."
+    ],
+    "topic": "Women and Demographic Change",
+    "unit": 2
+  },
+  {
+    "stimulus": "Many European countries are facing an increasing dependency ratio.",
+    "question": "Which of the following is the primary cause of this trend?",
+    "answers": [
+      "Decreasing life expectancy",
+      "Increasing birth rates",
+      "Aging populations",
+      "Increased immigration"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Life expectancy is generally increasing in European countries.",
+      "Incorrect. Birth rates are generally declining or stable in many European countries.",
+      "Correct. Aging populations, with a larger proportion of elderly individuals, increase the dependency ratio.",
+      "Incorrect. While immigration can affect the dependency ratio, aging populations are the primary driver."
+    ],
+    "topic": "Aging Populations",
+    "unit": 2
+  },
+  {
+    "stimulus": "A family moves from a rural area to a city in search of better job opportunities.",
+    "question": "This is an example of what type of migration?",
+    "answers": [
+      "Environmental migration",
+      "Economic migration",
+      "Political migration",
+      "Forced migration"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Environmental migration is driven by environmental factors.",
+      "Correct. Economic migration is driven by the desire to improve one's financial situation through better employment opportunities.",
+      "Incorrect. Political migration is driven by political instability or persecution.",
+      "Incorrect. Forced migration involves being compelled to move against one's will."
+    ],
+    "topic": "Causes of Migration",
+    "unit": 2
+  },
+  {
+    "stimulus": "People flee their homes due to a natural disaster.",
+    "question": "Which of the following best describes this type of migration?",
+    "answers": [
+      "Voluntary migration",
+      "Internal migration",
+      "Forced migration",
+      "Chain migration"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Voluntary migration is based on choice, not compulsion.",
+      "Incorrect. Internal migration is movement within a country, but the key factor here is the involuntary nature of the movement.",
+      "Correct. Forced migration is when people are compelled to move due to circumstances beyond their control, such as a natural disaster.",
+      "Incorrect. Chain migration is migration based on established links between migrants and destinations."
+    ],
+    "topic": "Forced and Voluntary Migration",
+    "unit": 2
+  },
+  {
+    "stimulus": "A large influx of immigrants into a city leads to changes in the city's cultural landscape.",
+    "question": "What is this phenomenon called?",
+    "answers": [
+      "Brain drain",
+      "Cultural diffusion",
+      "Xenophobia",
+      "Remittances"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Brain drain is the emigration of skilled workers.",
+      "Correct. Cultural diffusion is the spread of cultural elements from one group to another, which often occurs with migration.",
+      "Incorrect. Xenophobia is fear or dislike of foreigners.",
+      "Incorrect. Remittances are money sent back home by migrants."
+    ],
+    "topic": "Effects of Migration",
+    "unit": 2
+  },
+  {
+    "stimulus": "The arithmetic density of a country is 50 people per square kilometer.",
+    "question": "What does this indicate about the country's population distribution?",
+    "answers": [
+      "The country is densely populated.",
+      "There are 50 people living in each square kilometer on average.",
+      "The country has a high agricultural density.",
+      "The country has a low physiological density."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. 50 people per square kilometer may or may not be considered dense, depending on the global context and the country's characteristics.",
+      "Correct. Arithmetic density is the total number of people divided by the total land area, indicating an average of 50 people per square kilometer.",
+      "Incorrect. Agricultural density relates to the number of farmers per unit of arable land, not the overall population density.",
+      "Incorrect. Physiological density relates to the number of people per unit of arable land."
+    ],
+    "topic": "Population Distribution",
+    "unit": 2
+  },
+  {
+    "stimulus": "A region has a high physiological density but a low arithmetic density.",
+    "question": "What does this suggest about the region's population and agriculture?",
+    "answers": [
+      "The region has a large amount of arable land and a small population.",
+      "The region has a small amount of arable land and a large population.",
+      "The region is highly industrialized with little agriculture.",
+      "The region is sparsely populated with minimal agricultural activity."
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. This would result in low physiological density, as the ratio of people to arable land would be small.",
+      "Correct. High physiological density indicates a large population relative to the amount of arable land available for agriculture, while a low arithmetic density means that the population overall is small relative to the total land area.",
+      "Incorrect. Even if the region is industrialized, if it has a high physiological density, this means that arable land is low and the population is high.",
+      "Incorrect. This scenario would result in low arithmetic density and physiological density."
+    ],
+    "topic": "Consequences of Population Distribution",
+    "unit": 2
+  },
+  {
+    "stimulus": "A population pyramid is nearly rectangular.",
+    "question": "Which of the following is most likely true of this population?",
+    "answers": [
+      "The population is rapidly growing.",
+      "The population has a high birth rate.",
+      "The population has a balanced age structure and slow growth.",
+      "The population has a high death rate."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. A rapidly growing population would have a wide base.",
+      "Incorrect. A high birth rate results in a wide base of the pyramid.",
+      "Correct. A rectangular pyramid indicates a relatively even distribution of population across age groups, suggesting slow or zero population growth.",
+      "Incorrect. A high death rate would be indicated by a narrow top of the pyramid."
+    ],
+    "topic": "Population Composition",
+    "unit": 2
+  },
+  {
+    "stimulus": "A country has a crude birth rate of 25 per 1,000 and a crude death rate of 5 per 1,000.",
+    "question": "What is the rate of natural increase (RNI) for this country?",
+    "answers": [
+      "0.5%",
+      "2.0%",
+      "2.5%",
+      "3.0%"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The formula for RNI is (CBR-CDR)/10",
+      "Correct. RNI = (Crude Birth Rate - Crude Death Rate) / 10 = (25 - 5) / 10 = 2.0%.",
+      "Incorrect. The formula for RNI is (CBR-CDR)/10",
+      "Incorrect. The formula for RNI is (CBR-CDR)/10"
+    ],
+    "topic": "Population Dynamics",
+    "unit": 2
+  },
+  {
+    "stimulus": "A country moves from Stage 2 to Stage 3 of the Demographic Transition Model.",
+    "question": "Which of the following demographic changes is most likely to occur?",
+    "answers": [
+      "Birth rates and death rates both remain high.",
+      "Birth rates remain high, while death rates increase.",
+      "Birth rates decline, while death rates remain low.",
+      "Birth rates and death rates both increase."
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Stage 1 is characterized by high birth and death rates.",
+      "Incorrect. Death rates decrease significantly in Stage 2.",
+      "Correct. In Stage 3, birth rates start to decline, while death rates remain low due to advancements in healthcare and sanitation.",
+      "Incorrect. Death rates do not increase when transitioning from Stage 2 to Stage 3."
+    ],
+    "topic": "The Demographic Transition Model",
+    "unit": 2
+  },
+  {
+    "stimulus": "Some economists argue that technological innovation will always compensate for resource scarcity caused by population growth.",
+    "question": "This perspective directly challenges which theory?",
+    "answers": [
+      "Gravity Model",
+      "Malthusian Theory",
+      "Demographic Transition Model",
+      "Central Place Theory"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. The Gravity Model concerns the interaction between places.",
+      "Correct. Malthusian Theory argues that population growth will inevitably outstrip resource availability, leading to crisis, which is directly challenged by the idea that technology can solve resource scarcity.",
+      "Incorrect. The Demographic Transition Model describes population changes over time.",
+      "Incorrect. Central Place Theory describes the distribution of services across a region."
+    ],
+    "topic": "Malthusian Theory",
+    "unit": 2
+  },
+  {
+    "stimulus": "China's One-Child Policy is an example of a population policy.",
+    "question": "What type of population policy was China's One-Child Policy?",
+    "answers": [
+      "Expansive population policy",
+      "Restrictive population policy",
+      "Eugenic population policy",
+      "Immigration policy"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Expansive population policies encourage population growth.",
+      "Correct. Restrictive population policies aim to limit population growth, as the One-Child Policy did.",
+      "Incorrect. Eugenic policies focus on improving the genetic quality of a population.",
+      "Incorrect. Immigration policies regulate the movement of people across borders."
+    ],
+    "topic": "Population Policies",
+    "unit": 2
+  },
+  {
+    "stimulus": "In many societies, women are increasingly delaying marriage and childbirth.",
+    "question": "What is a significant demographic consequence of this trend?",
+    "answers": [
+      "Increased total fertility rates",
+      "Decreased life expectancy",
+      "Increased dependency ratio",
+      "Decreased total fertility rates"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Delaying marriage and childbirth typically leads to decreased fertility rates.",
+      "Incorrect. This trend does not directly affect life expectancy.",
+      "Incorrect. While other factors can affect dependency ratio, delaying childbirth typically leads to decreased fertility.",
+      "Correct. When women delay having children, they tend to have fewer children overall, leading to lower total fertility rates."
+    ],
+    "topic": "Women and Demographic Change",
+    "unit": 2
+  },
+  {
+    "stimulus": "Japan has one of the oldest populations in the world.",
+    "question": "Which of the following is a significant economic challenge posed by Japan's aging population?",
+    "answers": [
+      "Labor shortages",
+      "Decreased healthcare costs",
+      "Lower tax revenues",
+      "Increased demand for schools"
+    ],
+    "correct_answer": 0,
+    "explanations": [
+      "Correct. An aging population often leads to a shrinking workforce and labor shortages.",
+      "Incorrect. Older populations typically require more healthcare, increasing costs.",
+      "Incorrect. With a smaller working-age population, tax revenues may decline.",
+      "Incorrect. Aging populations typically have fewer children, leading to decreased demand for schools."
+    ],
+    "topic": "Aging Populations",
+    "unit": 2
+  },
+  {
+    "stimulus": "A person migrates from Mexico to the United States to find work and send money back home to their family.",
+    "question": "What is this flow of money back to Mexico called?",
+    "answers": [
+      "Brain drain",
+      "Remittances",
+      "Counter-urbanization",
+      "Xenophobia"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. Brain drain is the emigration of skilled workers.",
+      "Correct. Remittances are money sent by migrants to their family or community back home.",
+      "Incorrect. Counter-urbanization is the movement from urban to rural areas.",
+      "Incorrect. Xenophobia is fear or dislike of foreigners."
+    ],
+    "topic": "Causes of Migration",
+    "unit": 2
+  },
+  {
+    "stimulus": "The Trail of Tears, in which Native Americans were forcibly removed from their ancestral lands, is an example of...",
+    "question": "The Trail of Tears is an example of...",
+    "answers": [
+      "Voluntary Migration",
+      "Internal Migration",
+      "Forced Migration",
+      "Chain Migration"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. Voluntary migration is based on choice, not compulsion.",
+      "Incorrect. While the Trail of Tears happened within the US, the key factor is the involuntary nature of the movement.",
+      "Correct. Forced migration is when people are compelled to move due to circumstances beyond their control.",
+      "Incorrect. Chain migration is migration based on established links between migrants and destinations."
+    ],
+    "topic": "Forced and Voluntary Migration",
+    "unit": 2
+  },
+  {
+    "stimulus": "A large number of young adults migrate from rural areas to urban centers, leaving the rural areas with a disproportionately aging population.",
+    "question": "What is a likely consequence of this migration pattern on the rural areas?",
+    "answers": [
+      "Increased economic development",
+      "Reduced strain on social services",
+      "Decreased tax base and potential decline in services",
+      "Higher birth rates"
+    ],
+    "correct_answer": 2,
+    "explanations": [
+      "Incorrect. The loss of young adults is more likely to hinder economic development.",
+      "Incorrect. An aging population may place more, not less, strain on social services.",
+      "Correct. A smaller, older population leads to a reduced tax base, which can lead to a decline in public services.",
+      "Incorrect. A population concentrated in the older age groups would typically lead to lower birth rates."
+    ],
+    "topic": "Effects of Migration",
+    "unit": 2
+  },
+  {
+    "stimulus": "The population of Manhattan is approximately 1.6 million people, and its land area is 22.82 square miles.",
+    "question": "What is the population density of Manhattan?",
+    "answers": [
+      "About 500 people per square mile",
+      "About 7,000 people per square mile",
+      "About 16,000 people per square mile",
+      "About 70,000 people per square mile"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Calculation of population density involves dividing population by area, which is much larger than 500.",
+      "Incorrect. Calculation of population density involves dividing population by area, which is much larger than 7,000.",
+      "Incorrect. Calculation of population density involves dividing population by area, which is much larger than 16,000.",
+      "Correct. Population density is calculated as population divided by area: 1,600,000 people / 22.82 sq mi = ~70,114 people per square mile"
+    ],
+    "topic": "Population Distribution",
+    "unit": 2
+  },
+  {
+    "stimulus": "The number of farmers in a region is low, yet the amount of arable land is also limited.",
+    "question": "Which of the following is the most likely consequence of this scenario?",
+    "answers": [
+      "High agricultural density",
+      "Low agricultural density",
+      "High physiological density",
+      "Low arithmetic density"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. High agricultural density requires a large number of farmers relative to arable land.",
+      "Correct. Low agricultural density is indicated by a small number of farmers per unit of arable land.",
+      "Incorrect. Physiological density relates to the total population size per unit of arable land, not specifically farmers.",
+      "Incorrect. Arithmetic density is total population divided by total land area."
+    ],
+    "topic": "Consequences of Population Distribution",
+    "unit": 2
+  },
+  {
+    "stimulus": "A population pyramid shows relatively equal numbers of people in each age group, but with a slightly smaller base.",
+    "question": "What does this population pyramid shape suggest about this country's demographic situation?",
+    "answers": [
+      "Rapid Population Decline",
+      "Rapid Population Growth",
+      "Slow Population Growth",
+      "Stable Population"
+    ],
+    "correct_answer": 3,
+    "explanations": [
+      "Incorrect. Rapid Population Decline would be defined by a much smaller base.",
+      "Incorrect. Rapid Population Growth would be defined by a much larger base.",
+      "Incorrect. While a Stable Population exhibits slow growth, it would not be characterized by a slightly smaller base.",
+      "Correct. Stable Population is characterized by relatively equal numbers of people in each age group"
+    ],
+    "topic": "Population Composition",
+    "unit": 2
+  },
+  {
+    "stimulus": "The TFR of a country is 2.1. The CBR is 15/1,000, and the CDR is 6/1,000. There is little-to-no migration into or out of this country.",
+    "question": "How would you describe the country's population?",
+    "answers": [
+      "Rapidly Growing",
+      "Growing",
+      "Stable",
+      "Declining"
+    ],
+    "correct_answer": 1,
+    "explanations": [
+      "Incorrect. To be Rapidly Growing, this population would have a higher TFR and greater Natural Increase.",
+      "Correct. While the TFR and CBR/CDR alone do not necessarily indicate rapid growth, this country is Growing based on positive Natural Increase.",
+      "Incorrect. To be Stable, the Birth and Death rates must be equal to one another, or the TFR would need to be lower.",
+      "Incorrect. A Declining Population would be indicated by a negative Natural Increase."
+    ],
+    "topic": "Population Dynamics",
+    "unit": 2
+  }
+]
