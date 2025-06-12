@@ -107,13 +107,41 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
       alignment: Alignment.center,
       children: [
         sessionElement.isEmpty
-            ? const CircularProgressIndicator()
+            ? Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                CircularProgressIndicator(),
+                SizedBox(height: 16),
+                Text(
+                  "Loading...",
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.white,
+                    decoration: TextDecoration.none,
+                  ),
+                ),
+              ],
+            )
             : _videoController.value.isInitialized
             ? AspectRatio(
               aspectRatio: _videoController.value.aspectRatio,
               child: VideoPlayer(_videoController),
             )
-            : const CircularProgressIndicator(),
+            : Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                CircularProgressIndicator(),
+                SizedBox(height: 16),
+                Text(
+                  "Loading explanation video...",
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.white,
+                    decoration: TextDecoration.none,
+                  ),
+                ),
+              ],
+            ),
         sessionElement.isEmpty
             ? const SizedBox.shrink()
             : Column(
@@ -241,6 +269,75 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                 Spacer(),
               ],
             ),
+        sessionElement.isNotEmpty
+            ? Positioned(
+              bottom: 24,
+              left: 24,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Card(
+                    color: Colors.black54,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 0),
+                          child: Text(
+                            sessionElement['unitName'] ?? '',
+                            style: const TextStyle(
+                              fontSize: 16,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            sessionElement['topic']['topic'] ?? '',
+                            style: const TextStyle(
+                              fontSize: 14,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            )
+            : const SizedBox.shrink(),
+        sessionElement.isNotEmpty
+            ? Positioned(
+              bottom: 24,
+              right: 24,
+              child: IconButton(
+                icon:
+                    sessionElement['bookmark'] == true
+                        ? const Icon(Icons.bookmark, color: Colors.yellow)
+                        : const Icon(
+                          Icons.bookmark_border,
+                          color: Colors.white,
+                        ),
+                onPressed: () async {
+                  print(
+                    'Bookmarking session element ${sessionElement['timelineId']}',
+                  );
+                  bool nextBookmarkState =
+                      sessionElement['bookmark'] == true ? false : true;
+                  setState(() {
+                    sessionElement['bookmark'] = nextBookmarkState;
+                  });
+                  await Supabase.instance.client
+                      .from('study_timelines')
+                      .update({'bookmark': nextBookmarkState})
+                      .eq('id', sessionElement['timelineId']);
+                },
+              ),
+            )
+            : const SizedBox.shrink(),
       ],
     );
   }

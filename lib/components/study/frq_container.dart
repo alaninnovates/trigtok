@@ -153,6 +153,7 @@ class _FrqContainerState extends State<FrqContainer> {
                               ),
                             ElevatedButton(
                               onPressed: () async {
+                                if (isGrading) return;
                                 if (index < widget.questions.length - 1) {
                                   DefaultTabController.of(
                                     context,
