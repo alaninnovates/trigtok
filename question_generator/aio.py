@@ -23,7 +23,7 @@ topics_data = json.loads(open("data/topics.json").read())
 
 
 class MultipleChoiceQuestion(BaseModel):
-    # stimulus: str
+    stimulus: str
     question: str
     answers: list[str]
     correct_answer: int
@@ -49,18 +49,99 @@ Follow these guidelines:
         ),
         types.Part.from_text(
             text=f"""<EXAMPLE>
-Input: 
-    Unit: Unit 6: Cities and Urban Land-Use Patterns and Processes
-    Topic: 6.10 Challenges of Urban Changes
-Output: {{"question": "Which of the following factors best explains the development and expansion of squatter settlements?", "answers": ["Gentrification of megacities in more developed countries displacing large numbers of urban dwellers", "Rapid urbanization and inability of infrastructure to keep pace with the growth of megacities in developing countries", "Urban dwellers seeking residential housing and shopping outside the congestion of the city", "Zoning laws in developing countries that prevent current urban dwellers from obtaining land to build residential structures", "The growth of urban agriculture encouraging migrant farm workers to move to cities requiring more housing"], "correct_answer": 1, "explanations": ["Incorrect. Gentrification displaces residents but typically leads to higher-income housing, not the development of squatter settlements, which are characterized by informal, often improvised housing.", "Correct. Rapid urbanization in developing countries often outpaces the development of formal housing and infrastructure, leading to a shortage of affordable options and the spontaneous growth of squatter settlements.", "Incorrect. This describes suburbanization, where people move to the periphery for better housing and less congestion, a different phenomenon than the development of squatter settlements.", "Incorrect. While zoning laws can be restrictive, the primary driver of squatter settlements is the lack of affordable, formal housing options for a rapidly growing urban population, rather than solely preventing land acquisition.", "Incorrect. While urban agriculture can exist in squatter settlements, it is not the primary factor explaining their development and expansion; rather, the lack of formal housing options drives their growth."]}}
+Input:
+    Unit: Unit 3: Development and Learning
+    Topic: 3.9 Social, Cognitive, and Neurological Factors in Learning
+
+Output:
+{{
+  "stimulus": "Oksana experiences pleasurable feelings when she hugs her mother. Recently, her mother started wearing a new perfume, which Oksana can smell when she hugs her mother. When Oksana is shopping, she smells that new perfume near the counter where it is sold. She immediately feels the same pleasurable feelings as she does when she hugs her mother.",
+  "question": "In terms of classical conditioning, which of the following is the smell of the new perfume?",
+  "answers": [
+    "Unconditioned stimulus (UCS)",
+    "Conditioned stimulus (CS)",
+    "Positive reinforcement",
+    "Unconditioned response (UCR)"
+  ],
+  "correct_answer": 1,
+  "explanations": [
+    "Incorrect. The unconditioned stimulus is something that naturally causes a response, like the hug itself, not the perfume.",
+    "Correct. The perfume, once neutral, becomes associated with the pleasurable feelings and thus is the conditioned stimulus.",
+    "Incorrect. Positive reinforcement is an operant conditioning concept, not classical conditioning.",
+    "Incorrect. An unconditioned response is a natural reaction, like feeling good from a hug, not the perfume itself."
+  ]
+}}
+</EXAMPLE>
+<EXAMPLE>  
+Input:  
+	Unit: Unit 5: Mental and Physical Health  
+	Topic: 5.3 Explaining and Classifying Psychological Disorders  
+Output:
+{{
+"stimulus": "Researchers conducted a study with 200 participants who had been diagnosed with schizophrenia and a comparison group of 200 patients who had not been diagnosed with schizophrenia. The researchers found that participants who had been diagnosed with schizophrenia had significantly larger ventricles than a comparison group. Based on this finding, the researchers concluded that enlarged ventricles cause people to develop schizophrenia.",
+"question": "Which of the following most accurately describes why this conclusion is flawed?",
+"answers": [
+"The researchers’ sample is not large enough to allow researchers to draw any scientific conclusions.",
+"The researchers’ results indicate no correlation between the variables.",
+"The researchers’ conclusion does not adequately account for the role of GABA in developing schizophrenia.",
+"The researchers’ cause-and-effect conclusions cannot be made because no independent variable is manipulated"
+],
+"correct_answer": 3,
+"explanations": [
+"Incorrect. A sample of 400 is generally large enough to support basic statistical analysis.",
+"Incorrect. The study does show a correlation between enlarged ventricles and schizophrenia, just not causation.",
+"Incorrect. While GABA may play a role, the flaw is not about neurotransmitters, but study design.",
+"Correct. No variable was manipulated experimentally, so causal conclusions are inappropriate."
+]
+}}
 </EXAMPLE>
 
+<EXAMPLE>  
+Input:  
+	Unit: Unit 3: Development and Learning  
+	Topic: 3.6 Social-Emotional Development Across the Lifespan  
+Output:
+{{
+"stimulus": "Ten primary caregivers of children completed an assessment to determine the degree to which they practice authoritative parenting. The table shows the participants’ scores on this assessment. The lowest possible score is 1, meaning the degree of authoritative parenting is low. The highest possible score is 15, meaning the degree of authoritative parenting is high. Scores: [3, 4, 6, 7, 8, 9, 10, 11, 12, 13]",
+"question": "Based on the table, what is the range of the caregivers’ scores?",
+"answers": [
+"4",
+"8",
+"9",
+"12"
+],
+"correct_answer": 3,
+"explanations": [
+"Incorrect. 4 is not the difference between the highest and lowest score.",
+"Incorrect. 8 is not the range from 3 to 13.",
+"Incorrect. 9 is not the correct calculation of the difference between highest and lowest scores.",
+"Correct. The range is the highest score (13) minus the lowest score (1), which equals 12."
+]
+}}
+</EXAMPLE>
 <EXAMPLE>
-Input:
-    Unit: Unit 1: Thinking Geographically
-    Topic: 1.5 Human–Environmental Interaction
-
-Output: {{"question": "The lush golf courses in the United Arab Emirates, the dikes and polders in the Netherlands, and the Three Gorges Dam in China are significant examples of land use. Which of the following viewpoints of human-environment interaction are best described by these land-use examples?", "answers": ["Environmental determinism", "Ecotourism", "Possibilism", "Heartland theory", "Malthusian theory"], "correct_answer": 2, "explanations": ["Incorrect. Environmental determinism suggests that the environment dictates human culture and development, while these examples show humans actively modifying their environment.", "Incorrect. Ecotourism focuses on responsible travel to natural areas, which is not the primary characteristic of large-scale land modifications like golf courses, dikes, or dams.", "Correct. Possibilism is the viewpoint that humans have the ability to adapt and modify their environment to suit their needs and desires, as demonstrated by these extensive land-use projects.", "Incorrect. Heartland theory is a geopolitical concept about land power, unrelated to human-environment interaction or specific land-use examples.", "Incorrect. Malthusian theory deals with population growth outstripping resource availability, which is not directly illustrated by these examples of environmental modification."]}}
+<EXAMPLE>  
+Input:  
+	Unit: Unit 3: Development and Learning  
+	Topic: 3.8 Operant Conditioning  
+Output:
+{{
+"stimulus": "Dr. Trenton conducted a study to determine whether massed practice or distributed practice produced better academic outcomes. He recruited volunteers from a high school Spanish class and randomly assigned students to learn a list of 100 new vocabulary words for which they were later given a word recall test. Students prepared for the word recall test using either distributed practice by studying for 30 minutes a day the week before the test, or massed practice by intensively studying the night before the test.",
+"question": "What was the dependent variable in this research project?",
+"answers": [
+"Massed practice",
+"Distributed practice",
+"High school students",
+"Word recall"
+],
+"correct_answer": 3,
+"explanations": [
+"Incorrect. Massed practice is one of the independent variables being manipulated.",
+"Incorrect. Distributed practice is also an independent variable being manipulated.",
+"Incorrect. The high school students are the participants, not a variable.",
+"Correct. Word recall is the outcome being measured, making it the dependent variable."
+]
+}}
 </EXAMPLE>"""
         ),
     ]
@@ -110,7 +191,7 @@ Your task is to write 2 realistic Free Response Questions (FRQ) for the provided
 
 Follow these guidelines:
 - Present a realistic, AP-style stimulus that provides context for the questions
-- Ask 7 related sub-questions that require students to:
+- Ask 6 related sub-questions that require students to:
     - Analyze, interpret, or explain key concepts from the topic
     - Apply reasoning or make predictions
     - Use appropriate evidence or data
@@ -120,12 +201,32 @@ Follow these guidelines:
 - Avoid overly simplistic or vague questions that do not require higher-order thinking"""
         ),
         types.Part.from_text(
-            text=f"""<EXAMPLE>
+            text=f"""
+<EXAMPLE>
 Input:
-    Unit: Unit 4: Political Patterns and Processes
-    Topic: 4.1 Introduction to Political Geography
+    Unit: Unit 3: Development and Learning
+    Topic: 3.9 Social, Cognitive, and Neurological Factors in Learning
 
-Output: {{"stimulus": "In most countries, the concept of the state as a political unit is subject to the tensions between centrifugal and centripetal forces. Governments are often challenged by the devolutionary factors that challenge state sovereignty.", "questions": ["Define the concept of the multinational state.", "Explain how ethnicity can be a factor that leads to the devolution of a state.", "Explain how communication technology plays an important role in the goals of devolutionary groups and democracy movements.", "Explain the limitations of communication technology in furthering the goals of devolutionary groups and democracy movements.", "Describe ONE centripetal force that governments use to promote the state as a nation.", "Explain how uneven development within a state can act as a centrifugal force.", "For a multinational state facing the realities of devolution, explain why a government would choose to create an autonomous region or choose to maintain a unitary state."]], "rubric": ["• A country with multiple culture groups or multiple ethnic groups under a single government.", "Accept one of the following:\n• Ethnic differences, ethnocentrism, or ethnic separatism can be the source of conflict between culture groups, or between one ethnic group and a government.\n• One or more ethnic groups may control a government, while another ethnic group has limited political power.\n• Ethnic nationalist political parties may compete for political power or attempt to gain control of territory.\n• An ethnic group existing within a territory shared with other culture groups may attempt to gain control through armed conflict, ethnic cleansing, or terrorism", "Accept one of the following:\n• Personal computers, personal communication devices, or cell phones can be used to connect people who support a common ethnic, religious, or political desire to devolve the state or reform the government.\n• Software applications (apps) for social networking can be used to connect people who support a common ethnic, religious, or political desire to devolve the state or reform the government.\n• Radio. television, news, or the internet can be used to broadcast ethnic, religious, or political groups intent to devolve the state or reform the government.", "Accept one of the following:\n• Governments can shut down cellular phone towers, data networks, or satellite uplinks to prevent social networking\n• Governments can filter or block information entering their country via the Internet or on social network sites.\n• Governments can ban media from broadcasting information, news, websites or other media regarding an ethnic, religious, or political groups who intend to devolve the state or reform the government.\n• Governments can counter devolutionary groups and democracy movements with pro-government applications, information, news or media.", "Accept one of the following:\n• When a part of a country is neglected economically by a government, resentful local residents may attempt to gain local or regional political control.\n• Countries with primate cities can have a highly-developed city or capital while the rest of the country is relatively underdeveloped; this can create devolutionary pressures.", "Accept one of the following:\n• The creation of an autonomous region would give an ethnic group limited self-determination, but this may weaken the state’s control over the region’s territory, people, and resources.\n• Maintaining a unitary state would give the government full control over territory, people, and resources, but this risks rebellion against the state by the region’s ethnic group."]}}
+Output:
+{{
+  "stimulus": "Few large-scale, long-term studies have been conducted to test whether taking a multivitamin makes a difference in improving memory ability as one ages. In this study, researchers examined whether taking a multivitamin slows cognitive decline in later life.\n\nParticipants\nAn earlier study, which was conducted in 2017 and included over 21,000 people, examined the effects of taking a multivitamin on health outcomes. From that study’s sample, over 7,000 people received a mailed invitation to participate in this study. Of those who received the invitation, almost 4,000 participants agreed to participate and were accepted. To be accepted, participants had to be over 65 years of age if women and over 60 years of age if men. In addition, they could not participate if they had ever had a stroke, if they had received a cancer diagnosis in the two years before the study, or if they had a history of any other serious illnesses. Participants had to be able to communicate in English and have access to an Internet-connected computer.\n\nA computer randomly assigned participants to two groups. Participants in Group 1 received a pack of multivitamins each month by mail to take one pill twice a day. Participants in Group 2 received a pack of placebo pills in the same type of packaging as Group 1 and with the same instructions. The sample size of Group 1 was 1,758 people, and the sample size of Group 2 was 1,804 people. The demographics of each group are listed in the table:\n\nDemographic         | Group 1 – Multivitamin | Group 2 – Placebo\n-------------------|------------------------|------------------\nAge (Mean, SD)     | 70.9 (4.5)             | 71.0 (4.6)\nMen                | 32.9%                  | 33.4%\nWomen              | 67.1%                  | 66.6%\nWhite              | 93.1%                  | 93.5%\nAfrican American   | 2.3%                   | 2.6%\nHispanic           | 1.5%                   | 1.4%\nOther/Multiple     | 1.8%                   | 1.2%\nAsian/NH           | 0.2%                   | 0.1%\nAmerican Indian    | 1.1%                   | 1.2%\n\nMethod\nOnce a year for 3 years, participants were asked to complete an online test to evaluate episodic memory and executive functioning. Instructions on how to access the test materials were emailed to participants, and participants who responded to the email indicated their consent. The participants received a $15 gift card for each annual assessment, regardless of completion.\n\nThe multivitamin used is widely available in the United States. Side effects of taking the multivitamin include low rates of stomach pain, diarrhea, skin rash, bruising, and an increased rate of gastrointestinal bleeding, which are considered normal side effects for those taking a multivitamin in the general population.\n\nTwo different tasks were used to measure episodic memory and executive functioning in this study:\n- Episodic Memory: Participants completed a recall task in which they were first shown a set of words, presented one at a time for three seconds each. They were then asked to recall the set of words, once immediately after the word list was presented and again after 15 minutes had passed. Participants who recalled more words correctly earned higher scores.\n- Executive Functioning: Participants were first shown one set of items and were then shown a second set. They were asked to identify whether items in the second set were the same as or different from the first. Participants earned higher scores the more quickly they correctly identified the match or difference.\n\nResults and Discussion\nCompared with participants taking a placebo, participants receiving the multivitamin had significantly greater improvement in the recall task at the end of the first year. Performance on the immediate recall memory task in Group 1 improved from a mean of 7.10 words at baseline to 7.81 words after 1 year of taking the multivitamin, an improvement mean of 0.71. In Group 2, which received the placebo pills, performance improved from 7.21 words at baseline to 7.65 words, an improvement mean of 0.44. When comparing the multivitamin group with the placebo group averaged across all 3 years of intervention, findings suggest that the memory improvement is sustained over time. \n\nResearchers estimate that the effect of the multivitamin intervention improved memory performance in participants in the multivitamin group by the equivalent of 3.1 years of age-related memory change compared to participants in the placebo group. Researchers also found that executive functioning was not significantly impacted by taking a multivitamin.\n\nThe findings suggest that the greatest benefit to taking a multivitamin is found in immediate memory recall, something especially vulnerable in aging adults.",
+  "questions": [
+    "Identify the research method used in the study.",
+    "State the operational definition of executive functioning.",
+    "Describe what the difference in means indicates for the immediate recall task for the multivitamin group as compared to the placebo group.",
+    "Identify at least one ethical guideline applied by the researchers.",
+    "Explain the extent to which the research findings may or may not be generalizable using specific and relevant evidence from the study.",
+    "Explain how at least one of the research findings supports or refutes the researchers’ hypothesis that taking a multivitamin slows cognitive decline in later life."
+  ],
+  "rubric": [
+    "One point for correctly identifying the research method as a randomized controlled experiment or randomized clinical trial.",
+    "One point for stating that executive functioning was measured by how quickly and accurately participants identified whether items in the second set matched or differed from items in the first set.",
+    "One point for stating that the multivitamin group showed greater improvement in immediate recall (mean increase of 0.71 vs. 0.44) indicating a greater effect of multivitamin on memory performance.",
+    "One point for identifying an ethical guideline such as informed consent (participants responded via email to indicate consent) or minimal risk (side effects were normal for the general population).",
+    "One point for discussing generalizability, e.g., limited due to lack of diversity (over 93% White) or strong because of large sample size and random assignment.",
+    "One point for explaining that the finding of improved immediate recall in the multivitamin group supports the hypothesis that multivitamins slow cognitive decline."
+  ]
+}}
 </EXAMPLE>"""
         ),
     ]
@@ -182,7 +283,7 @@ def mcq_gen(class_name: str,
             to_insert.extend(
                 [
                     {
-                        "stimulus": "",
+                        "stimulus": q.stimulus,
                         "question": q.question,
                         "answers": q.answers,
                         "correct_answer": q.correct_answer,
@@ -250,7 +351,7 @@ def process_class(class_id: int):
 
 
 def main():
-    process_class(9)
+    process_class(12)
 
 
 if __name__ == "__main__":
