@@ -122,6 +122,23 @@ Deno.serve(async (req) => {
         }
         return { unitId, topic };
     };
+    const getCurrentTopic = () => {
+        if (timeline.length == 0) {
+            return {
+                unitId: sessionMetadata.desired_unit_id,
+                topic: sessionMetadata.desired_topics[0],
+            };
+        }
+        const latestEntry = timeline[0];
+        console.log('latestEntry', latestEntry);
+        return {
+            unitId: latestEntry.topics.unit_id,
+            topic: {
+                id: latestEntry.topics.id,
+                topic: latestEntry.topics.topic,
+            },
+        };
+    };
     const getResponse = async () => {
         switch (nextQuestionType) {
             case QuestionType.Explanation: {
@@ -184,7 +201,7 @@ Deno.serve(async (req) => {
                 });
             }
             case QuestionType.MultipleChoice: {
-                const { unitId, topic } = getNextTopic();
+                const { unitId, topic } = getCurrentTopic();
                 const questionsAnswered = timeline
                     .filter(
                         (entry) => entry.type === QuestionType.MultipleChoice,
@@ -279,7 +296,7 @@ Deno.serve(async (req) => {
                 });
             }
             case QuestionType.FreeResponse: {
-                const { unitId, topic } = getNextTopic();
+                const { unitId, topic } = getCurrentTopic();
                 const questionsAnswered = timeline
                     .filter((entry) => entry.type === QuestionType.FreeResponse)
                     .filter((entry) => entry.topics.id === topic.id)
