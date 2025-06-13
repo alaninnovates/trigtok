@@ -142,7 +142,7 @@ Your task is to write 2 realistic Free Response Questions (FRQ) for the provided
 
 Follow these guidelines:
 - The first question should present a realistic, AP-style stimulus (experiment description, scenario, passage, table, or set of documents). Stimuli may use latex as necessary. The second question should not present a stimulus.
-- Ask 3–4 related sub-questions that require students to:
+- Ask 3-4 related sub-questions that require students to:
     - Analyze, interpret, or explain key concepts from the topic
     - Apply reasoning or make predictions
     - Use appropriate evidence or data
