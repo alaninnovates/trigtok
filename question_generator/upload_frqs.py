@@ -40,11 +40,15 @@ units_data = json.loads(open("data/units.json").read())
 """
 topics_data = json.loads(open("data/topics.json").read())
 
-for file in os.listdir("generated"):
-    split = file.split(".")[0].split("_")
+for file in os.listdir("ap_euro_frqs"):
+    split_dot = file.split(".")
+    split = '.'.join(split_dot[:-1]).split("_")
     class_name = split[0]
     question_type = split[1]
     unit_number = int(split[2])
+    topic_name = split[3]
+
+    print(class_name, question_type, unit_number, topic_name)
 
     class_id = next(
         (c["id"] for c in classes_data if c["name"] == class_name), None
@@ -52,23 +56,21 @@ for file in os.listdir("generated"):
     unit_id = next(
         (u["id"] for u in units_data if u["class_id"] == class_id and u["number"] == unit_number), None
     )
-    data = json.loads(open("generated/" + file).read())
+    topic_id = next(
+        (t["id"] for t in topics_data if t["unit_id"] == unit_id and t["topic"].endswith(topic_name)), None
+    )
+
+    print(f"Class ID: {class_id}, Unit ID: {unit_id}, Topic ID: {topic_id}")
+    data = json.loads(open("ap_euro_frqs/" + file).read())
     insert_data = []
     for question in data:
-        topic = next(
-            (t["id"] for t in topics_data if t["topic"].endswith(question["topic"]) and t["unit_id"] == unit_id), None
-        )
-        stim = ""
-        if question["stimulus"] != "N/A":
-            stim = question["stimulus"]
         insert_data.append({
-            "stimulus": stim,
-            "question": question["question"],
-            "answers": question["answers"],
-            "correct_answer": question["correct_answer"],
-            "explanations": question["explanations"],
+            "stimulus": question["stimulus"],
+            "questions": [{"text": q, "point_value": 1} for q in question["questions"]],
+            "rubric": question["rubric"],
             "unit_id": unit_id,
-            "topic": topic
+            "topic": topic_id,
+            "total_points": len(question["questions"]),
         })
-    print(f"Inserting {len(insert_data)} questions for {class_name} unit {unit_number}")
-    client.table("multiple_choice_questions").insert(insert_data).execute()
+    print(f"Inserting {len(insert_data)} questions for {class_name} unit {unit_number} topic {topic_name}")
+    client.table("free_response_questions").insert(insert_data).execute()
