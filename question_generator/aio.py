@@ -43,104 +43,57 @@ Your goal is to write 4 realistic multiple choice questions for the provided top
 
 Follow these guidelines:
 - Write a multiple-choice question that tests deeper conceptual understanding or reasoning, not simple recall
-- Provide four answer choices with only one correct answer and several plausible distractors
+- Provide four answer choices with only one correct answer and 3 plausible distractors
 - Mark the correct answer's index
 - Provide a short explanation justifying the correct answer and eliminating the incorrect ones"""
         ),
         types.Part.from_text(
-            text=f"""<EXAMPLE>
-Input:
-    Unit: Unit 3: Development and Learning
-    Topic: 3.9 Social, Cognitive, and Neurological Factors in Learning
-
+            text=f"""<EXAMPLE>  
+Input:  
+	Unit: Unit 3: Period 3: 1754–1800  
+	Topic: 3.2 The Seven Years’ War (The French and Indian War)
+  
 Output:
 {{
-  "stimulus": "Oksana experiences pleasurable feelings when she hugs her mother. Recently, her mother started wearing a new perfume, which Oksana can smell when she hugs her mother. When Oksana is shopping, she smells that new perfume near the counter where it is sold. She immediately feels the same pleasurable feelings as she does when she hugs her mother.",
-  "question": "In terms of classical conditioning, which of the following is the smell of the new perfume?",
+  "stimulus": "“May it . . . please your most excellent Majesty, that it may be declared . . . in this present parliament assembled, and by the authority of the same, That the said colonies and plantations in America have been, are, and of right ought to be, subordinate unto, and dependent upon the imperial crown and parliament of Great Britain; . . . and [they] of right ought to have, full power and authority to make laws and statutes of sufficient force and validity to bind the colonies and people of America, subjects of the crown of Great Britain, in all cases whatsoever.”\nThe Declaratory Act, passed by the British Parliament in 1766",
+  "question": "Which of the following contributed most directly to the enactment of the law in the excerpt?",
   "answers": [
-    "Unconditioned stimulus (UCS)",
-    "Conditioned stimulus (CS)",
-    "Positive reinforcement",
-    "Unconditioned response (UCR)"
+    "The increasing divergence between colonial and British culture in the 1700s",
+    "Debates over how Britain’s colonies should bear the cost of the Seven Years’ War (French and Indian War)",
+    "The drafting of a declaration of independence for Britain’s colonies in North America",
+    "Conflicts between colonists and British army leaders over recognizing Native American sovereignty"
   ],
   "correct_answer": 1,
   "explanations": [
-    "Incorrect. The unconditioned stimulus is something that naturally causes a response, like the hug itself, not the perfume.",
-    "Correct. The perfume, once neutral, becomes associated with the pleasurable feelings and thus is the conditioned stimulus.",
-    "Incorrect. Positive reinforcement is an operant conditioning concept, not classical conditioning.",
-    "Incorrect. An unconditioned response is a natural reaction, like feeling good from a hug, not the perfume itself."
+    "Incorrect. While cultural divergence existed, it was not the immediate cause of the Declaratory Act, which was passed in response to political and financial issues.",
+    "Correct. The Declaratory Act was passed following colonial resistance to the Stamp Act, which Britain had implemented to help pay for debts from the Seven Years’ War.",
+    "Incorrect. The Declaration of Independence was drafted a decade later, in 1776, and was not a factor in the 1766 Declaratory Act.",
+    "Incorrect. Although tensions with Native Americans existed, they were not the main factor behind this particular legislation, which focused on asserting British authority over the colonies."
   ]
 }}
 </EXAMPLE>
-<EXAMPLE>  
-Input:  
-	Unit: Unit 5: Mental and Physical Health  
-	Topic: 5.3 Explaining and Classifying Psychological Disorders  
-Output:
-{{
-"stimulus": "Researchers conducted a study with 200 participants who had been diagnosed with schizophrenia and a comparison group of 200 patients who had not been diagnosed with schizophrenia. The researchers found that participants who had been diagnosed with schizophrenia had significantly larger ventricles than a comparison group. Based on this finding, the researchers concluded that enlarged ventricles cause people to develop schizophrenia.",
-"question": "Which of the following most accurately describes why this conclusion is flawed?",
-"answers": [
-"The researchers’ sample is not large enough to allow researchers to draw any scientific conclusions.",
-"The researchers’ results indicate no correlation between the variables.",
-"The researchers’ conclusion does not adequately account for the role of GABA in developing schizophrenia.",
-"The researchers’ cause-and-effect conclusions cannot be made because no independent variable is manipulated"
-],
-"correct_answer": 3,
-"explanations": [
-"Incorrect. A sample of 400 is generally large enough to support basic statistical analysis.",
-"Incorrect. The study does show a correlation between enlarged ventricles and schizophrenia, just not causation.",
-"Incorrect. While GABA may play a role, the flaw is not about neurotransmitters, but study design.",
-"Correct. No variable was manipulated experimentally, so causal conclusions are inappropriate."
-]
-}}
-</EXAMPLE>
 
-<EXAMPLE>  
-Input:  
-	Unit: Unit 3: Development and Learning  
-	Topic: 3.6 Social-Emotional Development Across the Lifespan  
-Output:
-{{
-"stimulus": "Ten primary caregivers of children completed an assessment to determine the degree to which they practice authoritative parenting. The table shows the participants’ scores on this assessment. The lowest possible score is 1, meaning the degree of authoritative parenting is low. The highest possible score is 15, meaning the degree of authoritative parenting is high. Scores: [3, 4, 6, 7, 8, 9, 10, 11, 12, 13]",
-"question": "Based on the table, what is the range of the caregivers’ scores?",
-"answers": [
-"4",
-"8",
-"9",
-"12"
-],
-"correct_answer": 3,
-"explanations": [
-"Incorrect. 4 is not the difference between the highest and lowest score.",
-"Incorrect. 8 is not the range from 3 to 13.",
-"Incorrect. 9 is not the correct calculation of the difference between highest and lowest scores.",
-"Correct. The range is the highest score (13) minus the lowest score (1), which equals 12."
-]
-}}
-</EXAMPLE>
 <EXAMPLE>
-<EXAMPLE>  
-Input:  
-	Unit: Unit 3: Development and Learning  
-	Topic: 3.8 Operant Conditioning  
-Output:
+Input:
+    Unit: Unit 4: Period 4: 1800–1848
+    Topic: 4.3 Politics and Regional Interests
+
 {{
-"stimulus": "Dr. Trenton conducted a study to determine whether massed practice or distributed practice produced better academic outcomes. He recruited volunteers from a high school Spanish class and randomly assigned students to learn a list of 100 new vocabulary words for which they were later given a word recall test. Students prepared for the word recall test using either distributed practice by studying for 30 minutes a day the week before the test, or massed practice by intensively studying the night before the test.",
-"question": "What was the dependent variable in this research project?",
-"answers": [
-"Massed practice",
-"Distributed practice",
-"High school students",
-"Word recall"
-],
-"correct_answer": 3,
-"explanations": [
-"Incorrect. Massed practice is one of the independent variables being manipulated.",
-"Incorrect. Distributed practice is also an independent variable being manipulated.",
-"Incorrect. The high school students are the participants, not a variable.",
-"Correct. Word recall is the outcome being measured, making it the dependent variable."
-]
+  "stimulus": "“The Erie Canal poured into New York City [wealth] far exceeding that which its early friends predicted. . . . In the city, merchants, bankers, warehousemen, [and] shippers . . . seized the opportunity to perfect and specialize their services, fostering round after round of business innovations that within a decade of the opening of the Erie Canal had made New York by far the best place in America to engage in commerce. . . .\n“. . . Even before its economic benefits were realized fully, rival seaports with hopes of tapping interior trade began to imagine dreadful prospects of permanent eclipse. Whatever spirit of mutual good feeling and national welfare once greeted [internal improvements] now disappeared behind desperate efforts in cities . . . to create for themselves a westward connection.”\n\nJohn Lauritz Larson, historian, Internal Improvement: National Public Works and the Promise of Popular Government in the Early United States, 2001",
+  "question": "Which of the following developments in the early nineteenth century could best be used as evidence to support the argument in the second paragraph of the excerpt?",
+  "answers": [
+    "The opposition of some political leaders to providing federal funds for public works",
+    "The failure of some infrastructure projects to recover their costs",
+    "The recruitment of immigrant laborers to work on new transportation projects",
+    "The rise of a regional economy based on the production and export of cotton"
+  ],
+  "correct_answer": 0,
+  "explanations": [
+    "Correct. The excerpt discusses rival cities scrambling to create their own infrastructure projects in response to the Erie Canal’s success, which is reflected in political leaders' debates and opposition to federal funding for internal improvements.",
+    "Incorrect. While relevant to infrastructure, this choice does not directly support the argument about cities reacting competitively to the Erie Canal’s success.",
+    "Incorrect. Immigrant labor recruitment was significant but does not support the specific point about regional rivalry and infrastructure investment.",
+    "Incorrect. The Southern cotton economy was an important development but unrelated to the competition among seaports to establish trade routes to the interior."
+  ]
 }}
 </EXAMPLE>"""
         ),
@@ -190,8 +143,8 @@ def generate_frqs(
 Your task is to write 2 realistic Free Response Questions (FRQ) for the provided topic and unit.
 
 Follow these guidelines:
-- Present a realistic, AP-style stimulus that provides context for the questions
-- Ask 6 related sub-questions that require students to:
+- The first question should present a realistic, AP-style stimulus (passage, scenario, table, or set of documents). The second question should not present a stimulus.
+- Ask 3 related sub-questions that require students to:
     - Analyze, interpret, or explain key concepts from the topic
     - Apply reasoning or make predictions
     - Use appropriate evidence or data
@@ -204,30 +157,46 @@ Follow these guidelines:
             text=f"""
 <EXAMPLE>
 Input:
-    Unit: Unit 3: Development and Learning
-    Topic: 3.9 Social, Cognitive, and Neurological Factors in Learning
+    Unit: Unit 3: Period 3: 1754–1800
+    Topic: 3.2 The Seven Years’ War (The French and Indian War)
 
 Output:
 {{
-  "stimulus": "Few large-scale, long-term studies have been conducted to test whether taking a multivitamin makes a difference in improving memory ability as one ages. In this study, researchers examined whether taking a multivitamin slows cognitive decline in later life.\n\nParticipants\nAn earlier study, which was conducted in 2017 and included over 21,000 people, examined the effects of taking a multivitamin on health outcomes. From that study’s sample, over 7,000 people received a mailed invitation to participate in this study. Of those who received the invitation, almost 4,000 participants agreed to participate and were accepted. To be accepted, participants had to be over 65 years of age if women and over 60 years of age if men. In addition, they could not participate if they had ever had a stroke, if they had received a cancer diagnosis in the two years before the study, or if they had a history of any other serious illnesses. Participants had to be able to communicate in English and have access to an Internet-connected computer.\n\nA computer randomly assigned participants to two groups. Participants in Group 1 received a pack of multivitamins each month by mail to take one pill twice a day. Participants in Group 2 received a pack of placebo pills in the same type of packaging as Group 1 and with the same instructions. The sample size of Group 1 was 1,758 people, and the sample size of Group 2 was 1,804 people. The demographics of each group are listed in the table:\n\nDemographic         | Group 1 – Multivitamin | Group 2 – Placebo\n-------------------|------------------------|------------------\nAge (Mean, SD)     | 70.9 (4.5)             | 71.0 (4.6)\nMen                | 32.9%                  | 33.4%\nWomen              | 67.1%                  | 66.6%\nWhite              | 93.1%                  | 93.5%\nAfrican American   | 2.3%                   | 2.6%\nHispanic           | 1.5%                   | 1.4%\nOther/Multiple     | 1.8%                   | 1.2%\nAsian/NH           | 0.2%                   | 0.1%\nAmerican Indian    | 1.1%                   | 1.2%\n\nMethod\nOnce a year for 3 years, participants were asked to complete an online test to evaluate episodic memory and executive functioning. Instructions on how to access the test materials were emailed to participants, and participants who responded to the email indicated their consent. The participants received a $15 gift card for each annual assessment, regardless of completion.\n\nThe multivitamin used is widely available in the United States. Side effects of taking the multivitamin include low rates of stomach pain, diarrhea, skin rash, bruising, and an increased rate of gastrointestinal bleeding, which are considered normal side effects for those taking a multivitamin in the general population.\n\nTwo different tasks were used to measure episodic memory and executive functioning in this study:\n- Episodic Memory: Participants completed a recall task in which they were first shown a set of words, presented one at a time for three seconds each. They were then asked to recall the set of words, once immediately after the word list was presented and again after 15 minutes had passed. Participants who recalled more words correctly earned higher scores.\n- Executive Functioning: Participants were first shown one set of items and were then shown a second set. They were asked to identify whether items in the second set were the same as or different from the first. Participants earned higher scores the more quickly they correctly identified the match or difference.\n\nResults and Discussion\nCompared with participants taking a placebo, participants receiving the multivitamin had significantly greater improvement in the recall task at the end of the first year. Performance on the immediate recall memory task in Group 1 improved from a mean of 7.10 words at baseline to 7.81 words after 1 year of taking the multivitamin, an improvement mean of 0.71. In Group 2, which received the placebo pills, performance improved from 7.21 words at baseline to 7.65 words, an improvement mean of 0.44. When comparing the multivitamin group with the placebo group averaged across all 3 years of intervention, findings suggest that the memory improvement is sustained over time. \n\nResearchers estimate that the effect of the multivitamin intervention improved memory performance in participants in the multivitamin group by the equivalent of 3.1 years of age-related memory change compared to participants in the placebo group. Researchers also found that executive functioning was not significantly impacted by taking a multivitamin.\n\nThe findings suggest that the greatest benefit to taking a multivitamin is found in immediate memory recall, something especially vulnerable in aging adults.",
+  "stimulus": "",
   "questions": [
-    "Identify the research method used in the study.",
-    "State the operational definition of executive functioning.",
-    "Describe what the difference in means indicates for the immediate recall task for the multivitamin group as compared to the placebo group.",
-    "Identify at least one ethical guideline applied by the researchers.",
-    "Explain the extent to which the research findings may or may not be generalizable using specific and relevant evidence from the study.",
-    "Explain how at least one of the research findings supports or refutes the researchers’ hypothesis that taking a multivitamin slows cognitive decline in later life."
+    "Briefly describe one British government policy enacted in colonial North America from 1763 to 1776.",
+    "Briefly explain one similarity OR difference in how TWO groups in North America responded to a British policy from 1763 to 1783.",
+    "Briefly explain how one specific historical development contributed to the American colonists’ victory over Great Britain from 1775 to 1783."
   ],
   "rubric": [
-    "One point for correctly identifying the research method as a randomized controlled experiment or randomized clinical trial.",
-    "One point for stating that executive functioning was measured by how quickly and accurately participants identified whether items in the second set matched or differed from items in the first set.",
-    "One point for stating that the multivitamin group showed greater improvement in immediate recall (mean increase of 0.71 vs. 0.44) indicating a greater effect of multivitamin on memory performance.",
-    "One point for identifying an ethical guideline such as informed consent (participants responded via email to indicate consent) or minimal risk (side effects were normal for the general population).",
-    "One point for discussing generalizability, e.g., limited due to lack of diversity (over 93% White) or strong because of large sample size and random assignment.",
-    "One point for explaining that the finding of improved immediate recall in the multivitamin group supports the hypothesis that multivitamins slow cognitive decline."
+    "Examples that earn this point include the following:\n• The British government enacted new taxes to raise revenue.\n• The British government collected taxes without colonial representation in Parliament.\n• The British government established the Proclamation Line to reduce tensions with Native Americans by preventing settlers from moving westward.\n• British officials blockaded American ports to assert imperial authority over the colonies.",
+    "Examples that earn this point include the following:\n• While loyalists sought to remain loyal to the crown, Patriots argued that colonists should fight for their liberties.\n• Native Americans supported the Royal Proclamation of 1763 preventing colonial encroachment, while the colonists defied the Proclamation of 1763 moving west.\n• The Sons and Daughters of Liberty both protested policies through supporting boycotts on British imported goods.",
+    "Examples that earn this point include the following:\n• Assistance from European allies helped the Patriots overcome the British advantage and win the war.\n• The actions of colonial militias helped overcome Great Britain's overwhelming military and financial advantage and contributed to the colonist victory over Great Britain.\n• Colonial women provided important material and financial support to the Patriot cause."
   ]
 }}
-</EXAMPLE>"""
+</EXAMPLE>
+
+<EXAMPLE>
+Input:
+    Unit: Unit 6: Period 6: 1865–1898
+    Topic: 6.12 Controversies over the Role of Government in the Gilded Age
+    
+Output:
+{{
+  "stimulus": "[The Standard Oil Trust] is the most perfectly developed trust in existence. ... The perfection of the organization of [it], the ability and daring with which it has carried out its projects, make it the preeminent trust of the world. ... So long as the Standard Oil Company can control transportation as it does today, it will remain master of the oil industry. ...\n... The ethical cost of all this is the deep concern. We are a commercial people. . .. As a consequence, business success is sanctified, and, practically, any methods which achieve it are justified by a larger and larger class. All sorts of subterfuges ' and sophistries? and slurring over of facts are employed to explain aggregations of capital whose determining factor has been like that of the Standard Oil Company, special privileges obtained by persistent secret effort in opposition to the spirit of the law, the efforts of legislators, and the most outspoken public opinion.\nIda Tarbell, journalist, The History of the Standard Oil Company, 1904",
+  "questions": [
+    "Briefly describe one point of view suggested in the excerpt.",
+    "Briefly explain how one specific historical development between 1865 and 1904 contributed to the development described in the excerpt.",
+    "Briefly explain how ideas such as those reflected in the excerpt resulted in one specific effect between 1904 and 1920."
+  ],
+  "rubric": [
+    "Examples that earn this point include the following:\n• The point of view of the excerpt is that of a reformer.\n• The point of view of the excerpt is that the Standard Oil Company is too big.\n• The author believes that government needs to step in to regulate large corporations.",
+    "Examples that earn this point include the following:\n• The development of trusts like Standard Oil was partly a result of the popularity of laissez-faire policies that opposed government intervention in the economy.\n• The federal government supported policies that placed few restrictions on companies like Standard Oil, allowing it to become a trust.\n• Companies like Standard Oil eliminated their competition to create monopolies, which made them very powerful.\n• Policies that restricted the power of labor organizations contributed to companies like Standard Oil becoming more powerful.",
+    "Examples that earn this point include the following:\n• The concerns raised by Tarbell contributed to calls by Progressives for federal legislation that they believed would effectively regulate the economy.\n• By publishing her ideas, Tarbell gained support from the public, which contributed to trust-busting by the government.\n• The criticisms of reforms about the power of corporations like Standard Oil resulted in the increased power of the federal government over the economy."
+  ]
+}}
+</EXAMPLE>
+"""
         ),
     ]
 
@@ -348,10 +317,16 @@ def process_class(class_id: int):
             unit_id=unit_id,
             unit_number=unit_number,
         )
+        mcq_gen(
+            class_name=class_name,
+            unit_name=unit_name,
+            unit_id=unit_id,
+            unit_number=unit_number,
+        )
 
 
 def main():
-    process_class(12)
+    process_class(14)
 
 
 if __name__ == "__main__":
