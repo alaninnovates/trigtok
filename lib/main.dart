@@ -120,6 +120,16 @@ final GoRouter _router = GoRouter(
         );
       },
     ),
+    // GoRoute(
+    //   path: '/success',
+    //   builder: (context, state) {
+    //     final queryParams = state.pathParameters;
+    //     final priceId = queryParams['price_id'];
+    //     final transactionId = queryParams['transaction_id'];
+    //     final customerEmail = queryParams['customer_email'];
+    //     final paddleCustomerId = queryParams['paddle_customer_id'];
+    //   },
+    // ),
   ],
 );
 

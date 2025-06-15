@@ -1,5 +1,3 @@
-import { getSystemErrorMap } from 'node:util';
-
 export enum QuestionType {
     MultipleChoice = 'mcq',
     FreeResponse = 'frq',

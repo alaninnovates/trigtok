@@ -75,7 +75,7 @@ Deno.serve(async (req) => {
     const { data: timeline, error: timelineError } = await client
         .from('study_timelines')
         .select(
-            'id, units(id, name, classes(name)), topics (id, unit_id, topic, successor(id, unit_id, topic)), type, data, question_id',
+            'id, units(id, name, classes(name)), topics (id, unit_id, topic, successor(id, unit_id, topic)), type, data, question_id_mcq, question_id_frq',
         )
         .eq('session_id', userSessionId)
         .order('created_at', { ascending: false });
@@ -207,7 +207,7 @@ Deno.serve(async (req) => {
                         (entry) => entry.type === QuestionType.MultipleChoice,
                     )
                     .filter((entry) => entry.topics.id === topic.id)
-                    .map((entry) => entry.question_id);
+                    .map((entry) => entry.question_id_mcq);
                 const { data: question, error: mcqError } = await client
                     .from('multiple_choice_questions')
                     .select(
@@ -237,7 +237,7 @@ Deno.serve(async (req) => {
                     nextQuestionType = QuestionType.FreeResponse;
                     return getResponse();
                 }
-                const { data: inserted } = await client
+                const { data: inserted, error: insErr } = await client
                     .from('study_timelines')
                     .insert({
                         profile_id: user.id,
@@ -245,7 +245,7 @@ Deno.serve(async (req) => {
                         topic_id: topic.id,
                         type: QuestionType.MultipleChoice,
                         session_id: userSessionId,
-                        question_id: question.id,
+                        question_id_mcq: question.id,
                     })
                     .select('id')
                     .single();
@@ -253,6 +253,7 @@ Deno.serve(async (req) => {
                     console.error(
                         'Failed to insert multiple choice question into timeline',
                         question,
+                        insErr,
                     );
                     return new Response('Internal Server Error', {
                         headers: corsHeaders,
@@ -300,7 +301,7 @@ Deno.serve(async (req) => {
                 const questionsAnswered = timeline
                     .filter((entry) => entry.type === QuestionType.FreeResponse)
                     .filter((entry) => entry.topics.id === topic.id)
-                    .map((entry) => entry.question_id);
+                    .map((entry) => entry.question_id_frq);
                 const { data: question, error: frqError } = await client
                     .from('free_response_questions')
                     .select('id, stimulus, questions, rubric')
@@ -329,7 +330,7 @@ Deno.serve(async (req) => {
                         { headers: corsHeaders, status: 404 },
                     );
                 }
-                const { data: inserted } = await client
+                const { data: inserted, error: insErr } = await client
                     .from('study_timelines')
                     .insert({
                         profile_id: user.id,
@@ -337,7 +338,7 @@ Deno.serve(async (req) => {
                         topic_id: topic.id,
                         type: QuestionType.FreeResponse,
                         session_id: userSessionId,
-                        question_id: question.id,
+                        question_id_frq: question.id,
                     })
                     .select('id')
                     .single();
@@ -345,6 +346,7 @@ Deno.serve(async (req) => {
                     console.error(
                         'Failed to insert free response question into timeline',
                         question,
+                        insErr,
                     );
                     return new Response('Internal Server Error', {
                         headers: corsHeaders,

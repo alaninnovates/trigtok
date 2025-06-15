@@ -173,11 +173,7 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                                   .map<String>((e) => e.toString())
                                   .toList(),
                           selectedAnswer:
-                              sessionElement['data']['data'] != null
-                                  ? int.parse(
-                                    sessionElement['data']['data']['selectedAnswer'],
-                                  )
-                                  : null,
+                              sessionElement['data']['selectedAnswer'],
                           onAnswerSubmitted: (int selectedOptionIndex) async {
                             print(
                               'Selected option index: $selectedOptionIndex',
@@ -189,12 +185,14 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                                 .from('study_timelines')
                                 .update({
                                   'data': {
-                                    'selectedAnswer': selectedOptionIndex,
+                                    'selected_answer': selectedOptionIndex,
                                     'correct':
                                         selectedOptionIndex ==
                                         int.parse(
                                           sessionElement['data']['correctAnswer'],
                                         ),
+                                    'scroll_session_id':
+                                        _studyStateModel.scrollSessionId,
                                   },
                                 })
                                 .eq('id', sessionElement['timelineId']);
@@ -238,6 +236,8 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                                     'answers': answers,
                                     'ai_grade': aiGrade,
                                     'total_points_possible': totalPoints,
+                                    'scroll_session_id':
+                                        _studyStateModel.scrollSessionId,
                                   },
                                 })
                                 .eq('id', sessionElement['timelineId']);
