@@ -9,12 +9,14 @@ class FrqContainer extends StatefulWidget {
     required this.stimulus,
     required this.questions,
     required this.rubric,
+    required this.answers,
     required this.onAnswersSubmitted,
   });
 
   final String stimulus;
   final List<Map<String, dynamic>> questions;
   final List<String> rubric;
+  final List<Map<String, dynamic>>? answers;
   final ValueChanged<List<Map<String, dynamic>>> onAnswersSubmitted;
 
   @override
@@ -29,6 +31,9 @@ class _FrqContainerState extends State<FrqContainer> {
   @override
   void initState() {
     super.initState();
+    if (widget.answers != null) {
+      aiResponses = widget.answers!;
+    }
     _controllers.addAll(widget.questions.map((_) => TextEditingController()));
   }
 
@@ -139,9 +144,12 @@ class _FrqContainerState extends State<FrqContainer> {
                                   const SizedBox(height: 8),
                                   Text(
                                     'Grade: ${aiResponses[index]['points']} / ${question['point_value']}',
-                                    style: const TextStyle(
+                                    style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      color: Colors.green,
+                                      color:
+                                          aiResponses[index]['points'] == 0
+                                              ? Colors.red
+                                              : Colors.green,
                                     ),
                                   ),
                                   const SizedBox(height: 4),

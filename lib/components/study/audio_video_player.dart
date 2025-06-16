@@ -208,6 +208,11 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                               sessionElement['data']['rubric']
                                   .map<String>((e) => e.toString())
                                   .toList(),
+                          answers:
+                              sessionElement['data']['answers'] == null
+                                  ? null
+                                  : (sessionElement['data']['answers'] as List)
+                                      .cast<Map<String, dynamic>>(),
                           onAnswersSubmitted: (
                             List<Map<String, dynamic>> answers,
                           ) async {
