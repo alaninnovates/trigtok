@@ -44,6 +44,8 @@ class _AuthScreenState extends State<AuthScreen> {
     await Supabase.instance.client.auth.signInWithOAuth(
       OAuthProvider.google,
       authScreenLaunchMode: LaunchMode.platformDefault,
+      redirectTo:
+          kDebugMode ? 'http://localhost:3000' : 'https://app.trigtok.com',
     );
     Supabase.instance.client.auth.onAuthStateChange.listen((event) {
       if (event.event == AuthChangeEvent.signedIn) {
