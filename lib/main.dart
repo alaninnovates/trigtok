@@ -10,8 +10,10 @@ import 'package:trig_tok/screens/home_screen.dart';
 import 'package:trig_tok/screens/new-flow/class_selection_screen.dart';
 import 'package:trig_tok/screens/new-flow/topic_selection_screen.dart';
 import 'package:trig_tok/screens/new-flow/unit_selection_screen.dart';
-import 'package:trig_tok/screens/profile_screen.dart';
+import 'package:trig_tok/screens/profile-flow/bookmarks_screen.dart';
+import 'package:trig_tok/screens/profile-flow/profile_screen.dart';
 import 'package:trig_tok/screens/my_content_screen.dart';
+import 'package:trig_tok/screens/profile-flow/subscription_screen.dart';
 import 'package:trig_tok/screens/study_screen.dart';
 
 Future<void> main() async {
@@ -104,6 +106,20 @@ final GoRouter _router = GoRouter(
               pageBuilder:
                   (context, state) =>
                       const NoTransitionPage(child: ProfileScreen()),
+              routes: [
+                GoRoute(
+                  path: '/bookmarks',
+                  builder: (context, state) {
+                    return const BookmarksScreen();
+                  },
+                ),
+                GoRoute(
+                  path: '/subscription',
+                  builder: (context, state) {
+                    return const SubscriptionScreen();
+                  },
+                ),
+              ],
             ),
           ],
         ),
