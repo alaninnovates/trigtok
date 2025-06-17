@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/components/study/audio_video_player.dart';
 import 'package:trig_tok/components/study/study_state_model.dart';
+import 'package:trig_tok/utils/streak_counter.dart';
 
 class StudyScreen extends StatefulWidget {
   const StudyScreen({super.key, required this.userSessionId});
@@ -20,6 +21,7 @@ class _StudyScreenState extends State<StudyScreen> {
   void initState() {
     super.initState();
     print('session ID: ${widget.userSessionId}');
+    StreakCounter.increment();
     Supabase.instance.client.functions
         .invoke(
           'start-new-session',
