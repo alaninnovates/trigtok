@@ -11,7 +11,7 @@ import 'package:trig_tok/screens/new-flow/class_selection_screen.dart';
 import 'package:trig_tok/screens/new-flow/topic_selection_screen.dart';
 import 'package:trig_tok/screens/new-flow/unit_selection_screen.dart';
 import 'package:trig_tok/screens/profile_screen.dart';
-import 'package:trig_tok/screens/search_screen.dart';
+import 'package:trig_tok/screens/my_content_screen.dart';
 import 'package:trig_tok/screens/study_screen.dart';
 
 Future<void> main() async {
@@ -90,10 +90,10 @@ final GoRouter _router = GoRouter(
         StatefulShellBranch(
           routes: [
             GoRoute(
-              path: '/search',
+              path: '/my-content',
               pageBuilder:
                   (context, state) =>
-                      const NoTransitionPage(child: SearchScreen()),
+                      const NoTransitionPage(child: MyContentScreen()),
             ),
           ],
         ),
