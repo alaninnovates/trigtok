@@ -48,53 +48,28 @@ Follow these guidelines:
 - Provide a short explanation justifying the correct answer and eliminating the incorrect ones"""
         ),
         types.Part.from_text(
-            text=f"""<EXAMPLE>  
-Input:  
-	Unit: Unit 3: Period 3: 1754–1800  
-	Topic: 3.2 The Seven Years’ War (The French and Indian War)
-  
-Output:
-{{
-  "stimulus": "“May it . . . please your most excellent Majesty, that it may be declared . . . in this present parliament assembled, and by the authority of the same, That the said colonies and plantations in America have been, are, and of right ought to be, subordinate unto, and dependent upon the imperial crown and parliament of Great Britain; . . . and [they] of right ought to have, full power and authority to make laws and statutes of sufficient force and validity to bind the colonies and people of America, subjects of the crown of Great Britain, in all cases whatsoever.”\nThe Declaratory Act, passed by the British Parliament in 1766",
-  "question": "Which of the following contributed most directly to the enactment of the law in the excerpt?",
-  "answers": [
-    "The increasing divergence between colonial and British culture in the 1700s",
-    "Debates over how Britain’s colonies should bear the cost of the Seven Years’ War (French and Indian War)",
-    "The drafting of a declaration of independence for Britain’s colonies in North America",
-    "Conflicts between colonists and British army leaders over recognizing Native American sovereignty"
-  ],
-  "correct_answer": 1,
-  "explanations": [
-    "Incorrect. While cultural divergence existed, it was not the immediate cause of the Declaratory Act, which was passed in response to political and financial issues.",
-    "Correct. The Declaratory Act was passed following colonial resistance to the Stamp Act, which Britain had implemented to help pay for debts from the Seven Years’ War.",
-    "Incorrect. The Declaration of Independence was drafted a decade later, in 1776, and was not a factor in the 1766 Declaratory Act.",
-    "Incorrect. Although tensions with Native Americans existed, they were not the main factor behind this particular legislation, which focused on asserting British authority over the colonies."
-  ]
-}}
+            text=f"""<EXAMPLE>
+Input: 
+    Unit: Unit 1: The Global Tapestry
+    Topic: 1.1 Developments in East Asia from c. 1200 to c. 1450
+
+Output: {{"stimulus": "“The ruler is a boat; people are the water. The water can carry the boat; the water can capsize the boat. . . . A man may be the descendant of kings, lords, or nobles, but if he does not observe the norms of ritual and proper behavior he must be relegated to the status of a commoner. Similarly, he may be a descendant of commoners, but if he accumulates learning of the texts, corrects his behavior, and observes the norms of ritual and proper behavior-then he must be elevated to the ranks of high ministers, lords, and nobles.” - Xunzi, Chinese philosopher, circa 250 b.c.e.", "question": "Xunzi’s idealized vision of Chinese society in the passage differs most strongly from the social structure of which of the following?", "answers": ["Roman society during the late empire", "Hindu society in South Asia during the Gupta Empire", "Muslim society during the early Caliphates", "Mongol society during the period of Mongol conquests"], "correct_answer": 1, "explanations": ["Incorrect. Although Roman society was hierarchical, individuals could still rise in status through military service or administrative roles, which aligns in part with Xunzi’s belief in merit-based advancement.", "Correct. The Hindu caste system was a rigid, birth-based social structure that directly contradicted Xunzi’s vision of social mobility through moral conduct and education.", "Incorrect. Despite social divisions, early Islamic societies often emphasized merit and learning, particularly in religious and bureaucratic contexts, which is consistent with the values expressed by Xunzi.", "Incorrect. Mongol rulers frequently promoted individuals based on military skill and loyalty rather than noble birth, which aligns with the meritocratic ideals advocated by Xunzi."]}}
 </EXAMPLE>
 
 <EXAMPLE>
 Input:
-    Unit: Unit 4: Period 4: 1800–1848
-    Topic: 4.3 Politics and Regional Interests
+    Unit: Unit 6: Consequences of Industrialization
+    Topic: 6.3 Indigenous Responses to State Expansion from 1750 to 1900
 
-{{
-  "stimulus": "“The Erie Canal poured into New York City [wealth] far exceeding that which its early friends predicted. . . . In the city, merchants, bankers, warehousemen, [and] shippers . . . seized the opportunity to perfect and specialize their services, fostering round after round of business innovations that within a decade of the opening of the Erie Canal had made New York by far the best place in America to engage in commerce. . . .\n“. . . Even before its economic benefits were realized fully, rival seaports with hopes of tapping interior trade began to imagine dreadful prospects of permanent eclipse. Whatever spirit of mutual good feeling and national welfare once greeted [internal improvements] now disappeared behind desperate efforts in cities . . . to create for themselves a westward connection.”\n\nJohn Lauritz Larson, historian, Internal Improvement: National Public Works and the Promise of Popular Government in the Early United States, 2001",
-  "question": "Which of the following developments in the early nineteenth century could best be used as evidence to support the argument in the second paragraph of the excerpt?",
-  "answers": [
-    "The opposition of some political leaders to providing federal funds for public works",
-    "The failure of some infrastructure projects to recover their costs",
-    "The recruitment of immigrant laborers to work on new transportation projects",
-    "The rise of a regional economy based on the production and export of cotton"
-  ],
-  "correct_answer": 0,
-  "explanations": [
-    "Correct. The excerpt discusses rival cities scrambling to create their own infrastructure projects in response to the Erie Canal’s success, which is reflected in political leaders' debates and opposition to federal funding for internal improvements.",
-    "Incorrect. While relevant to infrastructure, this choice does not directly support the argument about cities reacting competitively to the Erie Canal’s success.",
-    "Incorrect. Immigrant labor recruitment was significant but does not support the specific point about regional rivalry and infrastructure investment.",
-    "Incorrect. The Southern cotton economy was an important development but unrelated to the competition among seaports to establish trade routes to the interior."
-  ]
-}}
+Output: {{"stimulus": ""Poem 1: “The world calls us coolie.*\nWhy doesn’t our flag fly anywhere?\nHow shall we survive, are we slaves forever?\nWhy aren’t we involved in politics?\nFrom the beginning we have been oppressed.\nWhy don’t we even dream of freedom?\nOnly a handful of oppressors have taken our fields.\nWhy has no Indian cultivator risen and protected his land?\nOur children cry out for want of education.\nWhy don’t we open science colleges?”\n*An insulting term for South or East Asian manual workers.\nPoem 2: “Why do you sit silent in your own country\nYou who make so much noise in foreign lands?\nNoise outside of India is of little avail.\nPay attention to activities within India.\nYou are quarreling and Hindu-Muslim conflict is prevalent.\nThe jewel of India is rotting in the earth\nbecause you are fighting over the Vedas and the Koran.\nGo and speak with soldiers.\nAsk them why they are asleep, men who once held swords.\nMuslim, Hindu, and Sikh heroes should join together.\nThe power of the oppressors is nothing if we unitedly attack him.\nIndians have been the victors in the battlefields\nof Burma, Egypt, China and the Sudan.”", "question": "In Poem 1, the sentiments regarding education and politics are best understood in the context of which of the following?", "answers": ["The persistence of slavery in spite of the abolitionist movement in the British Empire.", "The growth of women’s movements pushing for greater education and domestic rights.", "The British failure to provide mass education in India, for fear that doing so would encourage resistance against imperial rule.", "The revival of traditional Hindu and Muslim religious beliefs in India"], "correct_answer": 2, "explanations": ["Incorrect. The poem addresses political oppression and lack of education in colonial India, not the institution of slavery or its abolition.", "Incorrect. The poem focuses broadly on colonial oppression and education barriers affecting Indian cultivators, without specific reference to gender or women’s movements.", "Correct. The poem’s emphasis on children lacking education and the call to “open science colleges” reflects the colonial policy of restricting Indian education to limit nationalist resistance.", "Incorrect. The poem critiques oppression and political exclusion but does not advocate or mention religious revival as a cause or solution."]}}
+</EXAMPLE>
+
+<EXAMPLE>
+Input:
+    Unit: Unit 5: Revolutions
+    Topic: 5.4 Industrialization Spreads in the Period from 1750 to 1900
+
+Output: {{"stimulus": "“I can safely say that before the commencement of what I may call the Railway Period, not only were the wages in most parts of the country established by tradition and authority, rather than by the natural laws of supply and demand, but the opportunity to work was in general restricted to particular spots. For the first time in history the Indian finds that he has in his power of labor a valuable possession which, if he uses it right, will give him something much better than mere subsistence. Follow him to his own home, in some remote village, and you will find that the railway laborer has brought back not only new modes of working and a new feeling of self-respect and independence, but also new ideas of what government and laws can offer him. And he is, I believe, a better and more loyal subject, as he is certainly a more useful laborer.” - Bartle Frere, British governor of the Bombay Presidency, India, speech on opening of a rail line, 1863", "question": "Frere’s view of the changing opportunities for Indian labor most directly reflects the influence of which of the following?", "answers": ["The ideals of classical liberalism as stated by Adam Smith and John Stuart Mill.", "The ideals of communism as stated by Karl Marx and Friedrich Engels.", "The ideals of the Enlightenment as stated by political revolutionaries such as Simon Bolívar.", "The ideals of mercantilism as developed by European state-sponsored joint-stock trading"], "correct_answer": 0, "explanations": ["Correct. Frere’s emphasis on individual labor as a valuable asset reflects classical liberal beliefs in free markets, personal advancement, and supply and demand.", "Incorrect. Communism critiques capitalism, while Frere is praising capitalist labor systems under British rule.", "Incorrect. Bolívar and other revolutionaries focused on political independence, not economic opportunity under imperialism.", "Incorrect. Mercantilism emphasized state control of trade, not individual labor freedom or market-driven opportunities."]}}
 </EXAMPLE>"""
         ),
     ]
@@ -154,49 +129,21 @@ Follow these guidelines:
 - Avoid overly simplistic or vague questions that do not require higher-order thinking"""
         ),
         types.Part.from_text(
-            text=f"""
-<EXAMPLE>
+            text=f"""<EXAMPLE>
 Input:
-    Unit: Unit 3: Period 3: 1754–1800
-    Topic: 3.2 The Seven Years’ War (The French and Indian War)
+    Unit: Unit 4: Transoceanic Interconnections
+    Topic: 4.5 Maritime Empires Maintained and Developed
 
-Output:
-{{
-  "stimulus": "",
-  "questions": [
-    "Briefly describe one British government policy enacted in colonial North America from 1763 to 1776.",
-    "Briefly explain one similarity OR difference in how TWO groups in North America responded to a British policy from 1763 to 1783.",
-    "Briefly explain how one specific historical development contributed to the American colonists’ victory over Great Britain from 1775 to 1783."
-  ],
-  "rubric": [
-    "Examples that earn this point include the following:\n• The British government enacted new taxes to raise revenue.\n• The British government collected taxes without colonial representation in Parliament.\n• The British government established the Proclamation Line to reduce tensions with Native Americans by preventing settlers from moving westward.\n• British officials blockaded American ports to assert imperial authority over the colonies.",
-    "Examples that earn this point include the following:\n• While loyalists sought to remain loyal to the crown, Patriots argued that colonists should fight for their liberties.\n• Native Americans supported the Royal Proclamation of 1763 preventing colonial encroachment, while the colonists defied the Proclamation of 1763 moving west.\n• The Sons and Daughters of Liberty both protested policies through supporting boycotts on British imported goods.",
-    "Examples that earn this point include the following:\n• Assistance from European allies helped the Patriots overcome the British advantage and win the war.\n• The actions of colonial militias helped overcome Great Britain's overwhelming military and financial advantage and contributed to the colonist victory over Great Britain.\n• Colonial women provided important material and financial support to the Patriot cause."
-  ]
-}}
+Output: {{"stimulus": "", "questions": ["Identify ONE method Europeans used to expand their empires in the Americas in the period circa 1450–1750.", "Explain ONE way European colonialism affected Indigenous peoples in the Americas in the period circa 1450–1750.", "Explain ONE way European interactions with non-European peoples in the Americas contributed to the development of a global economy in the period circa 1450–1750."], "rubric": ["Examples that earn this point include the following:\n• Europeans used gunpowder weapons to conquer new territories in the Americas.\n• The Spanish used the encomienda system to expand the areas in their empires under cultivation.\n• Europeans used Christianity to help consolidate and justify their rule.", "Examples that earn this point include the following:\n• Indigenous communities experienced multiple waves of diseases, epidemics, or even demographic collapse.\n• Many Indigenous peoples adopted European and/or African cultural practices that formed new syncretic belief systems.\n• European colonial authorities used priests and missionaries to convert Indigenous people to Christianity.\n• The casta system resulted in a new social hierarchy involving Indigenous and mixed race families.\n• Many Indigenous people were enslaved or forced to work in mines or on European owned haciendas.", "Examples that earn this point include the following:\n• European interactions with Indigenous peoples in the Americas led to the Columbian Exchange, which led to the spread of crops, technologies, goods, and diseases between the two hemispheres.\n• The Trans-Atlantic slave trade brought millions of enslaved Africans to the Americas and significantly expanded the Atlantic economy through plantations and cash crops.\n• Silver mined in the Americas using Indigenous labor fueled the purchase of Asian goods by Europeans, especially after the establishment of trans-Pacific maritime trade from the Americas to East Asia.\n• Economic exchanges in the North Atlantic, including the fur trade and commercial fishing, also connected the Americas to Afro-Eurasia in new ways."]}}
 </EXAMPLE>
 
 <EXAMPLE>
 Input:
-    Unit: Unit 6: Period 6: 1865–1898
-    Topic: 6.12 Controversies over the Role of Government in the Gilded Age
-    
-Output:
-{{
-  "stimulus": "[The Standard Oil Trust] is the most perfectly developed trust in existence. ... The perfection of the organization of [it], the ability and daring with which it has carried out its projects, make it the preeminent trust of the world. ... So long as the Standard Oil Company can control transportation as it does today, it will remain master of the oil industry. ...\n... The ethical cost of all this is the deep concern. We are a commercial people. . .. As a consequence, business success is sanctified, and, practically, any methods which achieve it are justified by a larger and larger class. All sorts of subterfuges ' and sophistries? and slurring over of facts are employed to explain aggregations of capital whose determining factor has been like that of the Standard Oil Company, special privileges obtained by persistent secret effort in opposition to the spirit of the law, the efforts of legislators, and the most outspoken public opinion.\nIda Tarbell, journalist, The History of the Standard Oil Company, 1904",
-  "questions": [
-    "Briefly describe one point of view suggested in the excerpt.",
-    "Briefly explain how one specific historical development between 1865 and 1904 contributed to the development described in the excerpt.",
-    "Briefly explain how ideas such as those reflected in the excerpt resulted in one specific effect between 1904 and 1920."
-  ],
-  "rubric": [
-    "Examples that earn this point include the following:\n• The point of view of the excerpt is that of a reformer.\n• The point of view of the excerpt is that the Standard Oil Company is too big.\n• The author believes that government needs to step in to regulate large corporations.",
-    "Examples that earn this point include the following:\n• The development of trusts like Standard Oil was partly a result of the popularity of laissez-faire policies that opposed government intervention in the economy.\n• The federal government supported policies that placed few restrictions on companies like Standard Oil, allowing it to become a trust.\n• Companies like Standard Oil eliminated their competition to create monopolies, which made them very powerful.\n• Policies that restricted the power of labor organizations contributed to companies like Standard Oil becoming more powerful.",
-    "Examples that earn this point include the following:\n• The concerns raised by Tarbell contributed to calls by Progressives for federal legislation that they believed would effectively regulate the economy.\n• By publishing her ideas, Tarbell gained support from the public, which contributed to trust-busting by the government.\n• The criticisms of reforms about the power of corporations like Standard Oil resulted in the increased power of the federal government over the economy."
-  ]
-}}
-</EXAMPLE>
-"""
+    Unit: Unit 3: Land-Based Empires
+    Topic: 3.2 Empires: Administration
+
+Output: {{"stimulus": "“Under the Mughals, Hindus and Muslims interacted in economics, politics, social life, the arts, and culture. Through migration and conversion, the Muslim population of India grew from about 400,000 in 1200, . . . to 12.8 million in 1535, to perhaps 50 million by 1800. Muslim scholars and Sufi religious mystics and saints migrated to India from Iran, Turkey, and Central Asia. Some came in search of government jobs, others for new cultural opportunities, to study, or to spread their own beliefs. Some of the best poets immigrated from Persia. Similarly, imperial court painters, who produced masterpieces in the Persian and Mughal miniature styles, interacted with painters of the Rajput schools in local Hindu courts across north India, resulting in artistic innovations in both. On the level of mystical belief and experience, an astonishing syncretism emerged between Hindus and Muslims, especially in the poetry of Kabir [died circa 1520] and of Guru Nanak (1469–1538), the originator of the Sikh religion. Mystics in the two communities, Hindu bhakti (devotional) worshippers and Muslim Sufis, frequently had warm personal relations and often attracted followers from each others’ communities.” Howard Spodek and Michele Langford Louro, United States historians, article published in a scholarly journal, 2007", "questions": ["Identify ONE claim that the authors make in the first paragraph.", "Identify ONE piece of evidence that the authors use to support their claims about cultural interactions between Hindus and Muslims as described in the second paragraph.", "Explain ONE reason why Mughal rulers in the period circa 1450–1750 would have encouraged the interactions described in the passage."], "rubric": ["Examples that earn this point include the following:\n• Hindus and Muslims interacted in many different ways, including economics, politics, social life, the arts, and culture.\n• The Muslim population of India grew substantially between 1200 and 1800.\n• Muslim scholars and Sufis migrated to India from Iran, Turkey, and Central Asia.\n• Some of the best poets migrated from Persia to India.","Examples that earn this point include the following:\n• Interactions between imperial court painters and Rajput painters resulted in artistic innovations.\n• The poetry of Kabir and Nanak contributed to Hindu, Muslim, and Sikh cultural syncretism.\n• Interactions between Muslim and Hindu mystics attracted followers from other religious communities.","Examples that earn this point include the following:\n• Mughal rulers wanted to keep their non-Muslim subjects from rebelling.\n• Mughal rulers believed that encouraging close relations between Muslims and nonMuslims would likely lead Hindus to accept Mughal rule.\n• Mughal rulers believed that encouraging close relations between Muslims and nonMuslims could help expand Mughal power by utilizing the economic, political, and military contributions of their full population."]}}
+</EXAMPLE>"""
         ),
     ]
 
@@ -326,7 +273,7 @@ def process_class(class_id: int):
 
 
 def main():
-    process_class(14)
+    process_class(15)
 
 
 if __name__ == "__main__":
