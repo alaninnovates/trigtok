@@ -325,10 +325,9 @@ Deno.serve(async (req) => {
                             frqError,
                         );
                     }
-                    return new Response(
-                        'No more questions available for this topic',
-                        { headers: corsHeaders, status: 404 },
-                    );
+                    // continue on to explanation
+                    nextQuestionType = QuestionType.Explanation;
+                    return getResponse();
                 }
                 const { data: inserted, error: insErr } = await client
                     .from('study_timelines')
