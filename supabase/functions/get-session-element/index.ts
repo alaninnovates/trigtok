@@ -1,6 +1,6 @@
 import 'jsr:@supabase/functions-js/edge-runtime.d.ts';
 import { getNextQuestionType, QuestionType } from './timeline.ts';
-import { getExplanationFor } from './backend.ts';
+import { getExplanationFor, preloadExplanation } from './backend.ts';
 import { getSupabaseClient } from '../_shared/supabase.ts';
 import { getRedisClient } from '../_shared/redis.ts';
 import { corsHeaders } from '../_shared/cors.ts';
@@ -378,6 +378,9 @@ Deno.serve(async (req) => {
                         ex: 60 * 60, // 1 hour
                     },
                 );
+                // preload
+                const { unitId: nextUnitId, topic: nextTopic } = getNextTopic();
+                preloadExplanation(nextUnitId, nextTopic);
                 return new Response(JSON.stringify(resp), {
                     status: 200,
                     headers: {

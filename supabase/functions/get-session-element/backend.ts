@@ -29,3 +29,22 @@ export const getExplanationFor = async (
         audioUrl: data.audio_url,
     };
 };
+
+export const preloadExplanation = (
+    unitId: number,
+    topic: {
+        id: number;
+        topic: string;
+    },
+): void => {
+    const url = `${Deno.env.get('API_URL')}/generate?unitId=${unitId}&topicId=${
+        topic.id
+    }&topic=${encodeURIComponent(topic.topic)}`;
+    fetch(url, {
+        headers: {
+            Authorization: `Bearer ${Deno.env.get('API_KEY')}`,
+        },
+    }).catch((err) => {
+        console.error('Failed to preload explanation:', err);
+    });
+};

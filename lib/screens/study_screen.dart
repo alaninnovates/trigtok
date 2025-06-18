@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:preload_page_view/preload_page_view.dart';
 import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/components/study/audio_video_player.dart';
@@ -15,7 +16,7 @@ class StudyScreen extends StatefulWidget {
 }
 
 class _StudyScreenState extends State<StudyScreen> {
-  final PageController pageController = PageController();
+  final PreloadPageController pageController = PreloadPageController();
 
   @override
   void initState() {
@@ -54,8 +55,9 @@ class _StudyScreenState extends State<StudyScreen> {
       return const Center(child: CircularProgressIndicator());
     }
 
-    return PageView.builder(
+    return PreloadPageView.builder(
       scrollDirection: Axis.vertical,
+      preloadPagesCount: 1,
       controller: pageController,
       onPageChanged: onPageChanged,
       itemBuilder: (BuildContext context, int index) {
