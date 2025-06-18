@@ -12,7 +12,7 @@ import 'package:trig_tok/screens/new-flow/topic_selection_screen.dart';
 import 'package:trig_tok/screens/new-flow/unit_selection_screen.dart';
 import 'package:trig_tok/screens/profile-flow/bookmarks_screen.dart';
 import 'package:trig_tok/screens/profile-flow/profile_screen.dart';
-import 'package:trig_tok/screens/my_content_screen.dart';
+import 'package:trig_tok/screens/my-content-flow/my_content_screen.dart';
 import 'package:trig_tok/screens/profile-flow/subscription_screen.dart';
 import 'package:trig_tok/screens/study_screen.dart';
 
