@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
@@ -13,16 +11,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final _future = Supabase.instance.client
-      .from('user_sessions')
-      .select(
-        'id, classes(id, name), profiles(study_timelines(topics(topic), created_at))',
-      )
-      .order(
-        'created_at',
-        ascending: false,
-        referencedTable: 'profiles.study_timelines',
-      );
+  final _future = Supabase.instance.client.rpc('get_sessions');
 
   @override
   Widget build(BuildContext context) {
@@ -48,6 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     return const Center(child: CircularProgressIndicator());
                   }
                   final sessions = snapshot.data!;
+                  print('Sessions: $sessions');
                   if (sessions.isEmpty) {
                     return Center(
                       child: Column(
@@ -69,19 +59,19 @@ class _HomeScreenState extends State<HomeScreen> {
                     itemCount: sessions.length,
                     itemBuilder: (context, index) {
                       final sessionsItem = sessions[index];
-                      String lastTopic =
-                          sessionsItem['profiles']['study_timelines'].isNotEmpty
-                              ? sessionsItem['profiles']['study_timelines'][0]['topics']['topic']
-                              : 'Unknown';
-
                       return Card(
                         child: ListTile(
-                          title: Text(sessionsItem['classes']['name']),
-                          subtitle: Text('Left off on: $lastTopic'),
+                          title: Text(sessionsItem['class_name']),
+                          subtitle: Text(
+                            'Left off on: ${sessionsItem['last_topic_studied']}',
+                          ),
+                          trailing: Text(
+                            _formatTimeAgo(sessionsItem['last_studied_at']),
+                          ),
                           onTap: () {
                             GoRouter.of(
                               context,
-                            ).push('/study/${sessionsItem['id']}');
+                            ).push('/study/${sessionsItem['session_id']}');
                           },
                         ),
                       );
@@ -94,5 +84,21 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
     );
+  }
+
+  String _formatTimeAgo(String dateTimeString) {
+    final dateTime = DateTime.parse(dateTimeString);
+    final now = DateTime.now();
+    final difference = now.difference(dateTime);
+
+    if (difference.inDays > 0) {
+      return '${difference.inDays}d ago';
+    } else if (difference.inHours > 0) {
+      return '${difference.inHours}h ago';
+    } else if (difference.inMinutes > 0) {
+      return '${difference.inMinutes}m ago';
+    } else {
+      return 'Just now';
+    }
   }
 }
