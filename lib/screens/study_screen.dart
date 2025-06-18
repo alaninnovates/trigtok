@@ -21,7 +21,6 @@ class _StudyScreenState extends State<StudyScreen> {
   void initState() {
     super.initState();
     print('session ID: ${widget.userSessionId}');
-    StreakCounter.increment();
     Supabase.instance.client.functions
         .invoke(
           'start-new-session',

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/components/page_body.dart';
+import 'package:trig_tok/screens/profile-flow/streak_dialog.dart';
 import 'package:trig_tok/utils/streak_counter.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -74,18 +75,7 @@ class ProfileScreen extends StatelessWidget {
                         showDialog(
                           context: context,
                           builder: (BuildContext context) {
-                            return AlertDialog(
-                              title: const Text('Streak Information'),
-                              content: const Text(
-                                'Your streak is the number of consecutive days you have studied a subject. Keep it going to maintain your streak!',
-                              ),
-                              actions: [
-                                TextButton(
-                                  onPressed: () => Navigator.of(context).pop(),
-                                  child: const Text('Got it'),
-                                ),
-                              ],
-                            );
+                            return StreakDialog();
                           },
                         );
                       },
@@ -96,7 +86,7 @@ class ProfileScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: FutureBuilder(
-                          future: StreakCounter.getCurrentStreak(),
+                          future: StreakCounter.getCurrentStreakLength(),
                           builder: (context, snapshot) {
                             return Row(
                               children: [
