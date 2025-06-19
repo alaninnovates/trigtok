@@ -46,8 +46,8 @@ class _MyContentScreenState extends State<MyContentScreen> {
                           const Text('No sets found!'),
                           const SizedBox(height: 16),
                           ElevatedButton(
-                            onPressed: () {
-                              Navigator.of(context).push(
+                            onPressed: () async {
+                              await Navigator.of(context).push(
                                 MaterialPageRoute(
                                   builder:
                                       (context) =>
@@ -55,6 +55,7 @@ class _MyContentScreenState extends State<MyContentScreen> {
                                   fullscreenDialog: true,
                                 ),
                               );
+                              setState(() {});
                             },
                             child: const Text('Create a new set'),
                           ),
