@@ -1,12 +1,10 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/components/page_body.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-import 'package:file_picker/_internal/file_picker_web.dart';
 import 'package:http/http.dart' as http;
+import 'package:trig_tok/screens/my-content-flow/attachment_uploader.dart';
 
 class NewSetHero extends StatefulWidget {
   final String heroTag;
@@ -93,75 +91,47 @@ class _NewSetHeroState extends State<NewSetHero> {
                         },
                       ),
                       const SizedBox(height: 16),
-                      const Text('Attachments:'),
-                      const SizedBox(height: 8),
-                      ElevatedButton.icon(
-                        icon: const Icon(Icons.attach_file),
-                        label: const Text('Add Files'),
-                        onPressed: () async {
-                          if (kIsWeb) {
-                            FilePickerWeb.registerWith(Registrar());
-                          }
-
-                          FilePickerResult? result = await FilePicker.platform
-                              .pickFiles(
-                                type: FileType.custom,
-                                allowedExtensions: [
-                                  'jpg',
-                                  'jpeg',
-                                  'png',
-                                  'pdf',
-                                ],
-                                allowMultiple: true,
-                              );
-
-                          if (result != null) {
-                            setState(() {
-                              selectedFiles.addAll(result.files);
-                            });
-                          } else {
-                            // User canceled the picker
-                          }
+                      AttachmentUploader(
+                        selectedFiles: selectedFiles,
+                        onFilesUpdated: (files) {
+                          setState(() {
+                            selectedFiles = files;
+                          });
                         },
+                        maxFileSize: 10 * 1024 * 1024,
                       ),
-                      if (selectedFiles.isNotEmpty)
-                        Container(
-                          margin: const EdgeInsets.only(top: 8),
-                          padding: const EdgeInsets.all(8),
-                          decoration: BoxDecoration(
-                            border: Border.all(color: Colors.grey),
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children:
-                                selectedFiles.map((file) {
-                                  return ListTile(
-                                    title: Text(file.name),
-                                    trailing: IconButton(
-                                      icon: const Icon(Icons.remove),
-                                      onPressed: () {
-                                        setState(() {
-                                          selectedFiles.remove(file);
-                                        });
-                                      },
-                                    ),
-                                  );
-                                }).toList(),
-                          ),
-                        ),
                     ],
                   ),
                 ),
                 const SizedBox(height: 24),
                 SizedBox(
-                  width: double.infinity,
+                  width: MediaQuery.sizeOf(context).width,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.symmetric(vertical: 16),
                     ),
                     onPressed: () {
                       if (formKey.currentState!.validate()) {
+                        if (contentController.text.isEmpty &&
+                            selectedFiles.isEmpty) {
+                          showDialog(
+                            context: context,
+                            builder:
+                                (context) => AlertDialog(
+                                  title: const Text('Missing Content'),
+                                  content: const Text(
+                                    'You must add content or files to create a set.',
+                                  ),
+                                  actions: [
+                                    TextButton(
+                                      onPressed: () => Navigator.pop(context),
+                                      child: const Text('OK'),
+                                    ),
+                                  ],
+                                ),
+                          );
+                          return;
+                        }
                         var apiUrl = dotenv.env['API_URL'];
                         var request = http.MultipartRequest(
                           'POST',
@@ -191,13 +161,6 @@ class _NewSetHeroState extends State<NewSetHero> {
                             .send()
                             .then((response) {
                               if (response.statusCode == 200) {
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  const SnackBar(
-                                    content: Text(
-                                      'Study set created successfully!',
-                                    ),
-                                  ),
-                                );
                                 Navigator.of(context).pop();
                               } else {
                                 print(
