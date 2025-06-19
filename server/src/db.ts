@@ -94,4 +94,31 @@ export class Database {
             data,
         };
     }
+
+    public async createSet(
+        title: string,
+        subject: string,
+        content: string,
+        files: string[],
+        supabaseUserId: string,
+    ) {
+        const { data, error } = await this.client
+            .from('sets')
+            .insert({
+                profile_id: supabaseUserId,
+                title,
+                subject,
+                content,
+                files,
+            })
+            .select('*')
+            .single();
+
+        if (error) {
+            console.error('Error creating set:', error);
+            return null;
+        }
+
+        return data;
+    }
 }

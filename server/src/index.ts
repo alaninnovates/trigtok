@@ -3,12 +3,16 @@ import S from 'fluent-json-schema';
 import { config } from 'dotenv';
 import { readFileSync } from 'fs';
 import { R2 } from 'node-cloudflare-r2';
+import multipart from '@fastify/multipart';
+import cors from '@fastify/cors';
+import { v4 as uuidv4 } from 'uuid';
 config();
 
 import { parseTranscript } from './transcript.js';
 import { generateAudioAndSubtitles } from './tts.js';
 import { Database } from './db.js';
 import { getExplanation, gradeResponses } from './gemini.js';
+import { getSupabaseClient } from './supabase.js';
 
 const fastify = Fastify({
     logger: {
@@ -23,10 +27,22 @@ const r2 = new R2({
     secretAccessKey: process.env.R2_SECRET_ACCESS_KEY || '',
 });
 const bucket = r2.bucket('audio');
+const userContentBucket = r2.bucket('user-content');
 const db = new Database(
     process.env.SUPABASE_URL || '',
     process.env.SUPABASE_SERVICE_KEY || '',
 );
+
+fastify.register(multipart, {
+    limits: {
+        fileSize: 10 * 1024 * 1024, // 10 MB,
+        files: 5,
+    },
+});
+fastify.register(cors, {
+    origin: '*',
+    methods: ['GET', 'POST'],
+});
 
 fastify.get('/', async () => {
     return { ok: true };
@@ -160,6 +176,78 @@ fastify.post(
         return data;
     },
 );
+
+fastify.post('/new-set', async (req, res) => {
+    const authHeader = req.headers.authorization;
+    const { user } = await getSupabaseClient(authHeader || '');
+    if (!authHeader || !user) {
+        return res.status(401).send({ error: 'Unauthorized' });
+    }
+
+    const parts = req.parts();
+    const files: string[] = [];
+    const fields: Record<string, string> = {};
+    for await (const part of parts) {
+        if (part.type === 'file') {
+            const buffer = await part.toBuffer();
+            const fileExtension = part.filename
+                ? part.filename.split('.').pop() || ''
+                : '';
+            console.log(
+                `Received file: ${part.filename}, extension: ${fileExtension}`,
+            );
+            if (
+                !fileExtension ||
+                !['jpg', 'jpeg', 'png', 'pdf'].includes(fileExtension)
+            ) {
+                return res.status(400).send({
+                    error: 'Unsupported file type.',
+                });
+            }
+            const fileName = `${uuidv4()}.${fileExtension}`;
+            try {
+                const uploaded = await userContentBucket.uploadStream(
+                    buffer,
+                    fileName,
+                );
+                req.log.info(`File uploaded: ${JSON.stringify(uploaded)}`);
+                files.push(
+                    `https://user-content.trigtok.com/${uploaded.objectKey}`,
+                );
+            } catch (error) {
+                console.error('Failed to upload file:', error);
+                return res.status(500).send({ error: 'Failed to upload file' });
+            }
+        } else if (part.type === 'field') {
+            fields[part.fieldname] = part.value as string;
+        }
+    }
+
+    if (files.length === 0) {
+        req.log.error('No files uploaded');
+        return res.status(400).send({ error: 'No files uploaded' });
+    }
+    if (!fields.title || !fields.subject) {
+        req.log.error('Missing required fields: title, subject');
+        return res.status(400).send({
+            error: 'Missing required fields: title, subject',
+        });
+    }
+    const { title, subject, content } = fields;
+    const { data, error } = await db.createSet(
+        title,
+        subject,
+        content,
+        files,
+        user.id,
+    );
+    if (error) {
+        req.log.error('Failed to create set: ' + error.message);
+        return res.status(500).send({ error: 'Failed to create set' });
+    }
+    req.log.info(`Set created successfully: ${JSON.stringify(data)}`);
+    return res.status(200).send(data);
+});
 
 try {
     await fastify.listen({ port: parseInt(process.env.PORT!) });

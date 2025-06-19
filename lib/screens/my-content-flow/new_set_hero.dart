@@ -1,9 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:trig_tok/components/page_body.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:file_picker/_internal/file_picker_web.dart';
+import 'package:http/http.dart' as http;
 
 class NewSetHero extends StatefulWidget {
   final String heroTag;
@@ -49,6 +52,9 @@ class _NewSetHeroState extends State<NewSetHero> {
                           }
                           return null;
                         },
+                        onChanged: (value) {
+                          formKey.currentState!.validate();
+                        },
                       ),
                       const SizedBox(height: 16),
                       TextFormField(
@@ -63,6 +69,9 @@ class _NewSetHeroState extends State<NewSetHero> {
                             return 'Please enter a subject';
                           }
                           return null;
+                        },
+                        onChanged: (value) {
+                          formKey.currentState!.validate();
                         },
                       ),
                       const SizedBox(height: 16),
@@ -153,7 +162,68 @@ class _NewSetHeroState extends State<NewSetHero> {
                     ),
                     onPressed: () {
                       if (formKey.currentState!.validate()) {
-                        // Add the creation logic here
+                        var apiUrl = dotenv.env['API_URL'];
+                        var request = http.MultipartRequest(
+                          'POST',
+                          Uri.parse('$apiUrl/new-set'),
+                        );
+                        request.headers['authorization'] =
+                            Supabase
+                                .instance
+                                .client
+                                .auth
+                                .currentSession
+                                ?.accessToken ??
+                            '';
+                        request.fields['title'] = titleController.text;
+                        request.fields['subject'] = subjectController.text;
+                        request.fields['content'] = contentController.text;
+                        for (var file in selectedFiles) {
+                          request.files.add(
+                            http.MultipartFile.fromBytes(
+                              'files',
+                              file.bytes!,
+                              filename: file.name,
+                            ),
+                          );
+                        }
+                        request
+                            .send()
+                            .then((response) {
+                              if (response.statusCode == 200) {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(
+                                    content: Text(
+                                      'Study set created successfully!',
+                                    ),
+                                  ),
+                                );
+                                Navigator.of(context).pop();
+                              } else {
+                                print(
+                                  'Failed to create study set: ${response.statusCode} ${response.reasonPhrase}',
+                                );
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(
+                                    content: Text(
+                                      'Failed to create study set. Try again later.',
+                                    ),
+                                  ),
+                                );
+                              }
+                            })
+                            .catchError((error) {
+                              print(
+                                'Failed to create study set: ${error.toString()}',
+                              );
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(
+                                  content: Text(
+                                    'Failed to create study set. Try again later.',
+                                  ),
+                                ),
+                              );
+                            });
                       }
                     },
                     child: const Text('Create', style: TextStyle(fontSize: 16)),
