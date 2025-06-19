@@ -101,7 +101,10 @@ export class Database {
         content: string,
         files: string[],
         supabaseUserId: string,
-    ) {
+    ): Promise<{
+        success: boolean;
+        data: any;
+    }> {
         const { data, error } = await this.client
             .from('sets')
             .insert({
@@ -115,10 +118,15 @@ export class Database {
             .single();
 
         if (error) {
-            console.error('Error creating set:', error);
-            return null;
+            return {
+                success: false,
+                data: error.message,
+            };
         }
 
-        return data;
+        return {
+            success: true,
+            data,
+        };
     }
 }

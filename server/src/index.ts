@@ -18,6 +18,13 @@ const fastify = Fastify({
     logger: {
         file: './logs/server.log',
         level: 'info',
+        transport: {
+            target: 'pino-pretty',
+            options: {
+                translateTime: 'HH:MM:ss Z',
+                ignore: 'pid,hostname',
+            },
+        },
     },
 });
 
@@ -193,7 +200,7 @@ fastify.post('/new-set', async (req, res) => {
             const fileExtension = part.filename
                 ? part.filename.split('.').pop() || ''
                 : '';
-            console.log(
+            req.log.info(
                 `Received file: ${part.filename}, extension: ${fileExtension}`,
             );
             if (
@@ -215,7 +222,7 @@ fastify.post('/new-set', async (req, res) => {
                     `https://user-content.trigtok.com/${uploaded.objectKey}`,
                 );
             } catch (error) {
-                console.error('Failed to upload file:', error);
+                req.log.error('Failed to upload file: ' + error);
                 return res.status(500).send({ error: 'Failed to upload file' });
             }
         } else if (part.type === 'field') {
@@ -223,9 +230,12 @@ fastify.post('/new-set', async (req, res) => {
         }
     }
 
-    if (files.length === 0) {
-        req.log.error('No files uploaded');
-        return res.status(400).send({ error: 'No files uploaded' });
+    if (
+        files.length === 0 &&
+        (!fields.content || fields.content.trim() === '')
+    ) {
+        req.log.error('No files/content uploaded');
+        return res.status(400).send({ error: 'No files/content uploaded' });
     }
     if (!fields.title || !fields.subject) {
         req.log.error('Missing required fields: title, subject');
@@ -234,15 +244,15 @@ fastify.post('/new-set', async (req, res) => {
         });
     }
     const { title, subject, content } = fields;
-    const { data, error } = await db.createSet(
+    const { success, data } = await db.createSet(
         title,
         subject,
         content,
         files,
         user.id,
     );
-    if (error) {
-        req.log.error('Failed to create set: ' + error.message);
+    if (!success) {
+        req.log.error('Failed to create set: ' + data);
         return res.status(500).send({ error: 'Failed to create set' });
     }
     req.log.info(`Set created successfully: ${JSON.stringify(data)}`);
