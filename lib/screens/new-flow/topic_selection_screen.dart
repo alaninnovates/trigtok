@@ -110,13 +110,6 @@ class _TopicSelectionState extends State<TopicSelection> {
                       })
                       .select('id');
                   await Supabase.instance.client
-                      .from('profiles_classes')
-                      .upsert({
-                        'profile_id':
-                            Supabase.instance.client.auth.currentUser!.id,
-                        'class_id': widget.classId,
-                      });
-                  await Supabase.instance.client
                       .from('user_sessions_topics')
                       .insert(
                         selectedTopics
