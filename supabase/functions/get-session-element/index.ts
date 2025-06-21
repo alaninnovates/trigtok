@@ -80,7 +80,6 @@ Deno.serve(async (req) => {
         .eq('session_id', userSessionId)
         .order('created_at', { ascending: false });
 
-    console.log('sessionMetadata', sessionMetadata);
     console.log('timeline', timeline);
 
     if (!timeline) {
@@ -91,15 +90,17 @@ Deno.serve(async (req) => {
         });
     }
 
-    let nextQuestionType = getNextQuestionType(
-        timeline?.map((entry) => ({
-            topic: entry.topics.topic,
-            type: entry.type,
-            data: entry.data,
-            unitName: entry.units.name,
-            className: entry.units.classes.name,
-        })) ?? [],
-    );
+    let { type: nextQuestionType, nextTopic: shouldMoveToNextTopic } =
+        getNextQuestionType(
+            timeline?.map((entry) => ({
+                topic: entry.topics.topic,
+                type: entry.type,
+                data: entry.data,
+                unitName: entry.units.name,
+                className: entry.units.classes.name,
+            })) ?? [],
+            sessionMetadata,
+        );
 
     console.log('nextQuestionType', nextQuestionType);
 
@@ -201,7 +202,16 @@ Deno.serve(async (req) => {
                 });
             }
             case QuestionType.MultipleChoice: {
-                const { unitId, topic } = getCurrentTopic();
+                let unitId, topic;
+                if (shouldMoveToNextTopic) {
+                    const next = getNextTopic();
+                    unitId = next.unitId;
+                    topic = next.topic;
+                } else {
+                    const curr = getCurrentTopic();
+                    unitId = curr.unitId;
+                    topic = curr.topic;
+                }
                 const questionsAnswered = timeline
                     .filter(
                         (entry) => entry.type === QuestionType.MultipleChoice,
@@ -297,7 +307,16 @@ Deno.serve(async (req) => {
                 });
             }
             case QuestionType.FreeResponse: {
-                const { unitId, topic } = getCurrentTopic();
+                let unitId, topic;
+                if (shouldMoveToNextTopic) {
+                    const next = getNextTopic();
+                    unitId = next.unitId;
+                    topic = next.topic;
+                } else {
+                    const curr = getCurrentTopic();
+                    unitId = curr.unitId;
+                    topic = curr.topic;
+                }
                 const questionsAnswered = timeline
                     .filter((entry) => entry.type === QuestionType.FreeResponse)
                     .filter((entry) => entry.topics.id === topic.id)

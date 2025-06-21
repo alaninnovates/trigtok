@@ -8,6 +8,7 @@ import 'package:trig_tok/components/study/study_state_model.dart';
 import 'package:trig_tok/screens/auth_screen.dart';
 import 'package:trig_tok/screens/home_screen.dart';
 import 'package:trig_tok/screens/new-flow/class_selection_screen.dart';
+import 'package:trig_tok/screens/new-flow/configure_session_screen.dart';
 import 'package:trig_tok/screens/new-flow/topic_selection_screen.dart';
 import 'package:trig_tok/screens/new-flow/unit_selection_screen.dart';
 import 'package:trig_tok/screens/profile-flow/bookmarks_screen.dart';
@@ -82,6 +83,29 @@ final GoRouter _router = GoRouter(
                           unitId: int.parse(unitId),
                         );
                       },
+                      routes: [
+                        GoRoute(
+                          path: 'configure',
+                          builder: (context, state) {
+                            if (state.extra == null ||
+                                state.pathParameters['classId'] == null ||
+                                state.pathParameters['unitId'] == null) {
+                              return const SizedBox.shrink();
+                            }
+                            final topics =
+                                (state.extra as Map<String, dynamic>)['topics'];
+                            return ConfigureSessionScreen(
+                              classId: int.parse(
+                                state.pathParameters['classId']!,
+                              ),
+                              unitId: int.parse(
+                                state.pathParameters['unitId']!,
+                              ),
+                              topics: topics,
+                            );
+                          },
+                        ),
+                      ],
                     ),
                   ],
                 ),

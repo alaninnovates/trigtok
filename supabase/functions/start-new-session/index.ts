@@ -36,7 +36,9 @@ Deno.serve(async (req) => {
 
     const { data: sessionMetadata, error: userSessionError } = await client
         .from('user_sessions')
-        .select('desired_unit_id, units(name, classes(name))')
+        .select(
+            'desired_unit_id, units(name, classes(name)), require_correctness, question_types, questions_per_topic',
+        )
         .eq('id', userSessionId)
         .limit(1)
         .single();
@@ -64,6 +66,9 @@ Deno.serve(async (req) => {
             unit_name: sessionMetadata.units.name,
             class_name: sessionMetadata.units.classes.name,
             desired_unit_id: sessionMetadata.desired_unit_id,
+            require_correctness: sessionMetadata.require_correctness,
+            question_types: sessionMetadata.question_types,
+            questions_per_topic: sessionMetadata.questions_per_topic,
             desired_topics: desiredTopics.map((t) => ({
                 id: t.topics.id,
                 topic: t.topics.topic,

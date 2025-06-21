@@ -29,31 +29,46 @@ export interface TimelineEntry {
     className: string;
 }
 
+export interface SessionMetadata {
+    unit_name: string;
+    class_name: string;
+    desired_unit_id: number;
+    require_correctness: boolean;
+    question_types: QuestionType[];
+    questions_per_topic: Record<string, number>;
+    desired_topics: { id: number; topic: string }[];
+}
+
+const defaultQuestionsPerTopic = {
+    [QuestionType.MultipleChoice]: 4,
+    [QuestionType.FreeResponse]: 2,
+};
+
 export const getNextQuestionType = (
     timeline: TimelineEntry[],
-): QuestionType => {
-    // algorithm: determine the next question type based on the timeline
-    // based on correctness of previous questions
+    metadata: SessionMetadata,
+): {
+    type: QuestionType;
+    nextTopic: boolean;
+} => {
     if (timeline.length === 0) {
-        return QuestionType.Explanation;
+        console.log(metadata.question_types);
+        return {
+            type: metadata.question_types[0],
+            nextTopic: false,
+        };
     }
 
     const lastEntry = timeline[0];
-
     console.log('last entry', lastEntry);
 
-    if (lastEntry.type === QuestionType.Explanation) {
-        return QuestionType.MultipleChoice;
-    }
-
-    // give ratio mcq:frq of 3:1
-    // if prev q incorrect, repeat the same type
     const mcqCount = timeline.filter(
         (entry) => entry.type === QuestionType.MultipleChoice,
     ).length;
     const frqCount = timeline.filter(
         (entry) => entry.type === QuestionType.FreeResponse,
     ).length;
+
     const lastQuestion = timeline[0];
     console.log('last question', lastQuestion);
     const lastQuestionCorrect =
@@ -67,27 +82,44 @@ export const getNextQuestionType = (
               0.5
             : false;
 
-    if (!lastQuestionCorrect) {
-        return lastQuestion.type;
+    if (!lastQuestionCorrect && metadata.require_correctness) {
+        return {
+            type: lastEntry.type,
+            nextTopic: false,
+        };
     }
 
     if (
-        lastQuestion.type === QuestionType.FreeResponse &&
-        lastQuestionCorrect
+        lastEntry.type === QuestionType.MultipleChoice &&
+        (metadata.questions_per_topic[QuestionType.MultipleChoice] ||
+            defaultQuestionsPerTopic[QuestionType.MultipleChoice]) > mcqCount
     ) {
-        return QuestionType.Explanation;
+        return {
+            type: QuestionType.MultipleChoice,
+            nextTopic: false,
+        };
     }
 
-    const mcqToFrqRatio = 4 / 1;
-    const totalQuestions = mcqCount + frqCount;
-    const totalRatio = mcqCount / (frqCount || 1);
-
-    if (totalQuestions > 0 && totalRatio < mcqToFrqRatio) {
-        return QuestionType.MultipleChoice;
+    if (
+        lastEntry.type === QuestionType.FreeResponse &&
+        (metadata.questions_per_topic[QuestionType.FreeResponse] ||
+            defaultQuestionsPerTopic[QuestionType.FreeResponse]) > frqCount
+    ) {
+        return {
+            type: QuestionType.FreeResponse,
+            nextTopic: false,
+        };
     }
-    if (totalQuestions > 0 && totalRatio >= mcqToFrqRatio) {
-        return QuestionType.FreeResponse;
-    }
 
-    return QuestionType.Explanation;
+    const nextTypeIndex = metadata.question_types.indexOf(lastEntry.type) + 1;
+    if (nextTypeIndex < metadata.question_types.length) {
+        return {
+            type: metadata.question_types[nextTypeIndex],
+            nextTopic: false,
+        };
+    }
+    return {
+        type: metadata.question_types[0],
+        nextTopic: true,
+    };
 };
