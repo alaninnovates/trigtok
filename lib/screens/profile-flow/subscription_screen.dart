@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SubscriptionScreen extends StatefulWidget {
@@ -257,8 +258,18 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
   }
 
   Future<void> launchHostedCheckout() async {
-    if (!await launchUrl(_hostedPaymentUrl)) {
-      throw Exception('Could not launch $_hostedPaymentUrl');
+    final url = _hostedPaymentUrl.replace(
+      queryParameters: {
+        'price_id':
+            _yearlyBilling
+                ? dotenv.env['PLUS_YEARLY_PRICE_ID']
+                : dotenv.env['PLUS_MONTHLY_PRICE_ID'],
+        'app_user_id': Supabase.instance.client.auth.currentUser?.id,
+        'user_email': Supabase.instance.client.auth.currentUser?.email,
+      },
+    );
+    if (!await launchUrl(url)) {
+      throw Exception('Could not launch $url');
     }
   }
 }
