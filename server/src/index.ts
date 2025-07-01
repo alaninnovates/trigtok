@@ -259,6 +259,18 @@ fastify.post('/new-set', async (req, res) => {
     return res.status(200).send(data);
 });
 
+fastify.get('/subscription/current-plan', async (req, res) => {
+    const authHeader = req.headers.authorization;
+    const { user } = await getSupabaseClient(authHeader || '');
+    if (!authHeader || !user) {
+        return res.status(401).send({ error: 'Unauthorized' });
+    }
+});
+
+fastify.get('/heartbeat', async (req, res) => {
+    return res.status(200).send({ ok: true });
+});
+
 try {
     await fastify.listen({ port: parseInt(process.env.PORT!) });
 } catch (err) {

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:trig_tok/utils/subscription_manager.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SubscriptionScreen extends StatefulWidget {
@@ -11,8 +12,21 @@ class SubscriptionScreen extends StatefulWidget {
 }
 
 class _SubscriptionScreenState extends State<SubscriptionScreen> {
-  String _currentPlan = 'free';
+  String _currentPlan = '';
   bool _yearlyBilling = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadCurrentPlan();
+  }
+
+  Future<void> _loadCurrentPlan() async {
+    final plan = await SubscriptionManager.getCurrentPlan();
+    setState(() {
+      _currentPlan = plan;
+    });
+  }
 
   final Uri _hostedPaymentUrl = Uri.parse(dotenv.env['HOSTED_PAYMENT_URL']!);
 
@@ -23,6 +37,13 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
     final cardColor = isDarkMode ? Colors.grey[850] : Colors.white;
     final textColor = isDarkMode ? Colors.white : Colors.black87;
     final secondaryTextColor = isDarkMode ? Colors.grey[300] : Colors.grey[800];
+
+    if (_currentPlan.isEmpty) {
+      return Scaffold(
+        appBar: AppBar(title: const Text('Select Your Plan'), elevation: 0),
+        body: Center(child: CircularProgressIndicator()),
+      );
+    }
 
     return Scaffold(
       appBar: AppBar(title: const Text('Select Your Plan'), elevation: 0),
