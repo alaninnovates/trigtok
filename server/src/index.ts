@@ -293,7 +293,10 @@ fastify.get('/heartbeat', async (req, res) => {
 });
 
 try {
-    await fastify.listen({ port: parseInt(process.env.PORT!) });
+    await fastify.listen({
+        port: parseInt(process.env.PORT!),
+        host: '0.0.0.0',
+    });
 } catch (err) {
     fastify.log.error(err);
     process.exit(1);
