@@ -5,6 +5,7 @@ nixPkgs = ["nodejs", "pipx"]
 cmds = [
   "npm ci",
   "pipx install edge-tts"
+  "pipx ensurepath"
 ]
 
 [phases.build]
