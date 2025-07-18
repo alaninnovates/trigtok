@@ -1,0 +1,14 @@
+[phases.setup]
+nixPkgs = ["nodejs", "pipx"]
+
+[phases.install]
+cmds = [
+  "npm ci",
+  "pipx install edge-tts"
+]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm start"
