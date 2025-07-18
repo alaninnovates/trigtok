@@ -14,6 +14,16 @@ import { Database } from './db.js';
 import { getExplanation, gradeResponses } from './gemini.js';
 import { getSupabaseClient } from './supabase.js';
 
+import { mkdirSync, existsSync } from 'fs';
+import { unlink } from 'fs/promises';
+
+if (!existsSync('./logs')) {
+    mkdirSync('./logs');
+}
+if (!existsSync('./output')) {
+    mkdirSync('./output');
+}
+
 const fastify = Fastify({
     logger: {
         file: './logs/server.log',
@@ -135,6 +145,17 @@ fastify.get(
                 data,
             )}`,
         );
+        try {
+            await Promise.all([
+                unlink(audioFilePath),
+                unlink(subtitlesFilePath),
+            ]);
+            req.log.info(
+                `Removed generated files: ${audioFilePath}, ${subtitlesFilePath}`,
+            );
+        } catch (error) {
+            req.log.error('Failed to remove generated files: ' + error);
+        }
         return data;
     },
 );
