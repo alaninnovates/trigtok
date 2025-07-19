@@ -282,31 +282,33 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                 children: [
                   Card(
                     color: Colors.black54,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 0),
-                          child: Text(
-                            sessionElement['unitName'] ?? '',
-                            style: const TextStyle(
-                              fontSize: 16,
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text(
+                              sessionElement['unitName'] ?? '',
+                              style: const TextStyle(
+                                fontSize: 16,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            sessionElement['topic']['topic'] ?? '',
-                            style: const TextStyle(
-                              fontSize: 14,
-                              color: Colors.white,
+                            Container(
+                              margin: const EdgeInsets.only(top: 5.0),
+                              child: Text(
+                                sessionElement['topic']['topic'] ?? '',
+                                style: const TextStyle(
+                                  fontSize: 14,
+                                  color: Colors.white,
+                                ),
+                              ),
                             ),
-                          ),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
                   ),
                 ],
