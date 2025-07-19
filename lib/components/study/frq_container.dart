@@ -27,10 +27,14 @@ class _FrqContainerState extends State<FrqContainer> {
   final List<TextEditingController> _controllers = [];
   bool isGrading = false;
   List<Map<String, dynamic>> aiResponses = [];
+  bool shouldShowStimulus = true;
 
   @override
   void initState() {
     super.initState();
+    if (widget.stimulus.isEmpty) {
+      shouldShowStimulus = false;
+    }
     if (widget.answers != null) {
       aiResponses = widget.answers!;
     }
@@ -62,40 +66,39 @@ class _FrqContainerState extends State<FrqContainer> {
               if (isGrading) const SizedBox(height: 8),
               TabBar(
                 tabs: [
-                  Tab(text: 'Stimulus'),
+                  if (shouldShowStimulus) Tab(text: 'Stimulus'),
                   ...widget.questions.map((q) => Tab(text: q['text'])),
                 ],
               ),
               Expanded(
                 child: TabBarView(
                   children: [
-                    // Stimulus Tab
-                    Padding(
-                      padding: const EdgeInsets.all(16),
-                      child: Column(
-                        children: [
-                          Expanded(
-                            child: SingleChildScrollView(
-                              child: MarkdownBlock(
-                                data: widget.stimulus,
-                                generator: MarkdownGenerator(
-                                  generators: [latexGenerator],
-                                  inlineSyntaxList: [LatexSyntax()],
-                                  richTextBuilder: (span) => Text.rich(span),
+                    if (shouldShowStimulus)
+                      Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: Column(
+                          children: [
+                            Expanded(
+                              child: SingleChildScrollView(
+                                child: MarkdownBlock(
+                                  data: widget.stimulus,
+                                  generator: MarkdownGenerator(
+                                    generators: [latexGenerator],
+                                    inlineSyntaxList: [LatexSyntax()],
+                                    richTextBuilder: (span) => Text.rich(span),
+                                  ),
                                 ),
                               ),
                             ),
-                          ),
-                          ElevatedButton(
-                            onPressed: () {
-                              DefaultTabController.of(context).animateTo(1);
-                            },
-                            child: const Text('Next'),
-                          ),
-                        ],
+                            ElevatedButton(
+                              onPressed: () {
+                                DefaultTabController.of(context).animateTo(1);
+                              },
+                              child: const Text('Next'),
+                            ),
+                          ],
+                        ),
                       ),
-                    ),
-                    // Questions Tabs
                     ...widget.questions.map((question) {
                       final index = widget.questions.indexOf(question);
                       return Padding(

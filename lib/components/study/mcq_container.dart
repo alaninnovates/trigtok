@@ -32,10 +32,14 @@ class _McqContainerState extends State<McqContainer> {
   String? selectedOption;
   int? selectedIndex;
   bool? isSubmitted;
+  bool shouldShowStimulus = true;
 
   @override
   void initState() {
     super.initState();
+    if (widget.stimulus.isEmpty) {
+      shouldShowStimulus = false;
+    }
     if (widget.selectedAnswer != null) {
       print('Selected answer: ${widget.selectedAnswer}');
       selectedOption = widget.options[widget.selectedAnswer!];
@@ -54,25 +58,29 @@ class _McqContainerState extends State<McqContainer> {
           length: 2,
           child: Column(
             children: [
-              TabBar(tabs: [Tab(text: 'Stimulus'), Tab(text: 'Question')]),
+              TabBar(
+                tabs: [
+                  if (shouldShowStimulus) Tab(text: 'Stimulus'),
+                  Tab(text: 'Question'),
+                ],
+              ),
               Expanded(
                 child: TabBarView(
                   children: [
-                    // Stimulus Tab
-                    Padding(
-                      padding: const EdgeInsets.all(16),
-                      child: SingleChildScrollView(
-                        child: MarkdownBlock(
-                          data: widget.stimulus,
-                          generator: MarkdownGenerator(
-                            generators: [latexGenerator],
-                            inlineSyntaxList: [LatexSyntax()],
-                            richTextBuilder: (span) => Text.rich(span),
+                    if (shouldShowStimulus)
+                      Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: SingleChildScrollView(
+                          child: MarkdownBlock(
+                            data: widget.stimulus,
+                            generator: MarkdownGenerator(
+                              generators: [latexGenerator],
+                              inlineSyntaxList: [LatexSyntax()],
+                              richTextBuilder: (span) => Text.rich(span),
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    // Question and Answers Tab
                     Padding(
                       padding: const EdgeInsets.all(16),
                       child: SingleChildScrollView(
