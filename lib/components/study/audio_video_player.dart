@@ -38,9 +38,6 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
           '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}.mp4',
         ),
       )
-      // _videoController = VideoPlayerController.asset(
-      //     'brainrot_generator/videos/minecraft_${widget.index % 10 + 1}.mp4',
-      //   )
       ..initialize().then((_) {
         setState(() {});
         if (widget.index == 0) {
@@ -97,8 +94,7 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
       _audioPlayer.audioCache = AudioCache(prefix: '');
       UrlSource source = UrlSource(data['data']['audioUrl']);
       await _audioPlayer.play(source);
-    } else if (data['type'] == 'mcq') {
-    } else if (data['type'] == 'frq') {}
+    }
   }
 
   @override
@@ -106,14 +102,15 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
     return Stack(
       alignment: Alignment.center,
       children: [
-        sessionElement.isEmpty
+        !_videoController.value.isInitialized
+            // VIDEO CONTAINER LOADING
             ? Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
                 CircularProgressIndicator(),
                 SizedBox(height: 16),
                 Text(
-                  "Loading...",
+                  "Loading video...",
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.white,
@@ -122,18 +119,15 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                 ),
               ],
             )
-            : _videoController.value.isInitialized
-            ? AspectRatio(
-              aspectRatio: _videoController.value.aspectRatio,
-              child: VideoPlayer(_videoController),
-            )
-            : Column(
+            // SESSION ELEMENT LOADING
+            : sessionElement.isEmpty
+            ? Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
                 CircularProgressIndicator(),
                 SizedBox(height: 16),
                 Text(
-                  "Loading explanation video...",
+                  "Loading question...",
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.white,
@@ -141,6 +135,11 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                   ),
                 ),
               ],
+            )
+            // VIDEO CONTAINER DISPLAY
+            : AspectRatio(
+              aspectRatio: _videoController.value.aspectRatio,
+              child: VideoPlayer(_videoController),
             ),
         sessionElement.isEmpty
             ? const SizedBox.shrink()
