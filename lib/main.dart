@@ -12,6 +12,7 @@ import 'package:trig_tok/screens/new-flow/configure_session_screen.dart';
 import 'package:trig_tok/screens/new-flow/topic_selection_screen.dart';
 import 'package:trig_tok/screens/new-flow/unit_selection_screen.dart';
 import 'package:trig_tok/screens/profile-flow/bookmarks/bookmarked_classes.dart';
+import 'package:trig_tok/screens/profile-flow/bookmarks/bookmarked_units.dart';
 import 'package:trig_tok/screens/profile-flow/bookmarks/bookmarks_screen.dart';
 import 'package:trig_tok/screens/profile-flow/profile_screen.dart';
 import 'package:trig_tok/screens/my-content-flow/my_content_screen.dart';
@@ -134,29 +135,26 @@ final GoRouter _router = GoRouter(
               routes: [
                 GoRoute(
                   path: '/bookmarks',
-                  builder: (context, state) {
-                    return const BookmarkedClasses();
-                  },
+                  pageBuilder:
+                      (context, state) =>
+                          const MaterialPage(child: BookmarkedClasses()),
                   routes: [
                     GoRoute(
                       path: 'class/:classId',
                       builder: (context, state) {
                         final classId = state.pathParameters['classId']!;
-                        return SizedBox.shrink();
-                        // return BookmarkedUnits(classId: int.parse(classId));
+                        return BookmarkedUnits(classId: int.parse(classId));
                       },
                       routes: [
                         GoRoute(
                           path: 'unit/:unitId',
                           builder: (context, state) {
                             final unitId = state.pathParameters['unitId']!;
-                            return SizedBox.shrink();
-                            // return BookmarksScreen(
-                            //   classId: int.parse(
-                            //     state.pathParameters['classId']!,
-                            //   ),
-                            //   unitId: int.parse(unitId),
-                            // );
+                            final classId = state.pathParameters['classId']!;
+                            return BookmarksScreen(
+                              classId: int.parse(classId),
+                              unitId: int.parse(unitId),
+                            );
                           },
                         ),
                       ],

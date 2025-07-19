@@ -79,7 +79,9 @@ class _BookmarkedClassesState extends State<BookmarkedClasses> {
                     return ListTile(
                       title: Text(className),
                       onTap: () {
-                        GoRouter.of(context).push('/bookmarks/class/$classId');
+                        GoRouter.of(
+                          context,
+                        ).push('/profile/bookmarks/class/$classId');
                       },
                       trailing: const Icon(Icons.arrow_forward),
                     );

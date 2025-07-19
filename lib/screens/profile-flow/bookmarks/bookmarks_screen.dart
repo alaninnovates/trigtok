@@ -2,7 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class BookmarksScreen extends StatefulWidget {
-  const BookmarksScreen({super.key});
+  const BookmarksScreen({
+    super.key,
+    required this.classId,
+    required this.unitId,
+  });
+
+  final int classId;
+  final int unitId;
 
   @override
   State<BookmarksScreen> createState() => _BookmarksScreenState();
@@ -37,14 +44,20 @@ class _BookmarksScreenState extends State<BookmarksScreen> {
             '*, explanations(*), free_response_questions(*), multiple_choice_questions(*), topics(*), units(*, classes(*))',
           )
           .eq('bookmark', true)
+          .eq('units.classes.id', widget.classId)
+          .eq('units.id', widget.unitId)
           .range(from, from + _limit - 1)
           .order('created_at', ascending: false);
-
+      print('Response: $response');
       setState(() {
         if (response.isEmpty || response.length < _limit) {
           _hasMore = false;
         }
-
+        setState(() {
+          _bookmarks.addAll(
+            response as List<Map<String, Map<String, dynamic>>>,
+          );
+        });
         _page++;
         _isLoading = false;
       });
@@ -59,24 +72,24 @@ class _BookmarksScreenState extends State<BookmarksScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Bookmarks')),
-      // body: NotificationListener<ScrollNotification>(
-      //   onNotification: (ScrollNotification scrollInfo) {
-      //     if (!scrollInfo.metrics.atEdge) return false;
-      //     if (scrollInfo.metrics.pixels == 0) return false;
-      //     _loadData();
-      //     return true;
-      //   },
-      //   child: ListView.builder(
-      //     itemCount: _bookmarks.length + (_hasMore ? 1 : 0),
-      //     itemBuilder: (context, index) {
-      //       if (index >= _bookmarks.length) {
-      //         return const Center(child: CircularProgressIndicator());
-      //       }
-      //       final bookmark = _bookmarks[index];
-      //       return ListTile(title: Text(bookmark.toString()));
-      //     },
-      //   ),
-      // ),
+      body: NotificationListener<ScrollNotification>(
+        onNotification: (ScrollNotification scrollInfo) {
+          if (!scrollInfo.metrics.atEdge) return false;
+          if (scrollInfo.metrics.pixels == 0) return false;
+          _loadData();
+          return true;
+        },
+        child: ListView.builder(
+          itemCount: _bookmarks.length + (_hasMore ? 1 : 0),
+          itemBuilder: (context, index) {
+            if (index >= _bookmarks.length) {
+              return const Center(child: CircularProgressIndicator());
+            }
+            final bookmark = _bookmarks[index];
+            return ListTile(title: Text(bookmark.toString()));
+          },
+        ),
+      ),
     );
   }
 }
