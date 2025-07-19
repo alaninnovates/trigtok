@@ -37,7 +37,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     return const Center(child: CircularProgressIndicator());
                   }
                   final sessions = snapshot.data!;
-                  print('Sessions: $sessions');
                   if (sessions.isEmpty) {
                     return Center(
                       child: Column(

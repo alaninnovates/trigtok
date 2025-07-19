@@ -11,7 +11,8 @@ import 'package:trig_tok/screens/new-flow/class_selection_screen.dart';
 import 'package:trig_tok/screens/new-flow/configure_session_screen.dart';
 import 'package:trig_tok/screens/new-flow/topic_selection_screen.dart';
 import 'package:trig_tok/screens/new-flow/unit_selection_screen.dart';
-import 'package:trig_tok/screens/profile-flow/bookmarks_screen.dart';
+import 'package:trig_tok/screens/profile-flow/bookmarks/bookmarked_classes.dart';
+import 'package:trig_tok/screens/profile-flow/bookmarks/bookmarks_screen.dart';
 import 'package:trig_tok/screens/profile-flow/profile_screen.dart';
 import 'package:trig_tok/screens/my-content-flow/my_content_screen.dart';
 import 'package:trig_tok/screens/profile-flow/subscription_screen.dart';
@@ -134,8 +135,33 @@ final GoRouter _router = GoRouter(
                 GoRoute(
                   path: '/bookmarks',
                   builder: (context, state) {
-                    return const BookmarksScreen();
+                    return const BookmarkedClasses();
                   },
+                  routes: [
+                    GoRoute(
+                      path: 'class/:classId',
+                      builder: (context, state) {
+                        final classId = state.pathParameters['classId']!;
+                        return SizedBox.shrink();
+                        // return BookmarkedUnits(classId: int.parse(classId));
+                      },
+                      routes: [
+                        GoRoute(
+                          path: 'unit/:unitId',
+                          builder: (context, state) {
+                            final unitId = state.pathParameters['unitId']!;
+                            return SizedBox.shrink();
+                            // return BookmarksScreen(
+                            //   classId: int.parse(
+                            //     state.pathParameters['classId']!,
+                            //   ),
+                            //   unitId: int.parse(unitId),
+                            // );
+                          },
+                        ),
+                      ],
+                    ),
+                  ],
                 ),
                 GoRoute(
                   path: '/subscription',
