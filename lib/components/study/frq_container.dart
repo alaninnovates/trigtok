@@ -56,7 +56,7 @@ class _FrqContainerState extends State<FrqContainer> {
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: DefaultTabController(
-          length: widget.questions.length + 1,
+          length: widget.questions.length + (shouldShowStimulus ? 1 : 0),
           child: Column(
             children: [
               if (isGrading)

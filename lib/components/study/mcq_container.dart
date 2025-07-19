@@ -55,7 +55,7 @@ class _McqContainerState extends State<McqContainer> {
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: DefaultTabController(
-          length: 2,
+          length: shouldShowStimulus ? 2 : 1,
           child: Column(
             children: [
               TabBar(

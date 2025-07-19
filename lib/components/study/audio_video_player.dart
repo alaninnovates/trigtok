@@ -282,9 +282,9 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                 children: [
                   Card(
                     color: Colors.black54,
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Expanded(
+                    child: Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
