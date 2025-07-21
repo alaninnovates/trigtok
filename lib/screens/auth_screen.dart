@@ -54,6 +54,15 @@ class _AuthScreenState extends State<AuthScreen> {
     });
   }
 
+  Future<void> _guestSignIn() async {
+    await Supabase.instance.client.auth.signInAnonymously();
+    Supabase.instance.client.auth.onAuthStateChange.listen((event) {
+      if (event.event == AuthChangeEvent.signedIn) {
+        GoRouter.of(context).replace('/home');
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final isLoggedIn = Supabase.instance.client.auth.currentSession != null;
@@ -68,7 +77,7 @@ class _AuthScreenState extends State<AuthScreen> {
           children: [
             const Text('Welcome to TrigTok!'),
             const SizedBox(height: 16),
-            ElevatedButton(
+            FilledButton(
               onPressed: () {
                 (!kIsWeb ? _nativeGoogleSignIn() : _webGoogleSignIn())
                     .catchError((error) {
@@ -79,6 +88,18 @@ class _AuthScreenState extends State<AuthScreen> {
                     });
               },
               child: const Text('Sign In with Google'),
+            ),
+            const SizedBox(height: 16),
+            TextButton(
+              onPressed: () {
+                _guestSignIn().catchError((error) {
+                  log('Guest sign-in error: $error');
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Guest sign-in failed: $error')),
+                  );
+                });
+              },
+              child: const Text('Continue as Guest'),
             ),
           ],
         ),
