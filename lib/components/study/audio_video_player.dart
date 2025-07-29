@@ -8,7 +8,9 @@ import 'package:trig_tok/components/study/frq_container.dart';
 import 'package:trig_tok/components/study/mcq_container.dart';
 import 'package:trig_tok/components/study/study_state_model.dart';
 import 'package:trig_tok/components/study/transcript_parser.dart';
-import 'package:video_player/video_player.dart';
+// import 'package:video_player/video_player.dart';
+import 'package:media_kit/media_kit.dart';
+import 'package:media_kit_video/media_kit_video.dart';
 
 class AudioVideoPlayer extends StatefulWidget {
   const AudioVideoPlayer({super.key, required this.index});
@@ -19,7 +21,10 @@ class AudioVideoPlayer extends StatefulWidget {
 }
 
 class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
-  late VideoPlayerController _videoController;
+  // late VideoPlayerController _videoController;
+  late final player = Player();
+  late final controller = VideoController(player);
+
   final _audioPlayer = AudioPlayer();
   late List<TranscriptItem> _transcriptItems;
   Map<String, dynamic> sessionElement = {};
@@ -33,18 +38,23 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
     print('init state for index ${widget.index}');
     _studyStateModel = Provider.of<StudyStateModel>(context, listen: false);
     _studyStateModel.addListener(_studyStateListener);
-    _videoController = VideoPlayerController.networkUrl(
-        Uri.parse(
-          '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}/minecraft_${widget.index % 10 + 1}.m3u8',
-        ),
-      )
-      ..initialize().then((_) {
-        setState(() {});
-        if (widget.index == 0) {
-          print('starting due to widget index 0');
-          _startPlayback();
-        }
-      });
+    // _videoController = VideoPlayerController.networkUrl(
+    //     Uri.parse(
+    //       '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}/minecraft_${widget.index % 10 + 1}.m3u8',
+    //     ),
+    //   )
+    //   ..initialize().then((_) {
+    //     setState(() {});
+    //     if (widget.index == 0) {
+    //       print('starting due to widget index 0');
+    //       _startPlayback();
+    //     }
+    //   });
+    setState(() {});
+    if (widget.index == 0) {
+      print('starting due to widget index 0');
+      _startPlayback();
+    }
   }
 
   Future<void> _startPlayback() async {
@@ -68,10 +78,16 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
       sessionElement = data;
     });
     print('Fetched session element: $data');
-    print('Starting playback ${_videoController.dataSource}');
-    _videoController.setLooping(true);
-    _videoController.setVolume(0.0);
-    _videoController.play();
+    // print('Starting playback ${_videoController.dataSource}');
+    // _videoController.setLooping(true);
+    // _videoController.setVolume(0.0);
+    // _videoController.play();
+    await player.open(
+      Media(
+        '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}/minecraft_${widget.index % 10 + 1}.m3u8',
+      ),
+    );
+    await player.play();
 
     if (data['type'] == 'explanation') {
       _transcriptItems = TranscriptParser.parseTranscript(
@@ -102,7 +118,7 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
     return Stack(
       alignment: Alignment.center,
       children: [
-        !_videoController.value.isInitialized
+        false
             // VIDEO CONTAINER LOADING
             ? Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -137,9 +153,10 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
               ],
             )
             // VIDEO CONTAINER DISPLAY
-            : AspectRatio(
-              aspectRatio: _videoController.value.aspectRatio,
-              child: VideoPlayer(_videoController),
+            : SizedBox(
+              width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.width * (16 / 9),
+              child: Video(controller: controller, controls: NoVideoControls),
             ),
         sessionElement.isEmpty
             ? const SizedBox.shrink()
@@ -349,7 +366,8 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
   void dispose() {
     print('disposing ${widget.index}');
     _studyStateModel.removeListener(_studyStateListener);
-    _videoController.dispose();
+    // _videoController.dispose();
+    player.dispose();
     _audioPlayer.dispose();
     super.dispose();
   }
