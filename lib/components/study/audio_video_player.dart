@@ -127,7 +127,7 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                 CircularProgressIndicator(),
                 SizedBox(height: 16),
                 Text(
-                  "Loading question...",
+                  "Loading question... (this might take a while!)",
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.white,
@@ -282,32 +282,30 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
                 children: [
                   Card(
                     color: Colors.black54,
-                    child: Expanded(
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Text(
-                              sessionElement['unitName'] ?? '',
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Text(
+                            sessionElement['unitName'] ?? '',
+                            style: const TextStyle(
+                              fontSize: 16,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Container(
+                            margin: const EdgeInsets.only(top: 5.0),
+                            child: Text(
+                              sessionElement['topic']['topic'] ?? '',
                               style: const TextStyle(
-                                fontSize: 16,
+                                fontSize: 14,
                                 color: Colors.white,
-                                fontWeight: FontWeight.bold,
                               ),
                             ),
-                            Container(
-                              margin: const EdgeInsets.only(top: 5.0),
-                              child: Text(
-                                sessionElement['topic']['topic'] ?? '',
-                                style: const TextStyle(
-                                  fontSize: 14,
-                                  color: Colors.white,
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
