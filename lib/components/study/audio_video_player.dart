@@ -35,7 +35,7 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
     _studyStateModel.addListener(_studyStateListener);
     _videoController = VideoPlayerController.networkUrl(
         Uri.parse(
-          '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}.mp4',
+          '${dotenv.env['CLOUDFLARE_URL']}/minecraft_${widget.index % 10 + 1}/minecraft_${widget.index % 10 + 1}.m3u8',
         ),
       )
       ..initialize().then((_) {
