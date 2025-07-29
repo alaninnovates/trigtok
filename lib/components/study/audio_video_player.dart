@@ -359,6 +359,7 @@ class _AudioVideoPlayerState extends State<AudioVideoPlayer> {
     final idx = context.read<StudyStateModel>().index;
     print('StudyStateModel index changed to $idx');
     if (idx != widget.index) {
+      _audioPlayer.stop();
       return;
     }
     print('Building AudioVideoPlayer $idx');
